@@ -1,0 +1,10 @@
+created: 20200516211943977
+modified: 20200516230231189
+tags: StreamNotes
+title: 2020 / 05 / 16 - stream notes
+type: text/vnd.tiddlywiki
+
+* Started streaming at around 2:19pm, could have started earlier but just finally got my gumption up
+* Hooked up the Twitch webhook follow event to follow alert graphic
+* Added fireworks display and chat command handling to my [[NodeCG]] bundles
+* Swapped out RGB-based color cycling for HSL-based color cycling on the follow alert spaceships for a better effect

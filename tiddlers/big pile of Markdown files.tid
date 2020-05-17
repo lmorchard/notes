@@ -1,0 +1,14 @@
+created: 20200513202808460
+modified: 20200513203716170
+title: big pile of Markdown files
+type: text/vnd.tiddlywiki
+
+As I'm rebooting my personal thought & note accumulation habits, I'm drawn toward thoughts of tinkering and futzing with the system. Though, I *do* need to take care not to jackknife the whole thing by reintroducing [[stop energy]] into my flow and rendering me incapable of accumulating notes while I [[yak shave]].
+
+I'm also concerned about the form in which these notes are being stored.
+
+In this wiki, they're wiki text and tiddlers. Pretty platform specific, even if the platform is open source and free.
+
+Markdown is, like, almost 20 years old and I'm super used to it. Lots of tools for dealing with it. I'd like to convert this whole growing mass of words into a big pile of markdown files.
+
+Good news is, I don't think I need to stop what I'm doing right now as I gain momentum. It seems like [[achabotl/tiddly2md|https://github.com/achabotl/tiddly2md]] is a pretty effective tool for converting the tiddlers to markdown at some point. I can always script & convert my way out of it.

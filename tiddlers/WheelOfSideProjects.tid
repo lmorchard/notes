@@ -1,0 +1,43 @@
+created: 20200429080609464
+creator: LmOrchard
+modified: 20200429081312119
+modifier: LmOrchard
+title: WheelOfSideProjects
+type: text/vnd.tiddlywiki
+
+* - Play with Shredz64 (guitar hero clone)
+* - Root a Steam Link
+* - C64 Twitch chat bot?
+* - Play with FPGA
+* - Play with Mozilla Fathom
+* - Write some ifiction in Inform? Twine?
+* - Investigate non-Amazon cloud & serverless hosts
+* - RSS / Atom / ActivityStream functional tools (map, filter, reduce)
+* - Web Workers learning
+* - WebAssembly learning
+* - Add a Speaker to PocketChip
+* - Play with 6502 assembly with C64, Mesen, and cc65
+* - Twitch chat bot & overlay
+* - OBS remote control bot
+* - Twitch chatbot for Chipmachine song requests
+* - Stream sound board
+* - Simple web hosting
+* - About me - stop per-panel scrolling on mobile
+* - Rust invaders
+* - Tempest repair
+* - Space trucker 3D tunnel
+* - Single-serving ActivityPub
+* - Blog / web page comments on AWS Lambda
+* - Embed uIEC/SD into C64
+* - Game dev - Pico8
+* - Feed reader add-on
+* - Music tinkering
+* - Recap old computers
+* - Web outliner
+* - GraphQL tinkering
+* - Repair Atari tape drives
+* - WHDLoader on Amiga 1200
+* - Apple serial interface
+* - Learn Kotlin
+* - Scuttlebut tinkering?
+* - Self-hosted / distributed Twitch?

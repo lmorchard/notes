@@ -1,0 +1,11 @@
+created: 20200514215221233
+modified: 20200517034305534
+title: ChipMachine
+type: text/vnd.tiddlywiki
+
+ChipMachine is a retro music player that covers an enormous number of sound emulators for old game and computer systems. I use it to play music while [[Streaming]]. It's got a neato now-playing graphic display. I really like the chiptunes and I hope it saves me from the copyright strikes I'd probably get if I just played one of my Spotify playlists.
+
+!! Links
+
+* Upstream - https://github.com/sasq64/chipmachine
+* My fork - https://github.com/lmorchard/chipmachine

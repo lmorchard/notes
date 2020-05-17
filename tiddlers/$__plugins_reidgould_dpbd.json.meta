@@ -1,0 +1,18 @@
+author: Reid Gould <reidgould@gmail.com>
+author-email: reidgould@gmail.com
+author-name: Reid Gould
+author-web: https://www.reidgould.com
+core-version: >=5.0.0
+created: 20200507213246788
+dependents: 
+description: Dropboard - kanban like organization in the style of Trello using boards, lists, and cards.
+list: readme license
+modified: 20200507213246788
+name: Dropboard
+plugin-type: plugin
+source: https://github.com/reidgould/tiddlywiki-dropboard
+tags: 
+title: $:/plugins/reidgould/dpbd
+type: application/json
+userguide: http://reidgould.github.io/tiddlywiki-dropboard
+version: 1.0.2

@@ -1,0 +1,17 @@
+caption: {{$:/language/Buttons/Heading3/Caption}} (Markdown)
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20200510062206340
+description: {{$:/language/Buttons/Heading3/Hint}}
+icon: $:/core/images/heading-3
+modified: 20200510062207677
+shortcuts: ((heading-3))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tiddlywiki/markdown/EditorToolbar/heading-3
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character="#"
+	count="3"
+/>

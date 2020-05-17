@@ -1,0 +1,17 @@
+caption: {{$:/language/Buttons/Italic/Caption}} (Markdown)
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20200510062206339
+description: {{$:/language/Buttons/Italic/Hint}}
+icon: $:/core/images/italic
+modified: 20200510062207632
+shortcuts: ((italic))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tiddlywiki/markdown/EditorToolbar/italic
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="*"
+	suffix="*"
+/>

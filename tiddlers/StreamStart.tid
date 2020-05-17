@@ -1,0 +1,26 @@
+created: 20200430000727212
+modified: 20200514222543457
+tags: IndexTopic
+title: StreamStart
+type: text/vnd.tiddlywiki
+
+This page should have all the tools I need to use when I start a new stream!
+
+<$button>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "YYYY / 0MM / 0DD - \s\t\r\e\a\m \n\o\t\e\s">> tags="StreamNotes" text="" />
+New Stream Notes
+</$button>
+
+<ul>
+<$list filter="[tag[StreamStartTopic]]">
+<li><$link /></li>
+</$list>
+</ul>
+
+!! Recent notes
+
+<ul>
+<$list filter="[tag[StreamNotes]reverse[]first[7]]">
+<li><$link /></li>
+</$list>
+</ul>

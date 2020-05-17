@@ -1,0 +1,16 @@
+created: 20200509062910653
+modified: 20200511235813543
+title: OBS
+type: text/vnd.tiddlywiki
+
+Nifty streaming software. https://obsproject.com/
+
+!! Links
+* https://github.com/lebaston100?tab=repositories - "Author of mostly working terrible written workaround code focusing on tools for streaming."
+* Play with shaders in OBS?
+** https://hexler.net/products/kodelife
+* Plugins to check out
+** https://obsproject.com/forum/resources/move-transition.913/
+** https://obsproject.com/forum/resources/obs-shaderfilter-v1-0-update.775/
+** https://obsproject.com/forum/resources/closed-captioning-via-google-speech-recognition.833/
+** https://obsproject.com/forum/resources/scrab.845/

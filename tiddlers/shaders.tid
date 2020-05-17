@@ -1,0 +1,10 @@
+created: 20200512045403149
+modified: 20200512045552186
+title: shaders
+type: text/vnd.tiddlywiki
+
+This tends to refer to the graphics processing of a GPU
+
+* https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+* https://hexler.net/products/kodelife
+* There's an OBS plugin for applying shaders to video

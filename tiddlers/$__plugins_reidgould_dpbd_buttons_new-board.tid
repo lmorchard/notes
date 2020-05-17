@@ -1,0 +1,17 @@
+caption: {{$:/plugins/reidgould/dpbd/images/Dropboard}} New Board
+created: 20200510062007783
+description: New Board
+modified: 20200510062009062
+tags: $:/tags/PageControls
+title: $:/plugins/reidgould/dpbd/buttons/new-board
+type: text/vnd.tiddlywiki
+
+<$button tooltip="New Board" class=<<tv-config-toolbar-class>>>
+<$action-sendmessage $message="tm-new-tiddler" title="New Board" tags="" text="""<$transclude tiddler="$:/plugins/reidgould/dpbd/templates/view/Board" mode="inline" />""" />
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/reidgould/dpbd/images/Dropboard}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text">New Board</span>
+</$list>
+</$button>

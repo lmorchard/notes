@@ -1,0 +1,15 @@
+created: 20200514162444862
+modified: 20200514222723150
+tags: BlogIdea
+title: Big Sonic Heaven playlist scraper
+type: text/vnd.tiddlywiki
+
+Big Sonic Heaven by DJ Darren Revell has been one of my favorite music shows for decades. He's been on and off the air at various points. Lately, he's been doing a combination of playlist streaming and live DJing at bigsonicheaven.com.
+
+I wrote a script that periodically checks what he's playing, every minute or so. If the script sees something new, it attempts to find the song on Spotify and adds it to a playlist of mine. THe playlist is over 1300 songs and 100 hours of music at this point.
+
+!! Links
+
+* https://github.com/lmorchard/bsh-now-playing-scraper
+* https://open.spotify.com/playlist/1xBbvEJrf5HycEZbwn04o1?si=BOpUW2DZS52N-RXC7ZFLvQ
+* https://www.bigsonicheaven.com/

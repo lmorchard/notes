@@ -1,0 +1,13 @@
+created: 20200514232625165
+modified: 20200514232707665
+tags: IndexTopic
+title: Projects
+type: text/vnd.tiddlywiki
+
+!! Recent projects
+
+<ul>
+<$list filter="[tag[Project]reverse[]]">
+<li><$link /></li>
+</$list>
+</ul>

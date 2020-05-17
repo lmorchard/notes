@@ -1,0 +1,17 @@
+created: 20200514071627064
+modified: 20200517033525227
+title: stream captioning
+type: text/vnd.tiddlywiki
+
+Speech to text for accessibility on my stream?
+
+Still looking for a good option that also works under Linux
+
+!! Links
+
+* https://thecuriousnerd.com/obs-text-transcriber/
+* https://github.com/stephenlb/twitch-tv-obs-subtitles
+* https://github.com/ratwithacompiler/OBS-captions-plugin
+** windows & mac only, won't work for my ubuntu streaming rig
+* https://twitter.com/cherryrae/status/1260761608873074688
+* https://twitter.com/halfcoordinated/status/1260830374378307586

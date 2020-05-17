@@ -1,0 +1,19 @@
+created: 20200512215555115
+modified: 20200514232756318
+tags: Project
+title: StaticRendering
+type: text/vnd.tiddlywiki
+
+* I think I'd like to produce a static rendering of this wiki and publish it to my web site.
+
+* Would it be interesting to whitelist or blacklist published pages by tag?
+
+* Might be neat to have a "now" page listing things I'm up to right now
+** That, or have a big panel added to my AboutMePage
+
+
+Template could use some work, but this seems to be a promising command line:
+
+```
+ tiddlywiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain --rendertiddler $:/core/templates/static.template.css static/static.css text/plain
+```

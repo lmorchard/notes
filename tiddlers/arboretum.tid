@@ -1,0 +1,11 @@
+created: 20200512071010458
+modified: 20200514232733650
+tags: Project
+title: arboretum
+type: text/vnd.tiddlywiki
+
+An experiment of mine in building an [[outliner]] with [[React]] and [[Redux]].
+
+Might be interesting to revive it again someday?
+
+https://github.com/lmorchard/arboretum

@@ -1,0 +1,22 @@
+created: 20200514165722079
+modified: 20200514170035093
+title: an editor plugin for TiddlyWiki using Quill.js
+type: text/vnd.tiddlywiki
+
+[[Jeremy Ruston tweeted|https://twitter.com/Jermolene/status/1260107164426870789]]:
+
+<<<
+For some of my commercial work with TiddlyWiki I use a Quill.js plugin, it works great for users who don’t need to write dynamic markup like transclusions etc. But getting something like that working sensibly with wikitext is an ongoing project with a few intricacies
+<<<
+
+[[I replied|https://twitter.com/lmorchard/status/1260111164932935682]]:
+
+<<<
+Yeah, i kind of want something like that for "simple" notes - i.e. a [[link]] or a WikiWord would be the most complex wikitext I'd write and the rest is bullet lists and prose
+<<<
+
+Might be interesting to pursue this for simple notes - i.e. just prose and links, no wiki macros or suchlike. Since Jeremy Ruston mentions he uses it for commercial work, I'll assume that plugin is not / will not be released as open source. So that could be an interesting project for me.
+
+!! Links
+
+* https://quilljs.com/

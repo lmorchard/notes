@@ -1,0 +1,60 @@
+created: 20200512045132708
+modified: 20200514232909822
+title: NodeCG
+type: text/vnd.tiddlywiki
+
+Create broadcast graphics using Node.js and a browser.
+
+!! My bundles:
+
+* https://github.com/lmorchard/nodecg-sam-say
+* https://github.com/lmorchard/nodecg-file-watcher
+
+!! Notes
+
+NodeCG is pretty skeletal, but it offers some really interesting structure:
+
+* Bundles, which contain:
+** Dashboard panels
+** Graphics pages
+** Server-side Extensions
+** A package.json based manifest for overall declarative configuration
+* Websocket-based isomorphic API for:
+** Sending & receiving messages in client-side dashboard, client-side graphics, and server-side extensions
+** Replicant variables whose values are sync'd across dashboards, graphics, and extensions
+* An express-based web server that's easy to:
+** Mount new static file paths from within bundles
+** Mount new express Custom Routes from server-side extension scripts
+* A master dashboard / control panel UI that provides:
+** An overall UI to manage dashboard panels from all bundles, organized into workspaces
+** An inventory of all graphics pages from all bundles
+** Media upload management for images, sounds, videos, etc.
+** A master mixer panel for playing sounds (still need to investigate this one)
+* And misc other things like:
+** Configuration
+** Logging
+** Audio management in graphics
+** Seems to use polymer & web components for it's UI
+
+!! Prose
+
+This thing is looking really promising as a new backbone for what I'm trying to do with [[CaffeinaBot]].
+
+Also kind of want to blog about this stuff. NodeCG has a neat architecture that pretty much matches what I've played around with building in my last two attempts at a StreamBot.
+
+NodeCG has a concept of dashboards and graphics. Dashboard panels are the web UI from which you control things. Graphics are web pages you load up into OBS as browser sources. 
+
+There's a web socket messaging system between dashboard panels and graphics, which allow you to directly control the graphics.
+
+There are also server-side extension scripts that can hook into the express web server, run various server-side integrations (e.g. Twitch chat? OBS websockets?)
+
+There's an API object that's mostly isomorphic between server extensions, dashboard panels, and graphics pages. That's super cool. This means that I can send a message from the server and receive it in a panel or a graphics page, or vice versa.
+
+There's also the concept of "replicants" - variables whose values are kept in sync between server, dashboard, and graphics. That is, if you change the value of a replicant in a dashboard, both graphics and server-side extension code receive the change and can react to it. That means I can set up input fields on a dashboard panel to tweak things in graphics, or the server can tweak values to update both dashboard and graphics. Oh, and replicant values are persisted to disk - so when the NodeCG server restarts, all the previous state is restored.
+
+For both replicants and events, all the messaging and sync details handled over websockets are abstracted away into a simple API. So I don't have to worry about how any of that works
+
+!! Links
+
+* https://github.com/nodecg/nodecg
+* https://twitter.com/nodecg

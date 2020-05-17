@@ -1,0 +1,14 @@
+created: 20200514232151790
+modified: 20200514232700699
+tags: Project
+title: AboutMePage
+type: text/vnd.tiddlywiki
+
+I built an "about me" page based on a bunch of different APIs from my social media and whatnot.
+
+* https://lmorchard.com/
+** Where it's hosted
+* https://github.com/lmorchard/about-me
+** The main project for now
+* https://github.com/lmorchard/gatsby-about-me
+** Also started trying to rebuild using Gatsby as a learning project

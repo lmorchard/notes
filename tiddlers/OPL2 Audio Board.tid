@@ -1,0 +1,10 @@
+created: 20200517012159591
+modified: 20200517012445584
+title: OPL2 Audio Board
+type: text/vnd.tiddlywiki
+
+$26.00 from https://www.tindie.com/products/cheerful/opl2-audio-board/:
+
+<<<
+This is a synthesizer board for your Arduino, Teensy, Raspberry Pi or basically any board with an SPI interface and a few extra IO pins! It uses the classic [[YM3812]] OPL2 sound chip. The same chip that was used on the Adlib and Sound Blaster sound cards. You can use it to play back music of your favorite classic games on a real chip, compose your own tunes and whacky sound effects, or play around with the YM3812's FM-synthesis.
+<<<

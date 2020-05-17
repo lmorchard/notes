@@ -1,0 +1,11 @@
+created: 20200509070957402
+modified: 20200509071040030
+title: Svelte
+type: text/vnd.tiddlywiki
+
+Web dev framework that compiles to minimal JS rather than including framework code.
+
+https://svelte.dev/
+
+! Links
+* https://chrisboakes.com/getting-started-with-sapper-and-svelte/

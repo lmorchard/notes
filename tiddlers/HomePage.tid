@@ -1,0 +1,22 @@
+created: 20200429074019706
+modified: 20200515074708215
+tags: 
+title: HomePage
+type: text/vnd.tiddlywiki
+
+!! Recent journals
+
+<ul>
+<$list filter="[tag[Journal]reverse[]first[7]]">
+<li><$link /></li>
+</$list>
+<li>[[More journals...|AllJournals]]</li>
+</ul>
+
+!! Index topics:
+
+<ul>
+<$list filter="[tag[IndexTopic]]">
+<li><$link /></li>
+</$list>
+</ul>

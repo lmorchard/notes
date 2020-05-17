@@ -1,0 +1,8 @@
+created: 20200512223951002
+modified: 20200512224048358
+title: Aerostat
+type: text/vnd.tiddlywiki
+
+Aerostat is aerostat.lmorchard.com, a super-cheap linux host out in the cloud with the sole purpose of being a thing through which I forward ports and proxy web content from home machines.
+
+See also: https://blog.lmorchard.com/2012/07/25/aerostats-base-stations-and-the-cloud/

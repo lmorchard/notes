@@ -1,0 +1,12 @@
+created: 20200512063414428
+modified: 20200512063627965
+title: Entscheidungsproblem
+type: text/vnd.tiddlywiki
+
+Does there exist an algorithm that can *always* determine if a mathematical statement is true?
+
+https://simple.wikipedia.org/wiki/Entscheidungsproblem
+
+<<<
+Is there an algorithm that will take a formal language, and a logical statement in that language, and that will output "True" or "False", depending on the truth value of the statement? The algorithm does not tell how it reaches the answer, nor prove it, as long as the answer is always correct. 
+<<<

@@ -1,0 +1,22 @@
+created: 20200513041327841
+modified: 20200513041407139
+title: Endless Loop - Chapter 1
+type: text/vnd.tiddlywiki
+
+!! Chapter 1 - The Advent of Computers
+
+* Herman Hollerith put punched cards into practice while working at the US Census Bureau in the late 19th century
+* Hollerith founded the Tabulating Machine Company, later consolidated to form IBM.
+* Lehmer sieves could factor mathematical expressions, part electronic part mechanical
+* Vannevar Bush's differential analyzer
+* Konrad Zuse built the Z1 in his parents' apartment
+* Howard Aiken and the Mark I - IV
+* [[Godel Escher Bach]] mention in relation to the [[Entscheidungsproblem]]
+* Alonzo Church and lambda calculus
+* [[Church-Turing thesis|https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis]]
+* John von Neumann
+** von Neumann architecture - where code and data are stored in the same unit
+** [[First Draft of a report on EDVAC|https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC]] (1945) - "contains the first published description of the logical design of a computer using the stored-program concept, which has controversially come to be known as the von Neumann architecture."
+* the transistor - bell labs, shockley semiconductor, fairchild semiconductor (and the "traitorous eight")
+** two of the traitorous eight formed Intel - Bob Noyce and Gordon Moore
+* machine language and assembly and COBOL and FORTRAN oh my

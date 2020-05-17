@@ -1,0 +1,7 @@
+created: 20200429231303527
+modified: 20200429231636417
+tags: 
+title: TaskCheckboxTemplate
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="TaskDone"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>

@@ -1,0 +1,18 @@
+created: 20200512060819993
+modified: 20200512061009659
+title: MiSTer
+type: text/vnd.tiddlywiki
+
+From https://github.com/MiSTer-devel/Main_MiSTer/wiki
+
+MiSTer is an open project that aims to recreate various classic computers, game consoles and arcade machines, using modern hardware. It allows software and game images to run as they would on original hardware, using peripherals such as mice, keyboards, joysticks and other game controllers.
+
+MiSTer utilizes a readily available FPGA board called the 'DE10-Nano', which connects to your TV or monitor via HDMI video out. It can additionally be expanded with various add-ons (such as a USB hub, SDRAM, audio and VGA out).
+
+* forum http://www.atari-forum.com/viewforum.php?f=117
+* expansion vendors
+** https://misterfpga.co.uk/
+* peripherals
+** https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Board-Assembly-(DIY)
+** https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board-Assembly-(DIY)
+** https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video
