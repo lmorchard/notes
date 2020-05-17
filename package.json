@@ -1,0 +1,16 @@
+{
+  "name": "lmorchard-tiddlywiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onchange": "^7.0.2",
+    "reload": "^3.0.4",
+    "tiddlywiki": "^5.1.22"
+  }
+}
