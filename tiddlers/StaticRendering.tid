@@ -1,5 +1,5 @@
 created: 20200512215555115
-modified: 20200514232756318
+modified: 20200517040238378
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
@@ -11,6 +11,7 @@ type: text/vnd.tiddlywiki
 * Might be neat to have a "now" page listing things I'm up to right now
 ** That, or have a big panel added to my AboutMePage
 
+* https://nesslabs.com/tiddlywiki-static-website-generator
 
 Template could use some work, but this seems to be a promising command line:
 
