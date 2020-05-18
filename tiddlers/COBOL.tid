@@ -1,10 +1,13 @@
 created: 20200509035153671
-modified: 20200511175848834
+modified: 20200518063926872
 title: COBOL
 type: text/vnd.tiddlywiki
 
-! Links
+I keep thinking I should learn COBOL, if only for the heck of it. Might be a job skill someday? Who knows.
 
+!! Links
+
+* COBOL Fridays: Let's Talk Syntax - Branching Logic - https://www.youtube.com/watch?v=5hQSU--j39U
 * https://github.com/whk-io/tk4-container
 * http://wotho.ethz.ch/tk4-/
 * https://github.com/openmainframeproject/cobol-programming-course

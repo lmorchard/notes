@@ -1,5 +1,5 @@
 created: 20200517161955143
-modified: 20200517162124489
+modified: 20200518063813420
 title: ESP32
 type: text/vnd.tiddlywiki
 
@@ -8,3 +8,4 @@ Tiny cheap wifi & Bluetooth capable microcontroller. I want to play with it. Suc
 !! Links
 
 * https://www.instructables.com/id/ESP32-VGA-Arcade-Games-and-Joystick/
+* ESP32 To ESP32 Real-Time Data Transfer Using Websockets Client/Server | BME680 + Arduino IDE - https://www.youtube.com/watch?v=tGR5zqN9M2E
