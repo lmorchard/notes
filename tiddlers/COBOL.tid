@@ -1,5 +1,5 @@
 created: 20200509035153671
-modified: 20200518063926872
+modified: 20200518180748067
 title: COBOL
 type: text/vnd.tiddlywiki
 
@@ -7,6 +7,7 @@ I keep thinking I should learn COBOL, if only for the heck of it. Might be a job
 
 !! Links
 
+* Pong written in COBOL, compiled to WebAssembly.  https://moxon6.github.io/cobol-js-emscripten/
 * COBOL Fridays: Let's Talk Syntax - Branching Logic - https://www.youtube.com/watch?v=5hQSU--j39U
 * https://github.com/whk-io/tk4-container
 * http://wotho.ethz.ch/tk4-/
