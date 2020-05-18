@@ -1,6 +1,6 @@
 created: 20200429074508835
 creator: LmOrchard
-modified: 20200517035216257
+modified: 20200517161020391
 modifier: LmOrchard
 tags: StreamStartTopic
 title: StreamIdeas
@@ -8,13 +8,16 @@ type: text/vnd.tiddlywiki
 
 Coming up with ideas for future streams:
 
-* Play with channel point rewards for chatbot features
+* Demo-style scrollers for messaging on stream - sine waves, funky fonts, etc
+* Add dash panel indicators for twitch connect status & other metrics
+* Auto-Tweet & Auto-Toot when starting the stream?
+* Support adding to stream notes from chat bot
 * Rework Twitch panels on stream page
 * Add social media / station ID links to overlay - maybe across the top?
 * Think about setting up [[stream captioning]]
 * Build a soundboard for the StreamBot
 * Build a raid alert for the StreamBot
-* Support adding to stream notes from chat bot
+* Play with channel point rewards for chatbot features
 * ChipMachine requests queue from Caffeinabot2
 * AtariTempest repair
 * Okami story time

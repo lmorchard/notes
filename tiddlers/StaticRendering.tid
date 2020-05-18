@@ -1,20 +1,23 @@
 created: 20200512215555115
-modified: 20200517040238378
+modified: 20200517043019775
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
 
-* I think I'd like to produce a static rendering of this wiki and publish it to my web site.
+I think I'd like to produce a static rendering of this wiki and publish it to my web site.
 
+!! To Do
+
+* Refine the static template to include some station ID and link back to home page and my AboutMePage
+* Refine the stylesheet a bit
+* Remove any toolbar buttons from the title area!
 * Would it be interesting to whitelist or blacklist published pages by tag?
+* Might be neat to have a "now" page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
 
-* Might be neat to have a "now" page listing things I'm up to right now
-** That, or have a big panel added to my AboutMePage
+!! Links
 
+* Repo: https://github.com/lmorchard/notes/tree/master
+* Published: https://lmorchard.github.io/notes/
 * https://nesslabs.com/tiddlywiki-static-website-generator
-
-Template could use some work, but this seems to be a promising command line:
-
-```
- tiddlywiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain --rendertiddler $:/core/templates/static.template.css static/static.css text/plain
-```
+* https://www.mentalnodes.com/
+* https://notes.andymatuschak.org/

@@ -1,0 +1,10 @@
+created: 20200517162208745
+modified: 20200517162311426
+title: wifi pumpkin
+type: text/vnd.tiddlywiki
+
+http://blog.lmorchard.com/2018/02/08/pumpkin/
+
+<<<
+I made a wifi pumpkin using an ESP8266 with LED matrix eyes and mouth. I added a web-based remote control for my phone using websockets. It was fun!
+<<<

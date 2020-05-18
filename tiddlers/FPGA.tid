@@ -1,0 +1,12 @@
+created: 20200517055935081
+modified: 20200517060031439
+title: FPGA
+type: text/vnd.tiddlywiki
+
+Field-programmable gate array. Magical chips that can be turned into other chips with an injection of data.
+
+[[MiSTer]] is based on it.
+
+I'd like to play with them.
+
+Verilog seems to be important here.

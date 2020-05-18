@@ -1,0 +1,35 @@
+caption: {{$:/_sq/Stories/icons/divert-right.svg}} divert left/right
+created: 20170609055347900
+description: Divert left/right
+modified: 20200517193825843
+tags: $:/tags/ViewToolbar
+title: $:/_sq/Stories/divertTiddlerMacro
+type: text/vnd.tiddlywiki
+
+\define __me()
+[[$(currentTiddler)$]]
+\end
+
+\define divertTiddlerButton()
+<$set name="activeStoryList" value=<<tv-story-list>> >
+<$set name="otherStoryList" filter="[enlist{$:/_sq/Stories/StoriesList!!list}] -[<tv-story-list>]" select="0">
+<$set name="otherHistoryList" filter="[enlist{$:/_sq/Stories/HistoriesList!!list}] -[<tv-history-list>]" select="0">
+	<$button class=<<tv-config-toolbar-class>> tooltip="Divert this tiddler to the other story">
+		<$action-listops $tiddler=<<activeStoryList>> $subfilter="+[remove<__me>]"/>
+		<$reveal state="$:/_sq/Stories/config/openLinkDivert" type="nomatch" text="top" default="top">
+			<$action-listops $tiddler=<<otherStoryList>> $subfilter=<<__me>>/>
+		</$reveal>
+		<$reveal state="$:/_sq/Stories/config/openLinkDivert" type="match" text="top" default="top">
+			<$action-listops $tiddler=<<otherStoryList>> $subfilter="+[prepend<__me>]"/>
+		</$reveal>
+		<$action-addtohistory $history=<<otherHistoryList>> $title=<<currentTiddler>> />
+		<span class="sq-button-divert-right sq-button-divert">{{$:/_sq/Stories/icons/divert-right.svg}}</span><span class="sq-button-divert-left sq-button-divert">{{$:/_sq/Stories/icons/divert-left.svg}}</span>
+	</$button>
+</$set>
+</$set>
+</$set>
+\end
+
+<<divertTiddlerButton>>
+
+

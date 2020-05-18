@@ -1,6 +1,6 @@
 _render_template: static-nosidebar.tiddler.html
 created: 20200509053212813
-modified: 20200516212044552
+modified: 20200518004551963
 tags: StreamStartTopic
 title: StreamAgenda
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ Hello, you can find me at [[lmorchard.com|https://lmorchard.com]]
 
 !! Today: Tinkering with stream alerts & bot stuffs
 
-* Hook the follow alert up to Twitch events
-* Improving the following alert
+* Clean up alerts animation code?
+* Sync alert fade out to end of scroller animation
 * Play around with [[NodeCG]] and convert some [[CaffeinaBot]] stuff over
 

@@ -1,5 +1,5 @@
 created: 20200516212139149
-modified: 20200517034036213
+modified: 20200517055936040
 tags: Journal
 title: 2020 / 05 / 16
 type: text/vnd.tiddlywiki
@@ -16,4 +16,12 @@ Made some lentil soup for lunch and the next week's lunches
 Started playing with the [[OPL2 Audio Board]] tonight. It's a clever Arduino-compatible board for interfacing with the [[YM3812]], the chip responsible for that classic Adlib/Sound Blaster FM synthesis sound. I'm in love. 
 <<<
 
+I, too, would like to play with that [[OPL2 Audio Board]]
+
 Hooray! [[I fixed the fade-out problem|https://github.com/lmorchard/chipmachine/commit/59709232ef01dc09b9ba991b0a201c2604b2c923]] in ChipMachine again!
+
+Poked a bit at StaticRendering. Created [[a GitHub repo|https://github.com/lmorchard/notes/tree/master]] and published [[a static snapshot|https://lmorchard.github.io/notes/]] on Github Pages! Now I just have to refine the static template and stylesheet.
+
+Maybe I should add a NowPage to my site along with the AboutMePage?
+
+I'd like to tinker with some [[FPGA]] stuff someday soon
