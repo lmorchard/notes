@@ -1,6 +1,6 @@
 created: 20200429074508835
 creator: LmOrchard
-modified: 20200517161020391
+modified: 20200518073304275
 modifier: LmOrchard
 tags: StreamStartTopic
 title: StreamIdeas
@@ -8,7 +8,6 @@ type: text/vnd.tiddlywiki
 
 Coming up with ideas for future streams:
 
-* Demo-style scrollers for messaging on stream - sine waves, funky fonts, etc
 * Add dash panel indicators for twitch connect status & other metrics
 * Auto-Tweet & Auto-Toot when starting the stream?
 * Support adding to stream notes from chat bot

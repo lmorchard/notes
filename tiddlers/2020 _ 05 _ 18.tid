@@ -1,0 +1,32 @@
+created: 20200518072012754
+modified: 20200518175923695
+tags: Journal
+title: 2020 / 05 / 18
+type: text/vnd.tiddlywiki
+
+Thinking I might want to use [[PM2|https://github.com/Unitech/pm2]] to manage various little node processes on [[TransTrum]]
+
+Maybe need to use [[obs-js-websocket|https://github.com/haganbmj/obs-websocket-js]] for [[CaffeinaBot]] / [[NodeCG]]
+
+What and why is [[Recoil|https://recoiljs.org/docs/introduction/motivation]] for [[React]]?
+
+I'm snooping on other folks' notes - like [[Andy Matuschak|https://notes.andymatuschak.org]] and [[Anne-Laure Le Cunff|https://www.mentalnodes.com/]]. Trying to restart my own notes & thought management practices and considering what other folks are doing.
+
+Maybe a blog post on [[Who cares whether HTML is a programming language]]?
+
+Would it be interesting to have a [[Mozilla Hubs]] room to go with my stream? Or maybe a persistent room along with the [[Discord]] for in between streams?
+
+I am concerned that my kind of renewed interest in organizing notes & thoughts here is just one of my passing serial enthusiasms. That this is just mental masturbation feeling like it might lead somewhere interesting / productive - but will just fizzle out at some point in the near future and leave me more depressed and [[anxious|high functioning anxiety]].
+
+I'd like to get my shit together and focus and produce & share some worthwhile things. Feels like it's been awhile since I did that. Sometimes I worry whether I ever really did.
+
+Also, while I want to be candid and explore my concerns, I don't want to turn these daily journals into my old LiveJournal with just emo moping and such.
+
+Just because something is "[[cringe]]" - i.e. it makes certain viewers cringe - doesn't mean it's bad. Sometimes says more about the cringer than the material.
+
+Hmm, I just remembered I have a Rock Band keytar. I should do something with that.
+
+I should hook my [[StaticPublishing]] of these notes up to a cronjob task. I've got it down to a single `npm run deploy` command now.
+
+
+
