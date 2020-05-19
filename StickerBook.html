@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.22" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>StickerBook: LmoWiki — my personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="StickerBook"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="open in new window" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fopen-window" title="Open tiddler in new window"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+StickerBook
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href=".html"></a>19th May 2020 at 11:35am</div></div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Once upon a time, I thought badges were keen and I started a project called <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Badger.html">Badger</a>. It fizzled, for various reasons.</p><p>Thinking about it again. I'd like to maybe create a new thing with a few focused notions:</p><ul><li>Stickers<ul><li>Tiny pieces of collectable, shareable creative expression</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Whimsy.html">Whimsical</a>, not too serious</li></ul></li><li>A Sticker in an intersection of:<ul><li>Representation - an art image, animation, some text</li><li>Collaborators - Users who created it</li><li>Collectors - Users who have Acquired it</li></ul></li><li>The Acquisition of a sticker consists of:<ul><li>The agreement by a Collaborator that a Collector can claim a Sticker?</li><li>If I want to get fancy, maybe an Acquisition is represented by <a class="tc-tiddlylink-external" href="https://jwt.io/" rel="noopener noreferrer" target="_blank">a JWT assertion</a> signed by a key attached to the Sticker? This could be portable / federatable between Sticker instances.</li><li>Not-so-fancy, an Acquisition could just be a row in a database linking Collaborator + Collector + Sticker</li></ul></li><li>Access control in Acquisition<ul><li>Why? Trying to stay not too serious. I don't *really* want to build a micro-credential system.</li><li>But, a little exclusivity can be a fun game. Exclusive stickers could be fun - i.e. &quot;you had to be there&quot;</li><li>Should be able to easily Invite a Collector to Acquire a sticker without explicit action - i.e. here's a reusable code in Slack / Riot, use it to claim the sticker.</li><li>Should be able to make a Sticker more exclusive - i.e. ask for one with this form, you'll get it if we approve</li><li>Should be able to issue a limited-time invite - i.e. here's a code, it will work once or it will expire in 1 day</li><li>Discord has invite links, it's not a bad model for this I don't think</li><li>All of this could be implemented with signing keys and a system gating access to signing on behalf of Collaborators</li></ul></li><li>Hosting / self-hosting<ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Glitch.html">Glitch</a> has become a thing since I last thought about <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Badger.html">Badger</a>. If I build something that's as easy to host as cloning a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Glitch.html">Glitch</a> project, that would be super-cool.</li><li>As a side benefit, something that's easily hosted on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Glitch.html">Glitch</a> is probably easily hosted anywhere.</li><li>I don't want to host the main or canonical instance of this thing. I'd like to make it easy for folks to spin up their own <a class="tc-tiddlylink tc-tiddlylink-resolves" href="StickerBook.html">StickerBook</a> for their own group.</li></ul></li><li>Federation / portability<ul><li>Would be super cool.</li><li>Users with portable identity - personal info, avatars, signing keys, etc. Could reuse some <a class="tc-tiddlylink tc-tiddlylink-resolves" href="ActivityPub.html">ActivityPub</a> / <a class="tc-tiddlylink tc-tiddlylink-resolves" href="LinkedData.html">LinkedData</a> ideas?</li><li>Would a Sticker be better represented as a JSON file? As HTML with meta headers?<ul><li>JSON - can do a structured JSON document with lots of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="LinkedData.html">LinkedData</a> reuse</li><li>HTML - easily shareable on social media by URL, include <a class="tc-tiddlylink tc-tiddlylink-resolves" href="OpenGraph.html">OpenGraph</a> headers &amp; etc</li><li>Maybe both? HTML with JSON embedded?</li></ul></li><li>Stickers as portable units - maybe a JSON file encapsulating the Representation, Collaborators, public signing keys for Acquisitions?</li><li>Acquisitions as portable units - maybe a JSON file that includes the Sticker along with metadata and signing to represent the agreement by a Collaborator that a Collector has acquired the sticker</li></ul></li><li>Building this thing<ul><li>Could be interesting to start with a command-line tool to create Users, Collaborators, Collectors, Stickers and Acquisitions</li><li>Build the CLI tool around a library that can also be used in a web app</li></ul></li></ul><h2 class="">Links</h2><ul><li><a class="tc-tiddlylink-external" href="https://json-ld.org/learn.html" rel="noopener noreferrer" target="_blank">https://json-ld.org/learn.html</a></li><li><a class="tc-tiddlylink-external" href="https://opencreds.org/" rel="noopener noreferrer" target="_blank">https://opencreds.org/</a></li><li><a class="tc-tiddlylink-external" href="https://www.w3.org/2017/vc/WG/" rel="noopener noreferrer" target="_blank">https://www.w3.org/2017/vc/WG/</a></li><li><a class="tc-tiddlylink-external" href="https://www.w3.org/standards/semanticweb/data" rel="noopener noreferrer" target="_blank">https://www.w3.org/standards/semanticweb/data</a></li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=eWtOg3vSzxI" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=eWtOg3vSzxI</a></li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=QdUZaYeQblY" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=QdUZaYeQblY</a></li></ul></div>
+<span class="viewtemplatebigtext"><div class=" tc-reveal"><hr><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="2020%2520%252F%252005%2520%252F%252019.html">2020 / 05 / 19</a>
+<span class=" tc-reveal">
+<button class="tc-btn-invisible"><svg class="tc-image-unfold tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><g fill-rule="evenodd"><rect height="16" rx="8" width="128"></rect><path d="M63.945 63.624c-2.05 0-4.101-.78-5.666-2.345L35.662 38.662c-3.125-3.125-3.13-8.195-.005-11.319 3.118-3.118 8.192-3.122 11.319.005L63.94 44.314l16.966-16.966c3.124-3.124 8.194-3.129 11.318-.005 3.118 3.118 3.122 8.192-.005 11.319L69.603 61.279a7.986 7.986 0 01-5.663 2.346zM64.004 105.682c-2.05.001-4.102-.78-5.666-2.344L35.721 80.721c-3.125-3.125-3.13-8.195-.005-11.319 3.118-3.118 8.191-3.122 11.318.005L64 86.373l16.966-16.966c3.124-3.125 8.194-3.13 11.318-.005 3.118 3.118 3.122 8.192-.005 11.319l-22.617 22.617a7.986 7.986 0 01-5.663 2.346z"></path></g></svg></button><br>
+</span>
+<span class=" tc-reveal" hidden="true"></span>
+</p></div></span>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>
