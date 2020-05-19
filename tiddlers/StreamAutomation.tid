@@ -1,0 +1,17 @@
+created: 20200519195250391
+modified: 20200519195501281
+tags: StreamStartTopic
+title: StreamAutomation
+type: text/vnd.tiddlywiki
+
+While [[Streaming]], there are some things that I'd like to automate. Reactions to Twitch events. Toys for me & chat to play with. Maybe auto-announce when I stream on social media.
+
+There are some tools I'm using to work on this:
+
+* [[CaffeinaBot]]
+* [[NodeCG]]
+
+Some integrations I'd like to pull in:
+
+* [[ChipMachine]]
+* [[Discord]]

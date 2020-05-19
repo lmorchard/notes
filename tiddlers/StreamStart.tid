@@ -1,15 +1,12 @@
 created: 20200430000727212
-modified: 20200514222543457
+modified: 20200519195617224
 tags: IndexTopic
 title: StreamStart
 type: text/vnd.tiddlywiki
 
-This page should have all the tools I need to use when I start a new stream!
+https://twitch.tv/lmorchard
 
-<$button>
-<$action-sendmessage $message="tm-new-tiddler" title=<<now "YYYY / 0MM / 0DD - \s\t\r\e\a\m \n\o\t\e\s">> tags="StreamNotes" text="" />
-New Stream Notes
-</$button>
+This page should have all the tools I need to use when I am [[Streaming]]!
 
 <ul>
 <$list filter="[tag[StreamStartTopic]]">
@@ -18,6 +15,11 @@ New Stream Notes
 </ul>
 
 !! Recent notes
+
+<$button>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "YYYY / 0MM / 0DD - \s\t\r\e\a\m \n\o\t\e\s">> tags="StreamNotes" text="" />
+New Stream Notes
+</$button>
 
 <ul>
 <$list filter="[tag[StreamNotes]reverse[]first[7]]">
