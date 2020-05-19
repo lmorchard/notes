@@ -1,0 +1,14 @@
+created: 20200519061446217
+modified: 20200519062251681
+title: blog.lmorchard.com
+type: text/vnd.tiddlywiki
+
+Last go-round, I wrote a static site generator using Gulp:
+
+https://github.com/lmorchard/blog.lmorchard.com/
+
+In the years since I did that, I've learned a bunch more about Node.js and feel like I could rewrite the whole thing with just some simple loops and file processing. Could do some parallelism if I felt fancy. Might be nice to rig up a quick markdown editor with preview in the template to make the writing feel more deft.
+
+I started using Wordpress over on [[typing.lmorchard.com]] but I'm not sure I'm sold on having gone back to maintaining an active software install versus a static site.
+
+This blog is [[baked, not fried|bake, don't fry]]

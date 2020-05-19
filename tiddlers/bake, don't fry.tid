@@ -1,0 +1,18 @@
+created: 20200519061736855
+modified: 20200519062240584
+title: bake, don't fry
+type: text/vnd.tiddlywiki
+
+[[Aaron Swartz]]' blog is what I always go back to when I think about static site generation versus serving content up from active code and databases.
+
+From aaronsw - http://www.aaronsw.com/weblog/000404
+
+<<<
+Why bake your pages instead of frying? Well, as you might guess, it’s healthier, but at the expense of not tasting quite as good. Baked pages are easy to serve. You can almost always switch servers and software and they’ll still work. Plus, you get to take advantage of the great features built into your web server, like content-negotiation, caching, ETags, etc. You don’t get the bells and whistles like providing a personalized greeting on every page, but those are things that aren’t very good for you anyway.
+<<<
+
+Also from aaronsw - http://www.aaronsw.com/weblog/000406
+
+<<<
+Baking doesn’t do everything, though. Input systems, like the code that accepts comments, would still need to be dynamic. This is a limitation of web servers which I doubt will ever be solved in a standard way. Dynamic tools (like homepage generators and search software) will either have to be fried, or use client-side technologies like SVG, Java(Script), Flash (ick!). There’s no way around that.
+<<<
