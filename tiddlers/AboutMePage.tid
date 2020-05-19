@@ -1,8 +1,10 @@
 created: 20200514232151790
-modified: 20200514232700699
+modified: 20200519193746662
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
+
+!! About
 
 I built an "about me" page based on a bunch of different APIs from my social media and whatnot.
 
@@ -12,3 +14,10 @@ I built an "about me" page based on a bunch of different APIs from my social med
 ** The main project for now
 * https://github.com/lmorchard/gatsby-about-me
 ** Also started trying to rebuild using Gatsby as a learning project
+
+!! To Do
+
+* It breaks every month or so - fix it. Probably expired tokens
+* Include Twitch clips rather than live video?
+* Transclude a panel from HomePage here?
+* Some other panels should probably also be transcluded from this wiki - like current work project(s)

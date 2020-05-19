@@ -1,5 +1,5 @@
 created: 20200519154512620
-modified: 20200519184414838
+modified: 20200519194825688
 tags: Journal
 title: 2020 / 05 / 19
 type: text/vnd.tiddlywiki
@@ -15,3 +15,9 @@ type: text/vnd.tiddlywiki
 * Thinking about GraphQL as a laparoscopic API. You go in through a single small endpoint and then expand your instruments on the other side through data queries. Maybe a weird thought.
 
 * Thinking about structure and flex in software: Which parts are rigid and define the structure? Which parts are flexible and define expansion & extension?
+
+* Further thinking about [[StaticRendering]] of this wiki. I got a cronjob working on TransTrum, at least
+
+* My AboutMePage is broken. I should fix.
+
+* I've got some things living on TransTrum, my workbench streaming computer that runs Ubuntu. Maybe I should move those things to Tank, my home office Synology NAS. Tank is more stable than TransTrum. 
