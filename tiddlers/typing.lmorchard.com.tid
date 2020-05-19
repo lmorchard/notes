@@ -1,4 +1,10 @@
 created: 20200519061736854
-modified: 20200519061737536
+modified: 20200519155635414
 title: typing.lmorchard.com
 type: text/vnd.tiddlywiki
+
+I had a go at setting up WordPress again at https://typing.lmorchard.com
+
+I thought that the Gutenberg editor would help grease my mental rails and get thoughts out. It didn't, not really. And now I have a PHP application to try to keep up and running.
+
+Maybe I can return it to a statically-rendered site and go back to [[blog.lmorchard.com]]. Seems like I'm happier with a site that I [[bake, don't fry]].

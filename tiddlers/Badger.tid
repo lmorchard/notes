@@ -1,0 +1,16 @@
+created: 20200519170510408
+modified: 20200519172547556
+title: Badger
+type: text/vnd.tiddlywiki
+
+!! Ancient History
+
+Once upon a time, [[I thought badges for Mozilla would be a good idea|https://decafbad.com/2010/07/badger-article/]]. I tried pursing it as a Thing at Mozilla but didn't have the energy / clout / connections / personality / whatever to make it happen myself.
+
+Other folks did Open Badges, but I never quite gained any traction around there. I wanted something kind of whimsical and light weight and in python. They wanted something more serious and like micro-credentials and in node. I got busy with other things and they eventually spun out into their own foundation.
+
+I did at one point stand up a demo I called badg.us. But, people started trying to use it for real, and I wasn't ready to handle that. Got some teachers with students creating porn badges and I decided to nuke most of the site before handing it over to a Mozilla community ops group, where it eventually got sunset.
+
+I might want to do this thing again, but with an explicit focus on whimsy and sticker collection.
+
+I also started playing with this lightweight "art maker" to use a clip art collage concept for creating badges / stickers: https://github.com/lmorchard/art-maker

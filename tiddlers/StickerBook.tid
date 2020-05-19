@@ -1,0 +1,54 @@
+created: 20200519172606777
+modified: 20200519183510928
+title: StickerBook
+type: text/vnd.tiddlywiki
+
+Once upon a time, I thought badges were keen and I started a project called [[Badger]]. It fizzled, for various reasons.
+
+Thinking about it again. I'd like to maybe create a new thing with a few focused notions:
+
+* Stickers
+** Tiny pieces of collectable, shareable creative expression
+** [[Whimsical|Whimsy]], not too serious
+* A Sticker in an intersection of:
+** Representation - an art image, animation, some text
+** Collaborators - Users who created it
+** Collectors - Users who have Acquired it
+* The Acquisition of a sticker consists of:
+** The agreement by a Collaborator that a Collector can claim a Sticker?
+** If I want to get fancy, maybe an Acquisition is represented by [[a JWT assertion|https://jwt.io/]] signed by a key attached to the Sticker? This could be portable / federatable between Sticker instances.
+** Not-so-fancy, an Acquisition could just be a row in a database linking Collaborator + Collector + Sticker
+* Access control in Acquisition
+** Why? Trying to stay not too serious. I don't *really* want to build a micro-credential system.
+** But, a little exclusivity can be a fun game. Exclusive stickers could be fun - i.e. "you had to be there"
+** Should be able to easily Invite a Collector to Acquire a sticker without explicit action - i.e. here's a reusable code in Slack / Riot, use it to claim the sticker.
+** Should be able to make a Sticker more exclusive - i.e. ask for one with this form, you'll get it if we approve
+** Should be able to issue a limited-time invite - i.e. here's a code, it will work once or it will expire in 1 day
+** Discord has invite links, it's not a bad model for this I don't think
+** All of this could be implemented with signing keys and a system gating access to signing on behalf of Collaborators
+* Hosting / self-hosting
+** [[Glitch]] has become a thing since I last thought about [[Badger]]. If I build something that's as easy to host as cloning a [[Glitch]] project, that would be super-cool.
+** As a side benefit, something that's easily hosted on [[Glitch]] is probably easily hosted anywhere.
+** I don't want to host the main or canonical instance of this thing. I'd like to make it easy for folks to spin up their own StickerBook for their own group.
+* Federation / portability
+** Would be super cool.
+** Users with portable identity - personal info, avatars, signing keys, etc. Could reuse some ActivityPub / LinkedData ideas?
+** Would a Sticker be better represented as a JSON file? As HTML with meta headers?
+*** JSON - can do a structured JSON document with lots of LinkedData reuse
+*** HTML - easily shareable on social media by URL, include OpenGraph headers & etc
+*** Maybe both? HTML with JSON embedded?
+** Stickers as portable units - maybe a JSON file encapsulating the Representation, Collaborators, public signing keys for Acquisitions?
+** Acquisitions as portable units - maybe a JSON file that includes the Sticker along with metadata and signing to represent the agreement by a Collaborator that a Collector has acquired the sticker
+* Building this thing
+** Could be interesting to start with a command-line tool to create Users, Collaborators, Collectors, Stickers and Acquisitions
+** Build the CLI tool around a library that can also be used in a web app
+
+!! Links
+
+* https://json-ld.org/learn.html
+* https://opencreds.org/
+* https://www.w3.org/2017/vc/WG/
+* https://www.w3.org/standards/semanticweb/data
+* https://www.youtube.com/watch?v=eWtOg3vSzxI
+* https://www.youtube.com/watch?v=QdUZaYeQblY
+

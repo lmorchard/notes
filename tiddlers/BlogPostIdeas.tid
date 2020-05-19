@@ -1,5 +1,5 @@
 created: 20200511221130306
-modified: 20200517035129488
+modified: 20200519155713706
 tags: IndexTopic
 title: BlogPostIdeas
 type: text/vnd.tiddlywiki
@@ -7,6 +7,7 @@ type: text/vnd.tiddlywiki
 * Building CaffeinaBot
 * Hacking on ChipMachine
 * Tinkering with NodeCG
+* Static rendering for [[blog.lmorchard.com]] and [[bake, don't fry]]
 
 !! Tagged
 <<list-links filter:"[tag[BlogIdea]]">>
