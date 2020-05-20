@@ -1,5 +1,5 @@
 created: 20200519172606777
-modified: 20200519183510928
+modified: 20200520064025667
 title: StickerBook
 type: text/vnd.tiddlywiki
 
@@ -42,6 +42,8 @@ Thinking about it again. I'd like to maybe create a new thing with a few focused
 * Building this thing
 ** Could be interesting to start with a command-line tool to create Users, Collaborators, Collectors, Stickers and Acquisitions
 ** Build the CLI tool around a library that can also be used in a web app
+* Random musings
+** Would [[Solid|https://inrupt.com/solid]] be at all interesting here, if only for interop?
 
 !! Links
 
