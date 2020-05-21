@@ -1,15 +1,14 @@
 _render_template: static-nosidebar.tiddler.html
 created: 20200509053212813
-modified: 20200518004551963
+modified: 20200521035230806
 tags: StreamStartTopic
 title: StreamAgenda
 type: text/vnd.tiddlywiki
 
 Hello, you can find me at [[lmorchard.com|https://lmorchard.com]]
 
-!! Today: Tinkering with stream alerts & bot stuffs
+!! Today: Nintendo Switch joycon repair (hopefully)
 
-* Clean up alerts animation code?
-* Sync alert fade out to end of scroller animation
-* Play around with [[NodeCG]] and convert some [[CaffeinaBot]] stuff over
+* Replacing the joysticks in my joycons
+* Replacing the shell with ATOMIC PURPLE
 
