@@ -1,5 +1,5 @@
 created: 20200521182130100
-modified: 20200522040538983
+modified: 20200522074625371
 tags: Journal
 title: 2020 / 05 / 21
 type: text/vnd.tiddlywiki
@@ -23,3 +23,5 @@ I got a tiny [[static site generator|bake, don't fry]] thing merged in a pull re
 Took an hour nap today. I never do that. It felt pretty nice. I got stuff done after it.
 
 As I mentioned on [[2020 / 05 / 19]], I wanted to move [[typing.lmorchard.com]] back to a plain static S3 bucket. I just did that. It was way easier than I remembered. So, that's done now.
+
+So, having thought about that static site generator earlier and how simple it was, I decided to try tinkering with a new script for my blog. I called it [[Ready Blog Oven]].
