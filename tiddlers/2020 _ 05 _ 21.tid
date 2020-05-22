@@ -1,5 +1,5 @@
 created: 20200521182130100
-modified: 20200522033939061
+modified: 20200522034223656
 tags: Journal
 title: 2020 / 05 / 21
 type: text/vnd.tiddlywiki
@@ -15,8 +15,8 @@ type: text/vnd.tiddlywiki
 
 * Long meeting day today. Feel like I had some thoughts that I missed spewing here. Trying to recover them now. Don't think that's practical. 
 
-* I got a tiny static site generator thing merged in a pull request at work for publishing Storybook builds. I should write some more about that and maybe blog it.
+* I got a tiny [[static site generator|bake, don't fry]] thing merged in a pull request at work for publishing Storybook builds. I should write some more about that and maybe blog it.
 
 * Took an hour nap today. I never do that. It felt pretty nice. I got stuff done after it.
 
-* As I mentioned on [[2020 / 05 / 19]], I wanted to move typing.lmorchard.com back to a plain static S3 bucket. I just did that. It was way easier than I remembered. So, that's done now.
+* As I mentioned on [[2020 / 05 / 19]], I wanted to move [[typing.lmorchard.com]] back to a plain static S3 bucket. I just did that. It was way easier than I remembered. So, that's done now.
