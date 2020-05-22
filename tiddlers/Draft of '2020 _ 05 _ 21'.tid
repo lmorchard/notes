@@ -1,7 +1,9 @@
 created: 20200521182130100
-modified: 20200522010501897
+draft.of: 2020 / 05 / 21
+draft.title: 2020 / 05 / 21
+modified: 20200522011001554
 tags: Journal
-title: 2020 / 05 / 21
+title: Draft of '2020 / 05 / 21'
 type: text/vnd.tiddlywiki
 
 * Dang, I had a lot of notes yesterday.
@@ -13,3 +15,6 @@ type: text/vnd.tiddlywiki
 * Maybe I could convert the upstairs in my [[Animal Crossing]] house into a presentation space for streaming talks? Carve out a space on the wall to "project" slides in [[OBS]]
 ** https://twitter.com/lmorchard/status/1263636861756379136
 
+* Long meeting day today. Feel like I had some thoughts that I missed spewing here. Trying to recover them now. Don't think that's practical. 
+
+* I got a tiny static site generator thing merged in a pull request at work for Storyb
