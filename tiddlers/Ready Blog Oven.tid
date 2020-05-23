@@ -1,5 +1,5 @@
 created: 20200522074624363
-modified: 20200522075118203
+modified: 20200523204847276
 title: Ready Blog Oven
 type: text/vnd.tiddlywiki
 
@@ -10,3 +10,4 @@ It's not much, yet. Hopefully it won't ever be much and just stay simple and qui
 My last stab at a blog generator was a learning project for [[gulp]]. https://blog.lmorchard.com/2014/10/20/static-blog-generation-with-gulp/
 
 I don't use [[gulp]] any more. So, this time, I wanted to see how naively simple I could build my blog in modern JavaScript. So far, so good: It's very simple promise based code and runs in like 4 seconds for 1000+ entries!
+
