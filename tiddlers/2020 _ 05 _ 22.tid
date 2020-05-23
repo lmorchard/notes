@@ -1,5 +1,5 @@
 created: 20200522160904374
-modified: 20200522195833967
+modified: 20200523005310985
 tags: Journal
 title: 2020 / 05 / 22
 type: text/vnd.tiddlywiki
@@ -17,3 +17,5 @@ I kind of want to move to New Zealand
 A quick check with wc tells me I've written over 15k words here in tiddlers so far. That seems interesting.
 
 That reminds me I should tinker some more with the [[StaticRendering]] here and improve the HTML template & CSS.
+
+[[Worked on|https://github.com/mozilla/fxa/pull/5429]] hooking up [[Storybook]] build & deploy to CircleCI on [[Firefox Accounts]] today. Hopefully that Storybook setup works for us, I think it's pretty neat. I should write more about it.
