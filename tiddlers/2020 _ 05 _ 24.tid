@@ -1,5 +1,5 @@
 created: 20200524153232995
-modified: 20200524185741807
+modified: 20200524190351960
 tags: Journal
 title: 2020 / 05 / 24
 type: text/vnd.tiddlywiki
@@ -13,5 +13,7 @@ Also want to [[stream|Streaming]] today, finishing up the joycon repair.
 But first: Brunch!
 
 Thinking about whether I could use a Raspberry Pi and its USB ports to host cameras and stream the video to my [[Streaming]] PC for use in OBS
+
+I bought a couple of ESP32 cam modules that I haven't gotten around to playing with yet. I wonder if those will be practical for use on the stream?
 
 Also thinking about how I've got my blog post content and my [[Ready Blog Oven]] software mingled in the same repository. They should probably instead be separated? Config and content in one repo, software in the other? Then maybe use the software via npx or something as a utility. A tangled point might be the templates, though. Might need some thinking about making the template use more abstract.
