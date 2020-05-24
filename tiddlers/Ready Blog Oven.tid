@@ -1,5 +1,5 @@
 created: 20200522074624363
-modified: 20200523204847276
+modified: 20200524071939088
 title: Ready Blog Oven
 type: text/vnd.tiddlywiki
 
@@ -11,3 +11,4 @@ My last stab at a blog generator was a learning project for [[gulp]]. https://bl
 
 I don't use [[gulp]] any more. So, this time, I wanted to see how naively simple I could build my blog in modern JavaScript. So far, so good: It's very simple promise based code and runs in like 4 seconds for 1000+ entries!
 
+I have also just realized that I thought the kid's toy was called a "ready bake oven" when really it was called an "Easy-Bake Oven" - so maybe this thing should be renamed "Easy-Blog Oven"
