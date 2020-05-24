@@ -1,5 +1,5 @@
 created: 20200523173333629
-modified: 20200524005541033
+modified: 20200524070650886
 tags: Journal
 title: 2020 / 05 / 23
 type: text/vnd.tiddlywiki
@@ -10,5 +10,8 @@ Also, it seems kind of ludicrous: I'm just loading all 1000+ blog posts into mem
 
 Worked a bunch more on [[Ready Blog Oven]] and I think I've almost got it at the point where it could step in as a replacement for rendering my blog. So, like, maybe I should think about writing something and start using it. A few more tweaks, maybe, to set it up with a file watcher to generate previews for in-progress drafts. And then maybe some [[GitHub Actions]] exploration to set it up for auto-publishing.
 
+Okay, so I worked almost all day on [[Ready Blog Oven]]. I ported over the blog posts from my old gulp blog, preserving the history with git filter-branch. Then, I played around with [[Github Actions]] to come up with a clunky quick action that builds and publishes the blog to [[Github Pages]] on a push to stage branch. Next thing might be to get a similar action that publishes the content to my AWS S3 bucket - that is, unless I feel like hosting entirely from Github. Hmm.
 
+The repair parts for my Switch joycon arrived late tonight. Thinking I might take a shot at finishing the repair and purple shell replacement tomorrow on my [[stream|Streaming]].
 
+Watched the show Upload on Amazon Prime for a few episodes after dinner tonight. Really interesting dramedy about being uploaded to a virtual world after death (or even slightly before). There may also have been a murder. Reminds me a little bit of [[Jim Munroe's Everyone in Silico|https://en.wikipedia.org/wiki/Everyone_in_Silico]]
