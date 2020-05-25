@@ -1,4 +1,6 @@
 created: 20200524070432751
-modified: 20200524070433584
+modified: 20200525041150885
 title: Github Pages
 type: text/vnd.tiddlywiki
+
+Built-in web hosting for repositories on [[GitHub]] with auto-magical static site generation with Jekyll

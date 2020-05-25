@@ -1,4 +1,8 @@
 created: 20200524070432748
-modified: 20200524070433576
+modified: 20200525041020345
 title: Github Actions
 type: text/vnd.tiddlywiki
+
+Seems to fill a similar space to Travis CI and CircleCI.
+
+I'm using it for [[Easy-Blog Oven]] to [[sync to S3|https://github.com/marketplace/actions/s3-sync]] and [[Github Pages]]
