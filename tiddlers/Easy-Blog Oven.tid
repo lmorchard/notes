@@ -1,9 +1,11 @@
 created: 20200522074624363
-modified: 20200525040508673
+modified: 20200525082811697
 title: Easy-Blog Oven
 type: text/vnd.tiddlywiki
 
-https://github.com/lmorchard/ready-blog-oven
+https://github.com/lmorchard/easy-blog-oven
+
+https://blog.lmorchard.com/2020/05/24/easy-blog-oven/
 
 It's not much, yet. Hopefully it won't ever be much and just stay simple and quick and build my blog easily. The name so far is a play on [[bake, don't fry]].
 
@@ -11,4 +13,4 @@ My last stab at a blog generator was a learning project for [[gulp]]. https://bl
 
 I don't use [[gulp]] any more. So, this time, I wanted to see how naively simple I could build my blog in modern JavaScript. So far, so good: It's very simple promise based code and runs in like 4 seconds for 1000+ entries!
 
-I have also just realized that I thought the kid's toy was called a "ready bake oven" when really it was called an "Easy-Bake Oven" - so maybe this thing should be renamed "Easy-Blog Oven"
+I have also just realized that I thought the kid's toy was called a "ready bake oven" when really it was called an "Easy-Bake Oven" - so, at one point, it was called "Ready Blog Oven" but now it's "Easy-Blog Oven"
