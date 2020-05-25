@@ -1,5 +1,5 @@
 created: 20200525082653754
-modified: 20200525083335257
+modified: 20200525180942798
 tags: Journal
 title: 2020 / 05 / 25
 type: text/vnd.tiddlywiki
@@ -7,3 +7,9 @@ type: text/vnd.tiddlywiki
 Hey, so remember to measure windows and order blinds.
 
 Fix Disqus comments in new [[Easy-Blog Oven]] templates
+
+I should write about how to build an [[Easy-Blog Oven]]
+
+I should write a tool to maintain hashes and only upload changes to S3
+
+I should write a post about how i used aerostat to host WordPress at home
