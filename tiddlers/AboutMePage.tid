@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200519193746662
+modified: 20200526083220031
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -17,6 +17,7 @@ I built an "about me" page based on a bunch of different APIs from my social med
 
 !! To Do
 
+* Maybe rewrite this not to use webpack? Or even react? Could just use tagged template literals
 * It breaks every month or so - fix it. Probably expired tokens
 * Include Twitch clips rather than live video?
 * Transclude a panel from HomePage here?
