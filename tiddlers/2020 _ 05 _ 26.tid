@@ -1,5 +1,5 @@
 created: 20200526082638718
-modified: 20200526204714498
+modified: 20200526205703103
 tags: Journal
 title: 2020 / 05 / 26
 type: text/vnd.tiddlywiki
@@ -9,3 +9,7 @@ Hey, remember about the blinds you didn't look into yesterday.
 I want to fix my [[AboutMePage]]
 
 Maybe I should write about this Storybook publishing setup I built at work - https://github.com/mozilla/fxa/issues/5385
+
+I really really like this blog post on JS animation. I kind of want my blog posts to take advantage of more inline web features and literate programming like this https://bollu.github.io/mathemagic/declarative/index.html
+
+I want to check out [Recoil|https://recoiljs.org/], a new state management library for React. Seems like an alternative to Redux?
