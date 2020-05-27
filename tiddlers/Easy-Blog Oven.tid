@@ -1,18 +1,31 @@
 created: 20200522074624363
-modified: 20200526082631038
+modified: 20200527164237672
 title: Easy-Blog Oven
 type: text/vnd.tiddlywiki
 
-https://github.com/lmorchard/easy-blog-oven
-
-https://blog.lmorchard.com/2020/05/24/easy-blog-oven/
-
-https://blog.lmorchard.com/2020/05/25/diy-easy-blog-oven/
+* https://github.com/lmorchard/blog.lmorchard.com
 
 It's not much, yet. Hopefully it won't ever be much and just stay simple and quick and build my blog easily. The name so far is a play on [[bake, don't fry]].
+
+!! History
 
 My last stab at a blog generator was a learning project for [[gulp]]. https://blog.lmorchard.com/2014/10/20/static-blog-generation-with-gulp/
 
 I don't use [[gulp]] any more. So, this time, I wanted to see how naively simple I could build my blog in modern JavaScript. So far, so good: It's very simple promise based code and runs in like 4 seconds for 1000+ entries!
 
 I have also just realized that I thought the kid's toy was called a "ready bake oven" when really it was called an "Easy-Bake Oven" - so, at one point, it was called "Ready Blog Oven" but now it's "Easy-Blog Oven"
+
+!! To Do
+
+* Maybe separate content from code so that it could be more reusable? Might be hard because I'm kind of co-evolving the code with the content
+* Want to come with an Amazon S3 deployment that only uploads changes
+* Would like to improve in-progress code listings - maybe a tab panel rather than details / summary?
+* Could be fun to add little live code listings with source and run result
+* Want to add a download bundle of all the code listings 
+* Would be nice to have tooling to manage listings, diffs, and download artifact 
+
+!! Links
+
+* https://github.com/lmorchard/easy-blog-oven
+* https://blog.lmorchard.com/2020/05/24/easy-blog-oven/
+* https://blog.lmorchard.com/2020/05/25/diy-easy-blog-oven/
