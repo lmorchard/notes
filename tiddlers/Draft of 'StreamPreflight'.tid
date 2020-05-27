@@ -1,6 +1,27 @@
 created: 20200527051842715
 draft.of: StreamPreflight
 draft.title: StreamPreflight
-modified: 20200527051847272
+modified: 20200527155001680
+tags: StreamStartTopic
 title: Draft of 'StreamPreflight'
 type: text/vnd.tiddlywiki
+
+This should be a pre-stream checklist
+
+## Before live
+
+* Update stream description
+* Record an audio check
+* Refresh and check all graphics
+** Loader
+** BRB
+** Finish
+** Toys like SAM, fireworks
+* Turn down mic on mixer
+* Update StreamAgenda
+* Create new StreamNotes
+
+## Go live per-stream loader
+
+## Live
+* Turn mic up to 3/4 on timer 0:00:00
