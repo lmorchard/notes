@@ -1,5 +1,5 @@
 created: 20200527155133998
-modified: 20200527155637454
+modified: 20200527160532125
 tags: Journal
 title: 2020 / 05 / 27
 type: text/vnd.tiddlywiki
@@ -11,3 +11,8 @@ type: text/vnd.tiddlywiki
 * Thinking about [[StickerBook]] and whether it might be a good next focus, pre all-hands
 
 * Thinking about [[Easy-Blog Oven]] and coming up with an Amazon S3 uploader that only uploads changes
+
+* Thinking about rewriting my [[AboutMePage]] to use simpler JS templates like [[Easy-Blog Oven]] - and then write about it
+
+
+
