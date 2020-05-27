@@ -1,4 +1,33 @@
 created: 20200527051842715
-modified: 20200527051842819
+modified: 20200527155404732
+tags: StreamStartTopic
 title: StreamPreflight
 type: text/vnd.tiddlywiki
+
+This should be a pre-stream checklist
+
+!! Before live
+
+* Wake up computer
+* Check all cameras and scenes
+* Refresh and check all graphics
+** Loader
+** BRB
+** Finish
+** Toys like SAM, fireworks
+* Record an audio check
+* Turn down mic on mixer
+* Update StreamAgenda
+* Create new StreamNotes
+* Update stream description
+* Start and unpause ChipMachine
+
+!! Go live / pre-stream countdown loader
+* Post to social media (automate someday)
+* Get some water
+* Take some deep breaths
+* Review StreamAgenda
+* Note start time in StreamNotes
+
+!! Live
+* Turn mic up to 3/4 on timer 0:00:00
