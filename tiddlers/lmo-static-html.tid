@@ -1,0 +1,7 @@
+created: 20200528045950357
+modified: 20200528050524151
+tags: templates
+title: lmo-static-html
+type: text/vnd.tiddlywiki
+
+<$view field="text" format="plainwikified" />
