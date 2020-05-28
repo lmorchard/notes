@@ -6,13 +6,72 @@ type: text/vnd.tiddlywiki
 
 `
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 	<head>
 		<title>`<$view field="title" format="text" />` - notes.lmorchard.com</title>
+		<meta property="og:site_name" content="`<$view field="title" format="text" />`" />
+		<meta property="og:type" content="article" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
 	</head>
 	<body>
-		<h1>`<$view field="title" format="text" />`</h1>
-		`<$view field="text" format="htmlwikified" />`
+		
+      <section class="main">
+        <header>
+          <h1><a href="${site.baseurl}/">notes.lmorchard.com</a></h1>
+          <h2>${site.subtitle}</h2>
+          <nav>
+            <label for="nav-trigger"></label>
+            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+
+            <ul>
+              <li><a href="http://lmorchard.com/">about me</a></li>
+              <li><a href="${site.baseurl}/archives.html">archives</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <section class="content">
+
+					<article class="post">
+					<!--
+						<time
+							title="${moment(page.date).format()}"
+							pubdate="${moment(page.date).format()}"
+						>
+							<a href="${site.baseurl}/"><i class="fa fa-home"></i></a>
+							&raquo;
+							<a href="${site.baseurl}/${moment(page.date).format("Y")}/"
+								>${moment(page.date).format("Y")}</a
+							>
+							&raquo;
+							<a href="${site.baseurl}/${moment(page.date).format("Y/MM")}/"
+								>${moment(page.date).format("MMMM")}</a
+							>
+							&raquo;
+							<span>${moment(page.date).format("DD")}</span>
+							&raquo;
+						</time>
+						-->
+
+						<h1 class="title">`<$view field="title" format="text" />`</h1>
+						<section class="post-content">
+							`<$view field="text" format="htmlwikified" />`
+						</section>
+					</article>
+
+
+        </section>
+
+        <footer>
+          <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+        </footer>
+      </section>
+
 	</body>
 </html>
 `
