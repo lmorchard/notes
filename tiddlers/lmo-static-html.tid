@@ -51,7 +51,7 @@ title: lmo-static-html
 								`<$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
 									<$list filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]" emptyMessage="""<li>None, yet</li>""">
 										`<li>
-											<a href="./`<$view field="title" format="doubleurlencoded" />`">`<$view field="title" />`</a>
+											<a href="./`<$view field="title" format="doubleurlencoded" />`.html">`<$view field="title" />`</a>
 										</li>`
 									</$list>
 								</$vars>`
