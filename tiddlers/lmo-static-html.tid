@@ -32,6 +32,7 @@ title: lmo-static-html
 					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 					<ul>
 						<li><a href="http://lmorchard.com/">about me</a></li>
+						<li><a href="/RecentChanges.html">recent changes</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -40,6 +41,13 @@ title: lmo-static-html
 					<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
 					<section class="post-content">
 						`<$view field="text" format="htmlwikified" />`
+						<hr/>
+
+`<$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
+
+<$list filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]"><$link><$view field="title" /></$link><br></$list>
+</$vars>`
+
 					</section>
 				</article>
 			</section>

@@ -1,0 +1,11 @@
+created: 20200528065129828
+modified: 20200528065400426
+tags: 
+title: RecentChangesLong
+type: text/vnd.tiddlywiki
+
+<ul>
+<$list filter="[!is[system]sort[modified]reverse[]first[50]]">
+<li><$link /></li>
+</$list>
+</ul>
