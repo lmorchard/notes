@@ -20,6 +20,10 @@ title: lmo-static-html
 			section.content article.wiki h1 {
 				margin-bottom: 0.75em;
 			}
+			section.content article.wiki .backlinks h4 {
+				margin: 1.5em 0 1.0em 0;
+				padding: 0;
+			}
 		</style>
 	</head>
 	<body>
@@ -41,13 +45,14 @@ title: lmo-static-html
 					<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
 					<section class="post-content">
 						`<$view field="text" format="htmlwikified" />`
-						<hr/>
-
-`<$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
-
-<$list filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]"><$link><$view field="title" /></$link><br></$list>
-</$vars>`
-
+						<section class="backlinks">
+							<h4>Backlinks</h4>
+							<ul>
+								`<$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
+								<$list emptyMessage="""<li>None, yet</li>""" filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]">`<li><a href="/`<$view field="title" format="doubleurlencoded" />`">`<$view field="title" />`</a></li>`</$list>
+								</$vars>`
+							</ul>
+						</section>
 					</section>
 				</article>
 			</section>
