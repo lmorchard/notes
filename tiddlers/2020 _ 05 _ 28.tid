@@ -1,5 +1,5 @@
 created: 20200528071956616
-modified: 20200528152512587
+modified: 20200528153937657
 tags: Journal
 title: 2020 / 05 / 28
 type: text/vnd.tiddlywiki
@@ -15,4 +15,6 @@ type: text/vnd.tiddlywiki
 * Thinking about how I keep up this note-taking brain-dumping habit once the new-toy smell has worn off the wiki. Seems important
 * Should I add Disqus comments here? I mean they're my personal notes, but I'm making them public for a reason - i.e. [[Work with the garage door up]]
 * Thinking about [[Dave Winer]]'s [[OPML Editor]] and how I used to start daily notes / quasi-blog posts in it like this back around 2004-2008 or so. I still have all those notes. Been thinking about re-publishing them, if only for my own reference.
+** DecafBucket is the name of the old PHP software I used to publish them - https://github.com/lmorchard/decafbucket
+** The notes weren't in that repo, but I found them in an old server backup and pushed to github - https://github.com/lmorchard/notes/tree/master/bucket
 * I also used to run [[Twiki]] on my site and have a handful of notes from there, circa 2002-2004. Kind of want to review & republish those too.
