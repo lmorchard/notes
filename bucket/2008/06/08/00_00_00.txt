@@ -1,0 +1,10 @@
+* [<img src="http://www.guardian.co.uk/favicon.ico">](http://www.guardian.co.uk/) vs [<img src="http://www.google.com/favicon.ico">](http://google.com) — FIGHT!
+
+* [Age of Conan][ac] looks interesting, but I think I'm not so attracted to it because it's just so damn serious and grim. 
+
+    * I like to <code>/dance</code> in [WoW][].
+
+[ac]: http://en.wikipedia.org/wiki/Age_of_conan
+[wow]: http://worldofwarcraft.com
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

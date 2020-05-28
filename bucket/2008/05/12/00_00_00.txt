@@ -1,0 +1,11 @@
+* Nothing much dumped here today - I spent pretty much the whole day finishing the third-to-last chapter of the [book][].
+
+* So, I'd thought that the upload script was working, but it was failing on the SSH auth part of the rsync.  Seems to be working again now.
+
+* Since I end up using a lot of the same links repeatedly, some sort of link palette or persistent link notepad would be nice.
+
+* Still thinking a feed-to-markdown thing would work nicely for copying over links to things I've bookmarked, made favorite, or whatever.
+
+[book]: http://www.wiley.com/WileyCDA/WileyTitle/productCd-047038459X.html
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

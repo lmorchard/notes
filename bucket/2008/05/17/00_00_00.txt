@@ -1,0 +1,37 @@
+* Considering a trip to [SuperHappyDevHouse 25][shdh] tomorrow.
+    
+    * I should probably try working on writing there.
+
+    * But I might also work on this bucket and a few other things.
+
+    * And I really should try to mingle a bit and make a few last connections with people before [we move][move].
+
+        * I'm hoping I can finagle a way to return to CA on a schedule that coincides with future SHDH happenings, but who knows?
+
+* Today was a day of Mozilla work from home, followed by an evening of book work from home.
+
+    * I feel like I've read every line of [mootools-trunk-1553.js][moo]. 
+        
+        * I've probably missed a bunch of things.
+
+        * On the other hand, I think I found a few bugs too - I wonder if and how I should file those with that community.
+
+            * Oh, hey, [they use Trac][mootrac].
+
+* [Firefox 3.0 RC1][ff] dropped today!
+
+    * I'm amazed at how much smoother and quicker all the animation examples for the book seem to go!
+
+* [Real Synthetic Audio][syn] is one of my favorite music podcasts evar.
+
+    * [IPM Radio][ipm] is pretty dang nifty as well.
+
+[mootrac]: http://dev.mootools.net/
+[move]: http://decafbad.com/blog/2008/05/14/go-midwest-young-man
+[shdh]: http://superhappydevhouse.org/SuperHappyDevHouse25
+[ff]: http://www.mozilla.com/en-US/firefox/all-rc.html
+[syn]: http://synthetic.org/
+[ipm]: http://ipmradio.com/
+[moo]: http://mootools.net/download/trunk
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

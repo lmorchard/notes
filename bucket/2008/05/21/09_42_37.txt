@@ -1,0 +1,8 @@
+* So, like, if [Twitter keeps going down][down], we're all going to have to talk to each other through blogs and IRC again.  It's certainly a hard act to follow.
+
+* Holy crap, the [new Penny Arcade game][game] is so completely made of win.
+
+[down]: http://istwitterdown.com/
+[game]: http://www.playgreenhouse.com/featuredGame
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

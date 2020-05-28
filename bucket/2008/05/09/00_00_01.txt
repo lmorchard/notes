@@ -1,0 +1,5 @@
+* I hadn't realized before how close the relationship was between Mozilla and Google.  We have the same snacks, and I can have the famous free (and tasty) lunch and dinner over there.
+
+* Also on the Google campus, lots of awkwardly piloted blue granny bikes with mud fenders and MacBook Pros in metal handlebar baskets.  Doesn't pay to be a pedestrian when a dozen or so of those go by on the sidewalk.
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

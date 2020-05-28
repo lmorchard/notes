@@ -1,0 +1,14 @@
+* Thinking about writing a proper long-form blog entry about [our having bought a house in Michigan](http://www.flickr.com/photos/missadroit/2493000246/).
+
+    * Kind of the reverse of my post, [Go West, Young Man!](http://decafbad.com/blog/2006/06/24/go-west-young-man), from almost 2 years ago.
+
+* Thank you, [Akismet][]:
+    * "[Akismet][] has protected your site from 419,402 spam comments already"
+
+* I'm hoping to make this the [Summer of Skein][skein].
+    * Not to be confused with the [Summer of George](http://en.wikipedia.org/wiki/The_Summer_of_George).
+
+[skein]: http://decafbad.com/skein/
+[akismet]: http://akismet.com/
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

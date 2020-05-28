@@ -1,0 +1,21 @@
+* Thinking I'll soon stop redirecting [decafbad.com][db] to my accumulator and replace it with a simpler intro page with big buttons pointing at my big topics, maybe with a few teaser bits.
+
+* Project idea: Replace / rework my accumulator with a daily bucket fed from FriendFeed.
+    
+    * Accumulate a day's worth of FriendFeed droppings, archive by date in static files.
+
+        * Could this just be an augmentation to [Venus][]?
+
+    * Leave the door open to replace FriendFeed with my own parts.
+
+        * Or maybe skip FriendFeed and stick with plain old feed fetching.
+
+    * Copy FriendFeed's presentation for grouping and collapsing multiple successive updates for a given service.
+
+        * Listening to a few hours of music makes [last.fm][lastfm] noisy.
+
+[venus]: http://www.intertwingly.net/code/venus/
+[db]: http://decafbad.com
+[lastfm]: http://www.last.fm/user/deusx/
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

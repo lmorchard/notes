@@ -1,0 +1,82 @@
+# Random
+
+* It's kind of weird starting work for a company where almost everything I'm starting to learn, install, and work on are all already open source.
+
+* I have a list of things brewing in my head that guy I want to be when I grow up would be doing interesting things with: 
+    * Here are a few off the top:
+        * [Inform 7](http://www.inform-fiction.org/I7/Welcome.html)
+        * Jabber
+        * Podcasting
+        * Storytelling and fiction writing
+    * What's keeping me?
+        * That's an interesting question.
+
+* Just when I was thinking I wish I had a command-line tool to look at what Time Machine was doing, [behold it appears](http://fernlightning.com/doku.php?id=software:misc:tms)!
+
+* If ever I turn this thing into a web app, I'll think about making [a textarea work like Vim](http://gpl.internetconnection.net/vi/)
+
+# Metabucket
+
+So I'm just going to start writing this blog on my laptop using [Blosxom][] and see if I actually manage to capture some ideas, even if only I'm reading them for now.
+
+This thing isn't going to be solved by software - at least not at first and not ever entirely.  To get it going, I'm going to just open a Vim window and start spewing into a text file and let [Blosxom][] feed from the directory.
+
+Is "bucket" a good name for this thing?  I keep thinking I want to come up with some coffee-based pun for it that's not yet been used by a Java project.
+
+[Blosxom]: http://blosxom.sourceforge.net/
+
+---
+
+## Inspirations:
+
+* [Scripting News](http://scripting.com/)
+* [OPML Editor](http://support.opml.org)
+* [Anarchaia: A tumblelog by Christian Neukirchen](http://anarchaia.org/)
+
+---
+
+## Some goals for this thing:
+
+* Turn the page daily.
+* Keep the page one hotkey or Quicksilver access away.
+* No structure, titles, or anything decided up front.
+* Must be as quick and easy as tweeting to Twitter.
+* Must be dead simpler than WordPress.
+* Must absorb a day's worth of dithering before bothering feed subscribers.
+* Should capture ideas and lend itself toward the shaping of more proper long-play blog entries.
+* Should make it easy for me to occasionally pull in and comment upon items I've shared / bookmarked / gathered using other services.
+* Develop a style that could evolve naturally into microcontent.
+* Develop some creative constraints ala Twitter's 140 or Ficlet's 1024 characters.
+* Accumulate features a bit at a time, but just start writing.
+
+---
+
+## TODO
+
+* Feed-to-Markdown script
+    * Fuels cut-n-paste link palettes
+* Pre-filter for Markdown
+    * Omit /* */ comments
+    * Quick notation for anchors
+    * Anchors for H1-H6
+    * Anchors for HR
+    * Discuss / Haloscan comments for each anchor
+* Post-filter for Markdown
+    * Convert some links into embeds
+        * ie. YouTube videos
+
+---
+
+Code so far, in a midnight crontab:
+
+    BASE=$HOME/Documents/bucket/entries; 
+    NOW=`date +%Y-%m-%d`
+    NOW_FN=$BASE/`date +%Y/%m/%d-%H_%M_%S.txt`; 
+    NOW_DIR=`dirname $NOW_FN`; 
+
+    mkdir -p $NOW_DIR; 
+    mv $BASE/now.txt $NOW_FN; 
+    echo "bucket for $NOW"  > $BASE/now.txt
+    echo "" >> $BASE/now.txt
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

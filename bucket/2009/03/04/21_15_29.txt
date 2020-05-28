@@ -1,0 +1,16 @@
+// bucket for 2009-03-04
+
+* I wonder if either Markdown or Textile would make a good format with
+which to author a book?
+
+    * I was thinking maybe Textile, with a few additional formatting
+    conventions.
+
+    * If I ever did any self-publishing work, I'd want to avoid MS Word
+    like the plague.
+
+    * I can write all my own formatting and processing code myself,
+    probably even generate PDFs.  Could use git to manage the work
+    too.
+
+/* vim: set wrap wm=5 syntax=mkd textwidth=70: */

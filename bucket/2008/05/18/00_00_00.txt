@@ -1,0 +1,27 @@
+* At [SuperHappyDevHouse 25][shdh] today, hopefully getting a little writing done in between wandering around mingling and playing Rock Band.
+
+* Now having written this whole thing on [Markdown][], I've succeeded in entirely [Yak Shaving][] my way away from writing in Word thus far.
+
+* I'm using [Markdown][] to write in this Bucket.  I consider it crucial to actually getting any writing done online.
+
+    * Moving the rest of these thoughts [to the blog proper][blog].
+
+[blog]: http://decafbad.com/blog/2008/05/18/markdown-oh-the-humanity
+[ja]: http://www.codinghorror.com/blog/archives/001116.html
+[wiki]: http://c2.com/cgi/wiki?WhyDoesntWikiDoHtml
+[perlpod]: http://perldoc.perl.org/perlpod.html
+[smartascii]: http://webseitz.fluxent.com/wiki/SmartAscii
+[textile]: http://textile.thresholdstate.com/ 
+[markdown]: http://daringfireball.net/projects/markdown
+[bbcode]: http://www.phpbb.com/community/faq.php?mode=bbcode
+[wpm]: http://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page
+[amd3]: http://blog.wired.com/monkeybites/2008/05/a-million-littl.html
+[amd2]: http://www.codinghorror.com/blog/archives/001116.html
+[amd1]: http://www.jerf.org/iri/post/2520
+[shdh]: http://superhappydevhouse.org/SuperHappyDevHouse25
+[rc]: http://en.wikipedia.org/wiki/Wordperfect#Reveal_codes
+[prosing]: http://www.merriam-webster.com/dictionary/prosing
+[showdown]: http://attacklab.net/showdown/
+[yak shaving]: http://en.wikipedia.org/wiki/Yak_shaving
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

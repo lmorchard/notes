@@ -1,0 +1,48 @@
+* Since I'm walking distance from Google now, I should see who I know over there who might want to share a table for lunch.
+
+* Hitting the home stretch on writing my part of [Professional JavaScript Frameworks][book].  The first half or so went pretty well, but the last month or so has brought a legendary number of disruptions.  I'm hoping to write about them all soon.
+
+* Once finished with the [book][], I hope to have a brief period of getting my shit together before starting to do serially enthusiastic things again.
+
+* I'm also yak shaving and procrastinating a bit in this home stretch, trying to think of sufficiently interesting things to say about what's been happening with me and what it feels like to be a newbie at [Mozilla][].
+
+* There's a lot of awesome here at [Mozilla][] that's making me feel the need to step up again.
+
+* More stuff I want to do things with:
+    * OpenID
+    * OAuth
+    * AtomPub
+
+* Been reading [Let's Tell a Story Together](http://home.grandecom.net/~maher/if-book/).  Here's a goal: Complete at least one work of interactive fiction per month.
+
+* Wondering if scheduling some serial enthusiasms with deadlines over the summer and fall might help me get some interesting things done.  Like:
+    * July: 
+        * Record a limited run podcast, say 10 episodes or so.
+        * Build something with OpenID, OAuth, and AtomPub
+        * Write up the experience of building the above.
+    * August: 
+        * Compose a work of interactive fiction
+        * Write up the experience of building the above.
+        * Write a few serial short stories
+    * September: 
+        * Revisit podcasting?  Podcast the serial stories?
+        * Write up the experience of building the above.
+
+* Be careful using images hosted on my site.  You might get nipples.
+
+[mozilla]: http://mozilla.com/
+[book]: http://www.wiley.com/WileyCDA/WileyTitle/productCd-047038459X.html "Professional JavaScript Frameworks"
+
+---
+
+# Metabucket
+
+* Still haven't pushed this thing live anywhere yet.
+* Still talking to myself and wibbling over format.
+    * Should an `<hr />` indicate a new entry?  What about an `<h1>`?
+* Want to spend some time giving this thing a *bit* of style.
+    * No more Times New Roman.
+    * Narrow column width.
+* Really need to implement comments in Markdown to hide my Vim modeline.
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

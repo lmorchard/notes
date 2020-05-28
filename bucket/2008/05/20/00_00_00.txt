@@ -1,0 +1,10 @@
+* Thinking a bit about creative constraints.  140 characters on [Twitter][], 1024 on [Ficlets][].  
+    
+    * Writing feels a lot more considered and tight - I wonder how that could be applied to longer works?
+
+    * I know this is not a new idea, but it's lately novel to me.
+
+[twitter]: http://twitter.com/lmorchard
+[ficlets]: http://ficlets.com/authors/l_m_orchard
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

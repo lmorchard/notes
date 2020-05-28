@@ -1,0 +1,8 @@
+// bucket for 2009-02-22
+
+* Okay, let's see if this thing works for me again.  I'm making
+another attempt to revive the bucket, only this time I'm leaving
+blosxom for something custom using the Kohana framework.  Not sure
+I'll keep this up or not, but we'll see.
+
+/* vim: set wrap formatoptions=l lbr wm=3 textwidth=70 syntax=mkd: */

@@ -1,0 +1,22 @@
+* Apropos of [my US$0.02 on Markdown yesterday][humanity], an app idea occured to me:
+
+    * GreaseMonkey script that uses [Showdown][] to turn all `<textareas>` into Markdown fields, like [I did for hCal awhile ago][hcal].
+
+        * Write in Markdown
+        * Get previews in-line or in a popup
+        * Submit raw HTML 
+
+[humanity]: http://decafbad.com/blog/2008/05/18/markdown-oh-the-humanity
+[hcal]: http://decafbad.com/blog/2005/06/08/greasemonkey-magic
+[showdown]: http://attacklab.net/showdown/
+
+* Yesterday, I managed to write something longer than the usual quick thought, about Markdown.
+
+    * I think it really pushed the usefulness of this thing, and belongs in a full-on blog post after lots of editing.
+
+    * I met [Rohit Khare][rk] for the first time at SHDH yesterday.  Upon my being introduced, he recognized my name from the [SHDH 25][shdh] who's who list—mainly because of how unreadable this bucket composition was.
+
+[shdh]: http://superhappydevhouse.org/SuperHappyDevHouse25
+[rk]: http://www.ics.uci.edu/~rohit/
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

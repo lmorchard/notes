@@ -1,0 +1,27 @@
+* Someday, I'm going to explain what this bucket is about.  Prerequisite to that is figuring out what it's about.  A few quick notions, though:
+
+    * For me, at least, [perceptible interface + laziness threshold = weblog silence](http://decafbad.com/blog/2002/03/26/oooofa)
+
+    * Dave Winer's [OPML Editor](http://support.opml.org) has been the only tool in recent memory to [keep me publishing thoughts](http://decafbad.com/blog/2006/02/26/the-opml-editor-means-getting-things-blogged) for any [respectable stretch](http://blogs.opml.org/decafbad).
+
+    * My favorite word processor, once upon a time, was [WordPerfect 5.1 for DOS](http://en.wikipedia.org/wiki/Image:Wordperfect-5.1-dos.png).
+        
+        * I always did love "[Reveal Codes](http://en.wikipedia.org/wiki/Wordperfect#Reveal_codes)"
+
+        * No me gusta mucho el WYSIWYG.
+
+* I keep thinking I want a Psion PDA.  They seem to have nice workable keyboards.  I miss my 8086 palmtop with Microsoft Works and a sunlight-viewable greyscale screen.
+
+    * This ties into my persistent Golden Age vision of writing at a picnic table in the sun, which I haven't done since college.  That palmtop was my enabler then.
+
+* Something else I want to do things with:
+    * Google App Engine
+
+* Comments were working in Firefox.  Just checked in Safari and found things broken there.  Can't be bothered to try MSIE yet.
+
+* To emphasize the notional units here, I've tried especially styling first-level bullets.  I can't remember if MSIE is happy with this particular CSS selector yet.  If not, tough.
+
+* Tagging per bullet or line in this thing would be interesting at some point, too.  
+    * I'd like to be able to search for and possibly re-aggregate bullets by tag.
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

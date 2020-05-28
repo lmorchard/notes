@@ -1,0 +1,81 @@
+// bucket for 2009-02-23
+
+* And, since this was an active day on the bucket, I'm starting to
+think that maybe I should try to switch feeds to producing an item per
+bullet point rather than this one big blob-per-day.
+
+* So, inspired by [Dave's re-release of the 2005-era OPML Editor
+blogging tool][blogtool], I've made [some tweaks][tweaks] to the
+bucket here that has made it possible to import all my old [OPML blog
+entries][opmlblog] just by copying the files into the proper data
+directory.
+
+    * One of my next steps, once I have time for another hacking
+    sprint is to implement an [OPML Community Server API][oapi]
+    endpoint here that will allow me to use the [OPML Editor][oe] to
+    [upstream][upstream] entries to this bucket.
+
+    * So, thus far, this bucket supports entries as single files per
+    day or a directory of files per day—and in Markdown, Textile, 
+    HTML, and OPML formats.
+
+    * And, soon, I might have both `git push` and an XML-RPC API as
+    means of publishing to this bucket.  Kind of insane, but these
+    things match a workflow I want to support.
+
+[upstream]: http://radio.userland.com/developer/tools/upstreamingDriverArchitecture
+[tweaks]: http://github.com/lmorchard/decafbucket/commit/dbacbd6a8252720679afac925eb656081b030738#L0R302
+[blogtool]: http://howto.opml.org/dave/editorOpmlOrg/blogWriterTool.html
+[oe]: http://editor.opml.org/
+
+* [Backing up][bu] all [my Flickr photos][ph] with [FlickrEdit][fe].
+
+[bu]: http://blog.makezine.com/archive/2009/02/how_to_backup_flickr_photos_with_fl.html?CMP=OTC-0D6B48984890
+[fe]: http://sunkencity.org/flickredit
+[ph]: http://www.flickr.com/photos/deusx
+
+* A big difference between this and my old [OPML Blog][opmlblog] is that
+the OPML Editor tracks the datestamp of when an outline item is first
+created.  That makes it so easy to come up with permalinks granular to
+the item.  Trying to figure out how to do that here.
+
+    * Of course, I may eventually just go back to the OPML Editor.
+
+    * What might be interesting is to slap an [OPML Community Server
+    API][oapi] in front of this bucket.
+
+[opmlblog]: http://blogs.opml.org/decafbad/
+[oapi]: http://decafbad.com/hgwebdir.cgi/OpmlServer/
+
+* I'm trying to get a `post-receive` hook in git to auto-update the
+remote site, but without much luck yet.
+
+    * One more try, using [this tip][3].
+
+    * HUGE SUCCESS!
+
+[3]: http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3
+
+* The new (for me) big idea about this thing is that now I'm
+"publishing" entries with this thing using `git push`.  I've got a
+`master` branch without any content, and a `prod`
+branch that holds all my entries.  The `master` branch gets pushed to
+[github][1], and the `prod` branch gets pushed to [decafbad.com][2]
+
+[1]: http://github.com/lmorchard/decafbucket/tree/master
+[2]: http://decafbad.com/bucket/
+
+* Oh yeah, and I'm trying out Disqus instead of Haloscan for comments
+for the the first time.
+
+* I've also got both PHP and JS versions of Markdown and Textile on
+hand, so at some point I'd like to introduce some web-based editing
+with live previews that can also be synched back down to my laptop via
+`git pull`.
+
+* I suppose this thing is sort of like a Twitter account, but with
+hopefully more context.  I'd like to use this for the dumping of
+thoughts too long for Twitter, yet too short for what I think of as a
+proper blog entry on decafbad.com. 
+
+/* vim: set wrap wm=5 syntax=mkd textwidth=70: */

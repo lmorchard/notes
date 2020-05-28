@@ -1,0 +1,14 @@
+* Looks like my adoption curve for this, yet another blogging tool, is falling off like usual.  Maybe faster than usual.  Not sure what that means yet.
+
+* Trying to read [Shadow Unit][su], because I really love the concept of writing episodes for a TV series that never aired.
+
+    * Part of the reason I love the concept of [Shadow Unit][su] is that I'm thinking about doing something similar myself.
+
+    * But, I can't really get into it, because I'm just not into cop / profiler shows.
+
+        * The one exception lately might be [Dexter][de], but there's more creep than procedure going on there.
+
+[su]: http://www.shadowunit.org/
+[de]: http://www.sho.com/site/dexter/home.do
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

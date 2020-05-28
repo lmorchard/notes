@@ -1,0 +1,25 @@
+// bucket for 2009-03-06
+
+* You know, the early versions of Mac OS X were like that [swamp castle
+scene from Monty Python and the Holy Grail][castle]:
+
+     >"Listen, lad. I built this kingdom up from nothing. When I
+     started here, all there was was swamp. Other kings said I was
+     daft to build a castle on a swamp, but I built it all the same,
+     just to show 'em. 
+     
+     >It sank into the swamp. 
+     
+     >So, I built a second one. 
+     
+     >That sank into the swamp. 
+     
+     >So, I built a third one. 
+     
+     >That burned down, fell over, then sank into the swamp,
+     but the fourth one... stayed up! And that's what you're gonna
+     get, lad: the strongest castle in these islands."
+
+[castle]: http://www.mwscomp.com/movies/grail/grail-14.htm
+
+/* vim: set wrap wm=5 syntax=mkd textwidth=70: */

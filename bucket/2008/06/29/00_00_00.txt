@@ -1,0 +1,5 @@
+* I wonder if there's something like [irc it](http://www.suckless.org/wiki/tools/irc) for Jabber?
+
+    * That is, a daemon that maintains a directory hierarchy of FIFO pipes giving access to input and output from the network service...
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

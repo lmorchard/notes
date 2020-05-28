@@ -1,0 +1,22 @@
+* I [added the bucket to my accumulator][added], which should be interesting to watch when the "final" version of each day's bucket shows up in the feed.
+
+[added]: http://decafbad.com/trac/changeset/902
+
+* At some point, I want to return to that [accumulator](http://decafbad.com/accum/) and implement the custom feed filtering stuff I meant to do.  That way, I can offer feeds that gather:
+    * a firehose of everything I emit online;
+    * just the stuff I emit to decafbad.com;
+    * just the long-form articles and posts.
+
+* Time soon to check this bucket stuff into SVN, since it's grown to about a half-dozen scripts and templates.  There's some content accumulated, too.
+
+* Tossed in some Haloscan comment links next to the titles.  I'm also thinking about switching to Disqus if I can find a clean way to integrate.
+    * [This](http://benjamingolub.com/2008/03/03/how-to-dynamic-slide-down-disqus-comments/) might offer a clue toward the Disqus integration I want.
+
+* Hmm.  I wonder how hard it would be to tell blosxom to mind the creation date and not modification date on these entries?
+    * I remember playing with plugins and other `touch`-based hackery to sort this kind of thing out, years ago.
+
+* Have a passing thought that I might convert everything from my [OPML blog][opml] into entries for this bucket.  They're very, very similar in spirit.
+
+[opml]: http://blogs.opml.org/decafbad/
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

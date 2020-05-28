@@ -1,0 +1,26 @@
+* Attached a patch to [a bug][bug] today, and watched it get announced in an IRC channel.  Like, in public.  This'll take some getting used to.
+
+* [As seen on Twitter][biked], I biked to work today.  It was only about 11 miles from Santa Clara to Mountain View, but that was enough for me.  
+    
+    * But, it wasn't *too much* for me.  I've only got about a month left out here in CA, but I wonder if I might just keep this up.
+
+    * Oh yeah, and I wore [this snazzy Firefox cycling jersey][jersey].  I felt at once silly and like a superhero.
+
+* Once upon a time, about 5 or 6 years ago if I recall, I quit smoking cold turkey.  Having done that, I feel like I can do damn near anything sometimes.
+
+    * The trick is remembering that feeling.
+
+    * And the other trick—as I find it currently difficult to rise from the couch with muscles overused through 22 miles of bike riding today—is not to overdo it.
+
+* Seems like [Twitter is down][down] again.  Makes me happy I have a bucket.
+
+* I need to collect bucket thoughts in order to compose a long-form blog post explaining and introducing the thing.  Maybe it'll happen under this bullet.
+
+    * Or, maybe not.
+
+[bug]: https://bugzilla.mozilla.org/show_bug.cgi?id=395271
+[down]: http://istwitterdown.com
+[jersey]: http://www.flickr.com/photos/deusx/2494323048/in/photostream/
+[biked]: http://twitter.com/lmorchard/statuses/812121956
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

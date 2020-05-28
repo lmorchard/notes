@@ -1,0 +1,3 @@
+* Hmm: With the advent of Google App Engine and Python web apps presumably ascendant thanks to it — should I bother with PHP any further?
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */

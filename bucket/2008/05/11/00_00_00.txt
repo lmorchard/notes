@@ -1,0 +1,31 @@
+* More things to remember to play with:
+   * Google Gears
+   * Dojo Offline
+   * Get back to XoxoOutliner someday
+
+* Oh hey, my laptop's on PDT time and my server's on UTC time.  That'll affect Blosxom date headers a bit, ugh.
+
+* Okay, so I slapped together a quick CSS theme and an rsync-based uploader running every 10 minutes.  It's live, after a fashion.
+
+* I've also hacked the feed not to include the most recent entry that I'm editing right now.  That's important, and hopefully I'll explain soon.
+
+* There's not much to this thing yet besides Blosxom and a handful of shell scripts that:
+   1. Rotate my always-open editor to a new blank file at midnight.
+   1. Upload everything to my server every 10 minutes.
+   1. Can open the editor from Quicksilver if I happened to have closed it.
+
+   Keeping it stupidly simple for now.  Maybe I'll keep using it.
+
+* Thinking of borrowing my Haloscan comments integration from my [OPML blog](http://blogs.opml.org/decafbad) and trying it here too.  
+
+* Also thinking of trying Disqus, but not sure it lends itself well to this thing.
+
+---
+
+# Metabucket
+
+* Maybe midnight-process the single day's bucket into multiple entries, cut on `<hr>` and entitled with first `<h1>`
+* Use some ASCII-text convention for embedding link anchors.
+* Possibly attach delicious-style tags to anchors for future lookup and search.
+
+/* vim: set formatoptions=l lbr syntax=mkd columns=94 lines=64: */
