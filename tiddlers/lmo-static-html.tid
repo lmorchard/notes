@@ -2,17 +2,12 @@ created: 20200528045950357
 modified: 20200528050524151
 tags: templates
 title: lmo-static-html
-type: text/vnd.tiddlywiki-html
 
 \define tv-wikilink-template() $uri_doubleencoded$.html
-\define tv-config-toolbar-icons() no
-\define tv-config-toolbar-text() no
-\define tv-config-toolbar-class() tc-btn-invisible
-\rules only filteredtranscludeinline transcludeinline
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<title>{{$title}} - notes.lmorchard.com</title>
+		<title>`<$view field="caption" format="plainwikified"><$view field="title"/></$view>` - notes.lmorchard.com</title>
 		<meta property="og:site_name" content="{{$:/core/wiki/title}}" />
 		<meta property="og:type" content="article" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -25,15 +20,14 @@ type: text/vnd.tiddlywiki-html
 		
       <section class="main">
         <header>
-          <h1><a href="${site.baseurl}/">notes.lmorchard.com</a></h1>
-          <h2>${site.subtitle}</h2>
+          <h1><a href="/">notes.lmorchard.com</a></h1>
+          <h2>thinking with the lid off</h2>
           <nav>
             <label for="nav-trigger"></label>
             <input type="checkbox" id="nav-trigger" class="nav-trigger" />
 
             <ul>
               <li><a href="http://lmorchard.com/">about me</a></li>
-              <li><a href="${site.baseurl}/archives.html">archives</a></li>
             </ul>
           </nav>
         </header>
@@ -61,11 +55,9 @@ type: text/vnd.tiddlywiki-html
 						</time>
 						-->
 
-						<h1 class="title">{{$title}}</h1>
+						<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
 						<section class="post-content">
-
-							{{||$:/core/templates/html-tiddler}}
-
+							`<$view field="text" format="htmlwikified" />`
 						</section>
 					</article>
         </section>
@@ -77,3 +69,4 @@ type: text/vnd.tiddlywiki-html
 
 	</body>
 </html>
+`
