@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki-html
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<title>{{$:/core/wiki/title}} - notes.lmorchard.com</title>
+		<title>{{$title}} - notes.lmorchard.com</title>
 		<meta property="og:site_name" content="{{$:/core/wiki/title}}" />
 		<meta property="og:type" content="article" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -61,7 +61,7 @@ type: text/vnd.tiddlywiki-html
 						</time>
 						-->
 
-						<h1 class="title">{{$:/core/wiki/title}}</h1>
+						<h1 class="title">{{$title}}</h1>
 						<section class="post-content">
 
 							{{||$:/core/templates/html-tiddler}}
