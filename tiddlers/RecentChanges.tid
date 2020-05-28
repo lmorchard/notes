@@ -1,11 +1,11 @@
 created: 20200528065013902
-modified: 20200528065443717
+modified: 20200528072426742
 tags: IndexTopic
 title: RecentChanges
 type: text/vnd.tiddlywiki
 
 <ul>
-<$list filter="[!is[system]sort[modified]reverse[]first[10]]">
+<$list filter="[!is[system]sort[modified]reverse[]first[15]]">
 <li><$link /></li>
 </$list>
 </ul>

@@ -1,5 +1,5 @@
 created: 20200515074818107
-modified: 20200516084204590
+modified: 20200528072310334
 tags: Journal
 title: 2020 / 05 / 15
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 * Should I buy [[Huntdown|https://github.com/ratwithacompiler/OBS-captions-plugin]] for [[Nintendo Switch]]?
 * I should check out [[Federated Wiki]]
 * Still thinking about Twitch analytics / research and StreamSchedule
-* Also, on my mind again is StaticPublishing of these notes and maybe whitelisting via "public" tag
+* Also, on my mind again is StaticRendering of these notes and maybe whitelisting via "public" tag
 * Frustrated and thinking today about [[high functioning anxiety]], [[social anxiety]], and [[difficulty in verbal comprehension]]
 * Thinking about [[a load-bearing wall in my psychology]]
 * Ported my twitch chat connector over to [[NodeCG]], maybe should roll webhooks and auth and pubsub all into the same bundle to share related code

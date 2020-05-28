@@ -1,5 +1,5 @@
 created: 20200518072012754
-modified: 20200519061446892
+modified: 20200528072342499
 tags: Journal
 title: 2020 / 05 / 18
 type: text/vnd.tiddlywiki
@@ -24,7 +24,7 @@ type: text/vnd.tiddlywiki
 
 * Hmm, I just remembered I have a Rock Band keytar. I should do something with that.
 
-* I should hook my [[StaticPublishing]] of these notes up to a cronjob task. I've got it down to [[a single `npm run deploy` command|https://github.com/lmorchard/notes/commit/784274ea17eee580abcf011dce99727feae9bcc5#diff-b9cfc7f2cdf78a7f4b91a753d10865a2R12]] now. The publishing template & styles could still use some work, but incremental baby steps are good.
+* I should hook my [[StaticRendering]] of these notes up to a cronjob task. I've got it down to [[a single `npm run deploy` command|https://github.com/lmorchard/notes/commit/784274ea17eee580abcf011dce99727feae9bcc5#diff-b9cfc7f2cdf78a7f4b91a753d10865a2R12]] now. The publishing template & styles could still use some work, but incremental baby steps are good.
 
 * Side-by-side notes in Tiddlywiki are interesting. [[Krystal|https://crazko.github.io/krystal/]] is a plugin that seems to promise that
 
