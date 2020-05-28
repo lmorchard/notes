@@ -15,58 +15,38 @@ title: lmo-static-html
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+		<style type="text/css">
+			section.content article.wiki h1 {
+				margin-bottom: 0.75em;
+			}
+		</style>
 	</head>
 	<body>
-		
-      <section class="main">
-        <header>
-          <h1><a href="/">notes.lmorchard.com</a></h1>
-          <h2>thinking with the lid off</h2>
-          <nav>
-            <label for="nav-trigger"></label>
-            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-
-            <ul>
-              <li><a href="http://lmorchard.com/">about me</a></li>
-            </ul>
-          </nav>
-        </header>
-
-        <section class="content">
-
-					<article class="post">
-					<!--
-						<time
-							title="${moment(page.date).format()}"
-							pubdate="${moment(page.date).format()}"
-						>
-							<a href="${site.baseurl}/"><i class="fa fa-home"></i></a>
-							&raquo;
-							<a href="${site.baseurl}/${moment(page.date).format("Y")}/"
-								>${moment(page.date).format("Y")}</a
-							>
-							&raquo;
-							<a href="${site.baseurl}/${moment(page.date).format("Y/MM")}/"
-								>${moment(page.date).format("MMMM")}</a
-							>
-							&raquo;
-							<span>${moment(page.date).format("DD")}</span>
-							&raquo;
-						</time>
-						-->
-
-						<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
-						<section class="post-content">
-							`<$view field="text" format="htmlwikified" />`
-						</section>
-					</article>
-        </section>
-
-        <footer>
-          <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
-        </footer>
-      </section>
-
+		<section class="main">
+			<header>
+				<h1><a href="/">notes.lmorchard.com</a></h1>
+				<h2>thinking with the lid off</h2>
+				<nav>
+					<label for="nav-trigger"></label>
+					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+					<ul>
+						<li><a href="http://lmorchard.com/">about me</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="content">
+				<article class="post wiki">
+					<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
+					<section class="post-content">
+						`<$view field="text" format="htmlwikified" />`
+					</section>
+				</article>
+			</section>
+			<footer>
+				<img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+			</footer>
+		</section>
 	</body>
 </html>
 `
