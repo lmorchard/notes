@@ -1,5 +1,5 @@
 created: 20200429074019706
-modified: 20200515074708215
+modified: 20200528200911786
 tags: 
 title: HomePage
 type: text/vnd.tiddlywiki
@@ -11,6 +11,15 @@ type: text/vnd.tiddlywiki
 <li><$link /></li>
 </$list>
 <li>[[More journals...|AllJournals]]</li>
+</ul>
+
+!! Recent changes
+
+<ul>
+<$list filter="[!is[system]sort[modified]reverse[]first[7]]">
+<li><$link /></li>
+</$list>
+<li>[[More changes...|RecentChangesLong]]</li>
 </ul>
 
 !! Index topics:
