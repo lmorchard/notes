@@ -1,17 +1,28 @@
 created: 20200512215555115
-modified: 20200528152213819
+modified: 20200528160847695
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
 
-I think I'd like to produce a static rendering of this wiki and publish it to my web site.
+I am producing a static rendering of this wiki and publishing it to a web site.
+
+!! In a nutshell
+
+* [[These are the NPM scripts I use|https://github.com/lmorchard/notes/blob/master/package.json#L6]]. 
+* A computer in my basement ([[Transtrum]]) runs the server with `npm run start` for my personal note-taking use.
+* It has a scheduled cronjob that runs `npm run deploy` every 10 minutes:
+** backs up the notes to the github repository,
+** builds the static rendering,
+** pushes that to GitHub Pages.
 
 !! To Do
 
+* Move to notes.lmorchard.com
 * Add a last-modified date to the static pages
 * Would it be interesting to whitelist or blacklist published pages by tag?
 * Might be neat to have a "now" page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
 * An RSS feed of RecentChanges could be nice
+* Maybe add [[Disqus]] comments at the bottom of notes?
 
 !! Links
 
