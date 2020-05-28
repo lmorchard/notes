@@ -1,5 +1,5 @@
 created: 20200528071956616
-modified: 20200528072853102
+modified: 20200528073104279
 tags: Journal
 title: 2020 / 05 / 28
 type: text/vnd.tiddlywiki
@@ -7,4 +7,5 @@ type: text/vnd.tiddlywiki
 * I worked on [[a new template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] for StaticRendering. 
 ** I think I'd like to publish them at notes.lmorchard.com
 ** They're published here for now - https://lmorchard.github.io/notes/
+** Maybe I need to get on that [[Amazon S3]] publishing thing
 * Thinking about [[Streaming]] tomorrow - maybe try en-purpling the right joycon

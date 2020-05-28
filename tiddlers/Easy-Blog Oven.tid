@@ -1,5 +1,6 @@
 created: 20200522074624363
-modified: 20200527164237672
+modified: 20200528073243955
+tags: Project
 title: Easy-Blog Oven
 type: text/vnd.tiddlywiki
 
@@ -18,7 +19,7 @@ I have also just realized that I thought the kid's toy was called a "ready bake 
 !! To Do
 
 * Maybe separate content from code so that it could be more reusable? Might be hard because I'm kind of co-evolving the code with the content
-* Want to come with an Amazon S3 deployment that only uploads changes
+* Want to come with an [[Amazon S3]] deployment that only uploads changes
 * Would like to improve in-progress code listings - maybe a tab panel rather than details / summary?
 * Could be fun to add little live code listings with source and run result
 * Want to add a download bundle of all the code listings 
