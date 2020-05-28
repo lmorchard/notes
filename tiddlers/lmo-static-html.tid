@@ -4,4 +4,6 @@ tags: templates
 title: lmo-static-html
 type: text/vnd.tiddlywiki
 
-<$view field="text" format="plainwikified" />
+<$view field="title" format="text" />
+
+<$view field="text" format="htmlwikified" />
