@@ -1,0 +1,7 @@
+created: 20200529051747509
+modified: 20200529051930274
+tags: Project
+title: SpotifyPlaylistTextarea
+type: text/vnd.tiddlywiki
+
+I'd like a textarea into which I can paste something that looks vaguely like a list of artists and songs. The textarea then makes a decent effort to turn that into a Spotify playlist.
