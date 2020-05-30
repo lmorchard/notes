@@ -1,5 +1,5 @@
 created: 20200512215555115
-modified: 20200528163547750
+modified: 20200530002407622
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
@@ -17,6 +17,7 @@ I am producing a static rendering of this wiki and publishing it to a web site.
 
 !! To Do
 
+* Search around here might be nice
 * Make [[the static rendering template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] less funky?
 ** I don't really understand TiddlyWiki macros & widgets & pragmas & etc yet - this is kind of copypasta'd from other templates until it seemed to work
 * Move to notes.lmorchard.com
