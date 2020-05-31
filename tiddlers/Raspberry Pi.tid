@@ -1,8 +1,11 @@
 created: 20200527032351829
-modified: 20200527032435301
+modified: 20200531221021093
 title: Raspberry Pi
 type: text/vnd.tiddlywiki
 
 Lots of things to say about RPis. I'll get to it eventually.
 
-* Could I use a RasPi to host USB cameras and stream to [[OBS]]? https://stackoverflow.com/questions/49846400/raspberry-pi-use-vlc-to-stream-webcam-logitech-c920-h264-video-without-tran
+* Could I use a RPi to host USB cameras and stream to [[OBS]]?
+** https://stackoverflow.com/questions/49846400/raspberry-pi-use-vlc-to-stream-webcam-logitech-c920-h264-video-without-tran
+** https://lonewanderer-gh.github.io/RaspiVWS/
+** https://iotalot.com/2016/05/28/video-streaming-using-raspberry-pi-3-and-usb-webcam/
