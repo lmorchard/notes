@@ -1,0 +1,18 @@
+created: 20200601085449163
+modified: 20200601085849242
+title: Parsec Patrol
+type: text/vnd.tiddlywiki
+
+Old browser-based game I started hacking on. I might like to get back to it.
+
+https://github.com/lmorchard/parsec-patrol
+
+Wanted to do something like a cross between Star Raiders, Star Trek, Bosconian. Top-down, no-stick shooter. Pilot the ship around and it auto-targets swarming baddies.
+
+You adjust weapons settings to fit current enemies - e.g. fast short range lasers for close point defense, single long-range slow-charge sniper laser for big enemies.
+
+Also add in special abilities with cooldowns. Maybe some shield / energy management, Maybe also plot courses. Initial thought for this was to be all a touch game that would work on phones.
+
+Had a notion of setting up some kind of sim element where there are resources and infrastructure and production - enemies exploit things in various sectors to build ships. You can take out their infrastructure and deploy your own to start generating creeps / fodder of your own to push back against the enemy.
+
+Lots of ideas, little implementation.
