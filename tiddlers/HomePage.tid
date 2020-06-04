@@ -1,5 +1,5 @@
 created: 20200429074019706
-modified: 20200604174211465
+modified: 20200604193520938
 tags: 
 title: HomePage
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ This will never be a polished presentation of anything necessarily coherent. Thi
 Rough attempt to organize some things? Needs more work to be useful.
 
 <ul>
-<$list filter="[tag[IndexTopic]]">
+<$list filter="[tag[IndexTopic]reverse[]]">
 <li><$link /></li>
 </$list>
 </ul>
