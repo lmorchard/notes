@@ -1,5 +1,5 @@
 created: 20200429074019706
-modified: 20200531083115067
+modified: 20200604174211465
 tags: 
 title: HomePage
 type: text/vnd.tiddlywiki
@@ -12,7 +12,19 @@ I'm currently using TiddlyWiki for this and StaticRendering to publish the notes
 
 This will never be a polished presentation of anything necessarily coherent. This will always be a work in progress with half-baked things going on. But there might be some interesting things here anyway? 
 
+!! Index topics
+
+Rough attempt to organize some things? Needs more work to be useful.
+
+<ul>
+<$list filter="[tag[IndexTopic]]">
+<li><$link /></li>
+</$list>
+</ul>
+
 !! Recent journals
+
+Trying to open a note every day and spew brain things into it.
 
 <ul>
 <$list filter="[tag[Journal]reverse[]first[7]]">
@@ -23,17 +35,11 @@ This will never be a polished presentation of anything necessarily coherent. Thi
 
 !! Recent changes
 
+Random things change around here as I unload my brain to more durable storage.
+
 <ul>
 <$list filter="[!is[system]sort[modified]reverse[]first[7]]">
 <li><$link /></li>
 </$list>
 <li>[[More changes...|RecentChangesLong]]</li>
-</ul>
-
-!! Index topics
-
-<ul>
-<$list filter="[tag[IndexTopic]]">
-<li><$link /></li>
-</$list>
 </ul>
