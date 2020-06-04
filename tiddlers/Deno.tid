@@ -1,0 +1,10 @@
+created: 20200604215703111
+modified: 20200604215727575
+title: Deno
+type: text/vnd.tiddlywiki
+
+https://deno.land/
+
+<<<
+Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.
+<<<
