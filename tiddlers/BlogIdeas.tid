@@ -1,14 +1,14 @@
 created: 20200511221130306
-modified: 20200604193459223
+modified: 20200604194714064
 tags: IndexTopic
 title: BlogIdeas
 type: text/vnd.tiddlywiki
 
-Trying to collect ideas & topics for blog posts. This may not be a useful list.
+[[Trying to collect ideas & topics for blog posts|how things I compose here become blog posts]]. This may not be a useful list.
 
 * Building CaffeinaBot
 * Hacking on ChipMachine
 * Tinkering with NodeCG
 
 !! Tagged
-<<list-links filter:"[tag[BlogIdea]]">>
+<<list-links filter:"[tag[BlogIdea]reverse[]]">>
