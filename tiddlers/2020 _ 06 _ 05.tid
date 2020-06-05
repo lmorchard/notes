@@ -1,5 +1,5 @@
 created: 20200605165527431
-modified: 20200605230002539
+modified: 20200605231712250
 tags: Journal
 title: 2020 / 06 / 05
 type: text/vnd.tiddlywiki
@@ -15,3 +15,6 @@ type: text/vnd.tiddlywiki
 ** On Windows 10, I found the settings file under `C:\Users\lmorc\AppData\Roaming\vice\vice.ini`
 ** Found the `Printer4Output=graphics` setting [[described here in the docs|https://vice-emu.sourceforge.io/vice_6.html#SEC74]]
 ** Manually editing the .ini seems to have gotten the mode set to graphics
+** Seems to be working, though it seems to only output the previous page printed successfully - the latest one is a zero-length BMP file
+*** Oh hmm, seems not to be working at all now and I'm not sure what I screwed up
+** [[Found this tutorial for cleaning up the dot-matrix output a little in GIMP|https://www.lemon64.com/forum/viewtopic.php?t=31731]]
