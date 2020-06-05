@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200604220110119
+modified: 20200605002058445
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -17,7 +17,8 @@ I built an "about me" page based on a bunch of different APIs from my social med
 
 !! To Do
 
-* Add a guestbook? How about a webring?
+* Add a guestbook? How about a webring? (i'm not even kidding)
+* Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * Maybe rewrite this not to use webpack? Or even react? Could just use tagged template literals - see also [[Easy-Blog Oven]]
 ** This was initially a learning project for Webpack and React server-side rendering. I learned, it's not as practical as I'd like, time to simplify
 ** Gatsby is probably overkill here too
