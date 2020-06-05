@@ -1,5 +1,5 @@
 created: 20200604210610008
-modified: 20200605001823880
+modified: 20200605171827885
 tags: ToLearn
 title: Beaker Browser
 type: text/vnd.tiddlywiki
@@ -13,6 +13,15 @@ Beaker brings peer-to-peer publishing to the Web, turning the browser into a sup
 <<<
 
 Been way in the back of my mind for a long while. Seems like one of those things that satisfies a lot of requirements adjacent to [[my enthusiasms]]
+
+Looking at [[this basic list of features|https://docs.beakerbrowser.com/getting-started-with-beaker]], it reads to me like a wishlist for things I want from the web and [[Mozilla]]:
+
+<<<
+* Instant website creation
+* A builtin editor
+* A terminal environment
+* Peer-to-peer Web APIs
+<<<
 
 !! Links
 
