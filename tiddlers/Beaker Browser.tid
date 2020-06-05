@@ -1,5 +1,6 @@
 created: 20200604210610008
-modified: 20200604210718312
+modified: 20200605001823880
+tags: ToLearn
 title: Beaker Browser
 type: text/vnd.tiddlywiki
 
@@ -12,3 +13,7 @@ Beaker brings peer-to-peer publishing to the Web, turning the browser into a sup
 <<<
 
 Been way in the back of my mind for a long while. Seems like one of those things that satisfies a lot of requirements adjacent to [[my enthusiasms]]
+
+!! Links
+
+* https://docs.beakerbrowser.com/
