@@ -1,22 +1,10 @@
 created: 20200605165527431
-modified: 20200606001744914
+modified: 20200606045338771
 tags: Journal
 title: 2020 / 06 / 05
 type: text/vnd.tiddlywiki
 
 * Good morning
 * Still thinking about [[Beaker Browser]] and wanting to learn more about Hyperdrive and Dat
-* Spent time today trying to The Print Shop (1984) by Broderbund to print
-** I'd initially tried [[an Apple II emulated on Internet Archive|https://archive.org/details/The_Print_Shop_1984_Broderbund]] but that can't print (doh)
-** Using [[VICE|https://vice-emu.sourceforge.io]] to emulate a C64
-** Found [[The Print Shop|https://commodore.software/downloads/send/107-printing/8023-print-shop]] as a .d64 disk image
-*** Also tried [[csdb.dk|https://csdb.dk/release/?id=86872]] but that image seemed to crash
-** The settings dialog won't let me set any emulated printers to graphics mode
-** On Windows 10, I found the settings file under `C:\Users\lmorc\AppData\Roaming\vice\vice.ini`
-** Found the `Printer4Output=graphics` setting [[described here in the docs|https://vice-emu.sourceforge.io/vice_6.html#SEC74]]
-** Manually editing the .ini seems to have gotten the mode set to graphics
-** Seems to be working, though it seems to only output the previous page printed successfully - the latest one is a zero-length BMP file
-** Ahh, I think it needs a manual line-feed triggered from the settings dialog
-** [[Found this tutorial for cleaning up the dot-matrix output a little in GIMP|https://www.lemon64.com/forum/viewtopic.php?t=31731]]
-*** Okay for a card. Kind of a pain in the butt for a banner, though. Too many images.
+* I figured out [[how to print from The Print Shop in a C64 emulator]]
 
