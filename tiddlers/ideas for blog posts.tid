@@ -1,5 +1,5 @@
 created: 20200511221130306
-modified: 20200604213638514
+modified: 20200608200131801
 tags: IndexTopic
 title: ideas for blog posts
 type: text/vnd.tiddlywiki
@@ -11,4 +11,9 @@ type: text/vnd.tiddlywiki
 * Tinkering with NodeCG
 
 !! Tagged
-<<list-links filter:"[tag[BlogIdea]reverse[]]">>
+<ul>
+<$list filter="[tag[BlogIdea]reverse[]]">
+<li><$link /></li>
+</$list>
+</ul>
+
