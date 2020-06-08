@@ -1,7 +1,10 @@
 created: 20200607221533799
-modified: 20200607221548113
+modified: 20200608072804900
 tags: Journal
 title: 2020 / 06 / 07
 type: text/vnd.tiddlywiki
 
 * Good morning
+* Spent the day trying to chill out while enjoying vertigo
+* Fixed my [[AboutMePage]] - Steam APIs are returning 500 errors and I broke my own blog format
+* Started rewriting my [[AboutMePage]] with tagged template literals and no webpack
