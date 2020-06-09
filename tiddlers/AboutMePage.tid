@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200608073039778
+modified: 20200609072330973
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -19,6 +19,7 @@ I built an "about me" page based on a bunch of different APIs from my social med
 
 * Rewrite this not to use webpack or react - just use tagged template literals
 ** Started doing this: https://github.com/lmorchard/about-me/tree/no-webpack
+* Filter github events to skip certain repos - my notes are automated and noisy
 * Add a guestbook? How about a webring? (i'm not even kidding)
 * Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * It breaks every month or so - fix it. Probably expired tokens
