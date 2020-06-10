@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200609072330973
+modified: 20200610065935399
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -14,15 +14,14 @@ I built an "about me" page based on a bunch of different APIs from my social med
 ** The main project for now
 * https://github.com/lmorchard/gatsby-about-me
 ** Also started trying to rebuild using Gatsby as a learning project
+* https://github.com/lmorchard/about-me/tree/no-webpack
+** The new generator without React or Webpack
 
 !! To Do
 
-* Rewrite this not to use webpack or react - just use tagged template literals
-** Started doing this: https://github.com/lmorchard/about-me/tree/no-webpack
-* Filter github events to skip certain repos - my notes are automated and noisy
+* Build via cron schedule with Github Actions?
+** https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 * Add a guestbook? How about a webring? (i'm not even kidding)
 * Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * It breaks every month or so - fix it. Probably expired tokens
-* Include Twitch clips rather than live video?
-* Transclude a panel from HomePage here?
 * Some other panels should probably also be transcluded from this wiki - like current work project(s)

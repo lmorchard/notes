@@ -1,9 +1,12 @@
 created: 20200609161526111
-modified: 20200610062713513
+modified: 20200610065804170
 tags: Journal
 title: 2020 / 06 / 09
 type: text/vnd.tiddlywiki
 
 * Good morning
 * Busy work day, also distracted a bunch by Twitter
-* Worked a bit more on my [[AboutMePage]] to convert the remaining cards from React
+* Worked a bit more on my [[AboutMePage]]
+** Converted the remaining cards from React
+** Added a card to transclude a note from here
+** Added a card to show Twitch clips
