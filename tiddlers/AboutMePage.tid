@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200610065935399
+modified: 20200610070143273
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -21,6 +21,7 @@ I built an "about me" page based on a bunch of different APIs from my social med
 
 * Build via cron schedule with Github Actions?
 ** https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+* Fix link paths in transcluded wiki note
 * Add a guestbook? How about a webring? (i'm not even kidding)
 * Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * It breaks every month or so - fix it. Probably expired tokens
