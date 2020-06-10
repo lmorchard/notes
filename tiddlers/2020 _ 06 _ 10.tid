@@ -1,5 +1,5 @@
 created: 20200610072019846
-modified: 20200610203928155
+modified: 20200610204135012
 tags: Journal
 title: 2020 / 06 / 10
 type: text/vnd.tiddlywiki
@@ -22,9 +22,9 @@ type: text/vnd.tiddlywiki
 * Been converting my [[AboutMePage]] from React components to native template literals
 ** This, following my rewrite of my [[Easy-Blog Oven]] to also use template literals
 ** The syntax is a //bit// more awkward than JSX, but I feel like I want to benchmark some React vs just template-literal-and-innerHTML in web components
-** [[lit-html|https://lit-html.polymer-project.org/]] is also a thing, but I feel like I'm questioning the need for complexity here?
+** [[lit-html]] is also a thing, but I feel like I'm questioning the need for complexity here?
 ** Granted, what I've been doing lately has been all server-side / static site generation.
 ** But I don't have a good mental model for the efficiency gains in DOM manipulation promised by some contemporary tools
 ** My main affection for React is functional templates applied against state data
 * I've been playing with my own tagged template literal function for HTML
-** I kind of want to compare my naive thing against what [[lit-html]] does.
+** I kind of want to compare [[my naive HTML templating thing|https://github.com/lmorchard/about-me/blob/no-webpack/lib/html.js]] against what [[lit-html]] does.
