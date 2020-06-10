@@ -1,5 +1,5 @@
 created: 20200610072019846
-modified: 20200610204135012
+modified: 20200610205753966
 tags: Journal
 title: 2020 / 06 / 10
 type: text/vnd.tiddlywiki
@@ -27,4 +27,7 @@ type: text/vnd.tiddlywiki
 ** But I don't have a good mental model for the efficiency gains in DOM manipulation promised by some contemporary tools
 ** My main affection for React is functional templates applied against state data
 * I've been playing with my own tagged template literal function for HTML
-** I kind of want to compare [[my naive HTML templating thing|https://github.com/lmorchard/about-me/blob/no-webpack/lib/html.js]] against what [[lit-html]] does.
+** I want to compare [[my naive HTML templating thing|https://github.com/lmorchard/about-me/blob/no-webpack/lib/html.js]] against what [[lit-html]] does.
+** My hunch is there are benefits, but also I wonder if the benefits are small for small projects
+* Like, there are reasons we use some tools and frameworks, but [[Stockholm syndrome]] and tunnel vision are also real things.
+* Also want to carve out time to play with [[Svelte]]
