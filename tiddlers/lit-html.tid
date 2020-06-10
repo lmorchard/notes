@@ -1,0 +1,12 @@
+created: 20200610203927265
+modified: 20200610203950440
+title: lit-html
+type: text/vnd.tiddlywiki
+
+https://github.com/polymer/lit-html
+
+<<<
+lit-html lets you write HTML templates in JavaScript with template literals.
+
+lit-html templates are plain JavaScript and combine the familiarity of writing HTML with the power of JavaScript. lit-html takes care of efficiently rendering templates to DOM, including efficiently updating the DOM with new values.
+<<<
