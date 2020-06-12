@@ -2,7 +2,7 @@
 <html lang="en-us">
 	<head>
 		<title>how to print from The Print Shop in a C64 emulator - notes.lmorchard.com</title>
-		<meta property="og:site_name" content="{{$:/core/wiki/title}}" />
+		<meta property="og:site_name" content="how to print from The Print Shop in a C64 emulator" />
 		<meta property="og:type" content="article" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -40,6 +40,7 @@
 					<section class="post-content">
 						<p>Spent time today trying to The Print Shop (1984) by Broderbund to print</p><p>I'd initially tried <a class="tc-tiddlylink-external" href="https://archive.org/details/The_Print_Shop_1984_Broderbund" rel="noopener noreferrer" target="_blank">an Apple II emulated on Internet Archive</a> but that can't print (doh)</p><p>Using <a class="tc-tiddlylink-external" href="https://vice-emu.sourceforge.io" rel="noopener noreferrer" target="_blank">VICE</a> to emulate a C64</p><p>Found <a class="tc-tiddlylink-external" href="https://commodore.software/downloads/send/107-printing/8023-print-shop" rel="noopener noreferrer" target="_blank">The Print Shop</a> as a .d64 disk image. Also tried <a class="tc-tiddlylink-external" href="https://csdb.dk/release/?id=86872" rel="noopener noreferrer" target="_blank">csdb.dk</a> but that image seemed to crash.</p><p>The settings dialog won't let me set any emulated printers to graphics mode</p><p>On Windows 10, I found the settings file under <code>C:\Users\lmorc\AppData\Roaming\vice\vice.ini</code></p><p>Found the <code>Printer4Output=graphics</code> setting <a class="tc-tiddlylink-external" href="https://vice-emu.sourceforge.io/vice_6.html#SEC74" rel="noopener noreferrer" target="_blank">described here in the docs</a></p><p>Manually editing the .ini seems to have gotten the mode set to graphics. Also had to set a path for saving the printer output files.</p><p>Seems to be working, though it seems to only output the previous page printed successfully - the latest one is a zero-length BMP file. Ahh, I think it needs a manual line-feed triggered from the settings dialog.</p><p><a class="tc-tiddlylink-external" href="https://www.lemon64.com/forum/viewtopic.php?t=31731" rel="noopener noreferrer" target="_blank">Found this tutorial for cleaning up the dot-matrix output a little in GIMP</a>. The output is made of spaced dots, which ends up looking a bit faint when laser-printed. Okay for a card. Kind of a pain in the butt for a banner, though. Too many images.
 </p>
+					</section>
 						<section class="backlinks">
 							<h4>Backlinks</h4>
 							<ul>
@@ -52,7 +53,6 @@
 								
 							</ul>
 						</section>
-					</section>
 				</article>
 			</section>
 			<footer>
