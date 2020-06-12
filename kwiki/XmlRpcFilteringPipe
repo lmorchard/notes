@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>XmlRpcFilteringPipe - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/XmlRpcFilteringPipe" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">XmlRpcFilteringPipe</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.19 - 02 Jan 2005 - 11:00 GMT - <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<div id="twikitoc">
+<ul>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe#Current_Design_Summary">Current Design / Summary</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe#Existing_Implementations">Existing Implementations</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe#Concept">Concept</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe#Uses">Uses</a>
+</li>
+</ul>
+</div>
+<p />
+<h2><a name="Current_Design_Summary"> Current Design / Summary </a></h2>
+<p />
+At the moment (as being implemented in <a href="/twiki/bin/view/Main/PipeFilters">PipeFilters</a>):
+<p />
+<ul>
+<li> <strong>struct myapp.filterData(base64 data, string contentType, struct params)</strong>:
+<ul>
+<li> Accepts:
+<ul>
+<li> data (base64): Data stream to be filtered
+</li>
+<li> contentType (string): MIME type of data being passed
+</li>
+<li> params (struct): Arbitrary parameters to the filter
+</li>
+</ul>
+</li>
+<li> Returns:
+<ul>
+<li> (struct):
+<ul>
+<li> data (base64): Filtered data stream
+</li>
+<li> contentType (string): MIME type of filtered data
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p />
+First version spec (as implemented in <a href="/twiki/bin/view/Main/XmlRpcFilterService">XmlRpcFilterService</a>):
+<p />
+<ul>
+<li> <strong>base64 myapp.filterData(base64 data)</strong>:
+<ul>
+<li> Accept a stream of data/text in base64 (<em>data</em>), process the data, return the results as a stream of data/text in base64.
+</li>
+</ul>
+</li>
+</ul>
+<p />
+<h2><a name="Existing_Implementations"> Existing Implementations </a></h2>
+<p />
+<ul>
+<li> <a href="http://www.decafbad.com/2003/03/blosxom/xmlrpcfilter" target="_top">Blosxom plugin</a> -- warning, hardcoded to "wiki." namespace.
+</li>
+<li> <a href="http://www.decafbad.com/twiki/bin/view/Main/MTXmlRpcFilterPlugin?skin=print" target="_top">MovableType pluging</a> -- also hardcoded to "wiki." namespace.
+</li>
+<li> <a href="http://onebigsoup.wiki.taoriver.net/moin.cgi/XrFilter" target="_top">XrFilter</a> -- Python command line tool for piping data through an <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a>
+</li>
+</ul>
+<p />
+<h2><a name="Concept"> Concept </a></h2>
+<p />
+This seems like a simple enough idea that could use with a standard spec:
+<p />
+I have text.  They have something that consumes text, colorizes the text in HTML, and produces text.  You've got something like that too, only you turn my mentions of stock symbols into links to reports on the stock.  I want to pass my text through each of your services in series.  How about you two expose a simple <a href="/twiki/bin/view/Main/XmlRpc">XmlRpc</a> method on your service, and I'll call them, feeding the output of one method to the input of the next?
+<p />
+So, in effect, we have something like:
+<p />
+<ul>
+<li> <code>cat my_html_text.txt | their-funky-31337-colorizer | your-stock-symbol-linker &gt; my_new_html_text.txt</code>
+</li>
+</ul>
+<p />
+Wherein my client app performs the role of piping shell.
+<p />
+How about this for a spec?
+<p />
+<ul>
+<li> <strong>base64 myapi.filterData(base64 data)</strong>:
+<ul>
+<li> Accept a stream of data/text in base64 (<em>data</em>), return the results of processing as a stream of data/text in base64.
+</li>
+</ul>
+</li>
+</ul>
+<p />
+Seems cleanest to associate the filter method with the namespace of whatever API contains the filter.  I <em>was</em> thinking that an argument to the method would be easier than dynamically changing the name of the method, but I actually haven't run into an XML-RPC implementation yet (considering <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>, <a href="/twiki/bin/view/Main/Cocoa">Cocoa</a>, <a href="/twiki/bin/view/Main/Perl">Perl</a>, and <a href="/twiki/bin/view/Main/Python">Python</a>) that makes changing the method name difficult.
+<p />
+If we do want to consider introspection, let's say that for this concept, filtering pipe methods <em>must</em> have a signature like: 
+<p />
+<code>base64 *.filterData(base64 data)</code>
+<p />
+So, if I ever implement some <a href="http://xmlrpc.usefulinc.com/doc/reserved.html" target="_top">standard XML-RPC introspection methods</a> on my APIs, I'll just look for those signatures if I happen to want to create a pipe-building GUI for instance.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 13 Mar 2002
+<p />
+More thoughts while driving home from work last night.  Thinking that I'll expand the simple spec into something more sophisticated:
+<p />
+<ul>
+<li> <strong>struct myapp.filterData(base64 data, string contentType, struct params)</strong>:
+<ul>
+<li> Accepts:
+<ul>
+<li> data (base64): Data stream to be filtered
+</li>
+<li> contentType (string): MIME type of data being passed
+</li>
+<li> params (struct): Arbitrary parameters to the filter
+</li>
+</ul>
+</li>
+<li> Returns:
+<ul>
+<li> (struct):
+<ul>
+<li> data (base64): Filtered data stream
+</li>
+<li> contentType (string): MIME type of filtered data
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p />
+This second spec is a bit more sophisticated, assumes that the filter may change the format of the data on the way through, and accepts "command line arguments" like any program in a UNIX command line pipe might.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 14 Mar 2002
+<p />
+<h2><a name="Uses"> Uses </a></h2>
+<p />
+Here are a few uses for which I might want to apply this idea:
+<p />
+<ul>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilterService">XmlRpcFilterService</a>: Ubiquitous personal (desktop/laptop) text filtering service
+<ul>
+<li> Write a Service menu item (<a href="/twiki/bin/view/Main/MacOSX">MacOSX</a>) or clipboard-processing System Tray icon (Windows) that pipes selected text through <a href="/twiki/bin/view/Main/XmlRpc">XmlRpc</a> filters and replaces the selected text with the results.
+</li>
+</ul>
+</li>
+<li> <a href="/twiki/bin/view/Main/WeblogWithWiki">WeblogWithWiki</a>
+<ul>
+<li> Build this piping into a <a href="/twiki/bin/view/Main/BloggerAPI">BloggerAPI</a> client.  Cause the client to dip weblog entries through a <span style='background : #FFFFCE;'><font color="#0000FF">WikiEngine</font></span><a href="/twiki/bin/edit/Main/WikiEngine?topicparent=Main.XmlRpcFilteringPipe">?</a>'s <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a> filterData method to produce weblog entries imbued with <span style='background : #FFFFCE;'><font color="#0000FF">WikiLinks</font></span><a href="/twiki/bin/edit/Main/WikiLinks?topicparent=Main.XmlRpcFilteringPipe">?</a> and <span style='background : #FFFFCE;'><font color="#0000FF">WikiFormat</font></span><a href="/twiki/bin/edit/Main/WikiFormat?topicparent=Main.XmlRpcFilteringPipe">?</a>
+</li>
+</ul>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters">PipeFilters</a>
+<ul>
+<li> Use filtering pipes in macros &amp;etc in <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>
+</li>
+<li> Remote page scripting / formatting
+</li>
+<li> Expose a text-based macro or page scripting language, ala <a href="/twiki/bin/view/Main/PHP">PHP</a> or JSP or ASP.  Process the incoming data through it as if it were a local page (with sandboxy restrictions).  Return the results.
+</li>
+</ul>
+</li>
+</ul>
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 06 Mar 2002
+<p />
+Hm, very interesting approach.  This could be really handy as a tool in producing a newsletter where you are constantly referring to things on the net but you don't want to clutter up the ascii text with links; the filter could pick up the links from one of your databases and then dump the annotations at the bottom.
+<p />
+Have you pointed <span style='background : #FFFFCE;'><font color="#0000FF">PeterKaminski</font></span><a href="/twiki/bin/edit/Main/PeterKaminski?topicparent=Main.XmlRpcFilteringPipe">?</a> and <a href="/twiki/bin/view/Main/BillSeitz">BillSeitz</a> at this?  They both run Wikis and weblogs &amp; have done a bunch of thinking at the intersection between the two.  (links from my page on Ryze)
+<p />
+-- <a href="/twiki/bin/view/Main/EdwardVielmetti">EdwardVielmetti</a> - 13 Mar 2002
+<p />
+I've <em>just</em> given my latest Local Names server code the <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a> interface. It's in the <a href="http://onebigsoup.wiki.taoriver.net/moin.cgi/SubversionServer" target="_top">OneBigSoup:SubversionServer</a> at the moment.
+<p />
+<a href="/twiki/bin/view/Main/EdwardVielmetti">EdwardVielmetti</a>, Local Names meets your "links database" requirement. I've been working on this for a while; Please investigate at: <a href="http://ln.taoriver.net/" target="_top">http://ln.taoriver.net/</a> I've got a bunch of functional stuff, see <a href="http://ln.taoriver.net/links.html" target="_top">http://ln.taoriver.net/links.html</a> .
+<p />
+I'm so eager to see my <a href="/twiki/bin/view/Main/MovableType">MovableType</a> and Blosxom friends able to use <span style='background : #FFFFCE;'><font color="#0000FF">LocalNames</font></span><a href="/twiki/bin/edit/Main/LocalNames?topicparent=Main.XmlRpcFilteringPipe">?</a>. :) I intend to write a <span style='background : #FFFFCE;'><font color="#0000FF">WordPress</font></span><a href="/twiki/bin/edit/Main/WordPress?topicparent=Main.XmlRpcFilteringPipe">?</a> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a>. (Because: I use <span style='background : #FFFFCE;'><font color="#0000FF">WordPress</font></span><a href="/twiki/bin/edit/Main/WordPress?topicparent=Main.XmlRpcFilteringPipe">?</a>, and I intend to use my own <span style='background : #FFFFCE;'><font color="#0000FF">LocalNames</font></span><a href="/twiki/bin/edit/Main/LocalNames?topicparent=Main.XmlRpcFilteringPipe">?</a> software.)
+<p />
+Questions &amp; Concerns:
+<p />
+<ul>
+<li> Can/should we use HTTP Content-type info to denote string encodings?
+</li>
+<li> I'd like to extend the API, to allow for a function that documents the parameters. That is, you call a function, and it returns a dictionary, telling what the interface does, what it's all about, the <a href="/twiki/bin/view/Main/FOAF">FOAF</a> of the person who wrote it, the name of the person who wrote it, what the parameters titles are, and a doc-string for each parameter.
+</li>
+<li> I have an XML-RPC server. It doesn't have any namespaces. Is it still possible to use the <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a>?
+</li>
+<li> How do existing plugins know what namespace to use?
+</li>
+</ul>
+<p />
+-- <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a> - 01 Jan 2005
+<p />
+In particular, I'm thinking, we should either:
+<p />
+<ul>
+<li> Designate "wiki." as the standard namespace,
+</li>
+<li> Designate "filter." as the standard namespace,
+</li>
+<li> Designate something else as the standard namespace,
+</li>
+<li> Designate that no namespace is used.
+</li>
+</ul>
+<p />
+I'd prefer to just say, "No namespace," but if that's not okay with people, I'm happy to concede a particular namespace.
+<p />
+(If you wanted to host multiple filters, I'd just say: Assign them to different urls! That is, I don't believe that namespacing is the job of XML-RPC, I believe it's the job of the URL.)
+<p />
+What I think would <em>really suck</em> is making the person using the plugin specify the namespace as a parameter.
+<p />
+What is <em>less sucky</em>, but I am <em>somewhat okay</em>, is making a registry-retrieving function at the base namespace, which tells what namespace is available with the particular function. I suppose there may well be a standard for this already.
+<p />
+The reason I don't like it is because it complicates things.
+<p />
+In the meantime, I'm <i>probably</i> just going to use "wiki.", even though I'm not a wiki!
+<p />
+<a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a>, I'd really like to talk this all over with you some time within the month.
+<p />
+-- <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a> - 01 Jan 2005
+<p />
+<!--
+-->
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/XmlRpcFilteringPipe"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/XmlRpcFilteringPipe"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/XmlRpcFilteringPipe">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/XmlRpcFilteringPipe">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/XmlRpcFilteringPipe?template=oopsmore&amp;param1=1.19&amp;param2=1.19">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.19 | <a href="/twiki/bin/rdiff/Main/XmlRpcFilteringPipe?rev1=1.19&amp;rev2=1.18">&gt;</a> | <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe?rev=1.18">r1.18</a> | <a href="/twiki/bin/rdiff/Main/XmlRpcFilteringPipe?rev1=1.18&amp;rev2=1.17">&gt;</a> | <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe?rev=1.17">r1.17</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/XmlRpcFilteringPipe?template=oopsmore&amp;param1=1.19&amp;param2=1.19">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Xml%20*Rpc%20*Filtering%20*Pipe%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=XmlRpcFilteringPipe"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

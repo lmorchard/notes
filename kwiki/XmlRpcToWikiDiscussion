@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>XmlRpcToWikiDiscussion - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/XmlRpcToWikiDiscussion" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">XmlRpcToWikiDiscussion</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.4 - 14 Jan 2004 - 21:30 GMT - <a href="/twiki/bin/view/Main/TWikiGuest">TWikiGuest</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<h2><a name="Running_thoughts"> Running thoughts </a></h2>
+<p />
+<ul>
+<li> Might it be better to work this as a <a href="/twiki/bin/view/Main/WebDav">WebDav</a> interface on a Wiki?
+<ul>
+<li> <a href="http://www.stonebeat.org/" target="_top">http://www.stonebeat.org/</a> - <span style='background : #FFFFCE;'><font color="#0000FF">WebDAV</font></span><a href="/twiki/bin/edit/Main/WebDAV?topicparent=Main.XmlRpcToWikiDiscussion">?</a> documentation project
+</li>
+</ul>
+</li>
+<li> <a href="http://www.ecyrd.com/JSPWiki/Wiki.jsp?page=WikiRPCInterface" title="'WikiRPCInterface' on 'JSPWiki' site">JSPWiki:WikiRPCInterface</a> - where it all started
+</li>
+<li> Use <a href="http://www.usemod.com/cgi-bin/mb2.pl?WikiInterchangeFormat" title="'WikiInterchangeFormat' on 'MeatBall' site, a 'UseMod' Wiki variant">MeatBall:WikiInterchangeFormat</a> to make a <a href="/twiki/bin/view/Main/WikiWikiBridge">WikiWikiBridge</a>?
+</li>
+<li> Implement for multiple Wikis
+<ul>
+<li> TWiki
+<ul>
+<li> <a href="http://twiki.org/cgi-bin/view/Codev/WikiRpcInterface" title="'Codev/WikiRpcInterface' on TWiki site, we know it!">TWiki:Codev/WikiRpcInterface</a>
+</li>
+<li> <a href="http://twiki.org/cgi-bin/view/Codev/XmlRpcForWebApps" title="'Codev/XmlRpcForWebApps' on TWiki site, we know it!">TWiki:Codev/XmlRpcForWebApps</a>
+</li>
+</ul>
+</li>
+<li> <span style='background : #FFFFCE;'><font color="#0000FF">UseModWiki</font></span><a href="/twiki/bin/edit/Main/UseModWiki?topicparent=Main.XmlRpcToWikiDiscussion">?</a>
+<ul>
+<li> <a href="http://www.usemod.com/cgi-bin/mb2.pl?XmlRpc" title="'XmlRpc' on 'MeatBall' site, a 'UseMod' Wiki variant">MeatBall:XmlRpc</a>
+</li>
+</ul>
+</li>
+<li> <a href="/twiki/bin/view/Main/MoinMoin">MoinMoin</a>
+</li>
+</ul>
+</li>
+<li> Might be interesting to work this as an <span style='background : #FFFFCE;'><font color="#0000FF">IceStandard</font></span><a href="/twiki/bin/edit/Main/IceStandard?topicparent=Main.XmlRpcToWikiDiscussion">?</a> interface on a Wiki.
+<ul>
+<li> <a href="http://www.icestandard.org/" target="_top">http://www.icestandard.org/</a> - ICE standard project
+</li>
+<li> ICE version 2 is based on SOAP. ICE also has the semantics of push/pull, incremental/full update, etc., that are all required to synch pages between Wiki's. There are a couple of open source ICE implementations (Ruby, Java) on <span style='background : #FFFFCE;'><font color="#0000FF">SourceForge</font></span><a href="/twiki/bin/edit/Main/SourceForge?topicparent=Main.XmlRpcToWikiDiscussion">?</a>, so it'd be a matter of mapping into the Wiki's document store.
+</li>
+</ul>
+</li>
+</ul>
+<p />
+<h2><a name="Discussion"> Discussion </a></h2>
+<p />
+Hmm, changed the license on the TWiki script.  Something else I think I might change, though, is to allow one to add a web prefix to page names.  That is, everything assumes "Main" right now, but doing a getPage('TWiki.WebHome') might be useful.  This breaks any assumption that the API uses wiki-neutral <span style='background : #FFFFCE;'><font color="#0000FF">WikiWords</font></span><a href="/twiki/bin/edit/Main/WikiWords?topicparent=Main.XmlRpcToWikiDiscussion">?</a> alone, but maybe that can be a TWiki-specific feature?  Or should the API assume the possibility of "odd" page names?
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 19 Feb 2002
+<p />
+Whoo hoo, I have the API working for <span style='background : #FFFFCE;'><font color="#0000FF">UseModWiki</font></span><a href="/twiki/bin/edit/Main/UseModWiki?topicparent=Main.XmlRpcToWikiDiscussion">?</a> as of last night :)
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 22 Feb 2002
+<p />
+Looking at things toward implementing the XML-RPC API on <a href="/twiki/bin/view/Main/MoinMoin">MoinMoin</a>.  I will also need to update my implementation of the API in its various forms to the current state over at <a href="http://www.ecyrd.com/JSPWiki/Wiki.jsp?page=WikiRPCInterface" title="'WikiRPCInterface' on 'JSPWiki' site">JSPWiki:WikiRPCInterface</a>.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 25 Feb 2002
+<p />
+Doing a lot of takling to myself. :)
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 28 Feb 2002
+<p />
+Hi Les, I'm trying to get this to work on TWiki and am struggling a bit. I'm way out of my depth but trying anyway. If you have the time to give me push in the right direction I'd appreciate it, however if you don't I understand that too.
+<p />
+TWiki version: 03 Aug 2002 * OS: Debian GNU/Linux 3.0
+<p />
+<ol>
+<li> downloaded <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a>, installed in $twiki/bin. Renamed to <code>xmlrpc</code>.
+</li>
+<li> changed first line to <code>#!/usr/bin/perl -wT</code>
+</li>
+<li> running <code>./xmlrpc</code> yields a couple of moments of processing and then the message <code>Status: 411 Length Required</code>. I'm assuming this is because some kind of commandline options need to be passed. Do have any examples?
+</li>
+</ol>
+<p />
+The discussions which got me going on this are: <a href="http://twiki.org/cgi-bin/view/Codev/TouchGraph" title="'Codev/TouchGraph' on TWiki site, we know it!">TWiki:Codev/TouchGraph</a> and <a href="http://twiki.org/cgi-bin/view/Plugins/TouchGraphAddOn" title="'Plugins/TouchGraphAddOn' on TWiki site, we know it!">TWiki:Plugins/TouchGraphAddOn</a>. 
+<p />
+Thanks for your time,
+<p />
+-- <a href="http://twiki.org/cgi-bin/view/Main/MattWilkie" title="'Main/MattWilkie' on TWiki site, we know it!">TWiki:Main/MattWilkie</a> 15 Oct 2002
+<p />
+Hey, I'm very interested in this. I don't have much time, though. Is it still going on?
+<p />
+I would like to build a <span style='background : #FFFFCE;'><font color="#0000FF">WikiWindow</font></span><a href="/twiki/bin/edit/Main/WikiWindow?topicparent=Main.XmlRpcToWikiDiscussion">?</a> that would let one set up a web site with one kind of wiki software, except everything you see there is actually from another wiki.
+<p />
+I figured as long as we are writing all this <span style='background : #FFFFCE;'><font color="#0000FF">ScreenScraping</font></span><a href="/twiki/bin/edit/Main/ScreenScraping?topicparent=Main.XmlRpcToWikiDiscussion">?</a> stuff to transfer between different wikis, we may as well just do it once and separate the conversion into a <span style='background : #FFFFCE;'><font color="#0000FF">WikiConvertor</font></span><a href="/twiki/bin/edit/Main/WikiConvertor?topicparent=Main.XmlRpcToWikiDiscussion">?</a> using <a href="/twiki/bin/view/Main/XmlRpc">XmlRpc</a>.
+<p />
+Is there a client or test suite available for the 3 implementations you made?
+<p />
+Thanks,
+<p />
+-- <span style='background : #FFFFCE;'><font color="#0000FF">BayleShanks</font></span><a href="/twiki/bin/edit/Main/BayleShanks?topicparent=Main.XmlRpcToWikiDiscussion">?</a>
+<p />
+<span style='background : #FFFFCE;'><font color="#0000FF">MarioSalzer</font></span><a href="/twiki/bin/edit/Main/MarioSalzer?topicparent=Main.XmlRpcToWikiDiscussion">?</a>: I strongly believe, that this implementation is broken. Why?
+Compare to the <a href="http://www.ecyrd.com/JSPWiki/Wiki.jsp?page=WikiRPCInterface" title="'WikiRPCInterface' on 'JSPWiki' site">JSPWiki:WikiRPCInterface</a>, which does not fiddle with
+URLencoding() at all. And I also don't see the point to do so - isn't UTF-8
+enough encoding, especially if most content also transfers in <base64>
+chunks over XML-RPC ?
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/XmlRpcToWikiDiscussion"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/XmlRpcToWikiDiscussion"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/XmlRpcToWikiDiscussion">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/XmlRpcToWikiDiscussion">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/XmlRpcToWikiDiscussion?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/XmlRpcToWikiDiscussion?template=oopsmore&amp;param1=1.4&amp;param2=1.4">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.4 | <a href="/twiki/bin/rdiff/Main/XmlRpcToWikiDiscussion?rev1=1.4&amp;rev2=1.3">&gt;</a> | <a href="/twiki/bin/view/Main/XmlRpcToWikiDiscussion?rev=1.3">r1.3</a> | <a href="/twiki/bin/rdiff/Main/XmlRpcToWikiDiscussion?rev1=1.3&amp;rev2=1.2">&gt;</a> | <a href="/twiki/bin/view/Main/XmlRpcToWikiDiscussion?rev=1.2">r1.2</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/XmlRpcToWikiDiscussion?template=oopsmore&amp;param1=1.4&amp;param2=1.4">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Xml%20*Rpc%20*To%20*Wiki%20*Discussion%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=XmlRpcToWikiDiscussion"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

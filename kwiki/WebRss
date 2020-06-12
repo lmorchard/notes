@@ -1,0 +1,755 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>WebRss - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/WebRss" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">WebRss</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.1 - 17 Apr 2002 - 05:31 GMT - <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<channel rdf:about="http://www.decafbad.com/twiki/bin/view/Main">
+  <title>DecafbadWiki.Main</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main</link>
+  <description>DecafbadWiki: Bring Your Own Coffee</description>
+  <image rdf:resource="http://www.decafbad.com/images/icon-wiki.gif" />
+  <dc:language>en-us</dc:language>
+  <dc:rights>Copyright 2005, l.m.orchard and contributing authors.</dc:rights>
+  <dc:publisher>l.m.orchard [deus_x@pobox.com]</dc:publisher>
+  <dc:creator>l.m.orchard [deus_x@pobox.com]</dc:creator>
+  <dc:source>DecafbadWiki</dc:source>
+  <wiki:interwiki>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view/Main/">
+      <rdf:value>DecafbadWiki.Main</rdf:value>
+    </rdf:Description>
+  </wiki:interwiki>
+  <items>
+    <rdf:Seq>
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/WebStatistics?rev=1.646" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/TWikiUsers?rev=1.80" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/UserWiKi?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/MeiHjD?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/MeiHenGjd?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/EvstFuWuqi?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/ShujuhuifuLee?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/AuWeuiD?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/BiWiKi?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/MeiHgjd?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/JohnDeBruyn?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/XmlRpcFilteringPipe?rev=1.19" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/LionKimbro?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/EhudLamm?rev=1.3" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/TWikiGuest?rev=1.7" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/HexOddities?rev=1.11" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/WouterDemuynck?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/BlueSky?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/LiYan?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/Lisp?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/BakedPages?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/ThYang?rev=1.3" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/FeedReactor?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/XPathDict?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/WinTV?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/GrantBowman?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/WarrenLindsey?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/AgentFrank?rev=1.6" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/NeilBenn?rev=1.1" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/GordonBonnar?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/BillHumphries?rev=1.2" />
+      <rdf:li rdf:resource="http://www.decafbad.com/twiki/bin/view/Main/XslScraper?rev=1.2" />
+    </rdf:Seq>
+  </items>
+</channel>
+<image rdf:about="http://www.decafbad.com/images/icon-wiki.gif">
+  <title>DecafbadWiki.Main</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main</link>
+  <url>http://www.decafbad.com/images/icon-wiki.gif</url>
+</image>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/WebStatistics?rev=1.646">
+  <title>WebStatistics (r1.646)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/WebStatistics?rev=1.646</link>
+  <description> Jul 2004 29103 0 0 3274 WebRss 1018 WebStatistics 707 XmlRpcToWiki 645 Projects 610 WebHome 598 TWikiUsers 480 RssDisplay 472 AgentFrank 390 LesOrchard 358 XslScraper ...</description>
+  <dc:date>2005-09-11T04:00:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.TWikiGuest">
+      <rdf:value>guest</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.646</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/WebStatistics</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/WebStatistics</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/TWikiUsers?rev=1.80">
+  <title>TWikiUsers (r1.80)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/TWikiUsers?rev=1.80</link>
+  <description> People AuWeuiD  29 Mar 2005 BiWiKi  01 Apr 2005 BillHumphries  04 Sep 2003 BillKearney  15 Jul 2002 BillSeitz  25 Mar 2002 ChetLi  21 Feb 2002 ChinaBaby  03 Apr 2005 ...</description>
+  <dc:date>2005-04-05T07:23:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.ChineseAuction">
+      <rdf:value>ChineseAuction</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.80</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/TWikiUsers</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/TWikiUsers</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/UserWiKi?rev=1.1">
+  <title>UserWiKi (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/UserWiKi?rev=1.1</link>
+  <description> Name: UserWiKi Email: cq91111471@126.com Comment: #37325; #24198; #28779; #38149; #37325; #24198; #28779; #38149; #37325; #24198; #28779; #38149; #37325; #24198; ...</description>
+  <dc:date>2005-04-03T20:14:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.UserWiKi">
+      <rdf:value>UserWiKi</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/UserWiKi</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/UserWiKi</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/MeiHjD?rev=1.2">
+  <title>MeiHjD (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/MeiHjD?rev=1.2</link>
+  <description>... </description>
+  <dc:date>2005-04-03T13:56:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHjD</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHjD</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/MeiHenGjd?rev=1.2">
+  <title>MeiHenGjd (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/MeiHenGjd?rev=1.2</link>
+  <description>... </description>
+  <dc:date>2005-04-03T13:54:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHenGjd</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHenGjd</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/EvstFuWuqi?rev=1.2">
+  <title>EvstFuWuqi (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/EvstFuWuqi?rev=1.2</link>
+  <description>.... </description>
+  <dc:date>2005-04-03T13:53:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/EvstFuWuqi</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/EvstFuWuqi</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/ShujuhuifuLee?rev=1.2">
+  <title>ShujuhuifuLee (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/ShujuhuifuLee?rev=1.2</link>
+  <description>... </description>
+  <dc:date>2005-04-03T13:52:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/ShujuhuifuLee</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/ShujuhuifuLee</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/AuWeuiD?rev=1.2">
+  <title>AuWeuiD (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/AuWeuiD?rev=1.2</link>
+  <description>... </description>
+  <dc:date>2005-04-03T13:51:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/AuWeuiD</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/AuWeuiD</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/BiWiKi?rev=1.2">
+  <title>BiWiKi (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/BiWiKi?rev=1.2</link>
+  <description>... </description>
+  <dc:date>2005-04-03T13:46:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/BiWiKi</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/BiWiKi</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/MeiHgjd?rev=1.1">
+  <title>MeiHgjd (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/MeiHgjd?rev=1.1</link>
+  <description> Name: MeiHgjd Email: seojy@126.com Comment: #28388; #27833; #26426; </description>
+  <dc:date>2005-03-24T17:20:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.MeiHgjd">
+      <rdf:value>MeiHgjd</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHgjd</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/MeiHgjd</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/JohnDeBruyn?rev=1.1">
+  <title>JohnDeBruyn (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/JohnDeBruyn?rev=1.1</link>
+  <description> Name: John De Bruyn Email: jdebruyn@debruyn.com Comment: wiki-user and booster, created the first ever wiki sandbox at Ward's place <a href="http://c2.com/cgi/wiki?WikiWikiSandBox" title="'WikiWikiSandBox' on the original 'WikiWikiWeb' site">Wiki:WikiWikiSandBox</a> and the idea ...</description>
+  <dc:date>2005-01-21T07:29:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.JohnDeBruyn">
+      <rdf:value>JohnDeBruyn</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/JohnDeBruyn</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/JohnDeBruyn</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/XmlRpcFilteringPipe?rev=1.19">
+  <title>XmlRpcFilteringPipe (r1.19)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/XmlRpcFilteringPipe?rev=1.19</link>
+  <description> TOC Current Design / Summary At the moment (as being implemented in PipeFilters): struct myapp.filterData(base64 data, string contentType, struct params) : Accepts ...</description>
+  <dc:date>2005-01-02T11:00:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LionKimbro">
+      <rdf:value>LionKimbro</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.19</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/XmlRpcFilteringPipe</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/XmlRpcFilteringPipe</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/LionKimbro?rev=1.1">
+  <title>LionKimbro (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/LionKimbro?rev=1.1</link>
+  <description> Name: http://lion.taoriver.net/ Lion Kimbro Email: lion@speakeasy.org I'm really excited that you've written the XmlRpcFilteringPipe. I was just about http://onebigsoup ...</description>
+  <dc:date>2004-12-30T12:35:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LionKimbro">
+      <rdf:value>LionKimbro</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/LionKimbro</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/LionKimbro</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/EhudLamm?rev=1.3">
+  <title>EhudLamm (r1.3)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/EhudLamm?rev=1.3</link>
+  <description> Name: Ehud Lamm Email: mslamm@huji.ac.il Comment: see http://lambda.weblogs.com I came here to look at WeblogWithWiki. I am all for connceting these two great web ...</description>
+  <dc:date>2004-12-02T11:41:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.3</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/EhudLamm</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/EhudLamm</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/TWikiGuest?rev=1.7">
+  <title>TWikiGuest (r1.7)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/TWikiGuest?rev=1.7</link>
+  <description>A guest of this TWiki web, not unlike yourself. You can leave your trace behind you, just add your name in TWIKIWEB .TWikiRegistration and create your own page. Personal ...</description>
+  <dc:date>2004-12-02T11:40:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.7</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/TWikiGuest</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/TWikiGuest</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/HexOddities?rev=1.11">
+  <title>HexOddities (r1.11)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/HexOddities?rev=1.11</link>
+  <description> TOC Introduction 0xDECAFBAD is a hex oddity-- a coincidence of hexadecimal digits which just happens to hold some incidental semantic content to weird humans. Chronicle ...</description>
+  <dc:date>2004-11-19T20:10:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.WouterDemuynck">
+      <rdf:value>WouterDemuynck</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.11</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/HexOddities</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/HexOddities</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/WouterDemuynck?rev=1.1">
+  <title>WouterDemuynck (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/WouterDemuynck?rev=1.1</link>
+  <description> Name: Wouter Demuynck Email: wouter@demuynck.org Comment: </description>
+  <dc:date>2004-11-19T20:06:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.WouterDemuynck">
+      <rdf:value>WouterDemuynck</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/WouterDemuynck</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/WouterDemuynck</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/BlueSky?rev=1.2">
+  <title>BlueSky (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/BlueSky?rev=1.2</link>
+  <description>A BlueSky project is an idealistic wouldn't-it-be-nice-if project. Some are more realistic than others. </description>
+  <dc:date>2004-10-27T13:45:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/BlueSky</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/BlueSky</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/LiYan?rev=1.2">
+  <title>LiYan (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/LiYan?rev=1.2</link>
+  <description> Name: LiYan Email: liyan@a688.net Comment: I'm a bastard wiki spammer. Look at me. I'm a bastard wiki spammer. </description>
+  <dc:date>2004-10-27T13:43:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/LiYan</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/LiYan</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/Lisp?rev=1.2">
+  <title>Lisp (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/Lisp?rev=1.2</link>
+  <description> TOC Bookmarks Successful Lisp: How to Understand and Use Common Lisp http://www.psg.com/~dlamkins/sl/cover.html Main.LesOrchard  05 Dec 2002 </description>
+  <dc:date>2004-10-27T13:42:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/Lisp</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/Lisp</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/BakedPages?rev=1.2">
+  <title>BakedPages (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/BakedPages?rev=1.2</link>
+  <description>Automatically produced static pages, served repeatedly before rebuild. See also http://www.aaronsw.com/weblog/000404 Bake, Don't Fry AaronSwartz http://www.aaronsw ...</description>
+  <dc:date>2004-10-27T13:39:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/BakedPages</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/BakedPages</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/ThYang?rev=1.3">
+  <title>ThYang (r1.3)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/ThYang?rev=1.3</link>
+  <description> Name: Th Yang Email: CHan.Yang+TWiki0xDECAFBAD@gamil.com Comment: wiki-ing @ Taiwan (!cn) Company URL: http://www.pofeng.com.tw/ http://pkd.m2000.idv.tw/ My Personal ...</description>
+  <dc:date>2004-10-09T15:23:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.ThYang">
+      <rdf:value>ThYang</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.3</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/ThYang</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/ThYang</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/FeedReactor?rev=1.1">
+  <title>FeedReactor (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/FeedReactor?rev=1.1</link>
+  <description>See: http://www.decafbad.com/kwiki/index.cgi?FeedReactor Main.LesOrchard  18 Sep 2004 </description>
+  <dc:date>2004-09-18T19:27:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/FeedReactor</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/FeedReactor</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/XPathDict?rev=1.1">
+  <title>XPathDict (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/XPathDict?rev=1.1</link>
+  <description>Until I wrap a proper bit of effort around this, see: http://www.decafbad.com/cvs/ checkout /dbagg3/lib/dbagg3/xmlutils.py Main.LesOrchard  01 Sep 2004 </description>
+  <dc:date>2004-09-01T10:51:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/XPathDict</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/XPathDict</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/WinTV?rev=1.1">
+  <title>WinTV (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/WinTV?rev=1.1</link>
+  <description>See: http://www.hauppauge.com/pages/prods pvrs.html Main.LesOrchard  11 May 2004 </description>
+  <dc:date>2004-05-11T02:14:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/WinTV</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/WinTV</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/GrantBowman?rev=1.1">
+  <title>GrantBowman (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/GrantBowman?rev=1.1</link>
+  <description> Name: GrantBowman Email: grantbow@grantbow.com Comment: Personal Preferences (details in TWIKIWEB .TWikiVariables) Horizontal size of text edit box: Set EDITBOXWIDTH ...</description>
+  <dc:date>2004-03-30T03:47:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.GrantBowman">
+      <rdf:value>GrantBowman</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/GrantBowman</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/GrantBowman</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/WarrenLindsey?rev=1.1">
+  <title>WarrenLindsey (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/WarrenLindsey?rev=1.1</link>
+  <description>-- Main.TWikiGuest  22 Mar 2004 I use XmlRpcToWiki and AmphetaOutlines alot, thanks for these great bits of code. </description>
+  <dc:date>2004-03-22T00:23:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.TWikiGuest">
+      <rdf:value>guest</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/WarrenLindsey</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/WarrenLindsey</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/AgentFrank?rev=1.6">
+  <title>AgentFrank (r1.6)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/AgentFrank?rev=1.6</link>
+  <description>http://www.decafbad.com/downloads/frankHeader.gif TOC Introduction The goal of Agent Frank is to be a personal intelligent intermediary and companion to internet infovores ...</description>
+  <dc:date>2003-11-22T09:48:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.TWikiGuest">
+      <rdf:value>guest</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.6</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/AgentFrank</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/AgentFrank</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/NeilBenn?rev=1.1">
+  <title>NeilBenn (r1.1)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/NeilBenn?rev=1.1</link>
+  <description> Name: Neil Benn Email: neil@neil-benn.net Comment: Personal Preferences (details in TWIKIWEB .TWikiVariables) Horizontal size of text edit box: Set EDITBOXWIDTH 70 ...</description>
+  <dc:date>2003-09-29T23:04:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.NeilBenn">
+      <rdf:value>NeilBenn</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.1</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/NeilBenn</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/NeilBenn</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/GordonBonnar?rev=1.2">
+  <title>GordonBonnar (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/GordonBonnar?rev=1.2</link>
+  <description> Name: Gordon Bonnar Email: gord@poeticgeek.net Personal Preferences (details in TWIKIWEB .TWikiVariables) Horizontal size of text edit box: Set EDITBOXWIDTH 70 Vertical ...</description>
+  <dc:date>2003-09-05T03:40:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.TWikiGuest">
+      <rdf:value>guest</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/GordonBonnar</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/GordonBonnar</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/BillHumphries?rev=1.2">
+  <title>BillHumphries (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/BillHumphries?rev=1.2</link>
+  <description> Name: Bill Humphries Email: http://www.whump.com/feedback.php Comment: Brute force and XSLT will get you pretty far... Personal Preferences (details in TWIKIWEB  ...</description>
+  <dc:date>2003-09-04T00:38:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.TWikiGuest">
+      <rdf:value>guest</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/BillHumphries</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/BillHumphries</wiki:history>
+</item>
+<item rdf:about="http://www.decafbad.com/twiki/bin/view/Main/XslScraper?rev=1.2">
+  <title>XslScraper (r1.2)</title>
+  <link>http://www.decafbad.com/twiki/bin/view/Main/XslScraper?rev=1.2</link>
+  <description> TOC Description I've http://www.decafbad.com/blog/tech/old/ooobca.html been working for almost a year on a http://www.decafbad.com/cvs/XPathScraper/ monolithic scraping ...</description>
+  <dc:date>2003-09-02T11:35:00Z</dc:date>
+  <dc:contributor>
+    <rdf:Description link="http://www.decafbad.com/twiki/bin/view?topic=Main.LesOrchard">
+      <rdf:value>deus_x</rdf:value>
+    </rdf:Description>
+  </dc:contributor>
+  <wiki:version>1.2</wiki:version>
+  <wiki:status>updated</wiki:status>
+  <wiki:importance>major</wiki:importance>
+  <wiki:diff>http://www.decafbad.com/twiki/bin/rdiff/Main/XslScraper</wiki:diff>
+  <wiki:history>http://www.decafbad.com/twiki/bin/rdiff/Main/XslScraper</wiki:history>
+</item>
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebRss"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebRss"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/WebRss">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/WebRss">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/WebRss?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/WebRss?template=oopsmore&amp;param1=1.1&amp;param2=1.1">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.1
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/WebRss?template=oopsmore&amp;param1=1.1&amp;param2=1.1">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Web%20*Rss%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=WebRss"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

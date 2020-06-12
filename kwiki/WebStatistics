@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>WebStatistics - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/WebStatistics" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">WebStatistics</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.646 - 11 Sep 2005 - 04:00 GMT - <a href="/twiki/bin/view/Main/TWikiGuest">TWikiGuest</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<table border="1" cellspacing="1" cellpadding="0">
+<tr><td bgcolor="#FFFFCC"> Jul 2004 </td><td align="right" bgcolor="#FFFFCC"> 29103 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 3274 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1018 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 707 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 645 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 610 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 598 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 480 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 472 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 390 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> 358 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 357 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a> </td><td bgcolor="#FFFFCC"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFFF"> Aug 2004 </td><td align="right" bgcolor="#FFFFFF"> 24267 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 2963 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 720 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 717 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 682 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 660 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 550 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 454 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 371 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 348 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 340 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a><br /> 302 <a href="/twiki/bin/view/Main/AmphetaOutlines">AmphetaOutlines</a> </td><td bgcolor="#FFFFFF"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFCC"> Sep 2004 </td><td align="right" bgcolor="#FFFFCC"> 27782 </td><td align="right" bgcolor="#FFFFCC"> 2 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 3147 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1010 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 872 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 672 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 558 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 514 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 482 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 470 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 388 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 377 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a><br /> 364 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> </td><td bgcolor="#FFFFCC"> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Oct 2004 </td><td align="right" bgcolor="#FFFFFF"> 27461 </td><td align="right" bgcolor="#FFFFFF"> 13 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 4006 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 938 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 935 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 702 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 534 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 518 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 431 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 414 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 413 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 389 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> 356 <a href="/twiki/bin/view/Main/BlosxomPaginate">BlosxomPaginate</a> </td><td bgcolor="#FFFFFF"> &nbsp;&nbsp;5 <a href="/twiki/bin/view/Main/LiYan">LiYan</a><br /> &nbsp;&nbsp;4 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ZhiXiongkang</font></span><a href="/twiki/bin/edit/Main/ZhiXiongkang?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/ThYang">ThYang</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> Nov 2004 </td><td align="right" bgcolor="#FFFFCC"> 33536 </td><td align="right" bgcolor="#FFFFCC"> 3 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 4311 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 2609 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 853 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 743 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 631 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 565 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 529 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 509 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 467 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 440 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> 365 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a> </td><td bgcolor="#FFFFCC"> &nbsp;&nbsp;3 <a href="/twiki/bin/view/Main/WouterDemuynck">WouterDemuynck</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Dec 2004 </td><td align="right" bgcolor="#FFFFFF"> 26219 </td><td align="right" bgcolor="#FFFFFF"> 13 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 3681 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 857 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 853 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 667 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 618 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 445 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 435 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a><br /> 421 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 398 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 359 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 301 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a> </td><td bgcolor="#FFFFFF"> &nbsp;&nbsp;5 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> &nbsp;&nbsp;5 <span style='background : #FFFFCE;'><font color="#0000FF">CrazyTiger</font></span><a href="/twiki/bin/edit/Main/CrazyTiger?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;3 <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> Jan 2005 </td><td align="right" bgcolor="#FFFFCC"> 46904 </td><td align="right" bgcolor="#FFFFCC"> 11 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 4965 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 2226 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 1390 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 1140 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 973 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 747 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 654 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 648 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 588 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 561 <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a><br /> 551 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a> </td><td bgcolor="#FFFFCC"> &nbsp;&nbsp;6 <a href="/twiki/bin/view/Main/JohnDeBruyn">JohnDeBruyn</a><br /> &nbsp;&nbsp;5 <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Feb 2005 </td><td align="right" bgcolor="#FFFFFF"> 29353 </td><td align="right" bgcolor="#FFFFFF"> 8 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 4057 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1102 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 1048 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 904 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 731 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 485 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 461 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 431 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 407 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 405 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a><br /> 347 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a> </td><td bgcolor="#FFFFFF"> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ZunzHiKj</font></span><a href="/twiki/bin/edit/Main/ZunzHiKj?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/MeiHenGjd">MeiHenGjd</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/EvstFuWuqi">EvstFuWuqi</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">CquniTop</font></span><a href="/twiki/bin/edit/Main/CquniTop?topicparent=Main.WebStatistics">?</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> Mar 2005 </td><td align="right" bgcolor="#FFFFCC"> 46600 </td><td align="right" bgcolor="#FFFFCC"> 14 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 4016 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 2626 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 1280 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1061 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 891 <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a><br /> 871 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 690 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 669 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 647 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 638 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 620 <a href="/twiki/bin/view/Main/MailToRSS">MailToRSS</a> </td><td bgcolor="#FFFFCC"> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ZhOngNcq</font></span><a href="/twiki/bin/edit/Main/ZhOngNcq?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/ShujuhuifuLee">ShujuhuifuLee</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/MeiHjD">MeiHjD</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/MeiHgjd">MeiHgjd</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">CqMniu</font></span><a href="/twiki/bin/edit/Main/CqMniu?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ChinaTour</font></span><a href="/twiki/bin/edit/Main/ChinaTour?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/AuWeuiD">AuWeuiD</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Apr 2005 </td><td align="right" bgcolor="#FFFFFF"> 45572 </td><td align="right" bgcolor="#FFFFFF"> 19 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 3489 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1406 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1304 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 992 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 921 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 756 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 722 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 705 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 671 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 645 <a href="/twiki/bin/view/Main/BlosxomPaginate">BlosxomPaginate</a><br /> 609 <a href="/twiki/bin/view/Main/ItunesMusicStoreToRss">ItunesMusicStoreToRss</a> </td><td bgcolor="#FFFFFF"> &nbsp;11 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/UserWiKi">UserWiKi</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ChineseAuction</font></span><a href="/twiki/bin/edit/Main/ChineseAuction?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <span style='background : #FFFFCE;'><font color="#0000FF">ChinaBaby</font></span><a href="/twiki/bin/edit/Main/ChinaBaby?topicparent=Main.WebStatistics">?</a><br /> &nbsp;&nbsp;2 <a href="/twiki/bin/view/Main/BiWiKi">BiWiKi</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> May 2005 </td><td align="right" bgcolor="#FFFFCC"> 45603 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 3530 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1927 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 1410 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1230 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 1010 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 949 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 869 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 796 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 745 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 729 <a href="/twiki/bin/view/Main/AmphetaOutlines">AmphetaOutlines</a><br /> 680 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a> </td><td bgcolor="#FFFFCC"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFFF"> Jun 2005 </td><td align="right" bgcolor="#FFFFFF"> 45357 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 3413 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 1591 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 1505 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1189 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 1123 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 1055 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 815 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 759 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 683 <a href="/twiki/bin/view/Main/BlosxomPaginate">BlosxomPaginate</a><br /> 676 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 664 <a href="/twiki/bin/view/Main/ItunesMusicStoreToRss">ItunesMusicStoreToRss</a> </td><td bgcolor="#FFFFFF"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFCC"> Jul 2005 </td><td align="right" bgcolor="#FFFFCC"> 60479 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 4282 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 3450 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 2562 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 1769 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1356 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 1178 <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a><br /> 1089 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 968 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 902 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> 799 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 740 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a> </td><td bgcolor="#FFFFCC"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFFF"> Aug 2005 </td><td align="right" bgcolor="#FFFFFF"> 59099 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td align="right" bgcolor="#FFFFFF"> 0 </td><td bgcolor="#FFFFFF"> 4005 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 2439 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 2221 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 1917 <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a><br /> 1865 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 1345 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 1200 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 975 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 888 <a href="/twiki/bin/view/Main/MTXmlRpcFilterPlugin">MTXmlRpcFilterPlugin</a><br /> 822 <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a><br /> 806 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> </td><td bgcolor="#FFFFFF"> &nbsp; </td></tr>
+<tr><td bgcolor="#FFFFCC"> Sep 2005 </td><td align="right" bgcolor="#FFFFCC"> 12789 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td align="right" bgcolor="#FFFFCC"> 0 </td><td bgcolor="#FFFFCC"> 1265 <a href="/twiki/bin/view/Main/WebRss">WebRss</a><br /> 601 <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a><br /> 488 <a href="/twiki/bin/view/Main/WebHome">WebHome</a><br /> 371 <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a><br /> 289 <a href="/twiki/bin/view/Main/Projects">Projects</a><br /> 275 <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a><br /> 232 <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a><br /> 226 <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a><br /> 209 <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a><br /> 209 <a href="/twiki/bin/view/Main/BlosxomPaginate">BlosxomPaginate</a><br /> 204 <a href="/twiki/bin/view/Main/ItunesMusicStoreToRss">ItunesMusicStoreToRss</a> </td><td bgcolor="#FFFFCC"> &nbsp; </td></tr>
+</table>
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebStatistics"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebStatistics"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/WebStatistics">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/WebStatistics">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/WebStatistics?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/WebStatistics?template=oopsmore&amp;param1=1.646&amp;param2=1.646">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.646 | <a href="/twiki/bin/rdiff/Main/WebStatistics?rev1=1.646&amp;rev2=1.645">&gt;</a> | <a href="/twiki/bin/view/Main/WebStatistics?rev=1.645">r1.645</a> | <a href="/twiki/bin/rdiff/Main/WebStatistics?rev1=1.645&amp;rev2=1.644">&gt;</a> | <a href="/twiki/bin/view/Main/WebStatistics?rev=1.644">r1.644</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/WebStatistics?template=oopsmore&amp;param1=1.646&amp;param2=1.646">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Web%20*Statistics%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=WebStatistics"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

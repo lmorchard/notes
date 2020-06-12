@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>WebTopicList - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/WebTopicList" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">WebTopicList</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.1 - 24 Nov 2001 - 11:36 GMT - <a href="/twiki/bin/view/Main/PeterThoeny">PeterThoeny</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<ul>
+<li> <a href="/twiki/bin/view/Main/0xDECAFBAD">0xDECAFBAD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ActionScript">ActionScript</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AdSense">AdSense</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AgentFrank">AgentFrank</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AlphaGeek">AlphaGeek</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AmphetaDesk">AmphetaDesk</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AmphetaOutlines">AmphetaOutlines</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AmphetaOutlinesWishList">AmphetaOutlinesWishList</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AppleScript">AppleScript</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Arboretum">Arboretum</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/AuWeuiD">AuWeuiD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BakedPages">BakedPages</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BiWiKi">BiWiKi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BillHumphries">BillHumphries</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BillKearney">BillKearney</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BillSeitz">BillSeitz</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlogEdit">BlogEdit</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlogSpace">BlogSpace</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlogWalker">BlogWalker</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlogWalking">BlogWalking</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BloggerAPI">BloggerAPI</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BloggerApiReflector">BloggerApiReflector</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlosxomDbcomments">BlosxomDbcomments</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlosxomMultiblosxom">BlosxomMultiblosxom</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlosxomPaginate">BlosxomPaginate</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlosxomXmlrpcFilter">BlosxomXmlrpcFilter</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BlueSky">BlueSky</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BookmarkBlogger">BookmarkBlogger</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/BootToTheHead">BootToTheHead</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CMS">CMS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CSS">CSS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Caffinate">Caffinate</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CascadingStyleSheets">CascadingStyleSheets</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryCategory">CategoryCategory</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryDescription">CategoryDescription</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryMajorInfluencePerson">CategoryMajorInfluencePerson</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryPerson">CategoryPerson</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryProject">CategoryProject</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryProjectAbandoned">CategoryProjectAbandoned</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryProjectBlueSky">CategoryProjectBlueSky</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryProjectVaporware">CategoryProjectVaporware</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryRadioUserLand">CategoryRadioUserLand</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CategoryResearch">CategoryResearch</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Cheetah">Cheetah</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ChetLi">ChetLi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Cocoa">Cocoa</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ColinBrayton">ColinBrayton</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Colophon">Colophon</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CommentsInRadioUserland">CommentsInRadioUserland</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ConsideredHarmful">ConsideredHarmful</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CormacTwomey">CormacTwomey</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/CueCat">CueCat</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Dave">Dave</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DaveWiner">DaveWiner</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DavidBrown">DavidBrown</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DavidLeBlanc">DavidLeBlanc</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DecafbadWiki">DecafbadWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DesktopWebAppServer">DesktopWebAppServer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DesktopWebsite">DesktopWebsite</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DeusWiki">DeusWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DeusX">DeusX</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DieDieDie">DieDieDie</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DougAlcorn">DougAlcorn</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/DublinCore">DublinCore</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/EdwardVielmetti">EdwardVielmetti</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/EhudLamm">EhudLamm</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/EnlightenedSelfInterest">EnlightenedSelfInterest</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/EricScheid">EricScheid</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/EvstFuWuqi">EvstFuWuqi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FOAF">FOAF</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FeedReactor">FeedReactor</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FileAttachment">FileAttachment</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FilterData">FilterData</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FilterProxy">FilterProxy</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FlorianKonnertz">FlorianKonnertz</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FozBaca">FozBaca</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FrancoisBachmann">FrancoisBachmann</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FreeBSD">FreeBSD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FriedPages">FriedPages</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/FullPeer">FullPeer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GameBoy">GameBoy</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GerardVanderleun">GerardVanderleun</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GettingNoticed">GettingNoticed</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GoogleApi">GoogleApi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GoogleToRSS">GoogleToRSS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GordonBonnar">GordonBonnar</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GrantBowman">GrantBowman</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/GroupWeblogWithRadioUserLand">GroupWeblogWithRadioUserLand</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HansRSuter">HansRSuter</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities">HexOddities</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HipTop">HipTop</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HowardJones">HowardJones</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Iaido">Iaido</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/IaidoWebServer">IaidoWebServer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ItJustWorks">ItJustWorks</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ItunesMusicStoreToRss">ItunesMusicStoreToRss</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JLItalyTrip">JLItalyTrip</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Jabber">Jabber</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JabberBotToWiki">JabberBotToWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JasonTromm">JasonTromm</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Java">Java</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JavaScript">JavaScript</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JensKaemmerer">JensKaemmerer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JerryKindall">JerryKindall</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JohnAbbe">JohnAbbe</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JohnCompanies">JohnCompanies</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JohnDeBruyn">JohnDeBruyn</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JohnTalintyre">JohnTalintyre</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JonUdell">JonUdell</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/JonathanSmith">JonathanSmith</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/KevinKinnell">KevinKinnell</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/KidKamipaleh">KidKamipaleh</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/KitDaly">KitDaly</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/KlausJohannesRusch">KlausJohannesRusch</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LameUser">LameUser</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LesOrchardToDo">LesOrchardToDo</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LiYan">LiYan</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LionKimbro">LionKimbro</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Lisp">Lisp</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LispMe">LispMe</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LiveJournal">LiveJournal</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LiveJournalFriendsReplacement">LiveJournalFriendsReplacement</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LiveJournalFriendsReplacementDiscussion">LiveJournalFriendsReplacementDiscussion</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LiveJournaller">LiveJournaller</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LmOrchard">LmOrchard</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LondonOffice">LondonOffice</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/LynnwoodBrown">LynnwoodBrown</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MTCleanHTMLPlugin">MTCleanHTMLPlugin</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MTSearch">MTSearch</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MTWikiFormatPlugin">MTWikiFormatPlugin</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MTXmlRpcFilterPlugin">MTXmlRpcFilterPlugin</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MacOSX">MacOSX</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MailToRSS">MailToRSS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MailToRSSDiscussion">MailToRSSDiscussion</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ManpreetSingh">ManpreetSingh</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MarcVeeneman">MarcVeeneman</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MarioSpina">MarioSpina</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MarkDilley">MarkDilley</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MarkPaschal">MarkPaschal</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MarkovChain">MarkovChain</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MartinCleaver">MartinCleaver</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MatthewFreeman">MatthewFreeman</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MeatballWiki">MeatballWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MeiHenGjd">MeiHenGjd</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MeiHgjd">MeiHgjd</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MeiHjD">MeiHjD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MiB">MiB</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MichaelJosephson">MichaelJosephson</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MichaelSippey">MichaelSippey</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MichaelZajac">MichaelZajac</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MikeJames">MikeJames</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MikeMannix">MikeMannix</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MoinMoin">MoinMoin</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MovableType">MovableType</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MovableTypeLDAPAuthors">MovableTypeLDAPAuthors</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/MySQL">MySQL</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NeatLikeDigitalWatches">NeatLikeDigitalWatches</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NeilBenn">NeilBenn</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NetHack">NetHack</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NewsAggregator">NewsAggregator</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NicholasLee">NicholasLee</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NickWetegrove">NickWetegrove</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NobodyGroup">NobodyGroup</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/NotesOnTheWikiWay">NotesOnTheWikiWay</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/OPML">OPML</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ObviousInHindsight">ObviousInHindsight</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/OfficeLocations">OfficeLocations</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/OutOfBox">OutOfBox</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Outliner">Outliner</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PHP">PHP</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/POE">POE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PalmDevelopment">PalmDevelopment</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PalmOS">PalmOS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/People">People</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Perl">Perl</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PerlObjectDirectory">PerlObjectDirectory</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PersonalMailServer">PersonalMailServer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PersonalServer">PersonalServer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PersonalWebProxy">PersonalWebProxy</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PeteProdoehl">PeteProdoehl</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PeterThoeny">PeterThoeny</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PhilRingnalda">PhilRingnalda</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters">PipeFilters</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipelineTheWeb">PipelineTheWeb</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PowerToThePeople">PowerToThePeople</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PracticalInternetGroupware">PracticalInternetGroupware</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ProjectTemplate">ProjectTemplate</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Projects">Projects</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Python">Python</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RDF">RDF</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/REST">REST</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RFID">RFID</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RSS">RSS</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RUsystemTrayIconMenus">RUsystemTrayIconMenus</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RayKurzweil">RayKurzweil</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RdFlowers">RdFlowers</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RdfNotes">RdfNotes</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RecentChangesInOPML">RecentChangesInOPML</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ReleaseEarlyReleaseOften">ReleaseEarlyReleaseOften</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RepeaterProxy">RepeaterProxy</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RichCasto">RichCasto</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RightThing">RightThing</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RssDisplay">RssDisplay</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RssDisplayDiscussion">RssDisplayDiscussion</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SSI">SSI</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SamRuby">SamRuby</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SanJoseOffice">SanJoseOffice</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SeaChange">SeaChange</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SemanticWeb">SemanticWeb</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ShareAndEnjoy">ShareAndEnjoy</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ShowReferers">ShowReferers</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ShowReferersNextGen">ShowReferersNextGen</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ShujuhuifuLee">ShujuhuifuLee</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SilverFox">SilverFox</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SmartMobs">SmartMobs</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SmartTag">SmartTag</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SpamAssassin">SpamAssassin</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/SunirShah">SunirShah</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TANSTAAFL">TANSTAAFL</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TWikiAdminGroup">TWikiAdminGroup</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TWikiGroups">TWikiGroups</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TWikiGuest">TWikiGuest</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TWikiUsers">TWikiUsers</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TWikiVariables">TWikiVariables</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TamaraCrowe">TamaraCrowe</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TechQuaTech">TechQuaTech</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TestDeus">TestDeus</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ThYang">ThYang</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TheSingularity">TheSingularity</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ThirdTimeAutomate">ThirdTimeAutomate</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ThisIsWikiWord">ThisIsWikiWord</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ThomasLockney">ThomasLockney</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TimBL">TimBL</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TimothyAppnel">TimothyAppnel</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TokyoOffice">TokyoOffice</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/ToolBuilder">ToolBuilder</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TopicCategory">TopicCategory</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TopicDescription">TopicDescription</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TopicForm">TopicForm</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/TrackBack">TrackBack</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/Twisted">Twisted</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/UserLand">UserLand</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/UserWiKi">UserWiKi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/VernorVinge">VernorVinge</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WINE">WINE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WarrenLindsey">WarrenLindsey</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WearableComputer">WearableComputer</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebChanges">WebChanges</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebDav">WebDav</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebHome">WebHome</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebIndex">WebIndex</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebLog">WebLog</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebNotify">WebNotify</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebPreferences">WebPreferences</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebRss">WebRss</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebSearch">WebSearch</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebStatistics">WebStatistics</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebTopicEditTemplate">WebTopicEditTemplate</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WebTopicList">WebTopicList</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WeblogMulticaster">WeblogMulticaster</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WeblogWithWiki">WeblogWithWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WeblogWithWikiDiscussion">WeblogWithWikiDiscussion</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiClones">WikiClones</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiInterchangeFormat">WikiInterchangeFormat</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiRPCInterface">WikiRPCInterface</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiToDocBook">WikiToDocBook</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiWiki">WikiWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiWikiApi">WikiWikiApi</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiWikiBridge">WikiWikiBridge</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WikiWikiSync">WikiWikiSync</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WinTV">WinTV</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WinXP">WinXP</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WirelessInternet">WirelessInternet</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WouterDemuynck">WouterDemuynck</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/WritingOnTheWeb">WritingOnTheWeb</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XPathDict">XPathDict</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XServe">XServe</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlForHumans">XmlForHumans</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpc">XmlRpc</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilterService">XmlRpcFilterService</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipe</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcToWiki">XmlRpcToWiki</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XmlRpcToWikiDiscussion">XmlRpcToWikiDiscussion</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/XslScraper">XslScraper</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/YAGNI">YAGNI</a>
+</li>
+</ul>
+<p />
+See also the verbose <a href="/twiki/bin/view/Main/WebIndex">WebIndex</a>.
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebTopicList"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebTopicList"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/WebTopicList">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/WebTopicList">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/WebTopicList?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/WebTopicList?template=oopsmore&amp;param1=1.1&amp;param2=1.1">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.1
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/WebTopicList?template=oopsmore&amp;param1=1.1&amp;param2=1.1">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Web%20*Topic%20*List%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=WebTopicList"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

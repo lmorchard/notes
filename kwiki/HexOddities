@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>HexOddities - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/HexOddities" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">HexOddities</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.11 - 19 Nov 2004 - 20:10 GMT - <a href="/twiki/bin/view/Main/WouterDemuynck">WouterDemuynck</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<div id="twikitoc">
+<ul>
+<li> <a href="/twiki/bin/view/Main/HexOddities#Introduction">Introduction</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xABADCAFE">0xABADCAFE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xBAADF00D">0xBAADF00D</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xBADCAB1E">0xBADCAB1E</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xBEEFCACE">0xBEEFCACE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xCAFEBABE">0xCAFEBABE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xC0CAC01A_0xADD511FE">0xC0CAC01A 0xADD511FE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xC0DEDBAD">0xC0DEDBAD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDEADBEEF">0xDEADBEEF</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDEADF00D">0xDEADF00D</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDE_AD_BE_EF_CA_FE">0xDE:AD:BE:EF:CA:FE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDE_AD_CA_FE_BA_BE">0xDE:AD:CA:FE:BA:BE</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDEAC">0xDEAC</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xDECAFBAD">0xDECAFBAD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xFADEDEAD">0xFADEDEAD</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0xFE_ED_BA_BE_F0_0D">0xFE:ED:BA:BE:F0:0D</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/HexOddities#0x00FEEDFACECOFFEE">0x00FEEDFACECOFFEE</a>
+</li>
+</ul>
+</div>
+<p />
+<h1><a name="Introduction"> Introduction </a></h1>
+<p />
+<a href="/twiki/bin/view/Main/0xDECAFBAD">0xDECAFBAD</a> is a hex oddity-- a coincidence of hexadecimal digits which just happens to hold some incidental semantic content to weird humans.
+<p />
+Chronicle yours here.
+<p />
+<h1><a name="0xABADCAFE"> 0xABADCAFE </a></h1>
+<ul>
+<li> <a href="http://www.iki.fi/~jalkanen" target="_top">JanneJalkanen</a>: Amiga Mungwall initialized all free memory at startup to this value to catch errant pointers.
+</li>
+</ul>
+<p />
+<h1><a name="0xBAADF00D"> 0xBAADF00D </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/17#lb43653cd96a91c17fca25e3be8aed803" target="_top">Ole Eichhorn</a>: "A colleague tells me Windows 2000 uses 0xBAADF00D for uninitialized memory"
+</li>
+</ul>
+<p />
+<h1><a name="0xBADCAB1E"> 0xBADCAB1E </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/18#l674002cd58669e2c2e692247884972dc" target="_top">Blake Winton</a>: "If you're debugging a <span style='background : #FFFFCE;'><font color="#0000FF">PocketPC</font></span><a href="/twiki/bin/edit/Main/PocketPC?topicparent=Main.HexOddities">?</a> program, and the debugger loses the connection to the device, you will get back an error code of 0xBADCAB1E"
+</li>
+</ul>
+<p />
+<h1><a name="0xBEEFCACE"> 0xBEEFCACE </a></h1>
+<ul>
+<li> Used by Microsoft .NET as magic number in resource files <a href="http://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemResourcesResourceManagerClassMagicNumberTopic.asp" target="_top">System.Resources.ResourceManager.MagicNumber</a>
+</li>
+</ul>
+<p />
+<p />
+<h1><a name="0xCAFEBABE"> 0xCAFEBABE </a></h1>
+<ul>
+<li> <a href="http://www.artima.com/insidejvm/whyCAFEBABE.html" target="_top">Why CAFEBABE?</a>: "The Java class file's magic number"
+</li>
+<li> <a href="http://radio.weblogs.com/0100945/2002/04/19.html#a116" target="_top">Doug Landauer</a>: "I worked for Sun from about 1986 until 1995, mostly on debuggers and then C++ compilers..."
+</li>
+<li> <a href="http://radio.weblogs.com/0100012/2002/04/18.html#a44" target="_top">Steve Zellers</a>: "0xcafebabe is also the constant value at the start of mach-o files."
+</li>
+</ul>
+<p />
+<h1><a name="0xC0CAC01A_0xADD511FE"> 0xC0CAC01A 0xADD511FE </a></h1>
+<ul>
+<li> <a href="http://radio.weblogs.com/0100012/2002/04/19.html#a47" target="_top">Steve Zellers</a>: "OK, my final say: 0xC0CAC01A 0xADD511FE"
+</li>
+<li> <a href="http://www.brunching.com/ratings/rate-cokeslogans.html" target="_top">The Brunching Shuttlecocks rate Coke slogans</a>
+</li>
+</ul>
+<p />
+<h1><a name="0xC0DEDBAD"> 0xC0DEDBAD </a></h1>
+<ul>
+<li> <a href="http://www.iki.fi/~jalkanen" target="_top">JanneJalkanen</a>: Amiga Mungwall (a memory leak tracking tool) would change the MMU tables so that all references to address zero return this.
+</li>
+</ul>
+<p />
+<h1><a name="0xDEADBEEF"> 0xDEADBEEF </a></h1>
+<ul>
+<li> <a href="http://www.artima.com/insidejvm/whyCAFEBABE.html" target="_top">Why CAFEBABE?</a>: "Old IBM machines used 0xDEADBEEF to "initialize" uninitialized memory."
+</li>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/18#l5ed35f06b99f78c61dae501c779c2f0b" target="_top">Andrew Duncan</a>: "0xDEADBEEF was used, IIRC, for null pointers in <span style='background : #FFFFCE;'><font color="#0000FF">PowerPlant</font></span><a href="/twiki/bin/edit/Main/PowerPlant?topicparent=Main.HexOddities">?</a>, Metrowerks' app framework for Mac."
+</li>
+<li> <a href="http://www.iki.fi/~jalkanen" target="_top">JanneJalkanen</a>: 0xDEADBEEF was also used by Amiga Mungwall to "mung" freed memory.
+</li>
+</ul>
+<p />
+<h1><a name="0xDEADF00D"> 0xDEADF00D </a></h1>
+<ul>
+<li> <a href="http://www.iki.fi/~jalkanen" target="_top">JanneJalkanen</a>: Again, Amiga Mungwall used this to "mung" all newly allocated memory that was not explicitly cleared.
+</li>
+</ul>
+<p />
+<h1><a name="0xDE_AD_BE_EF_CA_FE"> 0xDE:AD:BE:EF:CA:FE </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/19#l5e94c2464cf9e7b7fd37aa7010e12063" target="_top">Wes Felter</a>: "Some home-brewed Ethernet addresses I've seen: 0xFE:ED:BA:BE:F0:0D (describing Calista Flockhart?) <strong>0xDE:AD:BE:EF:CA:FE (time for a steak?)</strong> 0xDE:AD:CA:FE:BA:BE (must be a Java-hater)."
+</li>
+</ul>
+<p />
+<h1><a name="0xDE_AD_CA_FE_BA_BE"> 0xDE:AD:CA:FE:BA:BE </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/19#l5e94c2464cf9e7b7fd37aa7010e12063" target="_top">Wes Felter</a>: "Some home-brewed Ethernet addresses I've seen: 0xFE:ED:BA:BE:F0:0D (describing Calista Flockhart?) 0xDE:AD:BE:EF:CA:FE (time for a steak?) <strong>0xDE:AD:CA:FE:BA:BE (must be a Java-hater)</strong>."
+</li>
+</ul>
+<p />
+<h1><a name="0xDEAC"> 0xDEAC </a></h1>
+<ul>
+<li> <a href="/twiki/bin/view/Main/JerryKindall">JerryKindall</a>: The Apple II's <span style='background : #FFFFCE;'><font color="#0000FF">ProDOS</font></span><a href="/twiki/bin/edit/Main/ProDOS?topicparent=Main.HexOddities">?</a> operating system kept a table of device drivers for the various block devices attached to a computer. 0xDEAC (or $DEAC as we wrote it in those days) was the address pointed to if there was no block device installed in a particular slot.  0xDEAC happens to be one byte less than 0xDEAD, so obviously the intent was to use 0xDEAD -- but a re-assembly of the OS at some point probably shifted the address by one byte.
+</li>
+</ul>
+<p />
+<h1><a name="0xDECAFBAD"> 0xDECAFBAD </a></h1>
+<ul>
+<li> <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a>: "Caffeine uber alles."
+</li>
+</ul>
+<p />
+<h1><a name="0xFADEDEAD"> 0xFADEDEAD </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/18#l82f166dd4ab1259f3b6320a5254bf913" target="_top">Jon Pugh</a>: "Every OSA script ends with 0xFADEDEAD."
+</li>
+</ul>
+<p />
+<h1><a name="0xFE_ED_BA_BE_F0_0D"> 0xFE:ED:BA:BE:F0:0D </a></h1>
+<ul>
+<li> <a href="http://scriptingnews.userland.com/backissues/2002/04/19#l5e94c2464cf9e7b7fd37aa7010e12063" target="_top">Wes Felter</a>: "Some home-brewed Ethernet addresses I've seen: <strong>0xFE:ED:BA:BE:F0:0D (describing Calista Flockhart?)</strong> 0xDE:AD:BE:EF:CA:FE (time for a steak?) 0xDE:AD:CA:FE:BA:BE (must be a Java-hater)."
+</li>
+</ul>
+<p />
+<h1><a name="0x00FEEDFACECOFFEE"> 0x00FEEDFACECOFFEE </a></h1>
+<ul>
+<li> Seen used on a MUD by <a href="http://luminesc.livejournal.com/" target="_top">Luminesc</a>.
+</li>
+</ul>
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/HexOddities"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/HexOddities"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/HexOddities">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/HexOddities">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/HexOddities?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/HexOddities?template=oopsmore&amp;param1=1.11&amp;param2=1.11">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.11 | <a href="/twiki/bin/rdiff/Main/HexOddities?rev1=1.11&amp;rev2=1.10">&gt;</a> | <a href="/twiki/bin/view/Main/HexOddities?rev=1.10">r1.10</a> | <a href="/twiki/bin/rdiff/Main/HexOddities?rev1=1.10&amp;rev2=1.9">&gt;</a> | <a href="/twiki/bin/view/Main/HexOddities?rev=1.9">r1.9</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/HexOddities?template=oopsmore&amp;param1=1.11&amp;param2=1.11">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Hex%20*Oddities%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=HexOddities"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

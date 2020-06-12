@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>PipeFilters - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/PipeFilters" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">PipeFilters</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.9 - 08 Oct 2002 - 02:56 GMT - <a href="/twiki/bin/view/Main/TWikiGuest">TWikiGuest</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+[This idea is under development, comments are welcome on this page.]
+<p />
+<div id="twikitoc">
+<ul>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Introduction">Introduction</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Downloads">Downloads</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Latest_News">Latest News</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Documentation">Documentation</a>
+<ul>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Installation">Installation</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/PipeFilters#Usage">Usage</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p />
+<h2><a name="Introduction"> Introduction </a></h2>
+<p />
+<em>This is a really lame description.  Needs work.</em>
+<p />
+Along with the <a href="/twiki/bin/view/Main/XmlRpcFilterService">XmlRpcFilterService</a>, I can support <a href="/twiki/bin/view/Main/XmlRpcFilteringPipe">XmlRpcFilteringPipes</a> in <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>, both in developing and serving XML-RPC filters and in providing a ubiquitous client for the filters complete with desktop web-based management of pipelines and prefs.  I should be able to add the same sort of options to the Dock/Tray menu of <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a> that I try to support in the <a href="/twiki/bin/view/Main/XmlRpcFilterService">XmlRpcFilterService</a>.
+<p />
+Why might you want this?  Well, I want it so that I can experiment with being hyper-literate in my writing.  That is, I want to place all things I write on the web within a context of other content I write back on my homebase.  For now, this is in a wiki.  I also would like to use some simplified wiki-like formatting shorthand, and it might be nice to have some simple scripting at my disposal.
+<p />
+Well, it just so happens that I have a way to exploit <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a> glossary and macros, HTML to text conversion, and exploit features of my wiki out here on 0xDECAFBAD.
+<p />
+This is the tool that does it, from my desktop.
+<p />
+<h2><a name="Downloads"> Downloads </a></h2>
+<p />
+I plan on compressing this once I can get the auto-release code to do so, but for now, here it is in the buff:
+<p />
+<ul>
+<li> Current release: <a href="http://www.decafbad.com/deus_x/radio/gems/pipeFilters.root" target="_top">http://www.decafbad.com/deus_x/radio/gems/pipeFilters.root</a>
+</li>
+</ul>
+<p />
+<h2><a name="Latest_News"> Latest News </a></h2>
+<p />
+Just published a new version:
+<p />
+<ul>
+<li> 0.3.5
+<ul>
+<li> Added a 'shortcuts' filter to use the new Shortcuts variant of the glossary.
+</li>
+<li> Virgin data contains pipelines using the new shortcuts filter (you may wish to copy some of them to your pipeFiltersData)
+</li>
+<li> Added a to-do list to the pipeFiltersInfo
+</li>
+<li> Cleaned up a few installation bugs
+</li>
+<li> Cleaned up a few bugs in pipeFiltersSuite.sendDataThroughPipeline()
+</li>
+<li> Unfortunately, no web interface to manage pipelines yet.
+</li>
+</ul>
+</li>
+</ul>
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 07 Apr 2002
+<p />
+And <i>voila</i>, I think it's working.  Download, install, try updating from time to time, <a href="/twiki/bin/view/Main/ShareAndEnjoy">ShareAndEnjoy</a>.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 29 Mar 2002
+<p />
+Actually working on cleaning things up a lot, integrating the <a href="/twiki/bin/view/Main/RUsystemTrayIconMenus">RUsystemTrayIconMenus</a> hack, along with <a href="http://web.sabi.net/nriley/software/" target="_top">Nicholas Riley's self-update code</a> he used in <span style='background : #FFFFCE;'><font color="#0000FF">WebDAV</font></span><a href="/twiki/bin/edit/Main/WebDAV?topicparent=Main.PipeFilters">?</a>.root.  In a few hours or so (sleep depending), there should be a new version up here.
+<p />
+Complete installation will be:
+<p />
+<ul>
+<li> Drop pipeFilters.root into Tools/
+</li>
+<li> Click "Install Tray/Dock Menus"
+</li>
+<li> <a href="/twiki/bin/view/Main/ShareAndEnjoy">Share &amp; Enjoy</a>
+</li>
+</ul>
+<p />
+And thereafter, click "Update pipeFilters.root" in the Tool menu to get new versions.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 29 Mar 2002
+<p />
+So I did end up uploading something, after all. :)
+<p />
+- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 28 Mar 2002
+<p />
+<h2><a name="Documentation"> Documentation </a></h2>
+<p />
+Caveats:  It's getting better, but not everything quite works yet :)
+<p />
+<h3><a name="Installation"> Installation </a></h3>
+<p />
+<ul>
+<li> Drop pipeFilters.root into Tools/
+</li>
+<li> Restart <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>, or load the Tool
+</li>
+<li> Click "Install Tray/Dock Menus" in the <a href="/twiki/bin/view/Main/PipeFilters">PipeFilters</a> Tool menu
+</li>
+<li> Periodically click "Update pipeFilters.root"
+</li>
+</ul>
+<p />
+<ul>
+<li> <a href="/twiki/bin/view/Main/ShareAndEnjoy">Share &amp; Enjoy</a>
+</li>
+</ul>
+<p />
+<h3><a name="Usage"> Usage </a></h3>
+<p />
+I plan on throwing some pretty pictures in here, but basically what you do with this thing is:
+<p />
+<ul>
+<li> Select &amp; copy some text.
+</li>
+<li> Bring up <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a>'s dock/tray menu.
+</li>
+<li> Select <a href="/twiki/bin/view/Main/PipeFilters">PipeFilters</a> -&gt; Apply Pipeline to Clipboard
+</li>
+<li> Wait a few seconds until Radio tells you it's done.
+</li>
+<li> Paste the modified text.
+</li>
+</ul>
+<p />
+You can also choose from a number of out-of-box pipelines.
+<p />
+-- <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> - 14 Mar 2002
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/PipeFilters"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/PipeFilters"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p><i>Main.PipeFilters moved from Main.RUPipeFilters on 05 Apr 2002 - 21:28 by <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> </i> - <a title="Click to move topic back to previous location, with option to change references." href="/twiki/bin/rename/Main/PipeFilters?newweb=Main&amp;newtopic=RUPipeFilters&amp;confirm=on">put it back</a></p>
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/PipeFilters">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/PipeFilters">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/PipeFilters?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/PipeFilters?template=oopsmore&amp;param1=1.9&amp;param2=1.9">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.9 | <a href="/twiki/bin/rdiff/Main/PipeFilters?rev1=1.9&amp;rev2=1.8">&gt;</a> | <a href="/twiki/bin/view/Main/PipeFilters?rev=1.8">r1.8</a> | <a href="/twiki/bin/rdiff/Main/PipeFilters?rev1=1.8&amp;rev2=1.7">&gt;</a> | <a href="/twiki/bin/view/Main/PipeFilters?rev=1.7">r1.7</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/PipeFilters?template=oopsmore&amp;param1=1.9&amp;param2=1.9">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Pipe%20*Filters%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=PipeFilters"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

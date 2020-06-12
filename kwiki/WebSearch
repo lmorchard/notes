@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>WebSearch - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/WebSearch" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">WebSearch</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.8 - 08 Aug 2001 - 05:57 GMT - <a href="/twiki/bin/view/Main/PeterThoeny">PeterThoeny</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<form action="/twiki/bin/search/Main/">
+<ul>
+<li> <b>Simple search</b>:
+   <table border="0" cellspacing="0" cellpadding="0"><tr><td>
+     <input type="radio" name="scope" value="text" checked="checked" /> Topic text (body) &nbsp; &nbsp;
+   </td><td>
+     <input type="checkbox" name="web" /> All webs (not only TWiki.Main web)
+   </td></tr><tr><td>
+     <input type="radio" name="scope" value="topic" /> Topic name
+   </td><td>
+     <input type="checkbox" name="bookview" /> <a href="/twiki/bin/view/TWiki/BookView">BookView</a>
+   </td></tr></table>
+   <input type="text" name="search" size="32" />
+   <input type="submit" value="Search text" />
+</li>
+</ul>
+</form>
+<p />
+<p />
+<form action="/twiki/bin/search/Main/">
+<ul>
+<li> <b>Advanced search</b>:
+   <table border="0" cellspacing="0" cellpadding="0"><tr><td>
+     <input type="radio" name="scope" value="text" checked="checked" /> Topic text (body) &nbsp; &nbsp;
+   </td><td>
+     Search
+   </td><td>
+     <select name="web">
+     <option value="all">all public</option>
+     <option>Main</option>
+     <option>Main</option>
+     <option>Plugins</option>
+     <option>TWiki</option>
+     <option>Test</option>
+     </select>
+     web(s)
+   </td></tr><tr><td>
+     <input type="radio" name="scope" value="topic" /> Topic name
+   </td><td>
+     Sort by
+   </td><td>
+     <select name="order">
+     <option VALUE="topic">Topic name</option>
+     <option VALUE="modified">Last modified time</option>
+     <option VALUE="editby">Last editor</option>
+     </select> in
+     <input type="checkbox" name="reverse" /> reversed order
+   </td></tr></table>
+   <input type="text" name="search" size="32" />
+   <input type="submit" value="Search text" /> <br>
+   <table><tr><td>
+     Make search:
+   </td><td>
+     <input type="checkbox" name="casesensitive" /> Case sensitive
+   </td><td>
+     <input type="checkbox" name="regex" /> <a href="/twiki/bin/view/TWiki/RegularExpression">RegularExpression</a> search
+   </td></tr><tr><td>
+     Don't show:
+   </td><td>
+     <input type="checkbox" name="nosearch" /> search string
+   </td><td>
+     <input type="checkbox" name="nosummary" /> summaries &nbsp; &nbsp;
+     <input type="checkbox" name="nototal" /> total matches
+   </td></tr><tr><td>
+     Do show:
+   </td><td>
+     <input type="checkbox" name="bookview" /> <a href="/twiki/bin/view/TWiki/BookView">BookView</a>
+   </td><td>
+     <input type="checkbox" name="showlock" /> locked topic &nbsp;
+     <input type="text" name="limit" size="5" value="all" /> topics (result count)
+   </td></tr></table>
+</li>
+</ul>
+</form>
+<p />
+<ul>
+<li> <b><a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=\.*">Topic index</a></b>: List of TWiki.Main topics in alphabetical order. <br> <b>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=\.*">All</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ea">A</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eb">B</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ec">C</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ed">D</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ee">E</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ef">F</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eg">G</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eh">H</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ei">I</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ej">J</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ek">K</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5El">L</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Em">M</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5En">N</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eo">O</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ep">P</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eq">Q</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Er">R</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Es">S</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Et">T</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Eu">U</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ev">V</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ew">W</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ex">X</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ey">Y</a>|<a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;search=%5Ez">Z</a>| <br> | <a href="/twiki/bin/search/Main/?scope=topic&amp;regex=on&amp;bookview=on&amp;search=\.*">All</a></b> topics in <a href="/twiki/bin/view/TWiki/BookView">BookView</a> <b>|</b>
+</li>
+</ul>
+<p />
+<ul>
+<li> <b>Jump to topic</b>: If you already know the name of the topic, enter the name of the topic at the second line of this page.
+</li>
+</ul>
+<p />
+<ul>
+<li> <b> <a href="/twiki/bin/view/TWiki/WebChanges">WebChanges</a> </b>: Find out what topics in TWiki.Main have changed recently.
+</li>
+</ul>
+<p />
+<ul>
+<li> <b><a href="/twiki/bin/view/TWiki/GoodStyle">How to edit text</a></b>:
+<ul>
+<li> Make changes to topics in <a href="/twiki/bin/view/TWiki/GoodStyle">GoodStyle</a>,
+</li>
+<li> Learn the <a href="/twiki/bin/view/TWiki/TextFormattingRules">TextFormattingRules</a>, and
+</li>
+<li> Have a look at the <a href="/twiki/bin/view/TWiki/TextFormattingFAQ">TextFormattingFAQ</a>.
+</li>
+</ul>
+</li>
+</ul>
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebSearch"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WebSearch"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/WebSearch">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/WebSearch">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/WebSearch?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/WebSearch?template=oopsmore&amp;param1=1.8&amp;param2=1.8">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.8 | <a href="/twiki/bin/rdiff/Main/WebSearch?rev1=1.8&amp;rev2=1.7">&gt;</a> | <a href="/twiki/bin/view/Main/WebSearch?rev=1.7">r1.7</a> | <a href="/twiki/bin/rdiff/Main/WebSearch?rev1=1.7&amp;rev2=1.6">&gt;</a> | <a href="/twiki/bin/view/Main/WebSearch?rev=1.6">r1.6</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/WebSearch?template=oopsmore&amp;param1=1.8&amp;param2=1.8">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Web%20*Search%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=WebSearch"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

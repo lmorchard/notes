@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>RDF - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/RDF" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">RDF</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.8 - 22 Nov 2002 - 21:16 GMT - <a href="/twiki/bin/view/Main/LesOrchard">LesOrchard</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<div id="twikitoc">
+<ul>
+<li> <a href="/twiki/bin/view/Main/RDF#Summary">Summary</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RDF#News">News</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RDF#Bookmarks">Bookmarks</a>
+<ul>
+<li> <a href="/twiki/bin/view/Main/RDF#Tools_Working_Code">Tools / Working Code</a>
+</li>
+<li> <a href="/twiki/bin/view/Main/RDF#Reading">Reading</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p />
+<h2><a name="Summary"> Summary </a></h2>
+<p />
+<a href="/twiki/bin/view/Main/RDF">RDF</a> - Resource Description Framework.
+<p />
+I'm <strong>going</strong> to understand this beast, damn it.
+<p />
+Watch me stumble along with my <a href="/twiki/bin/view/Main/RdfNotes">RdfNotes</a>!
+<p />
+<h2><a name="News"> News </a></h2>
+<p />
+<table>
+<tr valign="top">
+<td width="50%">
+<p />
+         <div class="rss_item">
+            <p>(Problem parsing this channel. See debug.)</p>
+            <pre>
+            http://ideagraph.net/rss/Blogfeed.pl
+            
+no element found at line 1, column 0, byte -1 at /usr/lib/perl5/vendor_perl/5.8.0/i386-linux-thread-multi/XML/Parser.pm line 185
+
+
+            
+            </pre>
+         </div>
+</td>
+<td width="50%">
+<div class="rss_title"><a href="http://xmlhack.com/" class="rss_link">XMLhack <a href="/twiki/bin/view/Main/RDF">RDF</a> news</a> (<a href="http://www.xmlhack.com/rss10.php?cat=28" class="rss_link"><img src="http://www.decafbad.com/images/tinyXML.jpg"></a>)</div>
+<div class="rss_update">Last scanned: Sun Sep 11 22:47:16 2005</div>
+<ul class="rss_item">
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=2188">Announcing Planet XMLhack</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=2124">Semantic web specs step forward: <a href="/twiki/bin/view/Main/RDF">RDF</a>, OWL to PR</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=2117">Practical <a href="/twiki/bin/view/Main/RDF">RDF</a> Town Hall</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=2025">Elsevier proposes PRISM module for <a href="/twiki/bin/view/Main/RSS">RSS</a> 1.0</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=1978">Semantic Web and Web Services can live together, says Berners-Lee</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=1703">RDF roundup</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=1682">Growing <a href="/twiki/bin/view/Main/RDF">RDF</a> mindshare reflected in XML Web Services One keynote</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://xmlhack.com/read.php?item=1660">Updates to <span style='background : #FFFFCE;'><font color="#0000FF">IsaViz</font></span><a href="/twiki/bin/edit/Main/IsaViz?topicparent=Main.RDF">?</a> <a href="/twiki/bin/view/Main/RDF">RDF</a> authoring and visualization tool</a></li>
+</ul>
+<p />
+</td>
+</tr>
+<tr valign="top">
+<td width="50%">
+<div class="rss_title"><a href="http://swig.xmlhack.com/" class="rss_link">Semantic Web Interest Group Scratchpad</a> (<a href="http://rdfig.xmlhack.com/index.rss" class="rss_link"><img src="http://www.decafbad.com/images/tinyXML.jpg"></a>)</div>
+<div class="rss_update">Last scanned: Sun Sep 11 22:47:18 2005</div>
+<ul class="rss_item">
+   <li class="rss_item"><a class="rss_item" href="http://blogs.sun.com/roller/page/bblfish/20050911">review of a very interesting talk by Elisa Kendall on the relation between Model Driven Architecture and the Semantic Web</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050527/#query-bindings-http-examples">SPARQL Over HTTP: Examples</a></li>
+   <li class="rss_item"><a class="rss_item" href="http://www.la-grange.net/2005/08/29.html">Semantic poetry of a movie festival (French)</a></li>
+</ul>
+<p />
+</td>
+<td width="50%">
+<!--
+INCLUDE{"http://www.decafbad.com/web-services/url-based/rss_display.cgi?src=http://rdfig.xmlhack.com/index.rss&amp;cache_age=180&amp;xml_img=http://www.decafbad.com/images/tinyXML.jpg"}
+-->
+</td>
+</tr>
+</table>
+<p />
+<h2><a name="Bookmarks"> Bookmarks </a></h2>
+<p />
+<h3><a name="Tools_Working_Code"> Tools / Working Code </a></h3>
+<p />
+<table border="1" cellspacing="1" cellpadding="0">
+<tr><td bgcolor="#FFFFCC"> <a href="/twiki/bin/view/Main/RDF">RDF</a> triple store and <a href="/twiki/bin/view/Main/RDF">RDF</a>/XML parser (Python) </td><td bgcolor="#FFFFCC"> <a href="http://rdflib.net/" target="_top">http://rdflib.net/</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> jena semantic web toolkit (Java) </td><td bgcolor="#FFFFFF"> <a href="http://www.hpl.hp.com/semweb/jena-top.html" target="_top">http://www.hpl.hp.com/semweb/jena-top.html</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> <span style='background : #FFFFCE;'><font color="#0000FF">IsaViz</font></span><a href="/twiki/bin/edit/Main/IsaViz?topicparent=Main.RDF">?</a>: A Visual Authoring Tool for <a href="/twiki/bin/view/Main/RDF">RDF</a> </td><td bgcolor="#FFFFCC"> <a href="http://www.w3.org/2001/11/IsaViz/" target="_top">http://www.w3.org/2001/11/IsaViz/</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Mark Pilgrim's <a href="/twiki/bin/view/Main/FOAF">FOAF</a>-based "about me" profile generator </td><td bgcolor="#FFFFFF"> <a href="http://diveintomark.org/about/" target="_top">http://diveintomark.org/about/</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> <a href="/twiki/bin/view/Main/RDF">RDF</a> Validation Service at the W3C </td><td bgcolor="#FFFFCC"> <a href="http://www.w3.org/RDF/Validator/" target="_top">http://www.w3.org/RDF/Validator/</a> </td></tr>
+</table>
+<p />
+<h3><a name="Reading"> Reading </a></h3>
+<p />
+<table border="1" cellspacing="1" cellpadding="0">
+<tr><td bgcolor="#FFFFCC"> The Resource Description Framework in 500 Words </td><td bgcolor="#FFFFCC"> <a href="http://www.citnames.com/2002/11/rdf500.htm" target="_top">http://www.citnames.com/2002/11/rdf500.htm</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Resource Description Framework (<a href="/twiki/bin/view/Main/RDF">RDF</a>) </td><td bgcolor="#FFFFFF"> <a href="http://www.w3.org/RDF/" target="_top">http://www.w3.org/RDF/</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> Practical <a href="/twiki/bin/view/Main/RDF">RDF</a>, a book for review online </td><td bgcolor="#FFFFCC"> <a href="http://rdf.burningbird.net/" target="_top">http://rdf.burningbird.net/</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Vigorous discussion on <a href="/twiki/bin/view/Main/RDF">RDF</a> at Shelley Powers' house </td><td bgcolor="#FFFFFF"> <a href="http://weblog.burningbird.net/fires/000661.htm" target="_top">http://weblog.burningbird.net/fires/000661.htm</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> RDFWeb </td><td bgcolor="#FFFFCC"> <a href="http://rdfweb.org/" target="_top">http://rdfweb.org/</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> <span style='background : #FFFFCE;'><font color="#0000FF">RDFWebWiki</font></span><a href="/twiki/bin/edit/Main/RDFWebWiki?topicparent=Main.RDF">?</a> </td><td bgcolor="#FFFFFF"> <a href="http://rdfweb.org/rweb/wiki/wiki?RDFWebWiki" target="_top">http://rdfweb.org/rweb/wiki/wiki?RDFWebWiki</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> The Semantic Web: A Primer </td><td bgcolor="#FFFFCC"> <a href="http://www.xml.com/pub/a/2000/11/01/semanticweb/index.html" target="_top">http://www.xml.com/pub/a/2000/11/01/semanticweb/index.html</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> <a href="/twiki/bin/view/Main/RDF">RDF</a> at the W3C </td><td bgcolor="#FFFFFF"> <a href="http://www.daml.org/2000/12/daml+oil-index" target="_top">http://www.daml.org/2000/12/daml+oil-index</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> Primer: Getting into <a href="/twiki/bin/view/Main/RDF">RDF</a> &amp; Semantic Web using N3 </td><td bgcolor="#FFFFCC"> <a href="http://www.w3.org/2000/10/swap/Primer.html" target="_top">http://www.w3.org/2000/10/swap/Primer.html</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Dave Beckett's Resource Description Framework (<a href="/twiki/bin/view/Main/RDF">RDF</a>) Resource Guide </td><td bgcolor="#FFFFFF"> <a href="http://ilrt.org/discovery/rdf/resources/" target="_top">http://ilrt.org/discovery/rdf/resources/</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> DAML+OIL </td><td bgcolor="#FFFFCC"> <a href="http://www.daml.org/2000/12/daml+oil-index" target="_top">http://www.daml.org/2000/12/daml+oil-index</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> <a href="/twiki/bin/view/Main/RDF">RDF</a> Interest Group IRC Scratchpad </td><td bgcolor="#FFFFFF"> <a href="http://rdfig.xmlhack.com/" target="_top">http://rdfig.xmlhack.com/</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> <a href="/twiki/bin/view/Main/RDF">RDF</a> Hacking: Understanding the Striped <a href="/twiki/bin/view/Main/RDF">RDF</a>/XML Syntax </td><td bgcolor="#FFFFCC"> <a href="http://lists.w3.org/Archives/Public/www-archive/2001Oct/att-0020/01-stripes.html" target="_top">http://lists.w3.org/Archives/Public/www-archive/2001Oct/att-0020/01-stripes.html</a> </td></tr>
+<tr><td bgcolor="#FFFFFF"> Eric Vitiello Jr's list of links </td><td bgcolor="#FFFFFF"> <a href="http://www.perceive.net/links/folder/RDF" target="_top">http://www.perceive.net/links/folder/RDF</a> </td></tr>
+<tr><td bgcolor="#FFFFCC"> An Introduction to <a href="/twiki/bin/view/Main/RDF">RDF</a> and the Jena <a href="/twiki/bin/view/Main/RDF">RDF</a> API </td><td bgcolor="#FFFFCC"> <a href="http://www.hpl.hp.com/semweb/doc/tutorial/RDF_API/index.html#ch-Introduction" target="_top">http://www.hpl.hp.com/semweb/doc/tutorial/RDF_API/index.html#ch-Introduction</a> </td></tr>
+</table>
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/RDF"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/RDF"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/RDF">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/RDF">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/RDF?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/RDF?template=oopsmore&amp;param1=1.8&amp;param2=1.8">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.8 | <a href="/twiki/bin/rdiff/Main/RDF?rev1=1.8&amp;rev2=1.7">&gt;</a> | <a href="/twiki/bin/view/Main/RDF?rev=1.7">r1.7</a> | <a href="/twiki/bin/rdiff/Main/RDF?rev1=1.7&amp;rev2=1.6">&gt;</a> | <a href="/twiki/bin/view/Main/RDF?rev=1.6">r1.6</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/RDF?template=oopsmore&amp;param1=1.8&amp;param2=1.8">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=RDF%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=RDF"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <title>WeblogWithWikiDiscussion - Main - Wiki - 0xDECAFBAD</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	  
+	 <!-- <base href="http://www.decafbad.com/twiki/bin/view/Main/WeblogWithWikiDiscussion" /> -->
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta name="ICBM" content="42.24141, -83.75496" />
+	 <meta name="feedsteridentity" content="c5e6ua4x09fy" />
+	 <meta name="DC.title" content="0xDECAFBAD" />
+	 <meta name="geo.position" content="42.2414;-83.755" />
+	 <meta name="geo.region" content="US-MI" />
+	 <meta name="geo.placename" content="Ann Arbor" />
+
+	 <!--
+	 <link rel="alternate" type="application/rss+xml" title="RSS"
+			 href="/blog/index.rdf" />
+	 <link rel="alternate" type="application/atom+xml" title="Atom"
+			 href="/blog/atom.xml" />
+	 <link rel="meta" type="application/rdf+xml" title="FOAF"
+			 href="http://www.decafbad.com/downloads/lmo-foaf.rdf" />
+	 -->
+
+	 <link rel="stylesheet" media="screen" title="Default Style" href="/css/main.css" type="text/css" />
+	 <link href="/twiki/pub/TWiki/DeusxSkin/twiki.css" rel="stylesheet" type="text/css">
+	 <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="start" href="http://www.decafbad.com/twiki/bin/view/Main/" title="Home" />
+	 <!--
+	 <MTEntries><link rel="bookmark" type="text/html" title="<$MTEntryTitle remove_html="1"$>" href="<$MTEntryLink$>"></MTEntries>
+	 -->
+	 
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="pageTitle"><a href="/">0xDECAFBAD</a></h1>
+      <a class="skiplink" href="#startContent" accesskey="2">Skip over navigation</a>
+      <a name="nav"></a>
+      <ul class="nav">
+        <li><a href="/" title="Go back to the home page">Home</a></li>
+        <li><a href="/blog/" title="Wander through past postings">Blog</a></li>
+        <li><a href="/links/" title="Browse my daily link accumulator">Links</a></li>
+        <li><a href="/twiki/bin/view/Main/WebHome" title="Wiki content" class="active">Wiki</a></li>
+        <li><a href="/projects/" title="Pages about my projects">Projects</a></li>
+        <li><a href="/about/" title="About this site and its construction">About</a></li>
+        <li><a href="mailto:deus_x@pobox.com" title="Contact me via email" accesskey="9">Contact</a></li>
+      </ul>
+      <a name="startContent"></a>
+<div class="content">
+    <div class="breadcrumbs">
+        <img src="/images/icon-wiki.gif" alt="I need a new, non-borrowed wiki icon" width="79" height="68" style="float: left; background-color: #fff" hspace="10" vspace="5" />    
+       <a href="/">Home</a>
+       <a href="/twiki/bin/view/Main/WebHome">Wiki</a>
+       <a href="/twiki/bin/view/Main/WebHome">Main</a>
+    </div>
+    <h1 class="wikiTitle">WeblogWithWikiDiscussion</h1>
+<div id="wikiContent">
+<a name="PageTop"></a>
+    <div class="wikiMeta">Revision r1.6 - 11 Mar 2003 - 10:46 GMT - <a href="/twiki/bin/view/Main/TWikiGuest">TWikiGuest</a> <!--META{"parent" prefix=">br /<Parents: "}%--></div>
+<p />
+<h2><a name="Discussion"> Discussion </a></h2>
+<p />
+There are actually some benefits of doing weblogging right within a wiki tool. (1) a weblog entry can easily generate a wiki page; (2) from a wiki page you can use Backlinks to find the associated weblog entries. Plus (3) everything's in 1 place. Downside: don't get some weblog-specific tools (e.g. <a href="/twiki/bin/view/Main/NewsAggregator">NewsAggregator</a>, <a href="/twiki/bin/view/Main/RSS">RSS</a>) 
+<p />
+-- <a href="/twiki/bin/view/Main/BillSeitz">BillSeitz</a>
+<p />
+It may be cool to allow <a href="/twiki/bin/view/Main/RadioUserLand">RadioUserLand</a> users to attach Wiki pages to their weblogs, and have these pages automatically downstreamed to their desktop web site (just as blog entries are upstreamed). Now when you are away from your desktop machine you can still update your site (and you get a comment system for free).
+<p />
+-- <a href="/twiki/bin/view/Main/EhudLamm">EhudLamm</a> - 05 Apr 2002  
+<p />
+On <a href="/twiki/bin/view/Main/MeatballWiki">MeatballWiki</a>, a number of us have online diaries and various slough pages where we dump random ideas. Occasionally material from these moves to more mainstream pages, possibly at the hands of someone else. I personally like it when people edit my diary.
+<p />
+I don't see why it has to be much more complicated than that. Why pull out the propellor beanie when all you want is a chronology. That is, unless you wanted some sort of post-hoc structured parsing like <a href="/twiki/bin/view/Main/RSS">RSS</a> generation. Even <a href="/twiki/bin/view/Main/RSS">RSS</a> isn't too hard to hack into something like an online diary if you are clever about it. For instance, you could wrap each diary entry with a <diary/> tag. The server can then timestamp the diary entry <diary timestamp="''W3C time format''"/>This is my diary</diary>. 
+<p />
+Personally, I'm not too fond of that solution because it's too programmer-oriented. The <a href="http://www.usemod.com/cgi-bin/mb2.pl?WikiSyntax" title="'WikiSyntax' on 'MeatBall' site, a 'UseMod' Wiki variant">MeatBall:WikiSyntax</a> is getting to look too much like code when it's supposed to look more like English. I don't even like the syntax on this page (in TWiki). But the point is that there are things that could be done if you're sufficiently clever. -- <a href="/twiki/bin/view/Main/SunirShah">SunirShah</a>
+<p />
+[jammed in the middle, but relevant to meatballwiki] I have some bodges for <a href="/twiki/bin/view/Main/MeatballWiki">MeatballWiki</a> to allow me to use it as a comments interface for my <a href="/twiki/bin/view/Main/MovableType">MovableType</a> blog. The MT blog generates 'raw' post files that are then included on the fly in the wiki. Any wikipage called LE3332 acquires the original text from post 3332 of the blog. The naming bit sucks, but since I don't use headlines/titles very consistently, it seemed the only way. I like this way of adding comments simply because Wikis tend to bring old content back to life in a way that the linear structure of blogs doesn't really allow. That said, I still haven't actually added it on the 'live' version of my page :) Here's an rough example though: <a href="http://wikiwiki.thingy.com/cgi-bin/wiki?LE001456" target="_top">http://wikiwiki.thingy.com/cgi-bin/wiki?LE001456</a> -- <a href="/twiki/bin/view/Main/HowardJones">HowardJones</a> - 11th Mar 2003
+<p />
+I've put together a Zope product to add a weblog interface to a ZWiki.  It's at 
+<a href="http://www.zope.org/Members/karl/BlogFace/BlogFace" target="_top">http://www.zope.org/Members/karl/BlogFace/BlogFace</a>, and there's an demo at
+<a href="http://viii.dclxvi.org/demo/wikiblog/blog" target="_top">http://viii.dclxvi.org/demo/wikiblog/blog</a>.
+<p />
+-- Karl Anderson - 07 May 2002
+<p />
+The <a href="/twiki/bin/view/Main/MoinMoin">MoinMoin</a> + <a href="/twiki/bin/view/Main/BlogEdit">BlogEdit</a> wiki-weblog solution is a good example of what Sunir is talking about ("too much code"). E.g. Potlatch's <a href="http://potlatch.net/MoinMoin/moin.cgi/LoveBlog?action=edit" target="_top">LoveBlog</a>. My preferred solution would be even more all-in-one than Bill's. I want to see a weblog that is made up of a normally-named wiki pages internally transcluded to the weblog page. This allows things like having literally the same weblog entry in more than one weblog. <span style='background : #FFFFCE;'><font color="#0000FF">PikiePikie</font></span><a href="/twiki/bin/edit/Main/PikiePikie?topicparent=Main.WeblogWithWikiDiscussion">?</a> 0.5 does <span style='background : #FFFFCE;'><font color="#0000FF">InternalTransclusion</font></span><a href="/twiki/bin/edit/Main/InternalTransclusion?topicparent=Main.WeblogWithWikiDiscussion">?</a> so i will be able to start klugeing with this soon. -- <a href="/twiki/bin/view/Main/JohnAbbe">JohnAbbe</a>
+<p />
+<p />
+<a href="http://snipsnap.org/" target="_top">SnipSnap</a> is a wikilog written in Java, inspried by Vanilla. It's worth a look.  -- <span style='background : #FFFFCE;'><font color="#0000FF">GoofRider</font></span><a href="/twiki/bin/edit/Main/GoofRider?topicparent=Main.WeblogWithWikiDiscussion">?</a> (Jeffrey Chan)   2002-10-29
+<p />
+I modified (with <span style='background : #FFFFCE;'><font color="#0000FF">DeanGoodmanson</font></span><a href="/twiki/bin/edit/Main/DeanGoodmanson?topicparent=Main.WeblogWithWikiDiscussion">?</a> help) <a href="/twiki/bin/view/Main/BillSeitz">BillSeitz</a>'s <span style='background : #FFFFCE;'><font color="#0000FF">ZwikiWeblog</font></span><a href="/twiki/bin/edit/Main/ZwikiWeblog?topicparent=Main.WeblogWithWikiDiscussion">?</a> to allow adding weblog entries to multiple wikipages (in the same wiki and in the <span style='background : #FFFFCE;'><font color="#0000FF">ParentWiki</font></span><a href="/twiki/bin/edit/Main/ParentWiki?topicparent=Main.WeblogWithWikiDiscussion">?</a> if you post from a <span style='background : #FFFFCE;'><font color="#0000FF">PersonalSubWiki</font></span><a href="/twiki/bin/edit/Main/PersonalSubWiki?topicparent=Main.WeblogWithWikiDiscussion">?</a>) in my <a href="http://openspirit.homelinux.net/noowiki/NooWikiWeblog" target="_top">NooWikiWeblog</a> - <a href="/twiki/bin/view/Main/FlorianKonnertz">FlorianKonnertz</a>, 02-12
+<p />
+<p />
+Integrate any wiki and weblog by having the weblog support "post by e-mail" and the wiki support "subscribe to all page changes" and having the weblog subscribe to the wiki. This has been done at <a href="http://www.andrewsw.com/wiki/moin.cgi/WikiBlogIntegration" target="_top">http://www.andrewsw.com/wiki/moin.cgi/WikiBlogIntegration</a> and has no downside as far as blog features go, but isn't exactly totally seemless integration -- Andrew Chen, 2003-03-01
+<p />
+<p />
+Stumbled on another wikilog solution, <a href="http://www.antville.org/" target="_top">Antville</a>, written in Javascript on top of a Java framework called Helma. It's bsically a weblog with wiki syntax. Lots of macros, appears quite customizable.  -- <span style='background : #FFFFCE;'><font color="#0000FF">GoofRider</font></span><a href="/twiki/bin/edit/Main/GoofRider?topicparent=Main.WeblogWithWikiDiscussion">?</a> (Jeffrey Chan)   2003-03-09
+<p />
+<a href="http://www.ecyrd.com/JSPWiki" target="_top">JSPWiki</a> also has a rudimentary wiki-weblog integration.  Each weblog entry is its own page, and pages are then aggregated by a plugin. -- <span style='background : #FFFFCE;'><font color="#0000FF">JanneJalkanen</font></span><a href="/twiki/bin/edit/Main/JanneJalkanen?topicparent=Main.WeblogWithWikiDiscussion">?</a>, 2003-03-11
+<!--
+<h2><a name="Referrers"> Referrers </a></h2>
+<iframe height="150" width="100%" src="http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WeblogWithWikiDiscussion"></iframe>
+INCLUDE{"http://www.decafbad.com/web-services/url-based/show_referers.cgi?exclude=decafbad.com&amp;line_len=80&amp;uri=/twiki/bin/view/Main/WeblogWithWikiDiscussion"}%
+-->
+<!-- META{"form"}% -->
+<p />
+<p />
+<p />
+<a name="PageBottom"></a>
+</div>
+</div>
+      <div class="content"><div id="growup">
+        <img alt="When I grow up, I want to be a computer scientist" src="/images/growup.jpg" />
+     </div>
+      </div>
+        <div id="sideCol">
+          <div class="sideHead">
+            <img src="/images/heeed.jpg" width="112" height="111" alt="Rotating header picture" />
+            <img src="/images/first-c64.jpg" width="112" height="111" alt="Rotating header picture" />
+          </div>
+          <div class="side"><h3><label for="search" accesskey="4">Search Wiki</label></h3>
+            <form method="get" action="/twiki/bin/search/Main">
+              <input id="search" name="search" size="25" value="" /><br />
+            </form>
+            <a href="/twiki/bin/view/Main/WebSearch">Advanced Search</a>
+          </div>
+        <div class="side"><h3>Page Actions</h3>
+            <div class="wikiActions">
+                <a href="/twiki/bin/edit/Main/WeblogWithWikiDiscussion">Edit this Page</a> <img src="/images/edit.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/attach/Main/WeblogWithWikiDiscussion">Attach a File</a> <img src="/images/add-attachment.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/view/Main/WeblogWithWikiDiscussion?skin=print">Print this Page</a> <img src="/images/print.png" width="20" height="20" /><br />
+                <a href="/twiki/bin/oops/Main/WeblogWithWikiDiscussion?template=oopsmore&amp;param1=1.6&amp;param2=1.6">View Revisions</a><img src="/images/rcs_diff.png" width="20" height="20" /><br />
+                <br />
+                 | r1.6 | <a href="/twiki/bin/rdiff/Main/WeblogWithWikiDiscussion?rev1=1.6&amp;rev2=1.5">&gt;</a> | <a href="/twiki/bin/view/Main/WeblogWithWikiDiscussion?rev=1.5">r1.5</a> | <a href="/twiki/bin/rdiff/Main/WeblogWithWikiDiscussion?rev1=1.5&amp;rev2=1.4">&gt;</a> | <a href="/twiki/bin/view/Main/WeblogWithWikiDiscussion?rev=1.4">r1.4</a>
+                <br />
+                <br />
+<a href="/twiki/bin/oops/Main/WeblogWithWikiDiscussion?template=oopsmore&amp;param1=1.6&amp;param2=1.6">More Actions...</a> <br />
+            </div>
+        </div>
+        <div class="side"><h3>Nearby</h3>
+            <div class="wikiNearby">
+                <a href="/twiki/bin/search/Main/SearchResult?scope=text&amp;regex=on&amp;search=Weblog%20*With%20*Wiki%20*Discussion%5B%5EA-Za-z%5D">Referring Pages</a><br />
+                <a href="/twiki/bin/view/Main/WebChanges">Recent Changes</a><br />
+                <a href="/twiki/bin/view/Main/WebIndex">Page Index</a><br />
+            </div>
+        </div>
+        <div class="side"><h3>Related Entries</h3>
+            <div class="wikiRelatedEntries">
+          (Disabled, for now.)
+            <!-- INCLUDE{"http://www.decafbad.com/twiki/pub/../../mt/mt-search.cgi?IncludeBlogs=2&amp;Template=include&amp;search=WeblogWithWikiDiscussion"}-->
+            </div>
+        </div>
+        <!--
+        -->
+<p />
+        <div class="side"><h3>Buttons</h3>
+          <div align="center">
+          <a href="http://amazon.com/gp/registry/1QWYI6P2JF3Q5" title="View items on my Amazon wishlist"><img alt="View items on my Amazon wishlist" src="/images/amazon2.gif" width="80" height="15" border="0" /></a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick" />            
+            <input type="hidden" name="business" value="deus_x@pobox.com" />
+            <input type="hidden" name="item_name" value="0xDECAFBAD" />
+            <input type="hidden" name="item_number" value="software_weblog" />
+            <input type="hidden" name="no_shipping" value="1" />
+            <input type="hidden" name="return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cancel_return" value="http://www.decafbad.com/blog/" />
+            <input type="hidden" name="cn" value="Send Les a note" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="hidden" name="tax" value="0" />
+            <input type="image" src="/images/paypalgray.png" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+          </form>
+<!--
+          <p>
+            <a href="/blog/atom.xml"><img alt="Atom feed!" src="/images/atom_feed.png" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/atom.xml"><img alt="Providing an Atom 0.3 feed" src="/images/atom_valid.png" width="80" height="15" border="0" /></a>
+            <a href="/blog/index.rdf"><img alt="Providing an RSS 1.0 feed" src="/images/rss1.gif" width="80" height="15" border="0" /></a>
+            <a href="http://feedvalidator.org/check?url=/blog/index.rdf"><img alt="Providing valid RSS" src="/images/rssvalid.gif" width="80" height="15" border="0" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/css.gif" alt="Valid CSS!"  width="80" height="15" border="0" /></a>
+            <a href="http://validator.w3.org/check/referer"><img src="/images/xhtml10.gif" alt="Valid XHTML 1.0!" width="80" height="15" border="0" /></a>
+          </p>
+-->
+          <p>
+            <a href="http://www.apple.com"><img alt="Made on a Macintosh" src="/images/appleop.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.movabletype.org/"><img alt="Powered by Movable Type &lt;$MTVersion$>" src="/images/movabletype.gif" width="80" height="15" border="0" /&gt;</a>
+            <a href="http://www.apple.com/safari/"><img alt="Made for Safari" src="/images/safari_copy2.gif" width="80" height="15" border="0" /></a>
+            <a href="http://www.mozilla.org/products/firefox/" title="Get Firefox - Web Browsing Redefined"><img src="/images/firefox_copy2.gif" width="80" height="15" alt="Get Firefox" border="0" /></a> 
+            <img src="/images/noie.gif" width="80" height="15" alt="You can do better than Microsoft Internet Explorer" border="0" /></a> 
+          </p>
+          <p>
+            <!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights.gif" /></a><br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/1.0/">Creative Commons License</a>.
+<!-- /Creative Commons License -->
+<p />
+<p />
+<!--
+<p />
+&lt;rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+<Work rdf:about="">
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Interactive" />
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/1.0/" />
+</Work>
+<p />
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/1.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+</License>
+<p />
+</rdf:RDF>
+<p />
+-->
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>    
+  </body>
+</html> 
