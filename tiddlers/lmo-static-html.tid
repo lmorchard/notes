@@ -8,7 +8,7 @@ title: lmo-static-html
 <html lang="en-us">
 	<head>
 		<title>`<$view field="caption" format="plainwikified"><$view field="title"/></$view>` - notes.lmorchard.com</title>
-		<meta property="og:site_name" content="{{$:/core/wiki/title}}" />
+		<meta property="og:site_name" content="`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`" />
 		<meta property="og:type" content="article" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -45,6 +45,7 @@ title: lmo-static-html
 					<h1 class="title">`<$view field="caption" format="plainwikified"><$view field="title"/></$view>`</h1>
 					<section class="post-content">
 						`<$view field="text" format="htmlwikified" />`
+					</section>
 						<section class="backlinks">
 							<h4>Backlinks</h4>
 							<ul>
@@ -57,7 +58,6 @@ title: lmo-static-html
 								</$vars>`
 							</ul>
 						</section>
-					</section>
 				</article>
 			</section>
 			<footer>
