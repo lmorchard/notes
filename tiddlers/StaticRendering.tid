@@ -1,5 +1,5 @@
 created: 20200512215555115
-modified: 20200604201333518
+modified: 20200613042000901
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
@@ -17,6 +17,7 @@ I am producing a static rendering of this wiki and publishing it to a web site.
 
 !! To Do
 
+* Maybe let Github Actions publish the notes site, just update notes from TransTrum
 * Add a last-modified date to the static pages
 * Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
 * HomePage columns?
@@ -29,7 +30,6 @@ I am producing a static rendering of this wiki and publishing it to a web site.
 * An RSS feed of AllJournals
 ** But maybe hold back //today// until tomorrow, when it's "done"
 ** Not quite a blog, maybe a daybook? Kind of a blog
-* Maybe add [[Disqus]] comments at the bottom of notes?
 
 !! Links
 
