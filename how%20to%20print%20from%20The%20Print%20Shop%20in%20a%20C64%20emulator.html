@@ -41,18 +41,41 @@
 						<p>Spent time today trying to The Print Shop (1984) by Broderbund to print</p><p>I'd initially tried <a class="tc-tiddlylink-external" href="https://archive.org/details/The_Print_Shop_1984_Broderbund" rel="noopener noreferrer" target="_blank">an Apple II emulated on Internet Archive</a> but that can't print (doh)</p><p>Using <a class="tc-tiddlylink-external" href="https://vice-emu.sourceforge.io" rel="noopener noreferrer" target="_blank">VICE</a> to emulate a C64</p><p>Found <a class="tc-tiddlylink-external" href="https://commodore.software/downloads/send/107-printing/8023-print-shop" rel="noopener noreferrer" target="_blank">The Print Shop</a> as a .d64 disk image. Also tried <a class="tc-tiddlylink-external" href="https://csdb.dk/release/?id=86872" rel="noopener noreferrer" target="_blank">csdb.dk</a> but that image seemed to crash.</p><p>The settings dialog won't let me set any emulated printers to graphics mode</p><p>On Windows 10, I found the settings file under <code>C:\Users\lmorc\AppData\Roaming\vice\vice.ini</code></p><p>Found the <code>Printer4Output=graphics</code> setting <a class="tc-tiddlylink-external" href="https://vice-emu.sourceforge.io/vice_6.html#SEC74" rel="noopener noreferrer" target="_blank">described here in the docs</a></p><p>Manually editing the .ini seems to have gotten the mode set to graphics. Also had to set a path for saving the printer output files.</p><p>Seems to be working, though it seems to only output the previous page printed successfully - the latest one is a zero-length BMP file. Ahh, I think it needs a manual line-feed triggered from the settings dialog.</p><p><a class="tc-tiddlylink-external" href="https://www.lemon64.com/forum/viewtopic.php?t=31731" rel="noopener noreferrer" target="_blank">Found this tutorial for cleaning up the dot-matrix output a little in GIMP</a>. The output is made of spaced dots, which ends up looking a bit faint when laser-printed. Okay for a card. Kind of a pain in the butt for a banner, though. Too many images.
 </p>
 					</section>
-						<section class="backlinks">
-							<h4>Backlinks</h4>
-							<ul>
+					<section class="backlinks">
+						<h4>Backlinks</h4>
+						<ul>
+							
 								
-									
-										<li>
-											<a href="./2020%2520%252F%252006%2520%252F%252005.html">2020 / 06 / 05</a>
-										</li>
-									
+									<li>
+										<a href="./2020%2520%252F%252006%2520%252F%252005.html">2020 / 06 / 05</a>
+									</li>
 								
-							</ul>
-						</section>
+							
+						</ul>
+					</section>
+					<section class="comments">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = "https://lmorchard.github.io/notes/how%2520to%2520print%2520from%2520The%2520Print%2520Shop%2520in%2520a%2520C64%2520emulator.html";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "how%2520to%2520print%2520from%2520The%2520Print%2520Shop%2520in%2520a%2520C64%2520emulator";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://notes-lmorchard-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            					
+					</section>
 				</article>
 			</section>
 			<footer>

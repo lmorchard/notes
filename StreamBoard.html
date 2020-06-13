@@ -651,22 +651,49 @@
             </button>
           </div>
           <span class="dpbd-C-EditTitle-T-D">
-            <input class="tc-titlebar tc-edit-texteditor" type="text" value="2020 / 06 / 12">
+            <input class="tc-titlebar tc-edit-texteditor" type="text" value="StaticRendering">
 
 <div class=" tc-reveal" hidden="true"></div>
 
           </span>
           <textarea class="tc-edit-texteditor" placeholder="&quot;shorttext&quot; for plain text up to a paragraph. Use &quot;title&quot; as ID, &quot;text&quot; for large content." type="text"></textarea>
-          Draft of '2020 / 06 / 12'
+          Draft of '<a class="tc-tiddlylink tc-tiddlylink-resolves" href="StaticRendering.html">StaticRendering</a>'
           
-          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">* Good morning, took the day off work today
-* Tinkered a bit with [[AboutMePage]]
-** Got publishing via Github Actions working
-** Attempting [[a scheduled workflow|https://github.com/lmorchard/about-me/commit/542cb8d1f560bf95f1f61bee72401532e6895e09]] for regular updates rather than running it from my home LAN - [[and it worked!|https://github.com/lmorchard/about-me/runs/767530702?check_suite_focus=true]]
-* Thinking I might want to blog about this revamped AboutMePage thing
-** Dropped React &amp; Webpack for tagged template literals and my own minimal asset procesing
-** Using Github Actions to fetch data sources and publish to AWS S3
-** Discovered that Gi</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
+          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">I am producing a static rendering of this wiki and publishing it to a web site.
+
+!! In a nutshell
+
+* [[These are the NPM scripts I use|https://github.com/lmorchard/notes/blob/master/package.json#L6]]. 
+* My workbench computer ([[TransTrum]]) runs the server with `npm run start` for my personal note-taking use.
+* It has a scheduled cronjob that runs `npm run deploy` every 10 minutes:
+** backs up the notes to the github repository,
+** builds the static rendering,
+** pushes that to GitHub Pages.
+
+!! To Do
+
+* Maybe let Github Actions publish the notes site, just bnotes from TransTrum
+* Add a last-modified date to the static pages
+* Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
+* HomePage columns?
+* Make [[the static rendering template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] less funky?
+** I don't really understand TiddlyWiki macros &amp; widgets &amp; pragmas &amp; etc yet - this is kind of copypasta'd from other templates until it seemed to work
+* Move to notes.lmorchard.com
+* Would it be interesting to whitelist or blacklist published pages by tag?
+* Might be neat to have a &quot;now&quot; page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
+* An RSS feed of RecentChanges could be nice
+* An RSS feed of AllJournals
+** But maybe hold back //today// until tomorrow, when it's &quot;done&quot;
+** Not quite a blog, maybe a daybook? Kind of a blog
+
+!! Links
+
+* Repo: https://github.com/lmorchard/notes/tree/master
+* Published: https://lmorchard.github.io/notes/
+* https://nesslabs.com/tiddlywiki-static-website-generator
+* https://www.mentalnodes.com/
+* https://notes.andymatuschak.org/
+</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
         </span>
       </span>
     
@@ -1919,22 +1946,49 @@
             </button>
           </div>
           <span class="dpbd-C-EditTitle-T-D">
-            <input class="tc-titlebar tc-edit-texteditor" type="text" value="2020 / 06 / 12">
+            <input class="tc-titlebar tc-edit-texteditor" type="text" value="StaticRendering">
 
 <div class=" tc-reveal" hidden="true"></div>
 
           </span>
           <textarea class="tc-edit-texteditor" placeholder="&quot;shorttext&quot; for plain text up to a paragraph. Use &quot;title&quot; as ID, &quot;text&quot; for large content." type="text"></textarea>
-          Draft of '2020 / 06 / 12'
+          Draft of '<a class="tc-tiddlylink tc-tiddlylink-resolves" href="StaticRendering.html">StaticRendering</a>'
           
-          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">* Good morning, took the day off work today
-* Tinkered a bit with [[AboutMePage]]
-** Got publishing via Github Actions working
-** Attempting [[a scheduled workflow|https://github.com/lmorchard/about-me/commit/542cb8d1f560bf95f1f61bee72401532e6895e09]] for regular updates rather than running it from my home LAN - [[and it worked!|https://github.com/lmorchard/about-me/runs/767530702?check_suite_focus=true]]
-* Thinking I might want to blog about this revamped AboutMePage thing
-** Dropped React &amp; Webpack for tagged template literals and my own minimal asset procesing
-** Using Github Actions to fetch data sources and publish to AWS S3
-** Discovered that Gi</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
+          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">I am producing a static rendering of this wiki and publishing it to a web site.
+
+!! In a nutshell
+
+* [[These are the NPM scripts I use|https://github.com/lmorchard/notes/blob/master/package.json#L6]]. 
+* My workbench computer ([[TransTrum]]) runs the server with `npm run start` for my personal note-taking use.
+* It has a scheduled cronjob that runs `npm run deploy` every 10 minutes:
+** backs up the notes to the github repository,
+** builds the static rendering,
+** pushes that to GitHub Pages.
+
+!! To Do
+
+* Maybe let Github Actions publish the notes site, just bnotes from TransTrum
+* Add a last-modified date to the static pages
+* Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
+* HomePage columns?
+* Make [[the static rendering template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] less funky?
+** I don't really understand TiddlyWiki macros &amp; widgets &amp; pragmas &amp; etc yet - this is kind of copypasta'd from other templates until it seemed to work
+* Move to notes.lmorchard.com
+* Would it be interesting to whitelist or blacklist published pages by tag?
+* Might be neat to have a &quot;now&quot; page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
+* An RSS feed of RecentChanges could be nice
+* An RSS feed of AllJournals
+** But maybe hold back //today// until tomorrow, when it's &quot;done&quot;
+** Not quite a blog, maybe a daybook? Kind of a blog
+
+!! Links
+
+* Repo: https://github.com/lmorchard/notes/tree/master
+* Published: https://lmorchard.github.io/notes/
+* https://nesslabs.com/tiddlywiki-static-website-generator
+* https://www.mentalnodes.com/
+* https://notes.andymatuschak.org/
+</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
         </span>
       </span>
     
@@ -3187,22 +3241,49 @@
             </button>
           </div>
           <span class="dpbd-C-EditTitle-T-D">
-            <input class="tc-titlebar tc-edit-texteditor" type="text" value="2020 / 06 / 12">
+            <input class="tc-titlebar tc-edit-texteditor" type="text" value="StaticRendering">
 
 <div class=" tc-reveal" hidden="true"></div>
 
           </span>
           <textarea class="tc-edit-texteditor" placeholder="&quot;shorttext&quot; for plain text up to a paragraph. Use &quot;title&quot; as ID, &quot;text&quot; for large content." type="text"></textarea>
-          Draft of '2020 / 06 / 12'
+          Draft of '<a class="tc-tiddlylink tc-tiddlylink-resolves" href="StaticRendering.html">StaticRendering</a>'
           
-          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">* Good morning, took the day off work today
-* Tinkered a bit with [[AboutMePage]]
-** Got publishing via Github Actions working
-** Attempting [[a scheduled workflow|https://github.com/lmorchard/about-me/commit/542cb8d1f560bf95f1f61bee72401532e6895e09]] for regular updates rather than running it from my home LAN - [[and it worked!|https://github.com/lmorchard/about-me/runs/767530702?check_suite_focus=true]]
-* Thinking I might want to blog about this revamped AboutMePage thing
-** Dropped React &amp; Webpack for tagged template literals and my own minimal asset procesing
-** Using Github Actions to fetch data sources and publish to AWS S3
-** Discovered that Gi</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
+          <textarea class="tc-edit-texteditor" placeholder="Type the text for this tiddler">I am producing a static rendering of this wiki and publishing it to a web site.
+
+!! In a nutshell
+
+* [[These are the NPM scripts I use|https://github.com/lmorchard/notes/blob/master/package.json#L6]]. 
+* My workbench computer ([[TransTrum]]) runs the server with `npm run start` for my personal note-taking use.
+* It has a scheduled cronjob that runs `npm run deploy` every 10 minutes:
+** backs up the notes to the github repository,
+** builds the static rendering,
+** pushes that to GitHub Pages.
+
+!! To Do
+
+* Maybe let Github Actions publish the notes site, just bnotes from TransTrum
+* Add a last-modified date to the static pages
+* Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
+* HomePage columns?
+* Make [[the static rendering template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] less funky?
+** I don't really understand TiddlyWiki macros &amp; widgets &amp; pragmas &amp; etc yet - this is kind of copypasta'd from other templates until it seemed to work
+* Move to notes.lmorchard.com
+* Would it be interesting to whitelist or blacklist published pages by tag?
+* Might be neat to have a &quot;now&quot; page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
+* An RSS feed of RecentChanges could be nice
+* An RSS feed of AllJournals
+** But maybe hold back //today// until tomorrow, when it's &quot;done&quot;
+** Not quite a blog, maybe a daybook? Kind of a blog
+
+!! Links
+
+* Repo: https://github.com/lmorchard/notes/tree/master
+* Published: https://lmorchard.github.io/notes/
+* https://nesslabs.com/tiddlywiki-static-website-generator
+* https://www.mentalnodes.com/
+* https://notes.andymatuschak.org/
+</textarea><div class="tc-block-dropdown ect-block-dropdown" style="display:none; position: absolute;"></div>
         </span>
       </span>
     
@@ -3980,18 +4061,41 @@
 
 </p>
 					</section>
-						<section class="backlinks">
-							<h4>Backlinks</h4>
-							<ul>
+					<section class="backlinks">
+						<h4>Backlinks</h4>
+						<ul>
+							
 								
-									
-										<li>
-											<a href="./2020%2520%252F%252005%2520%252F%252010%2520-%2520stream%2520notes.html">2020 / 05 / 10 - stream notes</a>
-										</li>
-									
+									<li>
+										<a href="./2020%2520%252F%252005%2520%252F%252010%2520-%2520stream%2520notes.html">2020 / 05 / 10 - stream notes</a>
+									</li>
 								
-							</ul>
-						</section>
+							
+						</ul>
+					</section>
+					<section class="comments">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = "https://lmorchard.github.io/notes/StreamBoard.html";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "StreamBoard";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://notes-lmorchard-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            					
+					</section>
 				</article>
 			</section>
 			<footer>
