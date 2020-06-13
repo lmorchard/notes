@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200610070143273
+modified: 20200613035320890
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -17,11 +17,14 @@ I built an "about me" page based on a bunch of different APIs from my social med
 * https://github.com/lmorchard/about-me/tree/no-webpack
 ** The new generator without React or Webpack
 
+!! Highlights
+
+* Updated every 15 minutes via Github Actions
+** https://github.com/lmorchard/about-me/commit/542cb8d1f560bf95f1f61bee72401532e6895e09
+** https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+
 !! To Do
 
-* Build via cron schedule with Github Actions?
-** https://help.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
-* Fix link paths in transcluded wiki note
 * Add a guestbook? How about a webring? (i'm not even kidding)
 * Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * It breaks every month or so - fix it. Probably expired tokens
