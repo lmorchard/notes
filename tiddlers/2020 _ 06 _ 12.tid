@@ -1,5 +1,5 @@
 created: 20200612183450431
-modified: 20200613041910720
+modified: 20200613042048105
 tags: Journal
 title: 2020 / 06 / 12
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 ** Dropped React & Webpack for tagged template literals and my own minimal asset procesing
 ** Using Github Actions to fetch data sources and publish to AWS S3
 ** Discovered that Github Actions supports scheduled workflows with cronjob format
-* Experimenting with adding Disqus comments to every notes page
+* Experimenting in [[StaticRendering]] with adding Disqus comments to every notes page
