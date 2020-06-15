@@ -1,5 +1,5 @@
 created: 20200514232151790
-modified: 20200613035320890
+modified: 20200615060120587
 tags: Project
 title: AboutMePage
 type: text/vnd.tiddlywiki
@@ -25,6 +25,10 @@ I built an "about me" page based on a bunch of different APIs from my social med
 
 !! To Do
 
+* Better error handling
+* Retain last good fetch for each source, re-use on error
+* Retain last good fetch, vary refresh per source with customizable max-age for each
+** e.g. YouTube barely changes, maybe fetch once per day. Twitter varies far more often.
 * Add a guestbook? How about a webring? (i'm not even kidding)
 * Add [[scuttlebutt posts|https://viewer.scuttlebot.io/%25lk4up934FckHCT%2Bhb48EHcphWAEvsfClHKBWlOvF1jQ%3D.sha256.json]]?
 * It breaks every month or so - fix it. Probably expired tokens
