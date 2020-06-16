@@ -1,0 +1,17 @@
+caption: link popups
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20200128024856933
+description: link popups
+icon: $:/user/images/popup-link
+modified: 20200616063917248
+shortcuts: 
+tags: $:/tags/EditorToolbar
+title: $:/.giffmex/EditorToolbar/linkpopups
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="wrap-selection"
+    prefix="""<div class="tooltip"><a href="XXX">YYY</a><div class="tooltiptext"><$transclude tiddler="ZZZ" mode="block"/></div></div>"""
+    suffix=""""""
+/>
