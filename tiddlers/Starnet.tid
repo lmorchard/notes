@@ -1,13 +1,27 @@
 created: 20200616061142465
-modified: 20200616061556931
+modified: 20200616063000805
 title: Starnet
 type: text/vnd.tiddlywiki
 
 This is a cyberpunk nethacking game idea I had with an interplanetary setting. Wanted to do something with procedural generation to allow for an endlessly explorable system of neighborhoods, cities, up through planets and star systems.
 
-One day I got on a tear and spewed all of this into a Google Doc:
+!! Experiments / prototypes
+
+* Network graph navigation
+** https://rose-viscount.glitch.me/
+* Hacking based on perishable exploit collection vs varying system strengths
+** https://rose-viscount.glitch.me/sketches/hackcombat/index.html
+
+!! Influences
+
+* [[Hacknet|http://hacknet-os.com/]]
+* [[Exapunks|www.zachtronics.com/exapunks/]]
+* [[Netrunner BBS DOOR game|https://twitter.com/lmorchard/status/1211880494867963904]]
+* [[Shin Megami Tensei|https://megamitensei.fandom.com/wiki/Shin_Megami_Tensei]] for collecting daemons - I had an idea where you could attract / tame / befriend AI anomalies and send them off to hack for you
 
 !! Setting
+
+One day I got on a tear and spewed all of this into a Google Doc:
 
 Far future, ~2000 years. The galaxy is widely colonized by humanity. Alien life has been discovered, but all sentients besides humans are in ruins. Interplanetary travel can take months and years with FTL non-relativistic hyperspace travel through The Panic. Communication can be near instantaneous thanks to Leguin Ansibles and planetary internets.
 
