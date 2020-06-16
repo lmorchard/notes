@@ -1,5 +1,5 @@
 created: 20200615202954337
-modified: 20200616061142951
+modified: 20200616064539802
 tags: Journal
 title: 2020 / 06 / 15
 type: text/vnd.tiddlywiki
@@ -17,3 +17,6 @@ type: text/vnd.tiddlywiki
 ** and started coding for it a bit before wandering off from the prototype.
 ** I'd kind of like to return to it someday
 * Set up notes.lmorchard.com in AWS and a Github Action to deploy StaticRendering on push to master
+* Thinking about my older notes that are in the repository but not yet rendered to the web site
+** [[bucket|https://github.com/lmorchard/notes/tree/master/bucket]] - a few years of OPML and Markdown based daybook style entries, circa 2006 - 2009
+** [[twiki|https://github.com/lmorchard/notes/blob/master/kwiki/]] - a final HTML export from my old TWiki-based personal wiki from back around 2002 
