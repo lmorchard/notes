@@ -1,5 +1,5 @@
 created: 20200615202954337
-modified: 20200616060946536
+modified: 20200616061142951
 tags: Journal
 title: 2020 / 06 / 15
 type: text/vnd.tiddlywiki
@@ -13,4 +13,7 @@ type: text/vnd.tiddlywiki
 * Thinking about [[GameDev]] again, maybe need to learn [[Godot]]
 ** I tend to avoid GameDev not involving WebDev - because usually I'm trying to learn some web technologies from the attempt to build a game that I'll probably never finish
 ** But, you know, I don't really play many games on the web
+* Thinking about [[Starnet]], an idea for a cyberpunk netrunner game I had last year.
+** and started coding for it a bit before wandering off from the prototype.
+** I'd kind of like to return to it someday
 * Set up notes.lmorchard.com in AWS and a Github Action to deploy StaticRendering on push to master
