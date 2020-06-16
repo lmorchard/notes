@@ -1,0 +1,25 @@
+name: Staging deploy to Github Pages
+on:
+  push:
+    branches: [ stage ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 14.2.0
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.2.0
+    - name: Set git identity
+      run: |
+        git config --global user.email "me@lmorchard.com"
+        git config --global user.name "Les Orchard"        
+    - name: Yarn install
+      run: yarn install
+    - name: Build static pages
+      run: yarn run build
+    - name: Create .nojekyll
+      run: touch output/static/.nojekyll
+    - name: Deploy for staging
+      run: npx gh-pages -t -d output/static -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
