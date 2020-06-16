@@ -1,5 +1,5 @@
 created: 20200615202954337
-modified: 20200616051957368
+modified: 20200616052535314
 tags: Journal
 title: 2020 / 06 / 15
 type: text/vnd.tiddlywiki
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 * Thinking about [[GameDev]] again, maybe need to learn [[Godot]]
 ** I tend to avoid GameDev not involving WebDev - because usually I'm trying to learn some web technologies from the attempt to build a game that I'll probably never finish
 ** But, you know, I don't really play many games on the web
-* Set up notes.lmorchard.com in AWS and a Github Action to deploy StaticRendering on merge to master
+* Set up notes.lmorchard.com in AWS and a Github Action to deploy StaticRendering on push to master

@@ -1,5 +1,5 @@
 created: 20200512215555115
-modified: 20200613042008352
+modified: 20200616052529114
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
@@ -10,20 +10,20 @@ I am producing a static rendering of this wiki and publishing it to a web site.
 
 * [[These are the NPM scripts I use|https://github.com/lmorchard/notes/blob/master/package.json#L6]]. 
 * My workbench computer ([[TransTrum]]) runs the server with `npm run start` for my personal note-taking use.
-* It has a scheduled cronjob that runs `npm run deploy` every 10 minutes:
+* It has a scheduled cronjob that runs `npm run backup` every 10 minutes:
 ** backs up the notes to the github repository,
-** builds the static rendering,
-** pushes that to GitHub Pages.
+* There's also a Github Action workflow 
+** https://github.com/lmorchard/notes/blob/master/.github/workflows/prod.yml
+** builds the static site
+** uploads the result to AWS S3
 
 !! To Do
 
-* Maybe let Github Actions publish the notes site, just backup notes from TransTrum
 * Add a last-modified date to the static pages
 * Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
 * HomePage columns?
 * Make [[the static rendering template|https://github.com/lmorchard/notes/blob/master/tiddlers/lmo-static-html.tid]] less funky?
 ** I don't really understand TiddlyWiki macros & widgets & pragmas & etc yet - this is kind of copypasta'd from other templates until it seemed to work
-* Move to notes.lmorchard.com
 * Would it be interesting to whitelist or blacklist published pages by tag?
 * Might be neat to have a "now" page listing things I'm up to right now. That, and / or have a big panel added to my AboutMePage
 * An RSS feed of RecentChanges could be nice
