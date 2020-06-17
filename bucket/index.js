@@ -133,7 +133,7 @@ async function opmlRender(note) {
             .map((childId) => items[childId])
             .map(
               ({ "#id": childId, text, created }) => html`
-                <li data-id="${childId}" data-created="${created}">
+                <li id="${childId}" data-created="${created}">
                   <p>${unescaped(text)}</p>
                   ${outlineList(childId)}
                 </li>
