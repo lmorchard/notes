@@ -6,7 +6,9 @@
   "scripts": {
     "start": "tiddlywiki . --listen host=0.0.0.0 port=9900",
     "backup": "git add tiddlers && git ci -m'tiddler backup' && git push",
-    "build": "npx tiddlywiki --rendertiddlers '[!is[system]!tag[templates]]' lmo-static-html static text/plain --rendertiddler HomePage static/index.html text/plain lmo-static-html",
+    "build": "npm-run-all -s build:tiddlywiki build:bucket",
+    "build:tiddlywiki": "npx tiddlywiki --rendertiddlers '[!is[system]!tag[templates]]' lmo-static-html static text/plain --rendertiddler HomePage static/index.html text/plain lmo-static-html",
+    "build:bucket": "node bucket/index.js",
     "gh-pages": "gh-pages -d output/static",
     "serve": "reload -p 8675 -d output/static",
     "deploy": "npm-run-all -s backup build gh-pages"
@@ -14,9 +16,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "escape-html": "^1.0.3",
     "gh-pages": "^2.2.0",
+    "globby": "^11.0.1",
+    "marked": "^1.1.0",
+    "mkdirp": "^1.0.4",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.0.2",
+    "opmlparser": "^0.8.0",
     "reload": "^3.0.4",
     "tiddlywiki": "^5.1.22"
   }
