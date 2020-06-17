@@ -187,18 +187,18 @@ const urlencode = (raw) => () => escapeHtml(encodeURIComponent(raw));
 const page = ({ title, content }) => html`
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<title>${title} - ${config.siteTitle}</title>
-		<meta property="og:site_name" content="${config.siteTitle}" />
-		<meta property="og:type" content="article" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <head>
+    <title>${title} - ${config.siteTitle}</title>
+    <meta property="og:site_name" content="${config.siteTitle}" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
 
     <style type="text/css">
-      .main .content section.post-content >ul {
+      .main .content section.post-content ul.date-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -206,7 +206,7 @@ const page = ({ title, content }) => html`
         margin: 1em 0;
         padding: 0;
       }
-      .main .content .post-content >ul li {
+      .main .content .post-content ul.date-list li {
         flex-basis: 15%;
         margin: 0.25em 0;
         padding: 0;
@@ -214,32 +214,32 @@ const page = ({ title, content }) => html`
         flex-grow: 1;
       }
     </style>
-	</head>
-	<body>
-		<section class="main">
-			<header>
-				<h1><a href="${config.baseUrl}">${config.siteTitle}</a></h1>
-				<h2>thinking with the lid off</h2>
-				<nav>
-					<label for="nav-trigger"></label>
-					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-					<ul>
-						<li><a href="http://lmorchard.com/">about me</a></li>
-						<li><a href="/RecentChanges.html">recent changes</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section class="content">
-				<article class="post wiki">
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="${config.baseUrl}">${config.siteTitle}</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
           <h1 class="title">${title}</h1>
-					<section class="post-content">
+          <section class="post-content">
             ${content}
-					</section>
-			<footer>
-				<img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
-			</footer>
-		</section>
-	</body>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
 </html>
 `;
 
@@ -256,7 +256,7 @@ const indexRoot = ({ notes }) =>
     title: "Bucket notes",
     content: html`
       ${unescaped(marked(README))}
-      <ul>
+      <ul class="date-list">
         ${notes.map((note) => html`<li>${noteLink(note)}</li>`)}
       </ul>
     `,
