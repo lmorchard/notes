@@ -196,6 +196,24 @@ const page = ({ title, content }) => html`
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content >ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content >ul li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
 	</head>
 	<body>
 		<section class="main">
