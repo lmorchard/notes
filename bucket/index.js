@@ -21,11 +21,13 @@ const config = {
 };
 
 const README = `
-These are daybook-style notes that I tried to gather over the course of 2006 through 2009.
+These are daybook-style notes that I tried to keep over the course of 2006 through 2009.
+
+Some of them are from a defunct OPML blog using [Dave Winer's OPML Editor](http://home.opml.org/).
+
+Others are in Markdown format from what I used to call a brain bucket instead of a blog.
 
 Nothing earth-shattering here, but I wanted to get them into HTML so at least I could read them again.
-
-I called this a bucket because it's not a blog, it's a bucket into which I dumped things.
 `;
 
 async function main() {
