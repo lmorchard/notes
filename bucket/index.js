@@ -205,7 +205,7 @@ const page = ({ title, content }) => html`
 					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 					<ul>
 						<li><a href="http://lmorchard.com/">about me</a></li>
-						<li><a href="./RecentChanges.html">recent changes</a></li>
+						<li><a href="/RecentChanges.html">recent changes</a></li>
 					</ul>
 				</nav>
 			</header>
