@@ -1,4 +1,12 @@
 created: 20200513203048556
-modified: 20200513203048750
+modified: 20200618215019394
 title: stop energy
 type: text/vnd.tiddlywiki
+
+http://www.userland.com/whatIsStopEnergy
+
+<<<
+Suppose someone, call him Mr. A, has an idea that he believes is ready to deploy, or is requesting comments as he is getting ready to deploy. So he posts an RFC, usually on a mail list or a website, in the hope that people will spot a problem and help him figure out a solution; or find no problems and co-develop an implementation, or develop a compatible implementation. In theory, the Internet is a collegial environment, with lots of people who want to do new stuff, where one should expect to get this kind of help.
+
+In this scenario, A is a proponent of Forward Motion. In all likelihood, instead of getting help, A will encounter Stop Energy, reasons why he can't or shouldn't be allowed to do what he proposes.
+<<<
