@@ -1,5 +1,5 @@
 created: 20200618151605931
-modified: 20200618151851631
+modified: 20200618203714748
 tags: Journal
 title: 2020 / 06 / 18
 type: text/vnd.tiddlywiki
@@ -9,3 +9,8 @@ type: text/vnd.tiddlywiki
 ** The cringe I felt nearly drove me through the floor 😂
 ** I'm feeling a bit of that now, reading things I wrote 10-15 years ago 😅
 ** Makes me wonder what I'll think of me now, 10 years from now 😬
+* Gave a small demo at work today about Storybook and GitHub Status Checks
+** Maybe I should blog about it?
+** [[Storybook]] is a tool we use to generate static mini-sites with "stories" or demos of React components we use on our product 
+** [[Status checks|https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-status-checks]] are pass/fail status messages attached to GitHub commits that can link to a target URL
+** We build Storybooks for each commit to master and for Pull Requests and set a status check with a link to the Storybook build hosted via [[Github Pages]]
