@@ -4,9 +4,9 @@
 <span><$view field="title"/></span>
 
 <ul>
-<$list filter="[[mental health]tagging[]]">
+<$list filter="[{tags}tagging[]]">
 <li>
-<p><$view field="title"/></p>
+<span><$view field="title"/></span>
 
 </li>
 </$list>
