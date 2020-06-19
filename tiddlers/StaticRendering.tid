@@ -1,5 +1,5 @@
 created: 20200512215555115
-modified: 20200616052529114
+modified: 20200619213836974
 tags: Project
 title: StaticRendering
 type: text/vnd.tiddlywiki
@@ -19,6 +19,7 @@ I am producing a static rendering of this wiki and publishing it to a web site.
 
 !! To Do
 
+* Generate index pages listing tiddlers by tag
 * Add a last-modified date to the static pages
 * Search around here might be nice - I can do it from Tiddlywiki, the authoring environment, but having it on the static site would be nice
 * HomePage columns?
