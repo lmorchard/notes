@@ -1,0 +1,17 @@
+created: 20200619214323516
+modified: 20200619223945490
+tags: IndexTopic
+title: TagIndex
+type: text/vnd.tiddlywiki
+
+<$list filter="[!prefix[$:/]!is[system]tags[]sort[title]]">
+<h2><$view field="title"/> (<$count filter="[all[current]tagging[]]"/>)</h2>
+<ul>
+<$list filter="[all[current]!is[system]tagging[]!prefix[$:/]]">
+<li>
+<span><$link /></span>
+
+</li>
+</$list>
+</ul>
+</$list>
