@@ -6,8 +6,8 @@
   "scripts": {
     "start": "tiddlywiki . --listen host=0.0.0.0 port=9900",
     "backup": "git add tiddlers && git ci -m'tiddler backup' && git push",
-    "build": "npm-run-all -p build:tiddlywiki build:bucket",
-    "build:tiddlywiki": "npm-run-all -p build:tiddlywiki:*",
+    "build": "npm-run-all -s build:tiddlywiki build:bucket",
+    "build:tiddlywiki": "npm-run-all -s build:tiddlywiki:*",
     "build:tiddlywiki:notes": "npx tiddlywiki --rendertiddlers '[!is[system]!tag[templates]]' lmo-static-html static text/plain",
     "build:tiddlywiki:index": "npx tiddlywiki --rendertiddler HomePage static/index.html text/plain lmo-static-html",
     "build:tiddlywiki:today": "npx tiddlywiki --render '[tag[Journal]reverse[]first[1]]' static/today.html text/plain lmo-static-html",
