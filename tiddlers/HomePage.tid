@@ -1,5 +1,5 @@
 created: 20200429074019706
-modified: 20200604193520938
+modified: 20200619054527742
 tags: 
 title: HomePage
 type: text/vnd.tiddlywiki
@@ -10,16 +10,17 @@ This is a place where I'm trying to dump things out of my leaky brain bucket so 
 
 I'm currently using TiddlyWiki for this and StaticRendering to publish the notes on the web so as to [[Work with the garage door up]].
 
-This will never be a polished presentation of anything necessarily coherent. This will always be a work in progress with half-baked things going on. But there might be some interesting things here anyway? 
+This will never be a polished presentation of anything necessarily coherent.
 
-!! Index topics
+!! Recent changes
 
-Rough attempt to organize some things? Needs more work to be useful.
+Random things change around here as I unload my brain to more durable storage.
 
 <ul>
-<$list filter="[tag[IndexTopic]reverse[]]">
+<$list filter="[!is[system]sort[modified]reverse[]first[7]]">
 <li><$link /></li>
 </$list>
+<li>[[More changes...|RecentChangesLong]]</li>
 </ul>
 
 !! Recent journals
@@ -33,13 +34,12 @@ Trying to open a note every day and spew brain things into it.
 <li>[[More journals...|AllJournals]]</li>
 </ul>
 
-!! Recent changes
+!! Index topics
 
-Random things change around here as I unload my brain to more durable storage.
+Rough attempt to organize some things? Needs more work to be useful.
 
 <ul>
-<$list filter="[!is[system]sort[modified]reverse[]first[7]]">
+<$list filter="[tag[IndexTopic]reverse[]]">
 <li><$link /></li>
 </$list>
-<li>[[More changes...|RecentChangesLong]]</li>
 </ul>
