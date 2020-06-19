@@ -1,0 +1,5 @@
+<ul>
+<$list filter="[all[tags]]">
+<li><$link /></li>
+</$list>
+</ul>
