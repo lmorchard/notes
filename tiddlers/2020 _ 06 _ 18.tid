@@ -1,22 +1,13 @@
 created: 20200618151605931
-modified: 20200618213643643
+modified: 20200618235022984
 tags: Journal
 title: 2020 / 06 / 18
 type: text/vnd.tiddlywiki
 
 * Good morning. Hello world.
 * Thinking about [[pair programming and social anxiety]].
+* Thinking about the demo I gave today on [[Storybook and Github Status Checks]]
 * About 10 years ago, I recovered a pile of my old high-school era poetry and journal entries from Commodore 64 floppies.
 ** The cringe I felt nearly drove me through the floor 😂
 ** I'm feeling a bit of that now, reading things I wrote 10-15 years ago 😅
 ** Makes me wonder what I'll think of me now, 10 years from now 😬
-* Gave a demo at work today about what I've done with [[Storybook]] and [[GitHub Status Checks|https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-status-checks]]
-** Maybe I should blog about it?
-** [[Storybook]] is a tool we use to generate static mini-sites with demos (i.e. "stories") of [[React]] components we use on [[Firefox Accounts]] 
-** [[Status checks|https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-status-checks]] are pass/fail status messages attached to GitHub commits that can link to a target URL
-** We build Storybooks for each commit to master and for Pull Requests and set a status check with a link to the Storybook build hosted via [[Github Pages]]
-*** [[build-storybooks.sh|https://github.com/mozilla/fxa/blob/master/_scripts/build-storybooks.sh]] - a shell script that builds the storybook for the current commit and assembles metadata
-**** [[The status check is posted via curl|https://github.com/mozilla/fxa/blob/master/_scripts/build-storybooks.sh#L105]]
-*** [[build-storybooks-indexes.js|https://github.com/mozilla/fxa/blob/master/_scripts/build-storybooks-indexes.js]] - a node JS script that generates index pages for a static site that organize and link to past storybook builds
-** Putting it all together, this means that clicking the green checkmark on a commit in our repo will link to a storybook build if that commit has changed relevant React components
-** [img[storybook-status-check.PNG]]
