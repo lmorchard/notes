@@ -1,5 +1,18 @@
 <ul>
-<$list filter="[all[tags]]">
-<li><$link /></li>
+<$list filter="[all[tags]!prefix[$:/]]">
+<li>
+<span><$view field="title"/></span>
+
+<ul>
+<$list filter="[[mental health]tagging[]]">
+<li>
+<p><$view field="title"/></p>
+
+</li>
+</$list>
+</ul>
+
+
+</li>
 </$list>
 </ul>
