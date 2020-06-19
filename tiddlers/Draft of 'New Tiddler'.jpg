@@ -4,7 +4,7 @@
 <span><$view field="title"/></span>
 
 <ul>
-<$list filter="[{tags}tagging[]]">
+<$list filter="all[current]tagging[]]">
 <li>
 <span><$view field="title"/></span>
 
