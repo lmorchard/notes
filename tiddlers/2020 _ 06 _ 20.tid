@@ -1,7 +1,9 @@
 created: 20200620173603585
-modified: 20200620173623356
+modified: 20200621064454791
 tags: Journal
 title: 2020 / 06 / 20
 type: text/vnd.tiddlywiki
 
 * Hello world.
+* Re-fixed the R button on my joycon
+* Upgraded to Ubuntu 20 on TransTrum and that somehow led me to needing to clear CMOS and reset BIOS settings to even get the thing to post
