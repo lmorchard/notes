@@ -1,7 +1,18 @@
 created: 20200621163627488
-modified: 20200621163641789
+modified: 20200622055922433
 tags: Journal
 title: 2020 / 06 / 21
 type: text/vnd.tiddlywiki
 
 * Hello world
+* I haven't tried [[Streaming]] in about a month
+** I'd intended to fire up a workbench stream a few weeks ago, but that weekend was when the George Floyd protests started up
+** Feel anxious about streaming anyway, figured the world didn't need to hear from me right now, so I skipped
+* Not entirely sure where today went. Spent a couple hours in the basement at the workbench rebuilding the streaming PC.
+** Tried swapping the GPU out for a USB 3.0 expansion card for all the cameras
+** Turns out that GPU was doing a lot, since CPU usage went up to like 70% and FPS in OBS dropped to 15
+** Tried using a spare RX 480 that I'd upgraded from in my game PC, but TransTrum just seems not to recognize it at all
+** Had a spare Radeon 7800 that the RX 480 had replaced, and that seemed to work
+* Then, drinks with the girl and dinner. Measured skylights for new blinds.
+* Procrastinating exercise bike & shower before bed, scrolling through tiktok and twitter
+
