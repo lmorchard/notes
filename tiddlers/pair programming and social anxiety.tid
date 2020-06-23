@@ -1,5 +1,5 @@
 created: 20200618213642802
-modified: 20200621172344843
+modified: 20200623161423459
 title: pair programming and social anxiety
 type: text/vnd.tiddlywiki
 
@@ -30,3 +30,14 @@ If more group work sessions and pair programming are things we decide make us mo
 I'm also hoping that by laying this out, I can convince myself to ease off reactions because I've opened up about the underlying concern. Other folks seem to enjoy working in shared sessions, so I don't think it's a helpful contribution for me to repeatedly resist the concept in general.
 
 But, I think I can say that it doesn't work //for me//. I just feel bad asserting that boundary when lots of other folks seem to be having a fine time and I'm the odd one out spewing [[stop energy]].
+
+!! Links
+
+* https://en.wikipedia.org/wiki/Mob_programming
+** Mob programming sounds like a nightmare
+* https://spin.atomicobject.com/2020/01/10/overcoming-pair-formance-anxiety/
+** "Now you’re programming with something like half a brain and putting everything you type through the world’s most pessimistic linter at the same time." 
+* https://news.ycombinator.com/item?id=16708458
+** "Pair programming works for specific people, for others it's an exercise in anxiety."
+* https://en.wikipedia.org/wiki/Design_by_committee
+** This is the kind of abstract process argument I come up with when I'm avoiding expressing my own fear & anxiety. To be fair, for folks who are effective at pairing, I don't think this is the issue.
