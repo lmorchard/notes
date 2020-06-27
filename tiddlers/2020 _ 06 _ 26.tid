@@ -1,10 +1,12 @@
 created: 20200626160043546
-modified: 20200626174522460
+modified: 20200627001734597
 tags: Journal
 title: 2020 / 06 / 26
 type: text/vnd.tiddlywiki
 
 * Hello world. 
+* When I was a teen in the late 80s, I wished for a little machine to carry with me everywhere that would play sound samples of various things and that would just be the way I talked.
+** I now realize that I do that today with memes & gifs
 * [[KevDog tweets|https://twitter.com/lmorchard/status/1276567922190606336]]: "A substantial improvement to the culture of programming would happen if `git blame` were changed to `git credit`."
 ** I responded "Yeah, I've always found "blame" in git to be an unnecessarily nasty little spike of microaggression. Like, I don't want to BLAME anyone, nothing's necessarily broken. I just want context and to figure out who's the expert in this spot."
 ** "WHO BROKE THE BUILD!? SHAME! BLAME!"
