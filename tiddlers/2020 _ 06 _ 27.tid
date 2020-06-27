@@ -1,5 +1,5 @@
 created: 20200627194058864
-modified: 20200627200837460
+modified: 20200627210941862
 tags: Journal
 title: 2020 / 06 / 27
 type: text/vnd.tiddlywiki
@@ -8,3 +8,10 @@ type: text/vnd.tiddlywiki
 * I have tweeted too much today
 * "[[The Price|https://en.m.wikipedia.org/wiki/The_Price_(Star_Trek:_The_Next_Generation)]]", season 3 episode 8 of Star Trek: The Next Generation features a wormhole where one end is currently stable but the other wanders
 ** This is what my focus feels like
+* [[My RSS reader over on Glitch|https://lmo-feeder.glitch.me/]] has been a bit unstable lately
+** [[Glitch has been having growing pains|https://glitch.com/glimmer/post/how-were-making-glitch-more-reliable]] and thus far I've been a freeloader not paying for hosting over there
+** This also has me thinking some more about my RSS reader, though.
+** I just successfully got my AboutMePage and [[Easy-Blog Oven]] generating static pages by way of [[GitHub Actions]].
+** Why not rework my RSS reader to generate a static [[river of news]] page every hour or so? 
+** I really just want a personal newspaper that I page through and occasionally dive further into specific sources
+** I realized I never want an inbox-like experience with read-message counts and per-item management
