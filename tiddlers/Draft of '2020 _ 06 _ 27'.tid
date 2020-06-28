@@ -1,0 +1,32 @@
+created: 20200627194058864
+draft.of: 2020 / 06 / 27
+draft.title: 2020 / 06 / 27
+modified: 20200628071955907
+tags: Journal
+title: Draft of '2020 / 06 / 27'
+type: text/vnd.tiddlywiki
+
+* Hello world
+* I have tweeted too much today
+* [[The Return of the 90s Web|https://mxb.dev/blog/the-return-of-the-90s-web/]]
+** "When I look at some of the trends on the web today, I wonder if we’re at that point yet. I wonder if we’re ready to revisit some of the ideas of the early web again."
+** I'm thinking yes
+* "[[The Price|https://en.m.wikipedia.org/wiki/The_Price_(Star_Trek:_The_Next_Generation)]]", season 3 episode 8 of Star Trek: The Next Generation features a wormhole where one end is currently stable but the other wanders
+** This is what my focus feels like
+* [[My RSS reader over on Glitch|https://lmo-feeder.glitch.me/]] has been a bit unstable lately
+** [[Glitch has been having growing pains|https://glitch.com/glimmer/post/how-were-making-glitch-more-reliable]] and thus far I've been a freeloader not paying for hosting over there
+** This also has me thinking some more about my RSS reader, though.
+** I just successfully got my AboutMePage and [[Easy-Blog Oven]] generating static pages by way of [[GitHub Actions]].
+** Why not rework my RSS reader to generate a static [[river of news]] page every hour or so? 
+** I really just want a personal newspaper that I page through and occasionally dive further into specific sources
+** I realized I never want an inbox-like experience with read-message counts and per-item management
+** I do like the functionality I built where I see the first 12 or so items in a feed but can click a button to load up the next 12 if there's further history available.
+*** That means I can either breeze past a really active feed if I don't have time for it now, or I can linger and dive further in
+** I could take the SQLite-backed DB and feed polling code. Replace the live server-side API that powers the front-end client with baked static resources.
+*** The front-end only ever does GET requests to URLs like `/feed/8673509/items?limit=12&startingFrom={date}`
+*** The feed polling needs to have some state and history - thus keeping the SQLite DB and not starting from scratch every run. Feeds tend to be a 12-15 item window on a larger stream, and I like to accumulate more of the stream between reads of more active sources.
+*** Maybe if running via Github Action, the SQLite DB could be checked out at the start of the action and then committed back to the repo at the end.
+*** My current feed reader's DB gets up to about 40MB. Not enormous, but maybe larger than the typical single file for a git repo?
+* Oh, hey, my feed reader on glitch is just gone now:
+** Not the end of the world, but I'll kind of miss the dozen or so subscriptions I picked up in the last year.
+** [img[glitch-reader-gone.PNG]]
