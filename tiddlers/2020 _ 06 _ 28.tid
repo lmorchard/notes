@@ -1,8 +1,9 @@
 created: 20200629070848981
-modified: 20200629070953745
+modified: 20200629082513235
 tags: Journal
 title: 2020 / 06 / 28
 type: text/vnd.tiddlywiki
 
 * Hello world, belated.
 * Spent most of the day working on porting over some of my RSS reader stuff to a static site generator
+* [[Ned Batchelder|https://nedbatchelder.com/blog/202006/2500.html]] writes: "Here’s a common piece of advice from people who create things: to make better things, make more things. Not only does it give you constant practice at making things, but it gives you more chances at lucking into making a good thing."
