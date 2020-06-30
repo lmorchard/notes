@@ -1,8 +1,9 @@
 created: 20200630163238036
-modified: 20200630183708743
+modified: 20200630184556147
 tags: Journal
 title: 2020 / 06 / 30
 type: text/vnd.tiddlywiki
 
 * Hello world.
 * [[Always bet on HTML|https://gomakethings.com/always-bet-on-html/]]
+* I forget that we have the [[details / summary elements in HTML|https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details]] now. Got an urge to try making another [[outliner]] using them.
