@@ -1,5 +1,5 @@
 created: 20200701165843546
-modified: 20200701195830818
+modified: 20200701201847078
 tags: Journal
 title: 2020 / 07 / 01
 type: text/vnd.tiddlywiki
@@ -13,6 +13,8 @@ type: text/vnd.tiddlywiki
 ** (also, static typing in Python)
 * [[Create a React Teleprompter using the Web SpeechRecognition API|https://elijahmanor.com/react-teleprompter]]
 ** This looks neat. Speech recognition to detect progress through a script on a prompter.
+* [[Libravatar|https://www.libravatar.org/]]
+** I use Gravatar for most generic avatar needs. This seems an interesting alternative
 * [[entr(1) - Run arbitrary commands when files change|http://eradman.com/entrproject/]]
 ** I already use [[onchange|https://www.npmjs.com/package/onchange]] to run a command on file change, but this looks like another interesting file watcher - especially how it takes file lists from stdin
 ** Found via [[Julia Evans|https://jvns.ca/blog/2020/06/28/entr/]]
