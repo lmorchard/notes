@@ -11,6 +11,7 @@
     "build:tiddlywiki:notes": "npx tiddlywiki --rendertiddlers '[!is[system]!tag[templates]]' lmo-static-html static text/plain",
     "build:tiddlywiki:index": "npx tiddlywiki --rendertiddler HomePage static/index.html text/plain lmo-static-html",
     "build:tiddlywiki:today": "npx tiddlywiki --render '[tag[Journal]reverse[]first[1]]' static/today.html text/plain lmo-static-html",
+    "build:tiddlywiki:atomfeed": "npx tiddlywiki --rendertiddler '$:/plugins/dullroar/atomfeed/atom.template.xml' 'static/atom.xml' 'text/plain'",
     "build:bucket": "node bucket/index.js",
     "gh-pages": "gh-pages -d output/static",
     "serve": "reload -p 8675 -d output/static",
