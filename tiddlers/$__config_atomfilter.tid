@@ -1,6 +1,6 @@
 created: 20200702222642686
-modified: 20200702223120135
+modified: 20200702224702676
 title: $:/config/atomfilter
 type: text/vnd.tiddlywiki
 
-[tag[Journal]sort[modifed]reverse[]rest[]]
+[tag[Journal]sort[modified]reverse[]first[5]rest[]]
