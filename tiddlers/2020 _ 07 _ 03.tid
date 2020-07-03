@@ -1,5 +1,5 @@
 created: 20200703070253700
-modified: 20200703205955429
+modified: 20200703210654438
 tags: Journal
 title: 2020 / 07 / 03
 type: text/vnd.tiddlywiki
@@ -11,7 +11,10 @@ type: text/vnd.tiddlywiki
 * Question that's been anchored in my brain after 20 years of software work:
 ** Well, [[how else would you have done it]]?
 * [[Doomscrolling Is Slowly Eroding Your Mental Health|https://www.wired.com/story/stop-doomscrolling/]]
-** "Doomscrolling will never actually stop the doom itself. Feeling informed can be a salve, but being overwhelmed by tragedy serves no purpose. The current year is nothing if not a marathon; trying to sprint to the end of one’s feed will only cause burnout and a decline in mental health among the people whose level-headedness is needed most. That means you, dear reader. Amidst all of the pain, isolation, and destruction of the past six months, it’s not worth it to add on to the strain with two hours of excess Twitter every night. Perhaps now just needs to be the End Times for your timeline."
+** "Doomscrolling will never actually stop the doom itself. Feeling informed can be a salve, but being overwhelmed by tragedy serves no purpose. The current year is nothing if not a marathon; trying to sprint to the end of one’s feed will only cause burnout and a decline in mental health among the people whose level-headedness is needed most."
+** That TikTok appears to be [[a piece of spyware|https://www.reddit.com/r/tech/comments/e6c3vf/tiktok_secretly_loaded_with_chinese_spy_software/]] makes me really sad.
+** My experience wit TikTok was the opposite of doomscrolling - I could spend a whole hour swiping through 10-second-capsules of varying degrees of whimsy & delight
+** Mileage varies, but TikTok's algorithm had me well-pegged
 * [[Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub.|https://foambubble.github.io/foam/]]
 ** I might be interested in trying this, but not sure I want to live in VSCode more than I do already for work and side projects?
 ** Then again, I'm there already.
@@ -24,4 +27,4 @@ type: text/vnd.tiddlywiki
 * [[Cats Posing Like Pin-Up Girls|https://www.sadanduseless.com/pinup-cat-gallery/]]
 * "[[24a2|https://github.com/jamesroutley/24a2]] is a simple game engine that lets you to build a game in a few hours. It has a very limited set of features which makes it easy to learn, and encourages you to solve problems creatively."
 ** This looks fun. Would like to carve out time to play with it sometime
-
+* [[hyperapp: purely functional, declarative web apps in javascript|https://hyperapp.dev/]]
