@@ -1,7 +1,9 @@
 created: 20200703070253700
-modified: 20200703203942911
+draft.of: 2020 / 07 / 03
+draft.title: 2020 / 07 / 03
+modified: 20200703204000998
 tags: Journal
-title: 2020 / 07 / 03
+title: Draft of '2020 / 07 / 03'
 type: text/vnd.tiddlywiki
 
 * Hello world.
@@ -17,7 +19,7 @@ type: text/vnd.tiddlywiki
 ** This looks fun. Would like to carve out time to play with it sometime
 * A question that has anchored itself in my brain after having been a software engineer for like 20 years now is this:
 ** Well, [[how else would you have done it]]?
-* This notion just occurred to me:
+* [[my brain 
 ** Most days, my head feels like a [[Chinese Room]] that is geared to project a coherent persona of consistent and sustained efforts
 ** "...does the machine literally //understand// Chinese? Or is it merely simulating the ability to understand Chinese?"
 ** Maybe this isn't quite the right analogy.
