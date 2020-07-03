@@ -1,0 +1,14 @@
+created: 20200703070446655
+modified: 20200703071208119
+title: Chinese Room
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Chinese_room
+
+<<<
+The Chinese room argument holds that a digital computer executing a program cannot be shown to have a "mind", "understanding" or "consciousness",[a] regardless of how intelligently or human-like the program may make the computer behave. The argument was first presented by philosopher John Searle in his paper, "Minds, Brains, and Programs", published in Behavioral and Brain Sciences in 1980.
+<<<
+
+<<<
+Searle then supposes that he is in a closed room and is receiving questions in Chinese. While he cannot understand Chinese, he has a large collection of Chinese phrasebooks in the room, with questions and matching answers. When he receives a question, he need only to look up the same sequence of characters in one of the books and respond with the indicated answer, even though he does not understand the question nor the answer. If the computer had passed the Turing test this way, it follows, says Searle, that he would do so as well, simply by running the program manually. 
+<<<
