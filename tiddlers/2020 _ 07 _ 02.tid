@@ -1,5 +1,5 @@
 created: 20200702160010310
-modified: 20200703063608650
+modified: 20200703064207252
 tags: Journal
 title: 2020 / 07 / 02
 type: text/vnd.tiddlywiki
@@ -39,3 +39,6 @@ type: text/vnd.tiddlywiki
 ** "Quickly triage incoming information multiple times per day."
 ** "Make use of read-it-later apps and buy an e-ink reader to have disconnected time dedicated to reading."
 ** "Create extensive highlights and take notes while reading."
+* [[Roy Fielding's Misappropriated REST Dissertation |https://twobithistory.org/2020/06/28/rest.html]]
+** "They could have called their approach Fuck It, Overload HTTP (FIOH), and that would have been an accurate name, as anyone who has ever tried to decide what HTTP status code to return for a business logic error can attest."
+** "This is why, rather than saying that nobody understands REST, we should just think of the term “REST” as having been misappropriated. The modern notion of a REST API has historical links to Fielding’s REST architecture, but really the two things are separate. The historical link is good to keep in mind as a guide for when to build a RESTful API. Does your API cross organizational and national boundaries the same way that HTTP needs to? Then building a RESTful API with a predictable, uniform interface might be the right approach. If not, it’s good to remember that Fielding favored having form follow function. Maybe something like GraphQL or even just JSON-RPC would be a better fit for what you are trying to accomplish."
