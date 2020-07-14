@@ -1,5 +1,5 @@
 created: 20200713165739964
-modified: 20200714054302861
+modified: 20200714062952572
 tags: Journal
 title: 2020 / 07 / 13
 type: text/vnd.tiddlywiki
@@ -8,9 +8,15 @@ Hello world.
 
 Steadily busy day, but not as brain melting as most days last week.
 
+Been playing a lot of video games lately. Felt less inclined to work on side projects. Not at all inclined toward [[Streaming]]. Maybe I'll swing back soon.
+
 Just had a video game idea I will likely never make: FPS where guns get more interesting the higher your altitude in the level. Bigger booms, faster pews, more complicated particle effects. Levels have lots of vertical things like skyscrapers and super-trampolines and low grav.
 
-Been playing a lot of video games lately. Felt less inclined to work on side projects. Not at all inclined toward [[Streaming]]. Maybe I'll swing back soon.
+Kind of want to build one of these: [[The Open Book Project|https://github.com/joeycastillo/The-Open-Book]]
+
+<<<
+As a society, we need an open source device for reading. Books are among the most important documents of our culture, yet the most popular and widespread devices we have for reading — the Kobo, the Nook, the Kindle and even the iPad — are closed devices, operating as small moving parts in a set of giant closed platforms whose owners' interests are not always aligned with readers'.
+<<<
 
 Got an urge to do something with [[Svelte]]. Maybe I will.
 
