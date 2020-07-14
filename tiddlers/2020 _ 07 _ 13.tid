@@ -1,5 +1,5 @@
 created: 20200713165739964
-modified: 20200714000457548
+modified: 20200714044757227
 tags: Journal
 title: 2020 / 07 / 13
 type: text/vnd.tiddlywiki
@@ -7,3 +7,9 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 Steadily busy day, but not as brain melting as most days last week.
+
+[[Building Cloudflare TV from scratch|https://blog.cloudflare.com/building-cloudflare-tv-from-scratch/]]
+
+[[bbc/brave|https://github.com/bbc/brave]] -  Basic Real-time AV Editor - allowing you to preview, mix, and route live audio and video streams on the cloud
+
+Really wish I could maintain consistent enthusiasm for [[Streaming]], because the tech around it fascinates me.
