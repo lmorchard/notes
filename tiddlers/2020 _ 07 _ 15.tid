@@ -1,5 +1,5 @@
 created: 20200715165749984
-modified: 20200715185530789
+modified: 20200715193935599
 tags: Journal
 title: 2020 / 07 / 15
 type: text/vnd.tiddlywiki
@@ -79,3 +79,11 @@ I feel very similar sentiments whenever my enthusiasms bring me back round to tr
 [[New approach on my arrows problem. More math, less logic. These are the kinds of arrows I wanted from the start!|https://twitter.com/steveruizok/status/1283139008499986437]]
 
 Nice arrows! Every now and again, I get an urge to make a mind mapping app. Maybe a [[Tinderbox]] alternative. Not sure I will actually do it, but these arrows would be handy.
+
+[[MailDev|https://www.npmjs.com/package/maildev]]
+
+<<<
+MailDev is a simple way to test your project's generated emails during development with an easy to use web interface that runs on your machine built on top of Node.js.
+<<<
+
+Looks neat. Start up a node process or a docker container that exposes a mock email inbox web UI and an SMTP listener port. Point your app at the SMTP listener to send emails. Watch the emails roll in.
