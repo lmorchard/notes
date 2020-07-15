@@ -1,5 +1,5 @@
 created: 20200715165749984
-modified: 20200715183414812
+modified: 20200715185530789
 tags: Journal
 title: 2020 / 07 / 15
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ Reading reports that [[a COVID-19 vaccine looks promising|https://www.statnews.c
 
 Given all that, my current expectation for life in the future is needing to take a sick week at least every quarter for a vaccine booster. That's assuming this particular vaccine works, and [[isn't a blend of Jim Bakker's Silver Solution, bleach, and Alex Jones' ball sweat|https://twitter.com/lmorchard/status/1278447669745274880]] rushed to market as an [[October Surprise|https://en.wikipedia.org/wiki/October_surprise]]. 
 
-Also thinking about what happens when we encounter future novel pathogens? Maybe we've been lucky but now COVID-19 is the first of many. Will we need different overlapping boosters, each disrupting healthy life for a bit? Also thinking about when a lot of people will opt out of this whole experience and skip vaccinations altogether.
+Also thinking about what happens when we encounter future novel pathogens? Maybe we've been lucky but now COVID-19 is the first of many. Will we need different overlapping boosters, each disrupting healthy life for a bit? Also thinking about when a lot of people will opt out of this whole experience and skip vaccinations altogether. And that's all assuming we someday get our heads out of our American asses and generally address pandemics with effective collective action.
 
 Slate: [[Bail Out the Bars|https://slate.com/news-and-politics/2020/07/bars-covid-bailout-restaurants.html?via=rss]]
 
@@ -35,6 +35,20 @@ That’s what Gen Z has discovered as they’ve updated the fake ID for the COVI
 <<<
 
 I kind of can't be mad at these teens.
+
+[[COVID-19 can cause male infertility, be transmitted sexually |https://www.ktsm.com/coronavirus-2/covid-19-can-cause-male-infertility-be-transmitted-sexually/]]
+
+<<<
+A COVID-19 attack on human sperm leads to a build-up of angiotensin II, which is a hormone that regulates kidney function and blood pressure. Increased levels of this hormone cause an immune response against the invading COVID-19 virus particles that increases the availability of reactive oxygen species that causes cell death. 
+
+Prolonged exposure to elevated angiotenstin II levels can lead to cell death in sperm.
+
+The available research suggests that when the ACE2 enzyme cleaves at specific amino acids, the exposure causes decreased sperm viability and function, and can ultimately result in a loss of male fertility.
+<<<
+
+Time for "corona ate my balls" memes?
+
+And now for something completely different...
 
 dev.to: [[ Why I Stopped Using Redux |https://dev.to/g_abud/why-i-quit-redux-1knl]]
 
@@ -61,3 +75,7 @@ What I dislike about editing in WordPress is the Gutenberg editor. Actually, Gut
 <<<
 
 I feel very similar sentiments whenever my enthusiasms bring me back round to trying WordPress again. Thought I would //love// the Gutenberg editor, but it just seems very uncomfy for me for actually prosing. That is, as opposed to managing content and shifting components around. But for laying down sentences and paragraphs and editing those, the blocks seem to get in the way, establish awkward boundaries, interrupt fluidity.
+
+[[New approach on my arrows problem. More math, less logic. These are the kinds of arrows I wanted from the start!|https://twitter.com/steveruizok/status/1283139008499986437]]
+
+Nice arrows! Every now and again, I get an urge to make a mind mapping app. Maybe a [[Tinderbox]] alternative. Not sure I will actually do it, but these arrows would be handy.
