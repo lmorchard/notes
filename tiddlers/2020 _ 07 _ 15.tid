@@ -1,5 +1,5 @@
 created: 20200715165749984
-modified: 20200715183041687
+modified: 20200715183414812
 tags: Journal
 title: 2020 / 07 / 15
 type: text/vnd.tiddlywiki
@@ -7,6 +7,8 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 Woke up an hour or two early with a baby migraine. Joy!
+
+Hmm, every time this thing goes through [[StaticRendering]], it re-uploads everything from scratch to AWS S3. I should gin up something that calculates content hashes and only uploads the changes.
 
 Took some time out this morning to read some news and clear my tabs. Here's some brain spew:
 
