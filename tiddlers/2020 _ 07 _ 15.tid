@@ -1,5 +1,5 @@
 created: 20200715165749984
-modified: 20200715181915864
+modified: 20200715183041687
 tags: Journal
 title: 2020 / 07 / 15
 type: text/vnd.tiddlywiki
@@ -8,9 +8,33 @@ Hello world.
 
 Woke up an hour or two early with a baby migraine. Joy!
 
-Reading reports that [[a COVID-19 vaccine looks promising|https://www.statnews.com/2020/07/14/moderna-covid19-vaccine-first-data-show-spurs-immune-response/]], though it can cause [[quite unpleasant severe reactions|https://www.statnews.com/2020/05/26/moderna-vaccine-candidate-trial-participant-severe-reaction/]]. Combining this with reports that [[immunity to COVID-19 may last only a few months|https://www.technologyreview.com/2020/07/13/1005103/immunity-to-covid-19-could-disappear-in-months-a-new-study-suggests/]]. My current expectation for the future is needing to take a sick week at least every quarter for a vaccine booster. And that's assuming this vaccine with these side effects works. And I'm also assuming a lot of people will opt out of this whole experience.
+Took some time out this morning to read some news and clear my tabs. Here's some brain spew:
 
-[[ Why I Stopped Using Redux |https://dev.to/g_abud/why-i-quit-redux-1knl]]
+Reading reports that [[a COVID-19 vaccine looks promising|https://www.statnews.com/2020/07/14/moderna-covid19-vaccine-first-data-show-spurs-immune-response/]], though it can cause [[quite unpleasant severe reactions|https://www.statnews.com/2020/05/26/moderna-vaccine-candidate-trial-participant-severe-reaction/]]. Also reading reports that [[immunity to COVID-19 may last only a few months|https://www.technologyreview.com/2020/07/13/1005103/immunity-to-covid-19-could-disappear-in-months-a-new-study-suggests/]].
+
+Given all that, my current expectation for life in the future is needing to take a sick week at least every quarter for a vaccine booster. That's assuming this particular vaccine works, and [[isn't a blend of Jim Bakker's Silver Solution, bleach, and Alex Jones' ball sweat|https://twitter.com/lmorchard/status/1278447669745274880]] rushed to market as an [[October Surprise|https://en.wikipedia.org/wiki/October_surprise]]. 
+
+Also thinking about what happens when we encounter future novel pathogens? Maybe we've been lucky but now COVID-19 is the first of many. Will we need different overlapping boosters, each disrupting healthy life for a bit? Also thinking about when a lot of people will opt out of this whole experience and skip vaccinations altogether.
+
+Slate: [[Bail Out the Bars|https://slate.com/news-and-politics/2020/07/bars-covid-bailout-restaurants.html?via=rss]]
+
+<<<
+It isn’t safe to reopen watering holes, nightclubs, and concert venues. Congress should pay to keep them closed.
+<<<
+
+Yeah, we should have done that back in April. I'm assuming every bar I've ever heard of since moving to Portland, OR will be wiped out and it'll be an entirely different city once I feel comfortable actually entering non-home buildings for fun again.
+
+NYPost: [[Teens are dressing up as mask-wearing grandmas to try to score alcohol|https://nypost.com/2020/07/14/teens-are-dressing-up-as-mask-wearing-grandmas-to-score-alcohol/amp/?__twitter_impression=true]]
+
+<<<
+In a pandemic, no one knows you’re underage.
+
+That’s what Gen Z has discovered as they’ve updated the fake ID for the COVID-19 era, hitting up liquor stores dressed as elderly grandmas wearing coronavirus face masks.
+<<<
+
+I kind of can't be mad at these teens.
+
+dev.to: [[ Why I Stopped Using Redux |https://dev.to/g_abud/why-i-quit-redux-1knl]]
 
 <<<
 But why do we need a global store in the first place? Are our frontend applications really that complex or are we trying to do too much with Redux?
@@ -35,13 +59,3 @@ What I dislike about editing in WordPress is the Gutenberg editor. Actually, Gut
 <<<
 
 I feel very similar sentiments whenever my enthusiasms bring me back round to trying WordPress again. Thought I would //love// the Gutenberg editor, but it just seems very uncomfy for me for actually prosing. That is, as opposed to managing content and shifting components around. But for laying down sentences and paragraphs and editing those, the blocks seem to get in the way, establish awkward boundaries, interrupt fluidity.
-
-[[Teens are dressing up as mask-wearing grandmas to try to score alcohol|https://nypost.com/2020/07/14/teens-are-dressing-up-as-mask-wearing-grandmas-to-score-alcohol/amp/?__twitter_impression=true]]
-
-<<<
-In a pandemic, no one knows you’re underage.
-
-That’s what Gen Z has discovered as they’ve updated the fake ID for the COVID-19 era, hitting up liquor stores dressed as elderly grandmas wearing coronavirus face masks.
-<<<
-
-I kind of can't be mad at these teens.
