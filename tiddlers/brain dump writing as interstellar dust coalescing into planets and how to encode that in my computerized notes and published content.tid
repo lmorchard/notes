@@ -1,5 +1,5 @@
 created: 20200716173344092
-modified: 20200716180831864
+modified: 20200716181726539
 title: brain dump writing as interstellar dust coalescing into planets and how to encode that in my computerized notes and published content
 type: text/vnd.tiddlywiki
 
@@ -9,7 +9,9 @@ This isn't a new notion. I always get here when I manage to dump thoughts often 
 
 I also kind of wonder if there's some tinkering opportunity around generating these "nodes" within an ActivityPub framework - i.e. as "[[objects|https://www.w3.org/TR/activitypub/#obj]]". Then, I can just publish those objects via the [[Fediverse]].
 
-Thing is, though, I like working with a blob of brain dump in amorphous form that gradually converges maybe on some nodules of coherence. Like planets condensing out of interstellar dust. The dust isn't really susceptible to fencing in as ActivityPub items, but the planets might be eventually. Would like a system that can accommodate free-form crossing into defined-form and back again through edits and cogitation over time.
+Thing is, though, I like working with a blob of brain dump in amorphous form that gradually converges maybe on some nodules of coherence. Like planets condensing out of interstellar dust. The dust isn't really susceptible to fencing in as ActivityPub items, but the planets might be eventually. I would like a system that can accommodate free-form crossing into defined-form and back again through edits and cogitation over time.
 
-And as another example: This very page started as rambly sentences in the day's note, which turned into rambly paragraphs, which I then extracted into this note & linked to it. Maybe if I keep working it, it could become a blog post?
+And as another example: This very page started as rambly sentences in the day's note, which turned into rambly paragraphs, which I then extracted into this note & linked to it. Maybe if I keep working it, it could become a blog post? 
+
+Emergent structure, lazy late commitment. Like ye olde tag folksonomy versus formal categories.
 
