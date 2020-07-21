@@ -1,5 +1,5 @@
 created: 20200720172002972
-modified: 20200721000645923
+modified: 20200721050444162
 tags: Journal
 title: 2020 / 07 / 20
 type: text/vnd.tiddlywiki
@@ -15,6 +15,16 @@ Also, I'm trying to deflect guilt over not finishing Persona 5 - see [[the previ
 Feeling a slight urge to play with some [[GameDev]] again. Every time I've done it so far, it's been vaguely in the service of sharpening up my [[WebDev]] chops. I've wanted to learn more about audio, graphics, gamepad, and worker APIs and figured games were a good way to get there. I also started learning [[Rust]] via [[GameDev]].
 
 Thing is, though, it's been so very rare that any game I've actually ended up playing was written for the web. Not even the indie stuff. I would have thought by now that the state of GameDev on the web would have made it really worth doing. Guess not? Seems kind of sad to me. I kind of want to make a game that you can just drop into from an URL. Have I not looked hard enough?
+
+Matt Haughey: [[Building DIY LED strips for fun|https://a.wholelottanothing.org/2020/07/18/building-diy-led-strips-for-fun/]]:
+
+<<<
+If you’ve watched YouTube or Twitch streamers, you might have noticed they have interesting backgrounds behind them, often with colored LED lighting on shelves or in corners. My new home office has a bunch of built-in floating shelves and I thought it’d be a perfect place to install LED strips.
+...
+Your lights will be controlled by a tiny computer chip with a WiFi adapter in it and the one you want is a NodeMCU ESP8266.
+<<<
+
+My office is a mess right now, but this would be neat to set up in there and maybe around my basement workbench where I've been [[Streaming]]
 
 I think [[The Gom Jabbar Test of Humanity]] really had an impact on my notions around becoming an adult human. I saw it in David Lynch's Dune probably at around age 10. The whole movie was formative in a trippy way.
 
