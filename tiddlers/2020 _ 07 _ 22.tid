@@ -1,0 +1,16 @@
+created: 20200723001138973
+modified: 20200723001219384
+tags: Journal
+title: 2020 / 07 / 22
+type: text/vnd.tiddlywiki
+
+Hello world, belated.
+
+Sam Bleckley - [[Lab Notebooks|https://sambleckley.com/writing/lab-notebooks.html]]
+
+<<<
+One of the hardest things about software engineering is that, while it’s often possible to understand the code you committed, it’s usually impossible to see all the things you tried first, that didn’t work. This is a trap for other developers, and even your future self, where a seemingly better solution gets tried again and again, and each time the same problem arises. But since the failure never gets committed, no record of the attempt is left. I suspect most experienced developers can remember a time where their memory saved a team hours or even weeks of work, simply by saying “ah, we tried [clever solution] a few years ago, but ran into problems X, Y, and Z. So we’d need to solve those problems before we try again.”
+
+A lab notebook takes that kind of information out of your memory and 
+puts it somewhere safe and permanent.
+<<<
