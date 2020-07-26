@@ -1,5 +1,5 @@
 created: 20200726181236606
-modified: 20200726181324602
+modified: 20200726185820520
 tags: Journal
 title: 2020 / 07 / 26
 type: text/vnd.tiddlywiki
@@ -7,3 +7,13 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 I spent nearly all day yesterday offline and grilling food over a charcoal grill in the backyard. Well, offline if listening to pre-downloaded podcasts counts.
+
+I see other folks blogging "weeknotes" - which appear to be once-a-week summaries of various and sundry thoughts. I've been trying to open daily journal notes here to catch random rambly thoughts [[with potential to coalesce into sensible coherence|brain dump writing as interstellar dust coalescing into planets and how to encode that in my computerized notes and published content]]. Maybe it would be interesting to develop a habit to review my week's brain dumps here and summarize them into a blog post?
+
+Also have a notion to get around to generating an RSS feed of daily journals as part of [[StaticRendering]] here. It's basically the kind of blogging Dave Winer's been doing for decades and recently piped into a daily newsletter thing.
+
+[[StreamYard|https://streamyard.com/]]
+
+<<<
+StreamYard is a live streaming studio in your browser. Interview guests, share your screen, and much more. Stream directly to Facebook, YouTube, LinkedIn, and other platforms.
+<<<
