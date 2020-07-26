@@ -1,5 +1,5 @@
 created: 20200726181236606
-modified: 20200726185820520
+modified: 20200726190528480
 tags: Journal
 title: 2020 / 07 / 26
 type: text/vnd.tiddlywiki
@@ -11,6 +11,12 @@ I spent nearly all day yesterday offline and grilling food over a charcoal grill
 I see other folks blogging "weeknotes" - which appear to be once-a-week summaries of various and sundry thoughts. I've been trying to open daily journal notes here to catch random rambly thoughts [[with potential to coalesce into sensible coherence|brain dump writing as interstellar dust coalescing into planets and how to encode that in my computerized notes and published content]]. Maybe it would be interesting to develop a habit to review my week's brain dumps here and summarize them into a blog post?
 
 Also have a notion to get around to generating an RSS feed of daily journals as part of [[StaticRendering]] here. It's basically the kind of blogging Dave Winer's been doing for decades and recently piped into a daily newsletter thing.
+
+Lea Verou: [[Import non-ESM libraries in ES Modules, with client-side vanilla JS|https://lea.verou.me/2020/07/import-non-esm-libraries-in-es-modules-with-client-side-vanilla-js/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+leaverou+%28Lea+Verou%29]]
+
+<<<
+Once you start using ESM, you realize that most libraries out there are not written in ESM, nor do they include ESM builds. Many are still using globals, and those that target Node.js use CommonJS (CJS). What can we do in that case? Unfortunately, ES Modules are not really designed with any import (pun intended) mechanism for these syntaxes, but, there are some strategies we could employ.
+<<<
 
 [[StreamYard|https://streamyard.com/]]
 
