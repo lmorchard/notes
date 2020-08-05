@@ -1,12 +1,16 @@
 created: 20200805171450345
-modified: 20200805173801622
+modified: 20200805175553870
 tags: Journal
 title: 2020 / 08 / 05
 type: text/vnd.tiddlywiki
 
 Hello world.
 
-I adore the web. I am tempted to tinker with gamedev tech outside of the web, though. Mostly, I've dabbled in gamedev as a way to sharpen my saw in webdev. Playing with things like Unity, Unreal Engine, and Godot seem orthogonal to webdev, though. But also, I really like games, so maybe I should just do it for fun and not hustle?
+I adore the web. I have adored games for longer. I am tempted to tinker with gamedev tech outside of the web. 
+
+Mostly, I've dabbled in gamedev as a way to [[sharpen my saw|https://www.franklincovey.com/the-7-habits/habit-7.html]] in webdev. But, playing with things like [[Unity|https://unity.com/]], [[Unreal Engine|https://www.unrealengine.com/]], and [[Godot|https://godotengine.org/]] seem orthogonal to webdev.
+
+Pursuing a career in gamedev [[seems like a mug's game|https://kotaku.com/crunch-time-why-game-developers-work-such-insane-hours-1704744577]] - especially given concerns about [[age and my career future]]. But also, I really like games, so maybe I should just do it for fun and not hustle?
 
 Still tinkering with [[drawing glowy vectors in a browser|https://github.com/lmorchard/webgl-vectors]]. Performance is terrible, but I think there's enormous room for optimization. I am stumbling awkwardly through learning how to make WebGL do things.
 
@@ -19,3 +23,8 @@ I could just use [[three.js|https://threejs.org/]] or [[PixiJS|https://www.pixij
 Also, I am apparently a masochist.
 
 [img[glowy-vectors.PNG]]
+
+Wow, that image takes up a lot of space. Maybe I should move it to the side?
+
+[[Matter.js is a 2D physics engine for the web|https://brm.io/matter-js/]]
+
