@@ -1,4 +1,26 @@
 created: 20200811033523807
-modified: 20200811033524028
+modified: 20200811035132052
 title: DIY WIFI BBQ thermometer
 type: text/vnd.tiddlywiki
+
+Not a terribly original project, but spending Saturdays grilling has me thinking I might want to get into more smoking and keep track of temperatures better.
+
+Seems like a semi-simple thing to do with parts like:
+
+* ESP8266 - have one of these spare
+* A display would be nice
+* An [[ESP32 with integrated display|https://www.banggood.com/ESP32-OLED-Module-ESP32-OLED-WiFi-bluetooth-Dual-ESP-32-ESP-32S-ESP8266-p-1148119.html?akmClientCountry=America&p=MA240439985285201910&cur_warehouse=CN]] could be really handy
+* [[K-type thermocouple probes|http://www.amazon.com/Probe-Thermocouple-Sensor-Temperature-Controller/dp/B00899A4LY/]] At least 2 - one for food, one for grill. These seem semi-consumable and go bad after awhile, so best to use the pluggable ones
+* 2.5mm mono jacks for the thermocouples - I have lots of those
+* [[MAX6675|https://www.amazon.com/SainSmart-MAX6675-Thermocouple-Temperature-0-1024%E2%84%83/dp/B00PVTH4MW]] temperature to SPI interface
+* [[DHT22|https://www.adafruit.com/product/385]] for external temp & humidity? Probably overkill
+* [[Waterproof project case|https://www.ebay.com/itm/Waterproof-Clear-Electronic-Project-Box-Enclosure-Cover-Plastic-Case-158x90x60mm/174294465357?hash=item2894c27b4d:g:~bkAAOSwx9xey4RZ]]?
+
+I can write simple firmware - like my WIFI pumpkin - though getting even fancier with IoT integration could be fun
+
+Something like a PID and a fan could be interesting for temperature control. But all I have is a little Weber charcoal kettle, so that's really over-complicating things. Also I'm not really all that skilled or advanced at the grill yet, so a semi-accurate thermometer would be a huge upgrade as it is 😅
+
+!! Links
+
+* https://github.com/boneskull/meat
+* https://www.schatenseite.de/en/2016/09/04/bbq-esp8266-mqtt-zabbix-multimeater/
