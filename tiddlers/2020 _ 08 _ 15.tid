@@ -1,5 +1,5 @@
 created: 20200815174221622
-modified: 20200815182126278
+modified: 20200815185049326
 tags: Journal
 title: 2020 / 08 / 15
 type: text/vnd.tiddlywiki
@@ -8,9 +8,21 @@ Hello world.
 
 ---
 
+Ugh. My current [[AboutMePage]] implementation run via [[Github Actions]] keeps silently failing for one reason or another. 
+
+So I have at least two problems: 1) the errors aren't bubbling up into failure notifications and 2) my data fetching methods end up being fragile and I think hitting issues of expired tokens on various services.
+
+I should fix that but I've either not had time or been severely disinterested in screwing with it. The big discouraging thing is that when things break, I don't hear about it. Then, more things break. Then, when I finally do check it out, there's a pile of broken things and that's just zero fun for a side project.
+
+---
+
 Matt Webb posts [[about aboutfeeds.com|http://interconnected.org/home/2020/07/29/improving_rss]]. 
 
 That gets me thinking about [[my feed herder browser extension experiment|https://github.com/lmorchard/feed-herder]] from a couple of years ago - it rode shot gun while browsing to discover RSS feeds and auto-assemble a river from history. At least, that was the idea. It was kind of chunky and doesn't seem all that practical to just do all in one browser while I'm living on multiple PCs and a phone.
+
+---
+
+Still want to gin up an RSS or Atom feed for the journal entries here.
 
 ---
 
