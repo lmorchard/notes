@@ -1,7 +1,7 @@
 created: 20200815174221622
 draft.of: 2020 / 08 / 15
 draft.title: 2020 / 08 / 15
-modified: 20200815175959922
+modified: 20200815181953430
 tags: Journal
 title: Draft of '2020 / 08 / 15'
 type: text/vnd.tiddlywiki
@@ -18,9 +18,11 @@ That gets me thinking about [[my feed herder browser extension experiment|https:
 
 Thinking about feeds also gets me thinking about [[Activity Streams]] and ActivityPub.
 
-Back in 2011, I had a notion to write a new book - [[Tinkering with Activity Streams|https://github.com/lmorchard/tinkering-with-activity-streams]]. I didn't get far, but the notion still appeals.
+Back in 2011, I had a notion to write a new book - [[Tinkering with Activity Streams|https://github.com/lmorchard/tinkering-with-activity-streams]]. I didn't get far, but the notion still appeals. [[This partial Chapter 1|https://github.com/lmorchard/tinkering-with-activity-streams/blob/master/book/ch01-what-are-activity-streams.asciidoc]] probably should have been a blog post - in fact, maybe I should reboot the book as a series of blog posts.
 
-I love RSS & Atom, but I also think the actor / verb / object / target structured model of [[Activity Streams]]
+I love RSS & Atom, but I also think the actor / verb / object / target model of [[Activity Streams]] offers a richer structure than classic web feeds. And ActivityPub offers an interesting exchange protocol that's got a lot of support in the [[Fediverse]].
+
+The problem, though, is that [[Activity Streams]] haven't //really// take off like RSS did back when I wrote my first book. If I write a book about [[Activity Streams]], it would be more like what I'd hope could be done rather than centered on things that //are// being done //now// - well, where //now// is defined as 2005.
 
 ---
 
