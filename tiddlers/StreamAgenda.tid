@@ -1,15 +1,16 @@
 _render_template: static-nosidebar.tiddler.html
 created: 20200509053212813
-modified: 20200524202349319
+modified: 20200815211404655
 tags: StreamStartTopic
 title: StreamAgenda
 type: text/vnd.tiddlywiki
 
-Hello, you can find me at [[lmorchard.com|https://lmorchard.com]]
+! Hello, you can find me at [[lmorchard.com|https://lmorchard.com]]
 
-!! Today: Nintendo Switch joycon repair (hopefully)
+!! Today: Building an Atari Punk Console maybe
 
-* Replace the ZL button I broke last stream!
-* Replacing the joysticks in my joycons
-* Replacing the shell with ATOMIC PURPLE
+* Learn about 555 timer chips
+* Try breadboarding an Atari Punk Console
+* Make some terrible noises
+* Move onto a soldered perfboard version?
 
