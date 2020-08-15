@@ -1,5 +1,5 @@
 created: 20200815174221622
-modified: 20200815185049326
+modified: 20200815195436455
 tags: Journal
 title: 2020 / 08 / 15
 type: text/vnd.tiddlywiki
@@ -49,3 +49,17 @@ Speaking of gamedev, [[Bevy looks like a neat engine in Rust|https://bevyengine.
 ---
 
 [[Jupyter Book|https://blog.jupyter.org/announcing-the-new-jupyter-book-cbf7aa8bc72e]] looks neato. If I ever get around to writing another book, I think I want to make it [[an executable book|https://executablebooks.org/en/latest/]].
+
+---
+
+Steve Yegge: [[Dear Google Cloud: Your Deprecation Policy is Killing You|https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc]]
+
+It's shit like this that makes me daydream about making a deflection in my career in bothering computers to just go super deep on maintenance for systems using COBOL and whatever else is ancient and still running after decades. I often yearn for stable, practical software environments in which I can really just soak my brain and methodically build useful & valuable things.
+
+Whenever I start a new project, I see the future where no matter how carefully I build now, it will all be garbage soon. Within months. With luck, a year.
+
+Embrace the impermanence of all things, but it would be nice if today's work stood for bit longer. There's so much else to do.
+
+Maybe it's age, but this kind of thing makes non-software tinkering ever more attractive.
+
+Never thought I'd find installing a sink faucet, window blinds, or a light fixture satisfying. But, it's the kind of thing I can do and still enjoy it's function a bunch of years later. 
