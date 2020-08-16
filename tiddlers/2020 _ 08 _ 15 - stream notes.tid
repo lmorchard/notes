@@ -1,7 +1,20 @@
 created: 20200815210910175
-modified: 20200815210920653
+modified: 20200816181904559
 tags: StreamNotes
 title: 2020 / 08 / 15 - stream notes
 type: text/vnd.tiddlywiki
 
 Hello world. Maybe I'm going to stream today.
+
+!! Today: Building an Atari Punk Console maybe
+
+* Learn about 555 timer chips
+* Try breadboarding an Atari Punk Console
+* ~~Make some terrible noises~~
+* ~~Move onto a soldered perfboard version?~~
+
+Spent a long time sorting through weirdly labelled capacitors from the assortment kit I got a few months ago. Glad I haven't thrown out the case they came in yet, since the bags are labelled with part numbers that only reference their uF values on the box lid.
+
+I put [[this circuit|https://www.instructables.com/id/Build-an-Atari-Punk-circuit-on-a-breadboard/]] together, but didn't have one of the exact potentiometers or the speaker. I tried a 1M ohm pot and a piezo buzzer as speaker to see what would happen. The circuit made no noise, but the 556 chip got really hot.
+
+I have spares, but I'm hoping I didn't burn out the 556. Current guess is that the piezo buzzer is not even close to the right part. Maybe I can try the line-out jack option and see if the added resistors and such stop the 556 from heating up. 
