@@ -1,5 +1,5 @@
 created: 20200816180405752
-modified: 20200816180529024
+modified: 20200816195122452
 tags: Journal
 title: 2020 / 08 / 16
 type: text/vnd.tiddlywiki
@@ -7,3 +7,9 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 [[Streamed for a couple of hours yesterday|2020 / 08 / 15 - stream notes]], which was only mildly disastrous.
+
+[[Owncast|https://gabekangas.com/blog/2020/06/owncast-a-project-to-take-control-over-your-own-live-streaming/]] looks interesting for a self-hosted "Twitch in a Box". Also neat that it can target hosting the HLS stream on AWS S3. 
+
+Also Owncast is the latest of many things that make me think I should spend some time learning Go.
+
+[[HLS|https://en.wikipedia.org/wiki/HTTP_Live_Streaming]] is neat because it's a streaming scheme that //can// be hosted as a rolling series of files on a static web server. The system producing the video uploads chunks of the stream as fast as it can. There's a playlist identifying the files in sequence. Clients follow behind and play slightly older files as fast as they can download. There's latency, sure, but it means that the server can be stupid (and thus cheap). No special TCP/UDP socket data stream on a bespoke server host needed. Just a web server.
