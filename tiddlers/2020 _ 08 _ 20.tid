@@ -1,5 +1,5 @@
 created: 20200820170831281
-modified: 20200820171832603
+modified: 20200820184839625
 tags: Journal
 title: 2020 / 08 / 20
 type: text/vnd.tiddlywiki
@@ -9,6 +9,14 @@ Hello world. Hmm, missed yesterday.
 ---
 
 Played a bit with Microsoft Flight Simulator. Neat, ambitious. I can fly anywhere. But, when I get there, things look real enough that the not-real and inaccurate stuff sticks out. Guess that's the uncanny valley thing.
+
+---
+
+So, I'm musing [[Starnet]] and graph-based hacking puzzles. Eventually, I'd like to procedurally generate. Before I get there, I have to work out what's actually a fun puzzle by building some by hand
+
+This thing looks interesting for that - https://flume.dev/docs/node-editor
+
+And by "graph-based" I mean a system of networked devices. Need to subvert / exploit / redirect the parts of the system in order to get to the goal. Like a storage server reports to an log collector monitored by a security node. Touch storage before security and ALARMS
 
 ---
 
