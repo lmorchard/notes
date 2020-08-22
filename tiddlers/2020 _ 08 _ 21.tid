@@ -1,5 +1,5 @@
 created: 20200821193520642
-modified: 20200822061950431
+modified: 20200822062102691
 tags: Journal
 title: 2020 / 08 / 21
 type: text/vnd.tiddlywiki
@@ -9,3 +9,5 @@ Hello world.
 Clearing out some tabs.
 
 [[This three.js demo rendering of bloom|https://threejs.org/examples/webgl_postprocessing_unreal_bloom.html]] is what I really want out of my WebGL game rendering.
+
+[img[threejs-bloom.PNG]]
