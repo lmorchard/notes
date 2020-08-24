@@ -1,0 +1,17 @@
+created: 20200824175411209
+modified: 20200824175902013
+tags: Journal
+title: 2020 / 08 / 24
+type: text/vnd.tiddlywiki
+
+Hello world.
+
+---
+
+[[Brython - A Python 3 implementation for client-side web programming|https://brython.info/index.html]]
+
+<<<
+Brython is designed to replace Javascript as the scripting language for the Web. As such, it is a Python 3 implementation (you can take it for a test drive through a web console), adapted to the HTML5 environment, that is to say with an interface to the DOM objects and events. 
+<<<
+
+Really neat! As I'd expect from such a thing, it's got a runtime of about 712KB (176KB compressed) and a stdlib of about 3.5MB (832KB compressed) that needs to be downloaded before the show starts. To be fair, that's smaller than I'd expect, but it's still a big bootstrap.
