@@ -1,0 +1,16 @@
+created: 20200831164702840
+modified: 20200831165419374
+title: EVE Echoes
+type: text/vnd.tiddlywiki
+
+[[EVE Echoes|https://www.eveechoes.com/]] is a mobile version of EVE Online. At launch, it's kind of a stripped-down distillate of the game on PC. But, it's got enough of the essentials to have snagged my interest over the past week or so.
+
+It runs very well on my Samsung S10 phone. It also runs decently well in a window on my PC via Samsung DeX. So, I can wander around the house & backyard playing the game on both a small and large screen.
+
+Most of the game as I've played it so far consists of travel via warp tunnels and stargates while I play space trucker between mission locations. So, it's been kind of a chill accomplishment simulator. 
+
+Occasionally, there are low-stakes battles - also chill mainly because I haven't tried many engagements that would be a challenge to losing my ship before I can afford to replace it. 
+
+The most tense thing so far, oddly enough, has been mining in low-security systems where another player can drop in at any moment and try to blow me up.
+
+I'd like to get into trade & industry. But, so far, the UI for trade is abysmal and I need to train up skills to be effective at industry. Also, as far as I can tell, there are no APIs for the game servers yet. So, that puts a damper on a lot of the toy data science shenanigans I was doing in Jupyter Notebook and Google spreadsheets to fuel my previous gameplay in EVE Online.
