@@ -1,5 +1,5 @@
 created: 20200904212119704
-modified: 20200904212814428
+modified: 20200904215843793
 tags: Journal
 title: 2020 / 09 / 04
 type: text/vnd.tiddlywiki
@@ -23,3 +23,16 @@ Also got [[the JS player|https://warmplace.ru/soft/sunvox/jsplay/]] for [[SunVox
 Thinking I might take a diversion from aspirationally making a game and try making a demo using the graphics and music. Maybe a tribute to [[the Swinth Demo from back in my C64 days|https://csdb.dk/release/?id=34529]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AiHyTJsE3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Thinking about more game-like and procedural art shenanigans. Want to remember these things to check out later:
+
+* [[Hex Engine|https://hex-engine.dev/]] - "a 2D Game Engine for the browser, written in TypeScript. It is designed to feel similar to React."
+* [[Js13kGames|https://js13kgames.com/]] - "a JavaScript coding competition for HTML5 Game Developers. The fun part of the compo is the file size limit set to 13 kilobytes"
+* [[Dwitter|https://www.dwitter.net/top/month]] - 140 chars of JS and a canvas
+* [[Dweetabase|https://dweetabase.3d2k.com/]] - an archive of every dweet
+* [[ZzFX|https://github.com/KilledByAPixel/ZzFX]] - a JavaScript sound effect engine and creation tool
+* [[ZzFX Music Generator|https://github.com/keithclark/ZzFXM]] - a music generator for use in tiny JavaScript productions
+* [[OS13k is a tiny operating system that fits in a 13 kb zip file.|https://github.com/KilledByAPixel/OS13k]]
+* [[Shadertoy|https://www.shadertoy.com/]]
