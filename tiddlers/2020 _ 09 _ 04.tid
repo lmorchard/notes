@@ -1,0 +1,25 @@
+created: 20200904212119704
+modified: 20200904212814428
+tags: Journal
+title: 2020 / 09 / 04
+type: text/vnd.tiddlywiki
+
+Hello world.
+
+---
+
+I'm outside again. Lunch with beer, watching the bees work. Trying to let my brain drift and recharge. Listening to podcasts and puttering around online trying not to doomscroll. I might try a lie on the ground and stare at the sky.
+
+Also trying some mining in [[EVE Echoes]], which is pretty chill and only requires intermittent vigilance. Seems to be distracting me from devoting intermittent vigilance to Twitter and the news.
+
+---
+
+Worked some more on my little web game engine last night. Trying to upgrade the 2D vector drawing engine to handle layers with multiple camera positions and brightness levels. Got a lot of debugging to do in WebGL. 
+
+Also got [[the JS player|https://warmplace.ru/soft/sunvox/jsplay/]] for [[SunVox]] loading and playing music - so that seems like a really neat way to get music into the game.
+
+---
+
+Thinking I might take a diversion from aspirationally making a game and try making a demo using the graphics and music. Maybe a tribute to [[the Swinth Demo from back in my C64 days|https://csdb.dk/release/?id=34529]]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiHyTJsE3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
