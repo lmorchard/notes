@@ -1,5 +1,5 @@
 created: 20200916164843750
-modified: 20200916170204748
+modified: 20200916172923126
 tags: Journal
 title: 2020 / 09 / 16
 type: text/vnd.tiddlywiki
@@ -12,10 +12,16 @@ Been working, playing [[EVE Echoes]], and started soaking my head in [[SunVox]].
 
 ---
 
-As mentioned on [[2020 / 09 / 04]], I got a notion to take a break from my video game tinkerings to throw together a small graphics & audio demo in the spirit of the Swinth Demo from the C64 days.
-
-Well, I've made progress. So far, I've got a simple cover of the first song mostly done - Theme from Stationary Ark. I glued [[my glowy vector line drawing|WGL6100]] together with the [[SunVox]] JS library and [[got something pleasant working|https://lmorchard.github.io/swinth2020/index.html]]. Here's [[the source code on GitHub||https://github.com/lmorchard/swinth2020/]].
+Man. [[2020 / 09 / 04]]. Remember when the atmosphere outside was breathable?
 
 ---
 
-Man. [[2020 / 09 / 04]]. Remember when the atmosphere outside was breathable?
+As mentioned on [[2020 / 09 / 04]], I got a notion to take a break from my video game tinkerings to throw together a small graphics & audio demo in the spirit of the Swinth Demo from the C64 days.
+
+Well, I've made progress. So far, I've got a simple cover of the first song mostly done - Theme from Stationary Ark. I glued [[my glowy vector line drawing|WGL6100]] together with the [[SunVox]] JS library and [[got something pleasant working|https://lmorchard.github.io/swinth2020/index.html]]. Here's [[the source code on GitHub|https://github.com/lmorchard/swinth2020/]].
+
+---
+
+Also have vague thoughts of switching away from web tech for this demo / art / game stuff and instead trying something like Rust or maybe Unity.
+
+I //think// that a lot of what I've learned around GLSL for WebGL graphics and SunVox for music could be transferable, so none of that's lost effort or time. Could be interesting to port my little Swinth Demo tribute over to Rust and see just how much could translate.
