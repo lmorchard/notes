@@ -1,0 +1,17 @@
+created: 20200916164843750
+modified: 20200916165734323
+tags: Journal
+title: 2020 / 09 / 16
+type: text/vnd.tiddlywiki
+
+Hello world.
+
+---
+
+Been working, playing [[EVE Echoes]], and started soaking my head in [[SunVox]].
+
+---
+
+As mentioned on [[2020 / 09 / 04]], I got a notion to take a break from my video game tinkerings to throw together a small graphics & audio demo in the spirit of the Swinth Demo from the C64 days.
+
+Well, I've made progress. So far, I've got a cover of the first song mostly done - Theme from Stationary Ark. I glued [[my glowy vector line drawing|WGL6100]] together with the [[SunVox]] JS library and [[got something pleasant working|https://lmorchard.github.io/swinth2020/index.html]]. Here's [[the source code on GitHub||https://github.com/lmorchard/swinth2020/]].

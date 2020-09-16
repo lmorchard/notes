@@ -1,0 +1,10 @@
+created: 20200916165734768
+draft.of: WGL6100
+draft.title: WGL6100
+modified: 20200916170001496
+title: Draft of 'WGL6100'
+type: text/vnd.tiddlywiki
+
+WGL6100 is the working title for a WebGL-based 2D vector drawing library that I'm cobbling together. The goal is to produce graphics inspired by the Wells Gardiner 6100 color vector monitor used by Atari Tempest and Star Wars. Some extra special effects on top would be nice, too.
+
+I don't really have a standalone repo or package for it yet, but there's some source here:
