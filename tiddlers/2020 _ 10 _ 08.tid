@@ -1,0 +1,17 @@
+created: 20201008200210667
+modified: 20201008200557226
+tags: Journal
+title: 2020 / 10 / 08
+type: text/vnd.tiddlywiki
+
+blog.jim-nielsen.com: [[Cheating Entropy with Native Web Technologies|https://blog.jim-nielsen.com/2020/cheating-entropy-with-native-web-tech/]]
+
+<<<
+Take a moment and think about this super power: if you write vanilla HTML, CSS, and JS, all you have to do is put that code in a web browser and it runs. Edit a file, refresh the page, you’ve got a feedback cycle.
+<<<
+
+This is pretty much where all my headspace is on webdev side projects, these days. If I can: No tooling. No bundles. Maybe a script to copy some files around. Otherwise, just ES6 modules, CSS with variables, plain HTML. Few dependencies if any - ideally just included straight from a vendor directory or [[unpkg|https://unpkg.com/]] URLs.
+
+---
+
+Hello world.
