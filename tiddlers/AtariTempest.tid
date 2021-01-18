@@ -1,19 +1,21 @@
 created: 20200514071627066
-modified: 20210118021724674
+modified: 20210118081913570
 title: AtariTempest
 type: text/vnd.tiddlywiki
 
 ! 2020 Jan 17
 
 * Attempting to [[test the Atari power brick|https://www.youtube.com/watch?v=S_So4XEpG4o]]
-* Schematics: https://arcarc.xmission.com/PDF_Arcade_Atari_Kee/Tempest/Tempest_DP-190-2nd-01B.pdf
-* Fluke 115 meter set to DC V
-* Black probe in pin 5 of J5
-* Red probe J5 Pin 1 - 0.3VDC fluctuating - this seems problematic
-* Red probe J5 Pin 2 - 14.67VDC steady
-* Red probe J5 Pin 3 - 14.67VDC steady 
-* Meter set to AC V
-* Black probe J5 Pin 6, Red probe J5 Pin 7 - 37.11 VAC steady
-* Black probe J5 Pin 8, Red probe J5 Pin 9 - 6.433 VAC steady
-* Black probe J5 Pin 10, Red probe J5 Pin 13 - 49.97 VAC steady
-* Continuity in F2 fuse holder seems inconsistent - maybe replace fuse block and fuses
+** Schematics: https://arcarc.xmission.com/PDF_Arcade_Atari_Kee/Tempest/Tempest_DP-190-2nd-01B.pdf
+** Fluke 115 meter set to DC V
+** Black probe in pin 5 of J5
+** Red probe J5 Pin 1 - 0.3VDC fluctuating - this seems problematic
+** Red probe J5 Pin 2 - 14.67VDC steady
+** Red probe J5 Pin 3 - 14.67VDC steady 
+** Meter set to AC V
+** Black probe J5 Pin 6, Red probe J5 Pin 7 - 37.11 VAC steady
+** Black probe J5 Pin 8, Red probe J5 Pin 9 - 6.433 VAC steady
+** Black probe J5 Pin 10, Red probe J5 Pin 13 - 49.97 VAC steady
+** Continuity in F2 fuse holder seems inconsistent - maybe replace fuse block and fuses
+* Here's a template for printing a new fuse block cover
+** http://arcade.finck.net/atari_fuse_cover.pdf
