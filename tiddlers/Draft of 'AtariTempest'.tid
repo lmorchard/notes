@@ -1,14 +1,24 @@
 created: 20200514071627066
-modified: 20210121055141375
-title: AtariTempest
+draft.of: AtariTempest
+draft.title: AtariTempest
+modified: 20210121060001186
+title: Draft of 'AtariTempest'
 type: text/vnd.tiddlywiki
 
 ! 2020 Jan 20
 
 * Checking out the power brick again
-* Considered soldering wires to the fuse block terminals
-* Discovered that the fuse in F2 is loose, pinched the prongs of the holder
-** Red probe J5 Pin 1 - 14.67VDC steady! (fixed I think)
+** Considered soldering wires to the fuse block terminals
+** Discovered that the fuse in F2 is loose, pinched the prongs of the holder
+*** Red probe J5 Pin 1 - 14.67VDC steady! (fixed I think)
+
+* Testing ARII
+** 36VAC test points - 37.18VAC
+** -22VDC test point - -24.95VDC
+** +22VDC test point - 24.88VDC
+** 12VDC test point - 12.13VDC
+** -5VDC test point - -14VDC - problematic? needs testing under load?
+** +10.3V
 
 ! 2020 Jan 17
 
