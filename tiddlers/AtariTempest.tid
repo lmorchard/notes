@@ -1,7 +1,16 @@
 created: 20200514071627066
-modified: 20210121060043469
+modified: 20210121223845831
 title: AtariTempest
 type: text/vnd.tiddlywiki
+
+! Next steps
+
+* Check harness and PCB connections to address low +5VDC reading
+* Need DeOxit and a fiberglass pen to clean connections
+* [[Can possibly get main board into test mode without aux board connected|https://forums.arcade-museum.com/threads/tempest-chaos.465642/#post-4112648]]
+* Worth checking out: 
+** [[Tempest board playing blind, not a monitor issue|https://forums.arcade-museum.com/threads/tempest-board-playing-blind-not-a-monitor-issue.481348/]]
+** [[Can test monitor deflection stuff with HV cage unplugged|https://forums.arcade-museum.com/threads/6100-tempest-spot-killer-on.454114/#post-4019181]]
 
 ! 2020 Jan 20
 
@@ -16,8 +25,13 @@ type: text/vnd.tiddlywiki
 ** +22VDC test point - 24.88VDC
 ** 12VDC test point - 12.13VDC
 ** -5VDC test point - -14VDC - problematic? needs testing under load?
+*** Seems not problematic and [[not actually used by Tempest|https://forums.arcade-museum.com/threads/help-on-testing-an-atari-a-r-ii-for-tempest.392305/#post-3493318]]
 ** +10.3VDC UNR test point - 14VDC - problematic?
+** Checked VDC on C1 positive lead - 4.78VDC
+** Adjusted to 5.01VDC using pot
 
+* Testing +5VDC on PCB
+** 4.67VDC - seems too low, connections need cleaning? harness damaged?
 
 ! 2020 Jan 17
 
