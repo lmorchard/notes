@@ -1,5 +1,5 @@
 created: 20200514071627066
-modified: 20210211185158246
+modified: 20210211190038274
 title: AtariTempest
 type: text/vnd.tiddlywiki
 
@@ -7,7 +7,6 @@ type: text/vnd.tiddlywiki
 
 * Wait for replacement 2N3055 transistors to arrive and replace on ARII
 * Check harness and PCB connections to address low +5VDC reading
-* Need DeOxit and a fiberglass pen to clean connections
 * [[Can possibly get main board into test mode without aux board connected|https://forums.arcade-museum.com/threads/tempest-chaos.465642/#post-4112648]]
 * Worth checking out: 
 ** [[Tempest board playing blind, not a monitor issue|https://forums.arcade-museum.com/threads/tempest-board-playing-blind-not-a-monitor-issue.481348/]]
