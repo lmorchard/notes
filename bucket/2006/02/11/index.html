@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 02 / 11 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 02 / 11</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/01/23"
+    title="2006 / 01 / 23"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/02/12"
+    title="2006 / 02 / 12"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="11.opml"
+            data-created="&quot;2006-02-11T06:42:46.000Z&quot;"
+            data-modified="&quot;2006-02-12T05:18:29.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Sun, 12 Feb 2006 04:24:04 GMT">
+                  <p>It's been awhile since I was last very active on IRC.  For awhile, you could find me squatting in <a href="http://joiwiki.ito.com/joiwiki/index.cgi">#joiito</a> along with a smattering of other channels.  Needing focus at work during the day, and for writing during the night, I just kind of dropped off the face of the networks.  Thanks to <a href="http://dircproxy.securiweb.net/">dircproxy</a> and a machine with a very high uptime, my nick kind of lingered zombie-like.  The lights were on, but I wasn't home.  I've dropped in from time to time over the past few months, but things always seem dead compared to when I was frequenting as a regular.  Maybe the party moved on and I just didn't follow it.  These things seem to go in waves.</p>
+                  
+                </li><li id="2" data-created="Sat, 11 Feb 2006 06:42:46 GMT">
+                  <p>I think there's something I'm not getting about <a href="http://cocomment.com">coComment</a>.  I gotten it working via a Greasemonkey script, so I see my comments starting to get tracked.  But, I'm not seeing others' comments.  Well, except for other coComment users, that is.  Is that the deal?  Everyone needs to opt in?</p>
+                  
+                </li><li id="3" data-created="Sat, 11 Feb 2006 22:18:03 GMT">
+                  <p>Also, not sure what's changed since when I last used Radio as my daily aggregator, but I've got newsRiver running on a basement-dwelling 700MHz iBook with 384MB of RAM, and it's barely breaking a sweat.  <a href="http://decafbad.com/blog/2002/05/30/oooafh">I remember Radio running on my 600MHz PC causing all sorts of problems.</a>  No problems for me now, though.  At least, besides the usual weirdness that crops up around a beta/alpha release.</p>
+                  
+                </li><li id="4" data-created="Sat, 11 Feb 2006 23:53:05 GMT">
+                  <p>This all gets me to thinking: In a lot of ways, the OPML Editor is to outlining what emacs is to text editing.  And, as all sufficently advanced text editors grow to read email, do all sufficiently advanced outliners grow to read news?</p>
+                  
+                </li><li id="5" data-created="Sat, 11 Feb 2006 23:43:33 GMT">
+                  <p>Further work on decafbadNewsRiver</p>
+                  <ul data-parent-id="5">
+          <li id="6" data-created="Sat, 11 Feb 2006 23:43:42 GMT">
+                  <p>So, when I need breaks from <a href="http://decafbad.com/blog/2005/12/14/hacking-delicious-is-a-real-book">the book</a>, I've been poking around at <a href="http://www.newsriver.org/">NewsRiver</a> customizations in <a href="http://hosting.opml.org/decafbad/decafbadNewsRiver/decafbadNewsRiver.root">decafbadNewsRiver.root</a> for "fun" programming.  You can check out the <a href="http://hosting.opml.org/decafbad/decafbadNewsRiver/decafbadNewsRiver-relnotes.opml">Release Notes</a> I have so far, but here are a few highlights:</p>
+                  <ul data-parent-id="6">
+          <li id="7" data-created="Sat, 11 Feb 2006 23:47:21 GMT">
+                  <p>News items can be filtered by Reading List, and a "Further Reading" list of links to view by filter are displayed at the end of the page after all the news.</p>
+                  
+                </li><li id="8" data-created="Sat, 11 Feb 2006 23:48:11 GMT">
+                  <p>I've split just about all the HTML out of the news rendering code into separate templates, for the start of a switchable theme system.  These themes can be somewhat self-contained, allowing you to make extensive changes to how the news items are presented, without needing to dig into the core suite of code.</p>
+                  
+                </li><li id="9" data-created="Sat, 11 Feb 2006 23:48:37 GMT">
+                  <p>I stole preferences code from NewsRiver itself to facilitate selecting a theme.  It's actually quite slick and nice to work with.</p>
+                  
+                </li><li id="10" data-created="Sat, 11 Feb 2006 23:49:50 GMT">
+                  <p>The first theme is based on the aggregator UI I've been working on since my <a href="http://www.decafbad.com/twiki/bin/view/Main/AmphetaOutlines">AmphetaOutlines</a> days, running up through my <a href="http://decafbad.com/blog/2005/10/05/feedspool-is-progressing-nicely">miniagg</a> implementation.  Check out <a href="http://www.decafbad.com/blog_attachments/miniagg-1.jpg">a screenshot</a> of miniagg - that's pretty much how decafbadNewsRiver looks right now.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="11" data-created="Sat, 11 Feb 2006 23:52:04 GMT">
+                  <p>Lots and lots of bugs, miles and miles away from any sort of release I want to make, but it's been neat poking at this UserTalk stuff again, even with the usual creaks and ancient lizard brain corners I've run into.  I daresay that, while UserTalk and the whole stack isn't as nice to me as Python, it's quite a bit more satisfying than PHP.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="12" data-created="Sat, 11 Feb 2006 21:03:45 GMT">
+                  <p>Getting reoriented with the OPML Editor</p>
+                  <ul data-parent-id="12">
+          <li id="13" data-created="Sat, 11 Feb 2006 20:45:54 GMT">
+                  <p>As I play more with the <a href="http://support.opml.org">OPML Editor</a>, I wonder if I might not be able to mash it up with my <a href="http://decafbad.com/blog">WordPress</a> installation for more spontaneous editing of daily asides.  The wordpress.root tool isn't quite working for me, but I have a few ideas for alternatives or fixes.</p>
+                  
+                </li><li id="14" data-created="Sat, 11 Feb 2006 21:11:40 GMT">
+                  <p>It's been awhile since I seriously an outliner for blogging, if I ever really did.  I can see how it biases toward quick blogging and spew.  And that's a good thing.</p>
+                  
+                </li><li id="15" data-created="Sat, 11 Feb 2006 21:18:12 GMT">
+                  <p>I do wish that the OPML Editor had some modernized font handling on OS X, though, so my Georgia font looked anti-aliased in the outliner.  But alas, I don't know the first thing about getting that hacked into this tool.</p>
+                  
+                </li><li id="16" data-created="Sat, 11 Feb 2006 20:48:14 GMT">
+                  <p>Next, looking for the glossary table, so I can author my own things like... ";->"  Oh, yeah, there it is: <code>user.html.glossary</code></p>
+                  
+                </li><li id="17" data-created="Sat, 11 Feb 2006 21:07:38 GMT">
+                  <p>Also, I've started keeping the OPML Editor open instead of Tinderbox.  And, while I don't get the richer visualization tools that Tinderbox offers, I <i>do</i> get a ton of nigh frictionless network connectivity via upstreaming and outline publishing.  So, I lose maps but I gain sharing.</p>
+                  
+                </li><li id="18" data-created="Sat, 11 Feb 2006 21:11:22 GMT">
+                  <p>On the down side, there's a ton of tinkerable code under the hood that I keep having to herd myself away from to get anything done on what I'm <i>supposed</i> to be accomplishing.  But, that's just a tinkerer's occupation hazard.</p>
+                  
+                </li><li id="19" data-created="Sat, 11 Feb 2006 21:14:37 GMT">
+                  <p>Let's see, what else?  I'm wishing for <a href="http://del.icio.us/deusx">my del.icio.us bookmarks</a> as an OPML outline now, so I have a palette from which to draw in composing little asides here.  I wonder if it'd be nasty to pipe some del.icio.us bookmarks into a Glossary?  I tried playing with <a href="http://dannyayers.com/archives/2006/02/07/delicious-reading-lists/">some XSLT found by way of Danny Ayers</a>, with <a href="http://decafbad.com/2006/02/delicious-to-full-opml.xsl">some tweaks of my own</a>, but I think it's producing OPML that gives the editor some indigestion.  (Danny's original XSLT seems to work, though.)</p>
+                  
+                </li>
+        </ul>
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

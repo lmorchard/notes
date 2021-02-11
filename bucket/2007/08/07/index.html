@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 08 / 07 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 08 / 07</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/08/06"
+    title="2007 / 08 / 06"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/08/08"
+    title="2007 / 08 / 08"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="07.opml"
+            data-created="&quot;2007-08-07T18:22:41.000Z&quot;"
+            data-modified="&quot;2007-08-08T00:41:01.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Tue, 07 Aug 2007 18:22:41 GMT">
+                  <p>Hello world.  Day 2 of biking to work, better than Day 1, but still tiring.  I'll need to give myself a break at some point soon - "Don't make yourself hate the bike," said a friend / co-worker - but I think I need to push hard enough to get past inertia and convince myself that this bike thing will really, actually be a new habit.</p>
+                  
+                </li><li id="2" data-created="Tue, 07 Aug 2007 21:55:22 GMT">
+                  <p><a href="http://www.odannyboy.com/blog/new_archives/2007/06/the_feed_reader.html">Dan Saffer</a> (<a href="http://webseitz.fluxent.com/wiki/z2007-07-01-SafferRssSocialNetwork">via Bill Seitz</a>): "With many people trying to figure out how to stitch our social networks (and thus our online identities) together, it occurs to me that we already have such a thing, although no feed reader that I know of is really up to the task yet."</p>
+                  
+                </li><li id="3" data-created="Tue, 07 Aug 2007 21:56:19 GMT">
+                  <p>This is actually something I've been thinking about and taking baby swipes at.  Feed polling and aggregation - but with a specialized UI - is the way to go for distributed social network messaging that can be enabled pretty much web-wide.  For more immediacy, the ultimate layer could be <a href="http://bmannconsulting.com/blog/bmann/twitter-is-jabber">XMPP-based</a> at some point.  Taking a layered approach could fold in a huge number of existing services, while allowing gradual enhancement where more capable nodes can interact with each other.</p>
+                  
+                </li><li id="4" data-created="Tue, 07 Aug 2007 22:00:13 GMT">
+                  <p>Further thinking:  A web-based layer between feed polling and Jabber/XMPP could be mutual private <a href="http://www.ietf.org/html.charters/atompub-charter.html">atompub</a>.  Alice and Bob make contact (somehow) - this entails trading bespoke APP drop-box URLs and some auth details or secrets.  Alice can use the URL and auth details to POST messages to Bob, and vice versa.</p>
+                  
+                </li><li id="5" data-created="Tue, 07 Aug 2007 23:20:51 GMT">
+                  <p>In more detail: Say that Alice authenticates at Bob's site with her OpenID URL.  Maybe she wants to comment on a blog entry that Bob's published.  As part of the validation process, Bob's site asks permission to contact Alice in the future.  Along with asking permission, Bob's site extends a private APP drop-box URL - thereby pre-emptively offering Alice reciprocal permission to contact Bob in the future.</p>
+                  
+                </li><li id="6" data-created="Wed, 08 Aug 2007 00:25:49 GMT">
+                  <p>If Alice agrees to be contacted in the future, her OpenID provider includes an APP drop-box for Alice's in the OpenID validation return trip.  This process is similar to the <a href="http://openid.net/specs/openid-simple-registration-extension-1_0.html">OpenID Simple Registration Extension</a>.  Or, Alice's provider could use Bob's APP drop-box right away by POSTing details of an APP drop-box for Alice.  Thus, in either case, Alice and Bob can talk in the future by POSTing Atom entries at each other via the exchanged drop-boxes.  Not quite Jabber / XMPP, but more immediate than feed polling.</p>
+                  
+                </li><li id="7" data-created="Wed, 08 Aug 2007 00:13:24 GMT">
+                  <p>There could be spam potential here for Bob, but Bob's site could throw away the APP drop-box it offered and any messages recieved through it if Alice never validates her identity or never agrees to be contacted.  Conversely, Alice can cut Bob off at the drop-box at any point.  Private APP drop-boxes that can be thrown away are essential to this.</p>
+                  
+                </li><li id="8" data-created="Tue, 07 Aug 2007 23:53:42 GMT">
+                  <p>The above, of course, assumes a mutual connection.  Following someone could still be done with feed polling.  But, for one-way private subscription, the process flips - Alice's OpenID provider extends an APP drop-box upon validation to allow Bob's site to send her newsletters.  Alice can't send responses to Bob unless he POSTs a reciprocal drop-box, but maybe that's fine for this use case.  Spam could be controlled in this channel by cutting off the private APP drop-box Alice extended to Bob's site.</p>
+                  
+                </li><li id="9" data-created="Wed, 08 Aug 2007 00:33:31 GMT">
+                  <p>Now, consider Jabber / XMPP servers as gateways to the above system of APP drop-box exchange not entirely unlike the IM bot run by Twitter.  Web-based archival and optional publishing of messages, but with desktop notification and message transmission.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

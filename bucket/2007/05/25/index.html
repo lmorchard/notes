@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 05 / 25 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 05 / 25</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/05/24"
+    title="2007 / 05 / 24"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/05/26"
+    title="2007 / 05 / 26"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="25.opml"
+            data-created="&quot;2007-05-25T15:19:41.000Z&quot;"
+            data-modified="&quot;2007-05-25T18:21:41.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Fri, 25 May 2007 18:02:29 GMT">
+                  <p>"Holy mother of lock-in!" is my first knee-jerk reaction.  Just catching up on the <a href="http://www.facebook.com/press.php">new Facebook platform stuff</a>, and boy did they <a href="http://blogs.opml.org/amyloo/2007/05/25#gotItBackwards">get it backwards</a>.  It's an improvement by miles over MySpace and little semi-hacked Flash includes, but man!  Let's all climb in the trunk, eh?  I need to let this stuff sink in more, maybe it's not that bad.</p>
+                  
+                </li><li id="2" data-created="Fri, 25 May 2007 18:06:33 GMT">
+                  <p>I guess part of my thing is, I don't live within Facebook.  I keep meaning to do more, but the last online social network in which I really invested any serious effort was <a href="http://deus-x.livejournal.com/profile">LiveJournal</a>.</p>
+                  
+                </li><li id="3" data-created="Fri, 25 May 2007 17:09:59 GMT">
+                  <p>Checking into the <a href="http://developers.facebook.com/documentation.php?v=1.0">Facebook API</a>, among other things, has me thinking about web service APIs today.  I'll probably be rambling in-progress throughout the day.</p>
+                  
+                </li><li id="4" data-created="Fri, 25 May 2007 15:20:33 GMT">
+                  <p>I <a href="http://deus-x.livejournal.com/2000/05/02/">first started getting excited about web services</a> back around mid-2000 when I read <a href="http://207.22.26.166/">Jon Udell</a>'s <a href="http://www.oreilly.com/catalog/pracintgr/">Practical Internet Groupware</a> while on a plane to a Builder.com conference in San Francisco.  Basically, he had the notion, almost as a sidebar, that CGI scripts returning HTML pages for people to view could just as easily return data for programs to process - and thus you could program against web apps.  Brilliant.  It was one of those bolts-from-the-blue moments for me.</p>
+                  
+                </li><li id="5" data-created="Fri, 25 May 2007 15:28:42 GMT">
+                  <p>The first real web service about which I got excited was <a href="http://www.livejournal.com/doc/server/ljp.csp.flat.protocol.html">the original LiveJournal "flat" Client / Server protocol</a>.  You could use this to do all kinds of stuff from a desktop client - post new entries, manage friends, etc.  It was its own thing and followed no real standard but its own: RPC tunnelled over port 80 with calls expressed as POST'ed <code>application/x-www-form-urlencoded</code> parameters.  Response data was name / value pairs, with names and values alternating on carriage-return-delimited lines.  The mere existence of the API and the utility of LiveJournal itself made it worth coding to whatever was offered.</p>
+                  
+                </li><li id="6" data-created="Fri, 25 May 2007 16:52:28 GMT">
+                  <p>One of the next web services for which I went gaga was the <a href="http://www.blogger.com/developers/api/1_docs/">Blogger API</a> - and later the <a href="http://www.xmlrpc.com/metaWeblogApi">MetaWeblog API</a>.  And beneath the API was <a href="http://www.xmlrpc.com/">XML-RPC</a>, which in comparison to the LJ API implementation was brilliant.  It took advantage of XML encoding rules, and abstracted the expression of common scripting language data structures and function calls.  Sure, it's verbose over the wire, but who cares?  It's all wrapped in a library and dead simple to use.  And, sure, it's got some things missing one might like to have like method introspection and such - but it got the job done, saved a lot of time, and lifted a lot of mental load.</p>
+                  
+                </li><li id="7" data-created="Fri, 25 May 2007 17:10:49 GMT">
+                  <p>Of course, one of my pain points with XML-RPC came in moments when I needed to debug by hand.  Then, the over-the-wire verbosity made me dizzy, and it was mostly unmanageable unless I had <i>some</i> tool between me and the wire translating calls and parameters for me.  I couldn't just run straight HTTP requests and "see the Matrix".  An annoyance far outweighed by the alternatives, but an annoyance nonetheless.  In the end, though, XML-RPC solved problems for me, professionally.</p>
+                  
+                </li><li id="8" data-created="Fri, 25 May 2007 17:13:08 GMT">
+                  <p>Eventually, I ran into some of my first SOAP web services.  I can't remember many of note, mostly because I've willfully purged those experiences from my brain.  Among other things, I used Google's search APIs for fun mashups, and even went a few rounds with <a href="http://www.interwoven.com/products/developer_suite/contentservices/">Interwoven's Content Services SDK</a> in recent years.  Incompatible toolkits, incomprehensible XML, inconsolable sobs.</p>
+                  
+                </li><li id="9" data-created="Fri, 25 May 2007 17:18:10 GMT">
+                  <p>SOAP took all my pain points from XML-RPC, sharpened them, and invented plenty of new ones.  My current working strategy for dealing with SOAP has devolved to this admitted stupidity:  1) Find some toolkit in some language somewhere that successfully speaks to the desired API; 2) come up with all the calls I'm going to use and capture an over-the-wire example of each; 3) build a simple client library in my desired environment that uses the over-the-wire captures as templates to POST requests.  This strategy has thus far saved my butt on a few tight-timeline occasions involving SOAP calls from JavaScript, PHP, Perl, Python, and Java.</p>
+                  
+                </li><li id="10" data-created="Fri, 25 May 2007 17:24:06 GMT">
+                  <p>The one time I had a relatively good experience with SOAP:  It was when we were using Microsoft products from end-to-end, controlled every end of every wire, and I slogged through Visual Studio to get anything done.</p>
+                  
+                </li><li id="11" data-created="Fri, 25 May 2007 17:33:29 GMT">
+                  <p>The next breed of web services that caught my interest were kind of back-to-roots, like those I found via Jon Udell and LiveJournal: Still tunnelling RPC over port 80, but much simpler.  Just about everything shoehorned into a GET, function call parameters expressed as query parameters, but response data in XML.  This describes most of the APIs offered by <a href="http://del.icio.us/help/api">del.icio.us</a>, <a href="http://www.flickr.com/services/api/">Flickr</a>, <a href="http://developer.yahoo.com/search/">Yahoo! Search</a>, <a href="http://www.technorati.com/developers/api/">Technorati</a>, <a href="http://www.amazon.com/E-Commerce-Service-AWS-home-page/b?ie=UTF8&node=12738641">Amazon ECS</a> and others.  Much easier to deal with by hand than SOAP, and even XML-RPC.  <a href="http://curl.haxx.se/">cURL</a> from the command line is my baseline client of choice.</p>
+                  
+                </li><li id="12" data-created="Fri, 25 May 2007 17:45:17 GMT">
+                  <p>I (<a href="http://en.wikipedia.org/wiki/Plain_Old_XML">and others</a>) call this style of web service "<a href="http://en.wikipedia.org/wiki/Plain_Old_XML">POX</a>" - or plain-old XML.  Many authors of POX-style web service APIs describe them as "REST", but they're wrong.  In pretty much every mention of the term REST, they're wrong.</p>
+                  
+                </li><li id="13" data-created="Fri, 25 May 2007 18:13:32 GMT">
+                  <p>This might seem like cranky nerdery and hair-splitting, but there are some very specific things that make something REST-ful - and tunnelling RPC over port 80 via HTTP GET requests ain't it.  What's confusing is that some POX-style APIs - mostly the ones that are read-only - coincidentally demonstrate REST characteristics.  But, true REST (which I'll get to shortly) is not RPC - it embodies a different way of thinking about programming against the web, and really needs to not have become a marketing term for simple POX-style APIs.</p>
+                  
+                </li><li id="14" data-created="Fri, 25 May 2007 18:20:05 GMT">
+                  <p>Really, just stop saying your API is a REST API when it isn't.  It's cool that you've got an RPC-over-HTTP-GET API that outputs XML, you can admit it.  I'm happy you've got an API on the web at all, and that it's not done in SOAP.</p>
+                  
+                </li><li id="15" data-created="Fri, 25 May 2007 17:48:19 GMT">
+                  <p>The thing about POX-style web APIs is that you're back-to-basics again.  They're oftimes very simple to implement on both sides of the wire, but each one is a little different and follows no standard but its own, like the original LJ API.  The big improvement is that we've gone from name / value pairs on alternating lines to using arbitrary XML.  The loss is that you no longer have the (albeit small) abstraction of name / value pairs, and most of these services are (ab)using HTTP GET for writes, whereas the original LJ API and XML-RPC at least had the courtesy to use HTTP POST.</p>
+                  
+                </li><li id="16" data-created="Fri, 25 May 2007 15:19:44 GMT">
+                  <p>Hello world.  TGIF.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

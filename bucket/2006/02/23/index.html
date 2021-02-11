@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 02 / 23 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 02 / 23</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/02/22"
+    title="2006 / 02 / 22"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/02/24"
+    title="2006 / 02 / 24"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="23.opml"
+            data-created="&quot;2006-02-23T12:36:50.000Z&quot;"
+            data-modified="&quot;2006-02-23T21:36:43.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Thu, 23 Feb 2006 21:34:36 GMT">
+                  <p>My <a href="http://decafbad.com/twiki/bin/view/Main/RadioUserLand">early notes on Radio UserLand hacking</a> might be useful to someone, somewhere, sometime - possibly even me.</p>
+                  
+                </li><li id="2" data-created="Thu, 23 Feb 2006 20:07:17 GMT">
+                  <p>Whoa, I just realized that Dan's <a href="http://www.yabfog.com/wp/opml-renderer/">OPMLRenderer plugin for WordPress</a> is, like, all XSLT.  I had trouble getting XSLT working on my server in PHP, yet his code just ran the first time.  Obviously I've missed something, and luckily I have his code to school me.</p>
+                  
+                </li><li id="3" data-created="Thu, 23 Feb 2006 19:14:31 GMT">
+                  <p>Hmm, seems like the getItem() method of the Aggregator API is not quite working as I'd like.  It seems to be truncating item content, as well as including a redundant link to the item itself.  What I think I really want is something that sends back a copy of the full item structure in the database.  I may end up adding this as a method in an add-on decafbadAggregator API, if I don't resist my temptation to build a REST-styled API.</p>
+                  
+                </li><li id="4" data-created="Thu, 23 Feb 2006 19:04:19 GMT">
+                  <p>I've installed and run the OPML Editor for the first time on Windows today.  Weird!  I'd wondered where that window with the built-in browser came from in screenshots.  I wonder how hard / desirable that would be to get working on OS X with a Safari pane?  Is anyone using that window for anything extra useful? <i>Oh, wait, that's the MDI window within which all the outline windows live!</i>  Yikes, my brain's really soaked in Mac GUI conventions.</p>
+                  
+                </li><li id="5" data-created="Thu, 23 Feb 2006 16:54:01 GMT">
+                  <p>I've just created a new page using Dan MacTough's <a href="http://www.yabfog.com/wp/opml-renderer/">OPMLRenderer plugin for WordPress</a> to publish a <a href="http://decafbad.com/blog/plan/"><code>.plan</code> outline managed via OPML Editor</a>.</p>
+                  
+                </li><li id="6" data-created="Thu, 23 Feb 2006 14:49:50 GMT">
+                  <p><a href="http://goessner.net/articles/wiky/">Wiky</a> is a wiki-text implementation in JavaScript.  What's really keen about it, though, is that it's <i>bidirectional</i> - that is, it can produce HTML from its own <a href="http://webseitz.fluxent.com/wiki/SmartAscii">SmartAscii</a> format, and then go <i>back</i> again from HTML source.  <i></i>Why's this important?  Well, for my <a href="http://decafbad.com/blog/2005/07/12/xoxo-outliner-experiment">XOXO Outliner</a> and subsequent <a href="http://decafbad.com/blog/2005/10/28/working-on-a-tripkodoo-business-plan-tonight">half-baked</a> start at <a href="http://decafbad.com/trac/wiki/Micronian">a structured wiki</a>, I had a notion to push some of the HTML formatting and composition responsibilities onto the client side UI, so that the server just dealt in pure XHTML.  This could help with that, if/when I get back to that project.</p>
+                  
+                </li><li id="7" data-created="Thu, 23 Feb 2006 14:46:29 GMT">
+                  <p>Hmm, one semi-inconvenience with the WordPress Tool:  If I save an entry, then switch back to today's outline for my OPML blog, the attributes returned by WordPress after posting the entry (blog post ID, etc) get applied to the current entry on the OPML blog.  i think I understand why, but not sure how to fix yet...</p>
+                  
+                </li><li id="8" data-created="Thu, 23 Feb 2006 14:46:16 GMT">
+                  <p>The <a href="http://technorati.com/account/importfaves.html">import page for Technorati Favorites</a> mentions that it supports XOXO as a format along with OPML.  Cool!  <a href="http://decafbad.com/blog/2006/02/16/just-put-on-your-xoxo-colored-glasses">I'm a known XOXO lover.</a>  So, I tried importing <a href="http://decafbad.com/2006/02/subs-amusements.opml">my OPML "amusements" reading list</a> as an <a href="http://decafbad.com/2006/02/subs-amusements.xoxo">XOXO outline</a>.  I used the XSL transformation I mentioned a few weeks ago, tweaked to follow some ideas for <a href="http://microformats.org/wiki/xoxo-brainstorming#Subscription_information">subscription markup in XOXO</a>.  Well, it looks like <a href="http://hosting.opml.org/decafbad/gems/xoxo-faves.jpeg" target="_blank">it worked!</a>  So, what's the moral of the story?  I can use the OPML Editor and still use XOXO, thanks to my <a href="http://decafbad.com/blog/2006/02/16/just-put-on-your-xoxo-colored-glasses">stylish glasses</a>.  Although, it would be nice to have a profile, spec, or guideline as to what XOXO is expected by Technorati Favorites - XOXO is a pretty wide open microformat.  I mainly made an educated guess, followed a wiki brainstorming example, and crossed my fingers as I hit submit.</p>
+                  
+                </li><li id="9" data-created="Thu, 23 Feb 2006 13:04:35 GMT">
+                  <p>Good morning.  Coffee good, bed better, but here I am.  How's about you?</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

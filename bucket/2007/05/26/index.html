@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 05 / 26 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 05 / 26</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/05/25"
+    title="2007 / 05 / 25"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/05/27"
+    title="2007 / 05 / 27"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="26.opml"
+            data-created="&quot;2007-05-26T18:45:02.000Z&quot;"
+            data-modified="&quot;2007-05-26T19:46:48.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Sat, 26 May 2007 18:55:22 GMT">
+                  <p>The point of my web services ramble</p>
+                  <ul data-parent-id="1">
+          <li id="2" data-created="Sat, 26 May 2007 18:49:44 GMT">
+                  <p>Yesterday, I rambled at length about web services as I've played with them thus far.  I kind of ran out of steam before I got to the eventual point.</p>
+                  
+                </li><li id="3" data-created="Sat, 26 May 2007 18:51:59 GMT">
+                  <p>Here are some of the cliff notes:</p>
+                  <ul data-parent-id="3">
+          <li id="4" data-created="Sat, 26 May 2007 18:54:52 GMT">
+                  <p>If you're going to do RPC-over-web, you might as well use XML-RPC.</p>
+                  
+                </li><li id="5" data-created="Sat, 26 May 2007 18:54:27 GMT">
+                  <p>SOAP is a failure, in my experience.  It took the good bits of XML-RPC and rocketed off into space with architecture astronauts at the helm.  Others have detailed this much better than I have or will.</p>
+                  
+                </li><li id="6" data-created="Sat, 26 May 2007 18:57:49 GMT">
+                  <p>In POX, the pattern of HTTP GET query parameters and XML response is fairly well trodden.  But, you still need to build a bespoke handler for each service's XML - as opposed to XML-RPC's easy path straight to native scripting language data structures.</p>
+                  
+                </li><li id="7" data-created="Sat, 26 May 2007 18:55:13 GMT">
+                  <p>Unlike POX-style APIs, XML-RPC at least gives you some convenient reusable abstractions on parameter and return value marshalling without requiring you to cobble up a bespoke client library every time.</p>
+                  
+                </li><li id="8" data-created="Sat, 26 May 2007 19:06:12 GMT">
+                  <p>Of course, neither straight POX nor XML-RPC offer an easy way to reusably do authentication, error handling, or much else beyond function calls.</p>
+                  
+                </li><li id="9" data-created="Sat, 26 May 2007 19:41:52 GMT">
+                  <p>POX can use HTTP error codes and authentication, but often doesn't use either.</p>
+                  
+                </li><li id="10" data-created="Sat, 26 May 2007 19:42:01 GMT">
+                  <p>XML-RPC offers an exception mechanism, but stops at the point of offering advice of what to do with it - which is fine, really, because anything can happen when you call a function.  Authentication, though, usually boils down to a couple of extra parameters on every call.  That's serviceable, but I think could be better.</p>
+                  
+                </li><li id="11" data-created="Sat, 26 May 2007 19:00:03 GMT">
+                  <p>But in any case, bespoke solutions make it hard to develop reusable abstractions and conventions.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="12" data-created="Sat, 26 May 2007 19:05:10 GMT">
+                  <p>So, that brings me around to REST - which I think has an answer to just about all of the other styles' problems.  More on that soon.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="13" data-created="Sat, 26 May 2007 19:42:46 GMT">
+                  <p>Off to get some lunch with the girl, then maybe I'll finish this line of thought and think about bundling it up into a more coherent blog post.</p>
+                  
+                </li><li id="14" data-created="Sat, 26 May 2007 19:45:49 GMT">
+                  <p>Also, thanks for bearing with me, if you're reading this rambling.  :)</p>
+                  
+                </li><li id="15" data-created="Sat, 26 May 2007 18:45:02 GMT">
+                  <p>Hello world.  It's Saturday morning Star Trek rerun time.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

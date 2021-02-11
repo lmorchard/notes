@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 03 / 25 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 03 / 25</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/03/23"
+    title="2006 / 03 / 23"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/03/26"
+    title="2006 / 03 / 26"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="25.opml"
+            data-created="&quot;2006-03-25T12:06:33.000Z&quot;"
+            data-modified="&quot;2006-03-26T04:13:52.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Sun, 26 Mar 2006 03:21:19 GMT">
+                  <p>About XoxoOutliner</p>
+                  <ul data-parent-id="1">
+          <li id="2" data-created="Sun, 26 Mar 2006 03:21:34 GMT">
+                  <p>So, I keep making vague references to some cool things I want to work on.  Well, rather than staying cagey and in some lame sort of stealth mode - here's an early release, because I want to get some of it out of my head and onto the web.</p>
+                  
+                </li><li id="3" data-created="Sun, 26 Mar 2006 03:22:30 GMT">
+                  <p>Last summer, in a fit of manic love for XOXO, I started writing <a href="http://decafbad.com/blog/2005/07/12/xoxo-outliner-experiment">a browser-based outliner</a>.  I got busy and had to leave it for awhile, but kept meaning to get back to it.  A few months ago, I <a href="http://decafbad.com/trac/browser/trunk/XoxoOutliner/js/XoxoOutlinerKit.js" title="XoxoOutlinerKit.js">totally rewrote that code</a> to correct some memory leaks, streamline some things, and generally employ a few more of the tricks I've learned since last July.  It's still got some work to go.</p>
+                  
+                </li><li id="4" data-created="Sun, 26 Mar 2006 03:24:55 GMT">
+                  <p>The idea I think is most cool about this outliner is that it uses the browser's own data structures in the DOM to both represent and display the outline data.  But, this code doesn't offer any way to get edited outlines into or out of the browser's DOM.  Pointless editing of statically-served XOXO outlines as a demo was all I had.</p>
+                  
+                </li><li id="5" data-created="Sun, 26 Mar 2006 03:59:32 GMT">
+                  <p>In fact, back in July, <a href="http://microformats.org/blog/2005/07/13/xoxo-outline-editor-in-javascript/">Tantek �elik mentioned my XOXO outline experiment</a> on microformats.org and mused: '<i>Imagine what you could do with some AJAX to "autosave" this XOXO outline to the server, and allow multiple users to edit different subpoints simultaneously.</i>'  Hold that thought, because I think I'm about to get a bit closer to that goal.</p>
+                  
+                </li><li id="6" data-created="Sun, 26 Mar 2006 03:22:34 GMT">
+                  <p>The OPML Community Server has a very simple, yet useful API for managing and transferring files via XML-RPC.  In a lot of ways, I think it's competition for the Atom Publishing Protocol.  But, say - did you know that you can do <a href="http://www.vcdn.org/Public/XMLRPC/">XML-RPC from a browser via AJAX</a>?  Well, that particular implementation is a bit old and seems buggy, so <a href="http://decafbad.com/trac/browser/trunk/XoxoOutliner/js/myXMLRPC.js" title="myXMLRPC.js">I've started gutting it and rewriting it myself</a>.  So, I can call the OPML Community Server API from a browser - now I need a way to turn in-browser outlines into data I can ship around with the API.</p>
+                  
+                </li><li id="7" data-created="Sun, 26 Mar 2006 03:34:36 GMT">
+                  <p>Well, that's where this next piece of the puzzle comes in: <a href="http://decafbad.com/trac/browser/trunk/XoxoOutliner/js/XoxoOutliner/Conversions.js" title="XoxoOutliner/Conversions.js">JavaScript functions to convert between XOXO and OPML data and browser DOM structures</a>.</p>
+                  
+                </li><li id="8" data-created="Sun, 26 Mar 2006 03:40:13 GMT">
+                  <p>So, I've got the pieces in code to go round trip from XOXO and OPML data on a server; to a browser's DOM where it can be edited by way of a JavaScript-driven UI; and back to the server again.  These parts aren't welded together in any form remotely close to finished, but hopefully that's what I'll get around to doing under the project I've named <a href="http://decafbad.com/trac/wiki/XoxoOutliner">XoxoOutliner</a>.  In my own carefully controlled conditions, I've been able to load up, edit, and save outlines on my own <a href="http://decafbad.com/trac/wiki/OpmlServer">barely-functional OpmlServer</a> - as well as on <code>blogs.opml.org</code> itself.</p>
+                  
+                </li><li id="9" data-created="Sun, 26 Mar 2006 03:27:13 GMT">
+                  <p>What's all this mean?  Well, if I never get a chance to actually finish this, maybe someone can make use of the parts I've linked to here.  Otherwise, it could soon mean direct in-browser editing of OPML outlines and blogs with OPML Community Server integration.  Combine that with the <a href="http://support.opml.org/2005/07/18">OPML Editor's ability to synch up with changed files</a>, and you can edit while you're away and later bring that content back into the more fully-capable desktop application.  (Thanks to <a href="http://blogs.opml.org/amyloo/">Amyloo</a> for pointing me toward that particular trick!)</p>
+                  
+                </li><li id="10" data-created="Sun, 26 Mar 2006 03:56:30 GMT">
+                  <p>Don't hold your breath on my account, though:  I'm in pretty much over my head with work at the moment, so this post is more or less an escape pod for my ideas in case I don't quite make it out of this hole.  ";->"  Feel free to steal the pieces.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="11" data-created="Sat, 25 Mar 2006 20:41:02 GMT">
+                  <p>Home from work; going in again tomorrow.  All of this to get back to thinking in the box, which is somewhat discouraging.  At any rate, I hope to get some free brain power and time again soon.  Through baby steps, I've been cobbling some nifty things together, and there are some other very attractive things I'd like to be working on.  And then, there's also the book to finish, just as soon as I get the chapters back from my editor for review.  Need naps and laziness - the coffee just ain't working so well anymore.</p>
+                  
+                </li><li id="12" data-created="Sat, 25 Mar 2006 12:06:33 GMT">
+                  <p>Morning.  Skipped another day due to current craziness - going into work again this weekend, hoping that it's the last one for awhile.  Also, hoping that this next week or so, I'll have the book wrapped up.  Then, I'm hoping, finally, for a nice span of time during which I endeavor to achieve heretofore unknown depths of sloth.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

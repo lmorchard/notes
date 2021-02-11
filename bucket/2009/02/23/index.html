@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2009 / 02 / 23 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2009 / 02 / 23</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2009/02/22"
+    title="2009 / 02 / 22"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2009/03/04"
+    title="2009 / 03 / 04"
+    >next &raquo;</a
+  >
+      </nav>
+      <p>// bucket for 2009-02-23</p>
+<ul>
+<li><p>And, since this was an active day on the bucket, I&#39;m starting to
+think that maybe I should try to switch feeds to producing an item per
+bullet point rather than this one big blob-per-day.</p>
+</li>
+<li><p>So, inspired by <a href="http://howto.opml.org/dave/editorOpmlOrg/blogWriterTool.html">Dave&#39;s re-release of the 2005-era OPML Editor
+blogging tool</a>, I&#39;ve made <a href="http://github.com/lmorchard/decafbucket/commit/dbacbd6a8252720679afac925eb656081b030738#L0R302">some tweaks</a> to the
+bucket here that has made it possible to import all my old <a href="http://blogs.opml.org/decafbad/">OPML blog
+entries</a> just by copying the files into the proper data
+directory.</p>
+<ul>
+<li><p>One of my next steps, once I have time for another hacking
+sprint is to implement an <a href="http://decafbad.com/hgwebdir.cgi/OpmlServer/">OPML Community Server API</a>
+endpoint here that will allow me to use the <a href="http://editor.opml.org/">OPML Editor</a> to
+<a href="http://radio.userland.com/developer/tools/upstreamingDriverArchitecture">upstream</a> entries to this bucket.</p>
+</li>
+<li><p>So, thus far, this bucket supports entries as single files per
+day or a directory of files per day—and in Markdown, Textile, 
+HTML, and OPML formats.</p>
+</li>
+<li><p>And, soon, I might have both <code>git push</code> and an XML-RPC API as
+means of publishing to this bucket.  Kind of insane, but these
+things match a workflow I want to support.</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="http://blog.makezine.com/archive/2009/02/how_to_backup_flickr_photos_with_fl.html?CMP=OTC-0D6B48984890">Backing up</a> all <a href="http://www.flickr.com/photos/deusx">my Flickr photos</a> with <a href="http://sunkencity.org/flickredit">FlickrEdit</a>.</li>
+</ul>
+<ul>
+<li><p>A big difference between this and my old <a href="http://blogs.opml.org/decafbad/">OPML Blog</a> is that
+the OPML Editor tracks the datestamp of when an outline item is first
+created.  That makes it so easy to come up with permalinks granular to
+the item.  Trying to figure out how to do that here.</p>
+<ul>
+<li><p>Of course, I may eventually just go back to the OPML Editor.</p>
+</li>
+<li><p>What might be interesting is to slap an <a href="http://decafbad.com/hgwebdir.cgi/OpmlServer/">OPML Community Server
+API</a> in front of this bucket.</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>I&#39;m trying to get a <code>post-receive</code> hook in git to auto-update the
+remote site, but without much luck yet.</p>
+<ul>
+<li><p>One more try, using <a href="http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3">this tip</a>.</p>
+</li>
+<li><p>HUGE SUCCESS!</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>The new (for me) big idea about this thing is that now I&#39;m
+&quot;publishing&quot; entries with this thing using <code>git push</code>.  I&#39;ve got a
+<code>master</code> branch without any content, and a <code>prod</code>
+branch that holds all my entries.  The <code>master</code> branch gets pushed to
+<a href="http://github.com/lmorchard/decafbucket/tree/master">github</a>, and the <code>prod</code> branch gets pushed to <a href="http://decafbad.com/bucket/">decafbad.com</a></li>
+</ul>
+<ul>
+<li><p>Oh yeah, and I&#39;m trying out Disqus instead of Haloscan for comments
+for the the first time.</p>
+</li>
+<li><p>I&#39;ve also got both PHP and JS versions of Markdown and Textile on
+hand, so at some point I&#39;d like to introduce some web-based editing
+with live previews that can also be synched back down to my laptop via
+<code>git pull</code>.</p>
+</li>
+<li><p>I suppose this thing is sort of like a Twitter account, but with
+hopefully more context.  I&#39;d like to use this for the dumping of
+thoughts too long for Twitter, yet too short for what I think of as a
+proper blog entry on decafbad.com. </p>
+</li>
+</ul>
+<p>/* vim: set wrap wm=5 syntax=mkd textwidth=70: */</p>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

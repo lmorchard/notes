@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>2020 / 08 / 15 - notes.lmorchard.com</title>
+		<meta property="og:site_name" content="2020 / 08 / 15" />
+		<meta property="og:type" content="article" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+		<style type="text/css">
+			section.content article.wiki h1 {
+				margin-bottom: 0.75em;
+			}
+			section.content article.wiki .backlinks h4 {
+				margin: 1.5em 0 1.0em 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="main">
+			<header>
+				<h1><a href="./">notes.lmorchard.com</a></h1>
+				<h2>thinking with the lid off</h2>
+				<nav>
+					<label for="nav-trigger"></label>
+					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+					<ul>
+						<li><a href="http://lmorchard.com/">about me</a></li>
+						<li><a href="./RecentChanges.html">recent changes</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="content">
+				<article class="post wiki">
+					<h1 class="title">2020 / 08 / 15</h1>
+					<section class="post-content">
+						<p>Hello world.</p><hr><p>Wandered downstairs to the workbench to tinker. Noticed my journal page for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="2020%2520%252F%252006%2520%252F%252021.html">2020 / 06 / 21</a> open on the computer. So, I guess that's when I was last down here.</p><hr><p>Ugh. My current <a class="tc-tiddlylink tc-tiddlylink-resolves" href="AboutMePage.html">AboutMePage</a> implementation run via <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Github%2520Actions.html">Github Actions</a> keeps silently failing for one reason or another. </p><p>So I have at least two problems: 1) the errors aren't bubbling up into failure notifications and 2) my data fetching methods end up being fragile and I think hitting issues of expired tokens on various services.</p><p>I should fix that but I've either not had time or been severely disinterested in screwing with it. The big discouraging thing is that when things break, I don't hear about it. Then, more things break. Then, when I finally do check it out, there's a pile of broken things and that's just zero fun for a side project.</p><hr><p>Matt Webb posts <a class="tc-tiddlylink-external" href="http://interconnected.org/home/2020/07/29/improving_rss" rel="noopener noreferrer" target="_blank">about aboutfeeds.com</a>. </p><p>That gets me thinking about <a class="tc-tiddlylink-external" href="https://github.com/lmorchard/feed-herder" rel="noopener noreferrer" target="_blank">my feed herder browser extension experiment</a> from a couple of years ago - it rode shot gun while browsing to discover RSS feeds and auto-assemble a river from history. At least, that was the idea. It was kind of chunky and doesn't seem all that practical to just do all in one browser while I'm living on multiple PCs and a phone.</p><hr><p>Still want to gin up an RSS or Atom feed for the journal entries here.</p><hr><p>Thinking about feeds also gets me thinking about <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Activity%2520Streams.html">Activity Streams</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="ActivityPub.html">ActivityPub</a>.</p><p>Back in 2011, I had a notion to write a new book - <a class="tc-tiddlylink-external" href="https://github.com/lmorchard/tinkering-with-activity-streams" rel="noopener noreferrer" target="_blank">Tinkering with Activity Streams</a>. I didn't get far, but the notion still appeals. <a class="tc-tiddlylink-external" href="https://github.com/lmorchard/tinkering-with-activity-streams/blob/master/book/ch01-what-are-activity-streams.asciidoc" rel="noopener noreferrer" target="_blank">This partial Chapter 1</a> probably should have been a blog post - in fact, maybe I should reboot the book as a series of blog posts.</p><p>The problem, though, is that <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Activity%2520Streams.html">Activity Streams</a> haven't <em>really</em> taken off like RSS did back when I wrote <a class="tc-tiddlylink-external" href="https://www.amazon.com/Hacking-Atom-ExtremeTech-Leslie-Orchard/dp/0764597582" rel="noopener noreferrer" target="_blank">my first book</a>. If I wrote a book about <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Activity%2520Streams.html">Activity Streams</a>, it would be more like what I'd hope could be done rather than centered on things that <em>are</em> being done <em>now</em> - well, where <em>now</em> is defined as 2005.</p><p>I love RSS &amp; Atom, but I also think the actor / verb / object / target model of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Activity%2520Streams.html">Activity Streams</a> offers a richer structure than classic web feeds. And <a class="tc-tiddlylink tc-tiddlylink-resolves" href="ActivityPub.html">ActivityPub</a> offers an interesting exchange protocol that's got a lot of support in the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Fediverse.html">Fediverse</a>. There could be more done with it all, though.</p><hr><p>Also, <a class="tc-tiddlylink-external" href="https://github.com/lmorchard/starnet/tree/new-proto" rel="noopener noreferrer" target="_blank">I refreshed</a> the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Starnet.html">Starnet</a> tinkering I did with ECSY over last xmas break. New version of ECSY with breaking changes, but they were good changes. My vague goal is to pair this up with some glowy-vector webgl stuff and see if I can gin up a little netrunner hacking puzzle.</p><p>Skipping any kind of build step, seeing how far I can get with native module support and modern vanilla JS features. Maybe I'll back into an optimized build later. </p><p>I also want to screw around with glitching the rendering. Like, if you're hacking and get hit with counter measure programs, maybe the lines start to drift &amp; jitter like a bad Atari Tempest monitor. Maybe a lava-lamp plasma field overlays the screen like migraine auras.</p><hr><p>Speaking of gamedev, <a class="tc-tiddlylink-external" href="https://bevyengine.org/learn/book/introduction/" rel="noopener noreferrer" target="_blank">Bevy looks like a neat engine in Rust</a>. Though, Rust macros can look like &quot;<a class="tc-tiddlylink-external" href="https://twitter.com/_benui/status/1294398871771025408" rel="noopener noreferrer" target="_blank">templated C++ and Perl had a fight and everybody lost</a>&quot;.</p><hr><p><a class="tc-tiddlylink-external" href="https://blog.jupyter.org/announcing-the-new-jupyter-book-cbf7aa8bc72e" rel="noopener noreferrer" target="_blank">Jupyter Book</a> looks neato. If I ever get around to writing another book, I think I want to make it <a class="tc-tiddlylink-external" href="https://executablebooks.org/en/latest/" rel="noopener noreferrer" target="_blank">an executable book</a>.</p><hr><p>Steve Yegge: <a class="tc-tiddlylink-external" href="https://medium.com/@steve.yegge/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc" rel="noopener noreferrer" target="_blank">Dear Google Cloud: Your Deprecation Policy is Killing You</a></p><p>It's shit like this that makes me daydream about making a deflection in my career in bothering computers to just go super deep on maintenance for systems using COBOL and whatever else is ancient and still running after decades. I often yearn for stable, practical software environments in which I can really just soak my brain and methodically build useful &amp; valuable things.</p><p>Whenever I start a new project, I see the future where no matter how carefully I build now, it will all be garbage soon. Within months. With luck, a year.</p><p>Embrace the impermanence of all things, but it would be nice if today's work stood for bit longer. There's so much else to do.</p><p>Maybe it's age, but this kind of thing makes non-software tinkering ever more attractive.</p><p>Never thought I'd find installing a sink faucet, window blinds, or a light fixture satisfying. But, it's the kind of thing I can do and still enjoy it's function a bunch of years later. 
+</p>
+					</section>
+					<section class="backlinks">
+						<h4>Backlinks</h4>
+						<ul>
+							
+								None, yet
+							
+						</ul>
+					</section>
+					<section class="comments">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = "https://lmorchard.github.io/notes/2020%2520%252F%252008%2520%252F%252015.html";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "2020%2520%252F%252008%2520%252F%252015";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://notes-lmorchard-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            					
+					</section>
+				</article>
+			</section>
+			<footer>
+				<img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+			</footer>
+		</section>
+	</body>
+</html>

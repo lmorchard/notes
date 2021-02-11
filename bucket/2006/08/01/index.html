@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 08 / 01 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 08 / 01</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/07/31"
+    title="2006 / 07 / 31"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/08/09"
+    title="2006 / 08 / 09"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="01.opml"
+            data-created="&quot;2006-08-01T19:48:35.000Z&quot;"
+            data-modified="&quot;2006-08-01T22:03:06.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Tue, 01 Aug 2006 22:01:14 GMT">
+                  <p>Actually, I feel dumb now:  All that proud tinkering I did to get this Universal Binary of the OPML Editor built, and I realized that there's a second XCode project in the buildXCode directory.  It's named "FrontierFat," and it builds a Universal Binary version of the OPML Editor with no fuss at all.</p>
+                  
+                </li><li id="2" data-created="Tue, 01 Aug 2006 20:02:30 GMT">
+                  <p>Now maybe some day soon I'll have increasing spare time to tinker with this thing, not just on the odd lunch hour!</p>
+                  
+                </li><li id="3" data-created="Tue, 01 Aug 2006 19:50:44 GMT">
+                  <p>Could this be a Univeral Binary build of the OPML Editor?</p>
+                  <ul data-parent-id="3">
+          <li id="4" data-created="Tue, 01 Aug 2006 19:48:35 GMT">
+                  <p>Let's see if this works.  I just managed to get a successful build of the OPML Editor from a copy of the <a href="http://frontierkernel.org/">Frontier Open Source Kernel</a> checked out of the Subversion repository.</p>
+                  
+                </li><li id="5" data-created="Tue, 01 Aug 2006 19:51:11 GMT">
+                  <p>I hit one snag in building a Universal Binary, which I seem to have been able to correct with a quick tweak to the XCode project (libpaigefat.a swapped for libpaigemacho.a) and a ranlib call in a Terminal window.  <a href="http://groups.yahoo.com/group/frontierkernel/message/2496">This mailing list message was my clue.</a></p>
+                  
+                </li><li id="6" data-created="Tue, 01 Aug 2006 19:51:39 GMT">
+                  <p>If you're reading this blog post - then, yes, I'm writing from a Universal Binary of the OPML Editor on my shiny new MacBook Pro.  It's fresh and sizzling out of the SVN repository, and so is completely untested and likely to start fires.</p>
+                  
+                </li><li id="7" data-created="Tue, 01 Aug 2006 19:55:02 GMT">
+                  <p>Thus, if you ask me, I'm quite unlikely to hand out copies.  I don't want anyone to think this is a "release" or anything that sane people should poke at without safety glasses.  It's not because I'm a meanie and want to keep the new toy to myself - it's because I like you and I don't want to be the cause of your deleted data.  :)</p>
+                  
+                </li><li id="8" data-created="Tue, 01 Aug 2006 19:59:30 GMT">
+                  <p>Basically, take this post as a hint on how to get your own Universal Binary build of the OPML Editor out of Subversion, if you know how to get most of the way already.</p>
+                  
+                </li>
+        </ul>
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

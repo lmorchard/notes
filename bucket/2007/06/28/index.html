@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 06 / 28 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 06 / 28</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/06/27"
+    title="2007 / 06 / 27"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/06/29"
+    title="2007 / 06 / 29"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="28.opml"
+            data-created="&quot;2007-06-28T19:24:15.000Z&quot;"
+            data-modified="&quot;2007-06-29T14:36:37.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Fri, 29 Jun 2007 06:34:34 GMT">
+                  <p>Heh - peak listeners on the TwitterGramCast is 2.  The hack actually works, but there need to be more TwitterGrams flowing for it to be worth a full-time stream.  But, if or when that happens...  the technology will be ready.  :)</p>
+                  
+                </li><li id="2" data-created="Fri, 29 Jun 2007 01:48:47 GMT">
+                  <p><a href="http://twitter.com/lmorchard">Twitter</a> vs <a href="http://pownce.com/lmorchard/">Pownce</a>:  Whereas Twitter is a personal status broadcasting service that's grown various forms of P2P messaging as a side-effect, Pownce goes straight for the inter-personal messaging with broadcast as a muted theme.</p>
+                  
+                </li><li id="3" data-created="Thu, 28 Jun 2007 19:24:46 GMT">
+                  <p>Like TwitterGrams?  <a href="http://decafbad.com:8000/">Try my experimental streaming radio station.</a></p>
+                  
+                </li><li id="4" data-created="Thu, 28 Jun 2007 19:38:35 GMT">
+                  <p>The stream currently plays each TwitterGram as it rolls in to the <a href="http://twitter.com/twitogram">twitogram</a> feed.  When nothing new is available, some <a href="http://freesound.iua.upf.edu/packsViewSingle.php?id=704">MP3s of birdsong from the freesound project</a> are used for filler.</p>
+                  
+                </li><li id="5" data-created="Thu, 28 Jun 2007 19:28:44 GMT">
+                  <p>I'm calling this thing TwitterGramCaster, and <a href="http://decafbad.com/svn/trunk/TwitterGramCaster/">here's the code in SVN</a>.  It's the product of a night and a half of hacking to get out of a slump, and the documentation sucks so far.  It's successfully run on my laptop (OS X), and on my server (Linux) - so I know it's relatively portable.  To run it, you need <a href="http://www.icecast.org/">icecast</a> to host the stream and <a href="http://www.gnuware.com/icecast/chap_09_02.html">ices0</a> with embedded Python to provide a source for the stream.  Other than that, I'll hopefully be more properly writing things up soon.  Until then, enjoy the stream and explore the code.</p>
+                  
+                </li><li id="6" data-created="Thu, 28 Jun 2007 19:34:47 GMT">
+                  <p>The stream is very experimental, and might go away at any time.  Hopefully, if it's not quite working right, at worst you'll hear a nice soothing stream of birdsong.  I really need to add in a post-fetch processing stage to normalize volume of the TwitterGrams and whatnot, and I've got some thoughts about using some text-to-speech to announce each TwitterGram. Audio avatars might be an interesting idea too.</p>
+                  
+                </li><li id="7" data-created="Thu, 28 Jun 2007 19:32:02 GMT">
+                  <p>The main inspiration for this TwitterGramCaster hack comes from <a href="http://www.russellbeattie.com/notebook/1008159.html">Russell Beattie's "Podcast Radio"</a> idea, back in late 2004.  I started poking around with implementing such a thing back then, but gave up.  So, I picked up the pieces and got this up and running.  Never played around with hosting an MP3 stream before, so this is pretty interesting stuff.</p>
+                  
+                </li><li id="8" data-created="Thu, 28 Jun 2007 21:52:21 GMT">
+                  <p>Weird.  Of course, now that I've blogged about the TwitterGramCaster, the XML feed I'm getting off the Twitter API appears to be going stale for past hour or so.  Nothing but birds on the station.  That's not entertaining.  Switching quickly to the JSON feed and watching what happens.</p>
+                  
+                </li><li id="9" data-created="Thu, 28 Jun 2007 22:13:27 GMT">
+                  <p>Hmm, no dice.  The JSON feed looks stale now, and the XML feed has caught up.  I wonder what the caching rules are on the API?</p>
+                  
+                </li><li id="10" data-created="Thu, 28 Jun 2007 23:05:55 GMT">
+                  <p>Ah hah:  The Twitter API feeds, when fetched using authentication, seem to give fresh results.  Of course, up until now, I'd ignored the line in the <a href="http://groups.google.com/group/twitter-development-talk/web/api-documentation">Twitter API docs</a> which read: "With the exception of the public timeline, all Twitter API methods require authentication."  So, I guess my attempts at anonymous calls were just vaguely humored with stale data.</p>
+                  
+                </li><li id="11" data-created="Thu, 28 Jun 2007 23:21:49 GMT">
+                  <p>Oh, and of course I skimmed right over the line in the API docs that reads: "Clients are allowed 70 requests per 60 sixty minute time period, starting from their first request".  I was making a request every 30 seconds and got blocked now that I'm actually authenticating.  Ugh.</p>
+                  
+                </li><li id="12" data-created="Thu, 28 Jun 2007 22:01:32 GMT">
+                  <p>I wonder if it would be more entertaining to loop the past hour or so worth of TwitterGrams until there's more of a steady stream, minimizing the amount of time spent in birdsong filler?</p>
+                  
+                </li><li id="13" data-created="Thu, 28 Jun 2007 22:21:05 GMT">
+                  <p>A tinfoil-hat Apple theory to giggle at:  The iPhone's physical design was established before the first iPod ever came out.  Then, a series of generations were "devolved" from there, each looking cruddier than the last.  The first iPod to come out started with the cruddiest of all, and each iPod generation since then was given the next canned less-cruddy design until finally the iPhone was a practical project.  Then, finally, the iPhone was given the best of the design series.  This progression has allowed each upgrade of the device family to make the previous one look old-and-busted, driving a chain of compelling device purchases.</p>
+                  
+                </li><li id="14" data-created="Thu, 28 Jun 2007 19:24:15 GMT">
+                  <p>Hello world.  Strange things are afoot at the Circle K.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

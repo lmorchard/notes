@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 02 / 13 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 02 / 13</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/02/12"
+    title="2006 / 02 / 12"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/02/14"
+    title="2006 / 02 / 14"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="13.opml"
+            data-created="&quot;2006-02-13T11:48:13.000Z&quot;"
+            data-modified="&quot;2006-02-14T05:45:37.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Tue, 14 Feb 2006 05:18:56 GMT">
+                  <p>I think I may have roped <a href="http://blogs.opml.org/vacuum/">Ed Vielmetti</a> into this OPML thing with my enthusiasm of late.  ";->"</p>
+                  
+                </li><li id="2" data-created="Tue, 14 Feb 2006 00:59:00 GMT">
+                  <p>So, I checked out and compiled the OPML Editor <a href="http://frontierkernel.sourceforge.net/">from source</a> under Mac OS X during dinner.  It ran and appeared to work fine with a backup of all my stuff.  Beyond that, I don't know what I'm doing - yet.  But, just like when I downloaded and built the first release of Mozilla, this gives me some geeky comfort.  (Only well, unlike Mozilla, this thing didn't crash & burn out of the box.)</p>
+                  
+                </li><li id="3" data-created="Tue, 14 Feb 2006 04:51:34 GMT">
+                  <p>Hmm, need to tweak the WordPress tool to produce HTML lists instead of tables.  There, <i>done</i>.  I just tweaked <code>wordPressSuite.getPostText</code> to produce nested HTML lists that are more friendly to styling via CSS.  If anyone happens to want my tweak, let me know.</p>
+                  
+                </li><li id="4" data-created="Mon, 13 Feb 2006 16:25:56 GMT">
+                  <p>Reading Lists, OPML, XOXO, Semantic Web, and Tools</p>
+                  <ul data-parent-id="4">
+          <li id="5" data-created="Mon, 13 Feb 2006 15:42:12 GMT">
+                  <p>Listening to this <a href="http://blogs.msdn.com/alexbarn/archive/2006/02/12/530652.aspx">podcast about OPML and Reading Lists</a> and enjoying the various perspectives on RSS, OPML, and Semantic Web tech.  It's also the first time I've heard Danny Ayers' voice, so that was pretty cool after having been a textual blog acquaintance for a few years now.  As for the rest of the guys on the call, I'm not quite as familiar with all of them yet, but I'll be adding them to my Reading Lists shortly.</p>
+                  
+                </li><li id="6" data-created="Mon, 13 Feb 2006 15:52:10 GMT">
+                  <p>Apropos of this podcast, I've lately gotten a bit of a fresh take on the RSS/OPML versus XHTML versus Semantic Web tech merry-go-round.  Here's the basic gist:  Invest time into tools that solve problems first and formats that enable possibilities second, if you want to get any attention and subsequent help.</p>
+                  
+                </li><li id="7" data-created="Mon, 13 Feb 2006 16:01:10 GMT">
+                  <p>And then I say "tools", I don't mean a GraphViz construct that makes really cool charts for people willing to chase down and install the dependencies.  No, I mean something like the OPML Editor.  The OPML Editor comes in a single package, and you launch it from a single icon.  The OPML Editor is <a href="http://davenet.scripting.com/1995/09/03/wemakeshittysoftware">a shitty piece of software</a> that's nonetheless helping me achieve some practical goals that I've heretofore been vaguely stymied in reaching.  The OPML Editor is making me think more favorably about OPML, <i>despite</i> OPML being <a href="http://davenet.scripting.com/1995/09/03/wemakeshittysoftware">a shitty format</a>.</p>
+                  
+                </li><li id="8" data-created="Mon, 13 Feb 2006 16:03:51 GMT">
+                  <p>The utility of the OPML Editor is giving me the motivation to build filters and workarounds to transmute OPML into XOXO and RDF formats, but only when the need arises.  I could also see putting an OPML-to-triples bridge in front of a semweb crawler or tool.  And, there's no reason why outlines in the OPML Editor couldn't be rendered in XOXO and RDF formats by the tool itself, if there's something useful around to consume it.</p>
+                  
+                </li><li id="9" data-created="Mon, 13 Feb 2006 16:26:35 GMT">
+                  <p>On the other hand, I've done enough with RDF and <a href="http://www.decafbad.com/blog/2005/07/12/xoxo_outliner_experiment">XOXO</a> to see the clear potential in both.  With enough RDF data around, you can turn the whole wide web into a single massively networked database ripe for the querying thanks to a uniform data model and clear specs for representation of that model.  With XOXO and microformats, you get a <a href="http://www.sudoku.com/">Sudoku-esque</a> solution to providing both human and machine readable data in the same format and file, while sterring close to the inherent design principles of the web.</p>
+                  
+                </li><li id="10" data-created="Mon, 13 Feb 2006 16:33:53 GMT">
+                  <p>The problem with these formats, though, is that they open potential avenues but don't provide value until there's some foot traffic on the avenues.  This is just establishing a world in which there can exist both chickens and eggs, but not doing much with respect to concrete instantiations of poultry.</p>
+                  
+                </li><li id="11" data-created="Mon, 13 Feb 2006 16:37:31 GMT">
+                  <p>Now, to be fair, there have been efforts to make practical usage of RDF (see: <a href="http://musicbrainz.org/">MusicBrainz</a>) and these are early days for microformats.  But, I think a lot more effort needs to be given toward making useful, personally rewarding tools - and less effort given toward expressing awe toward the potentials given by formats and models.  You can have both, but you've got to pick one to start with.</p>
+                  
+                </li><li id="12" data-created="Mon, 13 Feb 2006 16:44:52 GMT">
+                  <p>And, the reason you need to make tools first that use formats second is attention.  (That's been a buzzword lately, hasn't it?)  You need attention if you want adoption and help.  And, you can get attention - and subsequent help - by scratching someone's itch.</p>
+                  
+                </li><li id="13" data-created="Mon, 13 Feb 2006 16:48:06 GMT">
+                  <p>Now, some people's itches are scratched by the fun of abstract symbol manipulation and the perception of elegance.  Others' itches are scratched by getting work done, like writing or organizing thoughts or expanding awareness of more information sources.  Personally, I've got itches of both of these varieties.  The problem is that there are many fewer people with itches in that first category.  And, no offense to anyone, that seems to be the bulk of the RDF and XOXO fanbase at the moment.  For the second category, even if things are shitty, smoke a bit and catch on fire - as long as some work gets done at the end of the day, there's a lot of tolerance to go around and a lot of motivation to pitch in to improve the situation.</p>
+                  
+                </li><li id="14" data-created="Mon, 13 Feb 2006 16:48:25 GMT">
+                  <p>At the end of the day, I firmly believe that ATOM, RDF, and XHTML-based microformats trounce OPML, RSS, and the like in terms of clear definition, affordance in manipulation, and technical elegance.  But, OPML and RSS are still winning in the world because the tools using these formats are scratching some damn annoying itches.  And, though towers built atop shitty tools and formats seem Jenga-shaky, somehow they never quite come crashing down.  Maybe they will come crashing down someday, but we seem to be getting work done in the meantime.</p>
+                  
+                </li><li id="15" data-created="Mon, 13 Feb 2006 16:59:03 GMT">
+                  <p>So, to wrap up:  My take on this whole mess is that your format will gain adoption to the degree that the tools producing it help people get work done.  I can't find tools today for RDF and XOXO that are as rewardingly useful as the OPML Editor has become.  When that happens, the story may change.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="16" data-created="Mon, 13 Feb 2006 12:36:02 GMT">
+                  <p>The blogosphere is even more like a tuple space</p>
+                  <ul data-parent-id="16">
+          <li id="17" data-created="Mon, 13 Feb 2006 12:16:50 GMT">
+                  <p>The idea's been bouncing around my head more and more lately: <a href="http://decafbad.com/blog/2005/01/12/the-blogosphere-as-a-tuple-space">The blogosphere is like a tuple space.</a></p>
+                  
+                </li><li id="18" data-created="Mon, 13 Feb 2006 12:36:18 GMT">
+                  <p>I'm pushing tuples via outline nodes and essays, augmented by tagging and suchlike.  You're matching tuples by way of Technorati, Feedster, FeedBurner, and coComment RSS feeds.  We can all be <a href="http://decafbad.com/blog/2004/07/29/kibo-kibo-kibo">Kibo</a> now.</p>
+                  
+                </li><li id="19" data-created="Mon, 13 Feb 2006 12:36:31 GMT">
+                  <p>The more we can extend executable representations of our mental <a href="http://www.google.com/search?q=define%3Abaleen">baleen</a> out into the web, the more relevancy comes to us.  It makes no sense to expect all of a person's blogging output to make sense to you - if someone goes "off topic" on their own blog, it's likely that they're just pushing tuples that don't match your patterns.  But, they probably match <i>someone's</i> patterns out there.</p>
+                  
+                </li><li id="20" data-created="Mon, 13 Feb 2006 12:37:09 GMT">
+                  <p>In fact, watching individual blogs may start making less sense if people were to start authoring for the tuple space directly.  That is, posting thoughts without constriction to topic, relying on filters elsewhere to sort things out for a non-premeditated audience.</p>
+                  
+                </li><li id="21" data-created="Mon, 13 Feb 2006 12:36:42 GMT">
+                  <p>These are all just kind of fragmentary thoughts that I'd like to elaborate further, but I needed to get this tuple out of my head for now.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="22" data-created="Mon, 13 Feb 2006 12:55:01 GMT">
+                  <p>Beg to hear your wonderous stories</p>
+                  <ul data-parent-id="22">
+          <li id="23" data-created="Mon, 13 Feb 2006 12:53:20 GMT">
+                  <p>My earworm for today is "<a href="http://yesworld.com/lyrics/GoingForTheOne.html">Wonderous Stories</a>," by Yes:</p>
+                  
+                </li><li id="24" data-created="Mon, 13 Feb 2006 12:53:44 GMT">
+                  <p><blockquote><i></p>
+                  
+                </li><li id="25" data-created="">
+                  <p>He spoke of lands not far</p>
+                  
+                </li><li id="26" data-created="">
+                  <p>Nor lands they were in his mind</p>
+                  
+                </li><li id="27" data-created="">
+                  <p>Of fusion captured high</p>
+                  
+                </li><li id="28" data-created="">
+                  <p>Where reason captured his time</p>
+                  
+                </li><li id="29" data-created="">
+                  <p>In no time at all he took me to the gate</p>
+                  
+                </li><li id="30" data-created="">
+                  <p>In haste I quickly</p>
+                  
+                </li><li id="31" data-created="">
+                  <p>Checked the time</p>
+                  
+                </li><li id="32" data-created="">
+                  <p>If I was late</p>
+                  
+                </li><li id="33" data-created="">
+                  <p>I had to leave, to hear your wonderous stories</p>
+                  
+                </li><li id="34" data-created="">
+                  <p>Had to hear your wonderous stories 'LA AHA, LA AHA'</p>
+                  
+                </li><li id="35" data-created="Mon, 13 Feb 2006 12:53:53 GMT">
+                  <p></i></blockquote></p>
+                  
+                </li><li id="36" data-created="Mon, 13 Feb 2006 13:00:17 GMT">
+                  <p>Man, I love this song.  I hope you can excuse the LiveJournal-esque lyrics posting.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="37" data-created="Mon, 13 Feb 2006 15:41:02 GMT">
+                  <p>Morning Oatmeal Notes</p>
+                  <ul data-parent-id="37">
+          <li id="38" data-created="Mon, 13 Feb 2006 11:48:13 GMT">
+                  <p>Bah. I can't remember the URL to a more official description of the problem - <a href="http://saladwithsteve.com/osx/2004/07/incessant-popping-noise-few-days-ago.html">this one's pretty close</a> - but my 12" PowerBook G4 has this audio flaw where, at times, it gets confused about whether or not there are headphones plugged in.  And so it will make a series of popping noises as it alternates repeatedly between speakers and headphones.  So strange.  If you load up the sound preferences in System Preferences, you can actually watch it display the changes in status as it pops.</p>
+                  
+                </li><li id="39" data-created="Mon, 13 Feb 2006 12:19:08 GMT">
+                  <p>It looks like blog comment tracking services are <a href="http://mycomments.idslab.com.ar/en/">the</a> <a href="http://co.mments.com">next</a> <a href="http://extractor.47objects.com/">big</a> <a href="http://www.cocomment.com">thing</a>.  Damn, I wish I'd gotten off my butt and written that GreaseMonkey comment tracking hack I've had in my head for well over a year now.  I suppose it's not too late, but if any of these services get good, I'll just have to resign to using them.  I really am so lazy.</p>
+                  
+                </li><li id="40" data-created="Mon, 13 Feb 2006 12:42:51 GMT">
+                  <p>I'm still using this OPML blog as a rapid buffer for mental dross.  It seems to be working out fine so far, as long as I eventually build an automated linkage back to <a href="http://decafbad.com">decafbad.com</a>.  This blog can be treated as a service, like <a href="http://del.icio.us/deusx">del.icio.us</a>, but I still want to round up all my output streams back at my home base.</p>
+                  
+                </li>
+        </ul>
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

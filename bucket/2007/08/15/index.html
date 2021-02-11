@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 08 / 15 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 08 / 15</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/08/08"
+    title="2007 / 08 / 08"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/08/20"
+    title="2007 / 08 / 20"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="15.opml"
+            data-created="&quot;2007-08-15T19:05:01.000Z&quot;"
+            data-modified="&quot;2007-08-15T19:18:01.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Wed, 15 Aug 2007 19:05:01 GMT">
+                  <p>Hello world.  Biked in again.  Yay for me!</p>
+                  
+                </li><li id="2" data-created="">
+                  <p><a href="http://www.readwriteweb.com/archives/how_javascript_is_slowing_down_the_web.php">Alex Iskold, How JavaScript is Slowing Down the Web (And What To Do About It)</a>: "Use Standard Libraries. Probably the worst thing is to reinvent the wheel, since JavaScript is so easy to get wrong. Unlike Java there is no set of standard libraries, but some like prototype have effectively become a standard. The libraries are written by experienced people who know and understand the pitfalls of the system, so it is a good idea to reuse their code."</p>
+                  
+                </li><li id="3" data-created="Wed, 15 Aug 2007 19:06:36 GMT">
+                  <p>In isolation, I agree 100% with that statement.  When developing a site that's going to have lots of JavaScript, you should pick one of the leading modern JS libraries.  I like YUI.  Others like jQuery, prototype, mochikit, and Dojo are good too.  Pick one, work with it, but don't mix and match.</p>
+                  
+                </li><li id="4" data-created="Wed, 15 Aug 2007 19:08:29 GMT">
+                  <p>The problem with Alex's statement, however, is that he's talking about third-party widget development.  That is, bits of JS intended for inclusion in others' pages, on others' sites.  And the problem is that the including site has probably already picked a standard JS library to work with.  And, most likely, it's different than the one you like.  And, unfortunately, many of these libraries don't play nice with each other when mixed on the same page - not to mention that they tend to weigh in at between 20-120k to download.  So, you've already got the weight of the host page, but then as a widget developer you want to haul in all your own favorite wheel-reinventions as well?</p>
+                  
+                </li><li id="5" data-created="Wed, 15 Aug 2007 19:10:28 GMT">
+                  <p>No, when developing JS-based widgets, you're in a different mess than the usual web development scenario.  You need to travel light and unobtrusively.  The rest of Alex's article highlights this brilliantly - defer loading of this and that until after the rest of the page has loaded, get in quickly and get out of the way until later.  Do only the minimum work needed once it's your turn.  Fail gracefully.  Be polite, because you're a guest in someone else's home.</p>
+                  
+                </li><li id="6" data-created="Wed, 15 Aug 2007 19:17:06 GMT">
+                  <p>What I really think this calls for is a smaller, portable JS lib devoted to the concerns of widgets.  If that's possible, anyway.  Make it polite, unobtrusive, and very very tiny.  Limit it to just the things a widget would tend to want to do.  It's something I've kind of wished to see for awhile now - which is the reason that this particular point in this article prompted me to rant.  Maybe I should play with something.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

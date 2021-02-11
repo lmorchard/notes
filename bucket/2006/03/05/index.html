@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2006 / 03 / 05 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2006 / 03 / 05</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2006/03/04"
+    title="2006 / 03 / 04"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2006/03/06"
+    title="2006 / 03 / 06"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="05.opml"
+            data-created="&quot;2006-03-05T05:02:17.000Z&quot;"
+            data-modified="&quot;2006-03-06T04:07:00.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Mon, 06 Mar 2006 04:04:23 GMT">
+                  <p>Something I'm kind of looking forward to is unsubscribing from all the persistent search feeds I've got running on variants of the search term "del.icio.us".  There's probably about a dozen of them I monitor.  I love the site, and I love the service, and this is going to be a great book - but man am I tired of hearing about it.  ";->"</p>
+                  
+                </li><li id="2" data-created="Mon, 06 Mar 2006 03:01:38 GMT">
+                  <p>Just finally finished and uploaded another chapter - which feels good despite the fact that it had been due this past Wednesday.  It turns out that a large chunk of the material I'd planned for the chapter back in the fall last year had evaporated by now, so I had to spend some time inventing some fresh stuff from scratch.  Now, just two more chapters left, then it's on to revisions and edits before wrapping everything up by April.</p>
+                  
+                </li><li id="3" data-created="Mon, 06 Mar 2006 03:04:44 GMT">
+                  <p>You know, I'm really looking forward to above-freezing temperatures and sunshine as a regular occurrence.</p>
+                  
+                </li><li id="4" data-created="Sun, 05 Mar 2006 17:42:56 GMT">
+                  <p>The addition of <a href="http://www.opml.org/spec2#subscriptionLists">subscription lists</a> as a part of the OPML 2.0 spec is actually pretty significant, and I only just now felt it sink in.  This has been one of the main uses of OPML up to now, and it's mostly been passed around by oral tradition and whatever news aggregator happened to do with it.  Now there's documentation.  If nothing else, that alone makes the OPML 2.0 spec worth the price of admission.  From here on out, future use cases for OPML should follow the same lead, defining the semantics of their new node types and associated attributes.</p>
+                  
+                </li><li id="5" data-created="Sun, 05 Mar 2006 16:26:59 GMT">
+                  <p>Objections to OPML?</p>
+                  <ul data-parent-id="5">
+          <li id="6" data-created="Sun, 05 Mar 2006 16:25:25 GMT">
+                  <p>I've been searching around, trying to collect all the objections to OPML as a format that I've seen floating around the blogosphere so that maybe they can be brought up in a friendly environment and either debunked or fixed.  The main ones seem to fall into these groups:</p>
+                  <ul data-parent-id="6">
+          <li id="7" data-created="Sun, 05 Mar 2006 16:27:23 GMT">
+                  <p>"<i>What are all those elements like windowLeft and crap doing in the head?</i>"</p>
+                  <ul data-parent-id="7">
+          <li id="8" data-created="Sun, 05 Mar 2006 16:47:50 GMT">
+                  <p>These are artifacts of OPML being used by GUI outline editors - namely Frontier, Radio, and the OPML Editor.  I have seen a few other outliners use these elements, however.  And, after all, these elements in the head are all optional and ignorable by parsers.  Why do people seem to get so bent out of shape about them?  It doesn't seem like extra work, if you don't care to do anything with them - but at least their meanings are documented in the spec.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="9" data-created="Sun, 05 Mar 2006 16:27:13 GMT">
+                  <p>"<i>Attributes and not elements?  UGH!</i>"</p>
+                  <ul data-parent-id="9">
+          <li id="10" data-created="Sun, 05 Mar 2006 16:53:29 GMT">
+                  <p>The use of attributes seems to be a design decision meant to make OPML simpler to parse.  It's a bit of a compromise.  It's also a reinforcement of the outline data model: Nested nodes, each with a set of fields attached.  Yeah, there are encoding pains to be had, and then there's the rich history of attribute-vs-element fights in XML itself.  But, I don't think there's a straight technical reason why using attributes is bad.  And, with OPML2, if there's data that just can't fit usefully in a flat attribute, you can use your own extension elements in an XML namespace.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="11" data-created="Sun, 05 Mar 2006 16:27:46 GMT">
+                  <p>"<i>In feed lists, people keep using <code>xmlurl</code> when they mean <code>xmlUrl</code>!  Or, they use a <code>type="link"</code> when they mean a <code>type="rss "</code>!  What the hell?</i>"</p>
+                  <ul data-parent-id="11">
+          <li id="12" data-created="Sun, 05 Mar 2006 16:53:42 GMT">
+                  <p>These people are confused, attribute names are not case insensitive - though <i>values</i> are - and now there's <a href="http://www.opml.org/spec2#subscriptionLists">a documented node type</a> for feed lists.  All the variations I've seen between feed list formats seem to be covered in a reading of the OPML 2.0 spec.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="13" data-created="Sun, 05 Mar 2006 16:58:48 GMT">
+                  <p>"<i>This is one of Dave's formats.  I don't like Dave.</i>"</p>
+                  <ul data-parent-id="13">
+          <li id="14" data-created="Sun, 05 Mar 2006 16:59:01 GMT">
+                  <p>The easy way to fix this one is to go work on something else - or if you find that OPML keeps appearing in your field of interest, suck it up and <a href="http://decafbad.com/blog/2006/01/28/dont-pee-in-the-potato-chips">don't pee in the potato chips</a>.</p>
+                  
+                </li>
+        </ul>
+                </li>
+        </ul>
+                </li><li id="15" data-created="Sun, 05 Mar 2006 17:12:55 GMT">
+                  <p>OPML has a background of being a workhorse exchange format.  It's got bits that aren't conformant to any <a href="http://www.google.com/search?q=define%3Aplatonic">Platonic ideal</a>, but they've been used in the past and so they're in the spec so that at least they're explained somewhere when you run into them.  But, I'm having a hard time finding issues that aren't just "smell tests" or gut reactions and are really tough ambiguities or serious breakdowns of the format for its intended uses.  I may be missing something, but I'm looking.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="16" data-created="Sun, 05 Mar 2006 05:14:15 GMT">
+                  <p>Oh, and it would be nice to see a few OPML profiles.  (<a href="http://www.opml.org/spec2#subscriptionLists">Like this one, that I missed when I first wrote all of this.</a>)  That is, a document that's not a full-on spec but one that says, "Here's what a feed list should look like."  There's not that much to a reading list to get it totally right - why should there be a need for OPML format converters in NewsRiver and such?  Things like this have been levelled at OPML itself as a failing - when really it's not something wrong with the general format, but with the lack of a defined profile for a particular usage of OPML and everyone's understanding of it.</p>
+                  
+                </li><li id="17" data-created="Sun, 05 Mar 2006 05:02:17 GMT">
+                  <p>It seems like the <a href="http://groups.yahoo.com/group/opml2-review/messages">discussion around the OPML 2 spec</a> has been  civil and interesting so far.  I'd really like to see the review draw out all of the long standing gripes people have had with the format and either get them happily resolved or slay them as strawmen.  (I don't think there are many left that matter.)  And it would be nice if the room stayed clear of people just there to pick a bone with Dave or <a href="http://nick.typepad.com/blog/2005/09/is_opml_a_crapp.html">with something to prove</a>.  Really, I have only one remaining <a href="http://groups.yahoo.com/group/opml2-review/message/98">wishlist item</a> for the format - other than that, it could use a few more FAQs answered, some test cases and a beefy validator, and maybe a pool of implementation examples and tips.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>DIY WIFI BBQ thermometer - notes.lmorchard.com</title>
+		<meta property="og:site_name" content="DIY WIFI BBQ thermometer" />
+		<meta property="og:type" content="article" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+		<style type="text/css">
+			section.content article.wiki h1 {
+				margin-bottom: 0.75em;
+			}
+			section.content article.wiki .backlinks h4 {
+				margin: 1.5em 0 1.0em 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="main">
+			<header>
+				<h1><a href="./">notes.lmorchard.com</a></h1>
+				<h2>thinking with the lid off</h2>
+				<nav>
+					<label for="nav-trigger"></label>
+					<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+					<ul>
+						<li><a href="http://lmorchard.com/">about me</a></li>
+						<li><a href="./RecentChanges.html">recent changes</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="content">
+				<article class="post wiki">
+					<h1 class="title">DIY WIFI BBQ thermometer</h1>
+					<section class="post-content">
+						<p>Not a terribly original project, but spending Saturdays grilling has me thinking I might want to get into more smoking and keep track of temperatures better.</p><p>Seems like a semi-simple thing to do with parts like:</p><ul><li>ESP8266 - have one of these spare</li><li>A display would be nice</li><li>An <a class="tc-tiddlylink-external" href="https://www.banggood.com/ESP32-OLED-Module-ESP32-OLED-WiFi-bluetooth-Dual-ESP-32-ESP-32S-ESP8266-p-1148119.html?akmClientCountry=America&amp;p=MA240439985285201910&amp;cur_warehouse=CN" rel="noopener noreferrer" target="_blank">ESP32 with integrated display</a> could be really handy</li><li><a class="tc-tiddlylink-external" href="http://www.amazon.com/Probe-Thermocouple-Sensor-Temperature-Controller/dp/B00899A4LY/" rel="noopener noreferrer" target="_blank">K-type thermocouple probes</a> At least 2 - one for food, one for grill. These seem semi-consumable and go bad after awhile, so best to use the pluggable ones</li><li>2.5mm mono jacks for the thermocouples - I have lots of those</li><li><a class="tc-tiddlylink-external" href="https://www.amazon.com/SainSmart-MAX6675-Thermocouple-Temperature-0-1024%E2%84%83/dp/B00PVTH4MW" rel="noopener noreferrer" target="_blank">MAX6675</a> temperature to SPI interface</li><li><a class="tc-tiddlylink-external" href="https://www.adafruit.com/product/385" rel="noopener noreferrer" target="_blank">DHT22</a> for external temp &amp; humidity? Probably overkill</li><li><a class="tc-tiddlylink-external" href="https://www.ebay.com/itm/Waterproof-Clear-Electronic-Project-Box-Enclosure-Cover-Plastic-Case-158x90x60mm/174294465357?hash=item2894c27b4d:g:~bkAAOSwx9xey4RZ" rel="noopener noreferrer" target="_blank">Waterproof project case</a>?</li></ul><p>I can write simple firmware - like my WIFI pumpkin - though getting even fancier with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="IoT.html">IoT</a> integration could be fun</p><p>Something like a PID and a fan could be interesting for temperature control. But all I have is a little Weber charcoal kettle, so that's really over-complicating things. Also I'm not really all that skilled or advanced at the grill yet, so a semi-accurate thermometer would be a huge upgrade as it is 😅</p><h2 class="">Links</h2><ul><li><a class="tc-tiddlylink-external" href="https://github.com/boneskull/meat" rel="noopener noreferrer" target="_blank">https://github.com/boneskull/meat</a></li><li><a class="tc-tiddlylink-external" href="https://www.schatenseite.de/en/2016/09/04/bbq-esp8266-mqtt-zabbix-multimeater/" rel="noopener noreferrer" target="_blank">https://www.schatenseite.de/en/2016/09/04/bbq-esp8266-mqtt-zabbix-multimeater/</a></li></ul>
+					</section>
+					<section class="backlinks">
+						<h4>Backlinks</h4>
+						<ul>
+							
+								
+									<li>
+										<a href="./2020%2520%252F%252008%2520%252F%252010.html">2020 / 08 / 10</a>
+									</li>
+								
+							
+						</ul>
+					</section>
+					<section class="comments">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = "https://lmorchard.github.io/notes/DIY%2520WIFI%2520BBQ%2520thermometer.html";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "DIY%2520WIFI%2520BBQ%2520thermometer";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://notes-lmorchard-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            					
+					</section>
+				</article>
+			</section>
+			<footer>
+				<img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+			</footer>
+		</section>
+	</body>
+</html>

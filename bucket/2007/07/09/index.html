@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>2007 / 07 / 09 - notes.lmorchard.com/bucket</title>
+    <meta property="og:site_name" content="notes.lmorchard.com/bucket" />
+    <meta property="og:type" content="article" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/font-awesome.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://blog.lmorchard.com/css/vendor/prism.css" type="text/css" media="screen, projection" />
+
+    <style type="text/css">
+      .main .content section.post-content ul.date-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .main .content .post-content ul.date-list li {
+        flex-basis: 15%;
+        margin: 0.25em 0;
+        padding: 0;
+        list-style-type: none;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <h1><a href="/bucket/">notes.lmorchard.com/bucket</a></h1>
+        <h2>thinking with the lid off</h2>
+        <nav>
+          <label for="nav-trigger"></label>
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <ul>
+            <li><a href="http://lmorchard.com/">about me</a></li>
+            <li><a href="/RecentChanges.html">recent changes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <article class="post wiki">
+          <h1 class="title">2007 / 07 / 09</h1>
+          <section class="post-content">
+            <nav class="post-links">
+        <a
+    href="/bucket/2007/07/07"
+    title="2007 / 07 / 07"
+    >&laquo; prev</a
+  >
+        |
+        <a
+    href="/bucket/2007/07/10"
+    title="2007 / 07 / 10"
+    >next &raquo;</a
+  >
+      </nav>
+      <article
+            class="outline"
+            data-title="09.opml"
+            data-created="&quot;2007-07-09T17:36:01.000Z&quot;"
+            data-modified="&quot;2007-07-09T19:25:50.000Z&quot;"
+          >
+            <ul data-parent-id="">
+          <li id="1" data-created="Mon, 09 Jul 2007 19:06:52 GMT">
+                  <p>Another reason why I'm looking for simplicity in a web framework:  I want to work on web apps that can be as easily installed as WordPress, though perhaps with a requirement to <a href="http://gophp5.org/">Go PHP 5</a>.  I'm not sure that something like <a href="http://www.djangoproject.com/">Django</a>, for instance, fits that bill - although I'd much, much rather be programming in Python than PHP.  Though even in PHP-world, I doubt I could get much traction with a <a href="http://www.symfony-project.com/">Symfony</a>-based app.</p>
+                  
+                </li><li id="2" data-created="Mon, 09 Jul 2007 19:11:56 GMT">
+                  <p>On the other hand, regarding the loosely-coupled-ness of Zend Framework:  It feels kind of almost too-loose and under-documented in comparison to the quick magick of getting a Django "hello world" up and running.  It's easier to explore running code than mysteriously dead code.</p>
+                  
+                </li><li id="3" data-created="Mon, 09 Jul 2007 18:04:13 GMT">
+                  <p>A Curmudgeon Playing with the Zend Framework</p>
+                  <ul data-parent-id="3">
+          <li id="4" data-created="Mon, 09 Jul 2007 17:36:57 GMT">
+                  <p>Because it's been awhile since I last surveyed the landscape, I played around a bit with web frameworks this weekend.  Mainly, I tried getting something simple working with the <a href="http://framework.zend.com/">Zend Framework</a>.  After intermittent play and much studying of documentation between Saturday and Sunday, I got to "hello world."</p>
+                  
+                </li><li id="5" data-created="Mon, 09 Jul 2007 18:01:35 GMT">
+                  <p>Unlike other web frameworks of late, Zend Framework doesn't come with any magical CLI tools to build out directory trees and / or generate code.  Being somewhat suspicious and curmudgeonly about that sort of magic to begin with, this actually struck me as an attractive thing about ZF.  In fact, what I really liked about ZF at first glance is that it's less of a monolithic <b>system</b> and more of a bucket of parts from a single source that fit together decently.</p>
+                  
+                </li><li id="6" data-created="Mon, 09 Jul 2007 18:07:14 GMT">
+                  <p>And, all my favorite parts are there:  Among other things there's <a href="http://framework.zend.com/manual/en/zend.config.html">config</a>, <a href="http://framework.zend.com/manual/en/zend.log.html">logging</a>, <a href="http://framework.zend.com/manual/en/zend.controller.html">a front controller</a> with <a href="http://framework.zend.com/manual/en/zend.controller.router.html">URL routing</a>, template-system agnostic <a href="http://framework.zend.com/manual/en/zend.view.html">view support</a>, and somewhat non-magical <a href="http://framework.zend.com/manual/en/zend.db.html">DB / model support</a>.</p>
+                  
+                </li><li id="7" data-created="Mon, 09 Jul 2007 18:15:02 GMT">
+                  <p>These were all things I'd grabbed from <a href="http://pear.php.net/">PEAR</a> for <a href="http://decafbad.com/svn/trunk/Cuckoo/lib/MiniFramework.php">my more recent PHP mini-framework</a> play, but I figured there should be some benefit from finding them in a unified collection like the Zend Framework.</p>
+                  
+                </li><li id="8" data-created="Mon, 09 Jul 2007 18:18:48 GMT">
+                  <p>The experience was somewhat similar to rolling my own, though.  I stumbled through some docs and eventually found some blog entries and a tutorial.  It's all very loosely-coupled and somewhat DIY, which is actually what I wanted.  The experience has left me wondering if I really <b>should</b> have wanted it, but I'm guessing it'll go easier from here on out.</p>
+                  
+                </li><li id="9" data-created="Mon, 09 Jul 2007 18:50:59 GMT">
+                  <p>In the meantime, though, I feel like I have a decent grasp on what all those loosely-coupled parts are doing.  I've skimmed through code, traced wires, broken things and watched the errors.</p>
+                  
+                </li><li id="10" data-created="Mon, 09 Jul 2007 18:23:19 GMT">
+                  <p>See, my problem with a lot of modern magic-imbued web frameworks is that I have a deep distrust of what they're doing.  They come with a lot of moving parts doing things that I don't see - and when I do finally see them, I tend to run into decisions with which I disagree.  I see abstraction where I think the gritty concrete needs to be left bare.  I often see lots of astronaut acrobatics that just have to be burning tons of cycles.  I see further acrobatics done to compensate, unrolling loops and pre-parsing config files - which requires further layers of magical tools to generate code and caches.</p>
+                  
+                </li><li id="11" data-created="Mon, 09 Jul 2007 18:52:36 GMT">
+                  <p>Too many moving parts wherein assumptions can hide, later to bite me when we're hundreds of miles into the post-launch desert and trying to fight scaling fires or develop a new feature with some weird angles to it.</p>
+                  
+                </li><li id="12" data-created="Mon, 09 Jul 2007 18:32:50 GMT">
+                  <p>For example, consider <a href="http://www.symfony-project.com/">Symfony</a> for PHP.  Their configuration system runs PHP code that generates YAML.  Parsing that YAML, along with cascading layers of other generated YAML, then drives a PHP code generation stage, composing all the static code necessary to bootstrap the framework with each request.  There's an amazing amount of flexibility exposed by that system, and it's quite clever -�but my curmudgeonly side catches whiffs of insanity.</p>
+                  
+                </li><li id="13" data-created="Mon, 09 Jul 2007 18:44:43 GMT">
+                  <p>Maybe that's really the issue -�I've been doing this stuff long enough to have written my own one of everything, so I've got my own opinions and I like to have a grasp on everything.  I've written front controllers, templating systems, and model abstraction layers.  I've worked in a half-dozen or so languages doing all the above.  I don't yet accept that web app development has <a href="http://mengwong.livejournal.com/38969.html">passed the da Vinci point</a> -�a single developer should be able to grasp the structure of a web framework in mind without getting lost in too many fractal branchings.</p>
+                  
+                </li><li id="14" data-created="Mon, 09 Jul 2007 18:57:52 GMT">
+                  <p>Anyway, I'm rambling like an old grouch, but I think I've reached my point.  Hopefully more actual experimentation soon.</p>
+                  
+                </li>
+        </ul>
+                </li><li id="15" data-created="Mon, 09 Jul 2007 17:36:01 GMT">
+                  <p>Hello world.  Sad that my <a href="http://decafbad.com/blog/">main blog</a> has gone quiet since May 16.  I should find a way to throw summaries from here over to there or something.</p>
+                  
+                </li>
+        </ul>
+          </article>
+          </section>
+      <footer>
+        <img id="growup" src="https://blog.lmorchard.com/uploads/growup.jpg" />
+      </footer>
+    </section>
+  </body>
+</html>
