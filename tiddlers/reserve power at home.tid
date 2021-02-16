@@ -1,4 +1,51 @@
 created: 20210216201031697
-modified: 20210216201031789
+modified: 20210216203450628
 title: reserve power at home
 type: text/vnd.tiddlywiki
+
+Power outages quickly become problematic. It would be nice to have an option for reserve power at home when that happens.
+
+Most outages seem to last about a day. I have been through a week-long outage at least once in my life. Would like a lot of spare capacity, though. Does "a lot" mean three days, one week, two weeks, a month? What's the order of magnitude of expense between each versus the likelihood of needing the contingency?
+
+Endangered essentials roughly include:
+
+* refrigerator
+* freezer
+* my CPAP at night
+* furnace
+* AC
+* lights
+* phone charging
+* laptop charging
+
+On generators:
+
+* I've had one before, I don't have one now.
+* Generators go outside, are noisy, can attract attention, can be stolen.
+* Needs fuel that can be hard to keep on hand and fresh.
+** Gasoline goes stale
+** Propane - never dealt with it. Does it go stale? Dangerous to keep around?
+** House gas line - assuming it's still working during power outage, possible for a temporary hookup to a portable generator? Bad idea?
+* Acquiring fuel leads to contending with others who also need fuel
+** at best, a long wait at gas station
+** at worst, getting stuck in a crowd where bad things happen.
+* I know there are permanent installation gas whole-house backup generators, but those are spendy.
+
+On batteries:
+
+* Haven't dealt with them with respect to a whole-house AC scenario
+* Seems like batteries are nice to keep topped up so that when the supply goes out, they're ready to be used. 
+* Batteries need maintenance - not sure of particulars, would imagine not as bad as keeping fuel on hand?
+* More expensive than generator + fuel?
+
+On solar:
+
+* Have never dealt with solar.
+* Short of a major project on the roof, would it be useful to have a few panels to put outside in a pinch to bolster batteries?
+
+Hybrid notions:
+
+* A few days' worth of battery storage to give breathing room?
+* A fuel-flexible generator to support batteries when fuel is more easily acquired?
+* Would like to be able to shelter-in-place and lay low during instability events for as long as possible to avoid crowds, panic, and rushed thinking
+* Some solar panels to charge as possible?
