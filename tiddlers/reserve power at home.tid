@@ -1,5 +1,5 @@
 created: 20210216201031697
-modified: 20210216203450628
+modified: 20210217011708686
 title: reserve power at home
 type: text/vnd.tiddlywiki
 
@@ -23,13 +23,15 @@ On generators:
 * I've had one before, I don't have one now.
 * Generators go outside, are noisy, can attract attention, can be stolen.
 * Needs fuel that can be hard to keep on hand and fresh.
-** Gasoline goes stale
-** Propane - never dealt with it. Does it go stale? Dangerous to keep around?
-** House gas line - assuming it's still working during power outage, possible for a temporary hookup to a portable generator? Bad idea?
 * Acquiring fuel leads to contending with others who also need fuel
 ** at best, a long wait at gas station
 ** at worst, getting stuck in a crowd where bad things happen.
 * I know there are permanent installation gas whole-house backup generators, but those are spendy.
+* Fuel options
+** Gasoline - gas station within walking distance, but it goes stale
+** Propane - never dealt with it. Does it go stale? Dangerous to keep around?
+** House gas line - assuming it's still working during power outage, possible for a temporary hookup to a portable generator? Bad idea?
+*** Grill line is probably too small, need special attention to the pressure draw of the generator and ensure it doesn't starve other things in the house
 
 On batteries:
 
@@ -37,6 +39,8 @@ On batteries:
 * Seems like batteries are nice to keep topped up so that when the supply goes out, they're ready to be used. 
 * Batteries need maintenance - not sure of particulars, would imagine not as bad as keeping fuel on hand?
 * More expensive than generator + fuel?
+* Shopping ideas?
+** $355 [[Renogy Deep Cycle Agm Battery 12 Volt 200AH for RV, Solar, Marine, and Off-Grid Applications, Gray `|https://www.amazon.com/Renogy-Battery-Marine-Off-Grid-Applications/dp/B075RGX1WR/ref=sr_1_6]]
 
 On solar:
 
@@ -49,3 +53,10 @@ Hybrid notions:
 * A fuel-flexible generator to support batteries when fuel is more easily acquired?
 * Would like to be able to shelter-in-place and lay low during instability events for as long as possible to avoid crowds, panic, and rushed thinking
 * Some solar panels to charge as possible?
+
+
+Random notes & links, which are probably inaccurate as heck:
+
+* [[Tesla Powerwall|https://www.tesla.com/powerwall/design]] - 1 day backup - $12,000. Add 2 more days with solar for $16,400 more.
+* [[Generac|https://airplusair.com/2020/12/22/home-generators-vs-battery-backup-power-systems/]] - $9999, 18kWh, 9kW, 50A
+
