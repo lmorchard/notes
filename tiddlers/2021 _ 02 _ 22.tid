@@ -1,5 +1,5 @@
 created: 20210222203310565
-modified: 20210222203546446
+modified: 20210222212152241
 tags: Journal
 title: 2021 / 02 / 22
 type: text/vnd.tiddlywiki
@@ -7,3 +7,5 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 I have [[an urge|https://twitter.com/lmorchard/status/1363916527330762752]] to make a USB of WiFi interface for an [[Atari Video Touchpad|Atari Video Touchpad Interface]]. Maybe I'll start collecting notes on that.
+
+Hackaday: [[Slick Web Oscilloscope Is Ready In A Flash (Literally)|https://hackaday.com/2021/02/22/slick-web-oscilloscope-is-ready-in-a-flash-literally/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+hackaday%2FLgoM+%28Hack+a+Day%29]] - Really need to have the UI for a microcontroller-based software oscilloscope //and the software to flash the microcontroller// (thanks to [[Web Serial|https://codelabs.developers.google.com/codelabs/web-serial#0]]) all in the same page. Kind of wish Firefox had it.
