@@ -1,5 +1,5 @@
 created: 20210223175350242
-modified: 20210223200913058
+modified: 20210223201655261
 tags: Journal
 title: 2021 / 02 / 23
 type: text/vnd.tiddlywiki
@@ -7,3 +7,5 @@ type: text/vnd.tiddlywiki
 Hello world.
 
 Thinking about [[Brownian motors and ADHD brains]] today.
+
+Oh yeah, and I forget sometimes about the Rube Goldberg machine I use for [[StaticRendering]] of these notes.
