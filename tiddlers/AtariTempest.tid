@@ -1,16 +1,26 @@
 created: 20200514071627066
-modified: 20210211190038274
+modified: 20210314223952034
 title: AtariTempest
 type: text/vnd.tiddlywiki
 
 ! Next steps
 
-* Wait for replacement 2N3055 transistors to arrive and replace on ARII
-* Check harness and PCB connections to address low +5VDC reading
 * [[Can possibly get main board into test mode without aux board connected|https://forums.arcade-museum.com/threads/tempest-chaos.465642/#post-4112648]]
 * Worth checking out: 
 ** [[Tempest board playing blind, not a monitor issue|https://forums.arcade-museum.com/threads/tempest-board-playing-blind-not-a-monitor-issue.481348/]]
 ** [[Can test monitor deflection stuff with HV cage unplugged|https://forums.arcade-museum.com/threads/6100-tempest-spot-killer-on.454114/#post-4019181]]
+
+! 2020 Mar 14
+
+* 2N3055 transistors arrived back on Feb 15
+* Replaced 2N3055 on ARII and found voltage at 5.7VDC
+* Tweaked 1k pot at R8 on ARII until voltage at 4.998VDC at C1+ on ARII
+* Power off, hook up PCB ser 04850, power on
+* Measured 4.819VDC on +5V test point
+* Tweaked 1K pot on ARII R8 until 4.997VDC on PCB +5VDC test point
+* Power off, hook up spare PCB ser 02100, power on
+* Measured +4.990VDC on PCB +5VDC test point
+
 
 ! 2020 Feb 6
 
