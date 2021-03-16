@@ -1,13 +1,24 @@
 created: 20210216201031697
-modified: 20210308053611034
+modified: 20210316170507773
 title: reserve power at home
 type: text/vnd.tiddlywiki
 
 [[Started playing with a spreadsheet to plan & cost this thing out|https://docs.google.com/spreadsheets/d/1iRrqBSddDaAvS5Uzu-R47n9lthRNUzL0lsQXkuO7SIw/edit#gid=393235501]].
 
+! Next steps
+
+* Finish measuring power usage of major house appliances
+* Separate appliances into priorities, not just essential vs non-essential.
+* Settle on a phase 1 battery build as a trial learning project, maybe mainly to maintain fridge in a summer power outage
+* Maybe phase 2 includes furnace logic & blower power for winter power outage?
+
+! Overview
+
 Power outages quickly become problematic. It would be nice to have an option for reserve power at home when that happens.
 
 Most outages seem to last about a day. I have been through a week-long outage at least once in my life. Would like a lot of spare capacity, though. Does "a lot" mean three days, one week, two weeks, a month? What's the order of magnitude of expense between each versus the likelihood of needing the contingency?
+
+! Brain dump
 
 Endangered essentials roughly include:
 
@@ -55,7 +66,6 @@ Hybrid notions:
 * A fuel-flexible generator to support batteries when fuel is more easily acquired?
 * Would like to be able to shelter-in-place and lay low during instability events for as long as possible to avoid crowds, panic, and rushed thinking
 * Some solar panels to charge as possible?
-
 
 Random notes & links, which are probably inaccurate as heck:
 
