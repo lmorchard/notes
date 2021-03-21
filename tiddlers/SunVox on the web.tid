@@ -1,0 +1,12 @@
+created: 20210321184959034
+modified: 20210321185851242
+title: SunVox on the web
+type: text/vnd.tiddlywiki
+
+SunVox is a neat program for writing music.
+
+There also exists [[a JavaScript SunVox library|https://www.warmplace.ru/soft/sunvox/jsplay/]] that's [[easy to use|https://github.com/lmorchard/swinth2020/blob/e1941965ba4c37641a1f0bd639bec8750790e532/index.js#L201-L226]] and exposes a whole bunch of [[useful functions for manipulating the music dynamically from JS|https://warmplace.ru/soft/sunvox/sunvox_lib.php]].
+
+It would be really neat to tinker further with SunVox in some web-based GameDev and procedural art things that muck with the music more than just a simple .wav player.
+
+I started that a bit in [[Swinth 2020|https://github.com/lmorchard/swinth2020]], but didn't really do anything interesting in terms of interactions between the graphics & sound.

@@ -1,4 +1,10 @@
 created: 20210321170538505
-modified: 20210321170538880
+modified: 20210321184845230
 title: Vector Trek
 type: text/vnd.tiddlywiki
+
+In February 2021, I played with converting [[Super Star Trek to JavaScript]]. It's a text-based game, but I've got notions of tinkering with it further. Apropos of that, I have my [[WGL6100]] code for drawing glowy lines that I'd like to develop further.
+
+What if I made a flashier version of Super Star Trek that looked like the displays from Wrath of Khan?
+
+[img[kobayashi-maru.jpeg]]
