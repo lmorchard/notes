@@ -1,5 +1,5 @@
 created: 20210321184959034
-modified: 20210321185851242
+modified: 20210321190057442
 title: SunVox on the web
 type: text/vnd.tiddlywiki
 
@@ -9,4 +9,6 @@ There also exists [[a JavaScript SunVox library|https://www.warmplace.ru/soft/su
 
 It would be really neat to tinker further with SunVox in some web-based GameDev and procedural art things that muck with the music more than just a simple .wav player.
 
-I started that a bit in [[Swinth 2020|https://github.com/lmorchard/swinth2020]], but didn't really do anything interesting in terms of interactions between the graphics & sound.
+I started into that in [[Swinth 2020|https://github.com/lmorchard/swinth2020]], but have yet to do anything interesting in terms of interactions between the graphics & sound.
+
+I'd kind of like to come up with some generative songs that get their parameters tweaked by events in a game - or vice versa, music that tweaks visual parameters.
