@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210322221602321
+modified: 20210322223612156
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -25,10 +25,20 @@ It was one of the longer listings in the book, so there was plenty of opportunit
 
 Also, as a text-based game, Super Star Trek demands a lot of reading, entering of commands, and retaining little scraps of information like directions and distances. At a time when I was making cardboard starfighter cockpits, it made me feel like I was role-playing a starship captain engaged in tactical combat just like in the TV show! 
 
-This might sound idiotically simplistic, but I just loved computers as a kid. I liked any excuse to get my hands on one. The whole spectacle of having a microcomputer all to myself. I'm not into cars, but I've heard folks talk about loving the sound of an engine, turning the wheel and feeling the steering system respond. Just the basic sense of partnering up with a machine.
+And I just loved computers as a kid, chased any excuse to get one under my hands. The whole spectacle of having a microcomputer all to myself. I'm not into cars, but I've heard folks talk about loving the sound of an engine, turning the wheel and feeling the steering system respond. Just the basic sense of partnering up with a machine.
 
-That's how it was for me & computers at age 8 - and now, honestly - and I remember Super Star Trek being one of the first things that combined both my beloved science fiction (i.e. Star Trek) and science fact (i.e. the computer) in a unified & engaging way.
+That's how it was for me & computers at age 8 - and now, honestly - and I remember Super Star Trek being one of the first things that combined both my beloved science fiction (i.e. Star Trek) and science fact (i.e. the computer).
 
-It felt like a deeper game than any simple Atari 2600 thing with a joystick or even an arcade cab eating my quarters. Knowing the code behind the game, running through all the interactions of typing commands, letting the game thoroughly live in my head - it was pretty magical for a tiny nerd who loved taking things apart and wanted to go to space.
+Super Star Trek felt like a deeper game than any Atari 2600 thing with a joystick or even an arcade cab eating my quarters. Knowing the code behind the game, running through all the interactions of typing commands, letting the game thoroughly live in my head - it was pretty magical for a tiny nerd who loved taking things apart and wanted to go to space.
 
 The closest thing I can think of as a more modern experience might be the game [[Duskers|https://store.steampowered.com/app/254320/Duskers/]] from a few years ago: In that game, you direct drones around derelict space ships using a lo-fi schematic display and a command line interface.
+
+!! Why Super Star Trek now and why JavaScript?
+
+!! Transliteration
+
+!! Modernization
+
+!! Restraint
+
+!! Next steps
