@@ -1,6 +1,10 @@
 created: 20210321184508368
-modified: 20210322193035588
+modified: 20210322195955350
 title: Super Star Trek to JavaScript
 type: text/vnd.tiddlywiki
 
 I'd like to blog about this. Maybe I'll take some notes first and then turn the notes into a post?
+
+!! Super Star Trek?
+
+[[Super Star Trek|https://en.wikipedia.org/wiki/Star_Trek_(1971_video_game)#Super_Star_Trek]] is a circa-1978 roguelike space combat game set in the original Star Trek series universe. It's implemented in BASIC and offers an [[ASCII art|https://en.wikipedia.org/wiki/ASCII_art]] interface to a roughly turn-based game loop. 
