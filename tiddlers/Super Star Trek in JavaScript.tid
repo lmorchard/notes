@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210322215925953
+modified: 20210322221602321
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -21,16 +21,14 @@ All-in-all, I think Super Star Trek is an impressively sophisticated game consid
 
 It was probably around 1982 when I first encountered Super Star Trek as a type-in program listing in [[David Ahl's BASIC Computer Games|https://www.atariarchives.org/basicgames/showpage.php?page=157]].
 
-It was one of the longer listings in there, so there was plenty of opportunity to mess up while typing it and learn what went wrong to fix it. I also got familiar enough with the code that, over the years, I started trying to tweak and expand it. I changed all the references to Star Trek: The Next Generation - Romulans instead of Klingons, Data instead of Sulu, etc. Even started trying to make it into a weird isometric 3D thing, but never quite got where I wanted there.
+It was one of the longer listings in the book, so there was plenty of opportunity to mess up while typing it and get familiar with fixing the code. Over the years, I tried tweaking and expanding it. Played with the random numbers to make it easier or harder. Made the galaxy bigger for longer games. Tried implementing saved games. Changed all the references to Star Trek: The Next Generation - Romulans instead of Klingons, Data instead of Sulu, etc. Even tried to make it into an isometric 3D thing, but I never quite made that work.
 
-As a text-based game, Super Star Trek demands a lot of reading, entering of commands, and retaining little scraps of information like directions and distances. To me, this was part of the appeal of the game - and kind of still is.
+Also, as a text-based game, Super Star Trek demands a lot of reading, entering of commands, and retaining little scraps of information like directions and distances. At a time when I was making cardboard starfighter cockpits, it made me feel like I was role-playing a starship captain engaged in tactical combat just like in the TV show! 
 
-At a time when I was making cardboard starfighter cockpits, it made me feel like I was role-playing a starship captain engaged in tactical combat just like in the TV show! 
+This might sound idiotically simplistic, but I just loved computers as a kid. I liked any excuse to get my hands on one. The whole spectacle of having a microcomputer all to myself. I'm not into cars, but I've heard folks talk about loving the sound of an engine, turning the wheel and feeling the steering system respond. Just the basic sense of partnering up with a machine.
 
-And, on top of that, I liked any excuse to engage in using the computer back in the day - type on the keys, make things happen on the screen - Super Star Trek offers these things in spades!
+That's how it was for me & computers at age 8 - and now, honestly - and I remember Super Star Trek being one of the first things that combined both my beloved science fiction (i.e. Star Trek) and science fact (i.e. the computer) in a unified & engaging way.
 
-Like, this might sound idiotically simplistic, but I just loved computers as a kid. Just the whole spectacle of the thing and having a microcomputer all to myself. I'm not really all that into cars, but I can imagine just loving the sound of an engine, turning the wheel and feeling the steering system respond. Just the basic sense of partnering up with this machine.
-
-That's how it was for me at age 8 - and now, really - and I remember Super Star Trek being one of the first things that combined both my beloved science fiction (i.e. Star Trek) and science fact (i.e. the computer) in a fully engaging way.
+It felt like a deeper game than any simple Atari 2600 thing with a joystick or even an arcade cab eating my quarters. Knowing the code behind the game, running through all the interactions of typing commands, letting the game thoroughly live in my head - it was pretty magical for a tiny nerd who loved taking things apart and wanted to go to space.
 
 The closest thing I can think of as a more modern experience might be the game [[Duskers|https://store.steampowered.com/app/254320/Duskers/]] from a few years ago: In that game, you direct drones around derelict space ships using a lo-fi schematic display and a command line interface.
