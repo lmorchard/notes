@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210323051258747
+modified: 20210323053910713
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -19,7 +19,7 @@ All-in-all, I think Super Star Trek is an impressively sophisticated game consid
 
 !! My history with Super Star Trek
 
-It was probably around 1982 when I first encountered Super Star Trek as a type-in program listing in [[David Ahl's BASIC Computer Games|https://www.atariarchives.org/basicgames/showpage.php?page=157]].
+It was [[probably around 1983|https://blog.lmorchard.com/2003/06/13/newly-digital/]] when I first encountered Super Star Trek as a type-in program listing in [[David Ahl's BASIC Computer Games|https://www.atariarchives.org/basicgames/showpage.php?page=157]].
 
 It was one of the longer listings in the book, so there was plenty of opportunity to mess up while typing it and get familiar with fixing the code. Over the years, I tried tweaking and expanding it. Played with the random numbers to make it easier or harder. Made the galaxy bigger for longer games. Tried implementing saved games. Changed all the references to Star Trek: The Next Generation - Romulans instead of Klingons, Data instead of Sulu, etc. Even tried to make it into an isometric 3D thing, but I never quite made that work.
 
@@ -53,9 +53,11 @@ One way I could have handled porting Super Star Trek from BASIC to JavaScript wa
 
 But, thanks to that aforementioned nostalgia - and remembering how much time I'd spent with the BASIC code as a kid - I wanted to pay another visit to the old neighborhood. So, I started with [[transliteration|https://en.wikipedia.org/wiki/Transliteration]] - essentially straight manual conversion from BASIC to JavaScript syntax with only minimal changes to structure. [[I even kept all the upper-case, single-letter global variables.|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/javascript/superstartrek.js#L128-L168]]
 
-I even spent a few hours trying to untangle [[a bit of spaghetti|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/superstartrek.bas#L357-L372]] for calculating distance & direction into an attempt at [[not entirely garbage JavaScript|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/javascript/superstartrek.js#L1107-L1179]] - only to punt and fall back to [[a simple `Math.atan2()` call|https://github.com/lmorchard/basic-computer-games/blob/84-js-super-star-trek/84%20Super%20Star%20Trek/javascript/superstartrek.mjs#L1313-L1325]] when I couldn't quite debug it.
+I even spent an hour or so trying to untangle [[a bit of goto spaghetti|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/superstartrek.bas#L357-L372]] for calculating distance & direction into an attempt at [[not entirely garbage JavaScript|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/javascript/superstartrek.js#L1107-L1179]] - only to punt and fall back to [[a simple `Math.atan2()` call|https://github.com/lmorchard/basic-computer-games/blob/84-js-super-star-trek/84%20Super%20Star%20Trek/javascript/superstartrek.mjs#L1313-L1325]] when I couldn't quite debug it.
 
 !! Clever bits
+
+After getting the game pretty much complete and running in JavaScript, I was refreshed on a bunch of the clever bits of the code that had wowed me almost 40 years ago. (Yikes!)
 
 The game uses the same data for both display and game state in bunch of places.
 
@@ -75,6 +77,12 @@ Making these chunks of data all work double duty really seemed like neat tricks,
 
 !! Modernization
 
+
 !! Restraint
 
+
 !! Next steps
+
+* Simple selectable themes to swap in replacement strings - maybe ST:TNG? B5? Battlestar Galactica?
+* ANSI color?
+* [[Vector Trek]]?
