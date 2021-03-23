@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210323053910713
+modified: 20210323055805313
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -77,12 +77,30 @@ Making these chunks of data all work double duty really seemed like neat tricks,
 
 !! Modernization
 
+* Renamed all the single-letter variables to more descriptive things
+* Converted most arrays from 1-based index to 0-based.
+* Gathered up all the global variables involved in tracking game state into a single global `gameState` object
+* Squashed all the other global variables down to local function scope
+* Tried to extract all the magic number constants into a global `gameOptions` object
+* Tried to tidy code in many spots without totally rewriting or changing game behavior - not sure how well I did in that, probably introduced a bug or two
+* Got carried away in a few spots using regexes to split up the sector map string
+* Hacked together a bit of I/O abstraction to let the game run within both node.js CLI and browser-based xterm.js shells
 
 !! Restraint
 
+* Only fixed one actual game logic bug.
+* Tried not to fix many typos in game text.
+* Left all the strings in original uppercase format
+* Left the galaxy map as a 1-based array - switching to a 0-based array seemed like it would touch a lot of assumptions in the code, and I was too lazy to follow through on that
+* I'm annoyed that coordinates throughout the game are in `(Y,X)` order, rather than `(X,Y)` - but I tried to resist the temptation to rework that everywhere 
 
 !! Next steps
 
-* Simple selectable themes to swap in replacement strings - maybe ST:TNG? B5? Battlestar Galactica?
 * ANSI color?
 * [[Vector Trek]]?
+* Play more with `gameState`
+** Load / save games
+** Import canned game scenarios
+* Play more with the `gameOptions` object
+** Range of difficulty settings
+** Themes to swap in replacement strings - maybe ST:TNG? B5? Battlestar Galactica?
