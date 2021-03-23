@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210323063322262
+modified: 20210323065517968
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -92,6 +92,7 @@ Making these chunks of data all work double duty really seemed like neat tricks,
 
 !! Restraint
 
+* I kept it all as one big module, rather than splitting it up into more sensible submodules.
 * Only fixed one actual game logic bug.
 * Tried not to fix many typos in game text.
 * Left all the strings in original uppercase format
@@ -102,6 +103,8 @@ Making these chunks of data all work double duty really seemed like neat tricks,
 
 * ANSI color?
 * [[Vector Trek]]?
+* Further re-org of the code into modules?
+* Add some features of my own?
 * Play more with `gameState`
 ** Load / save games
 ** Import canned game scenarios
