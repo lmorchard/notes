@@ -1,4 +1,13 @@
 created: 20210322152130958
-modified: 20210322152131078
+modified: 20210323070701360
 title: Blogging from AppleWorks
 type: text/vnd.tiddlywiki
+
+In a nutshell:
+
+* Write text in AppleWorks 5 on my Apple IIe
+* Save to a [[virtual drive via ADTPro|https://www.adtpro.com/vsdrive.html]] over serial port
+* [[AppleCommander|http://applecommander.sourceforge.net/]] can read the ProDOS virtual drive image file
+* AppleCommander can also extract AppleWorks word processor files and convert to text / RTF / HTML
+
+Gluing it all together: A script running on the Raspberry Pi on where I run ADTPro could auto-extract new word processor files as text via AppleCommander and publish them somewhere on the web as a blog-like thing.
