@@ -1,7 +1,7 @@
 created: 20210321184508368
 draft.of: Super Star Trek in JavaScript
 draft.title: Super Star Trek in JavaScript
-modified: 20210323041957985
+modified: 20210323044000388
 title: Draft of 'Super Star Trek in JavaScript'
 type: text/vnd.tiddlywiki
 
@@ -37,15 +37,31 @@ The closest thing I can think of as a more modern experience might be the game [
 
 !! Why Super Star Trek now and why JavaScript?
 
+I've previously mentioned David Ahl's BASIC Computer Games books and how they occupied my hyperactive kid brain, back in the 80s.
+
+[img[https://blog.lmorchard.com/2018/03/01/sio2pi/image_0.jpg]]
+
+Well, last month, I saw a Tweet from J
+
 !! Transliteration
 
 !! Clever bits
 
 The game uses the same data for both display and game state in bunch of places.
 
-The galaxy map is a 2-dimensional array of three-digit numbers encoding the number of enemies, starbases, and stars in each sector. These numbers are used directly in long-range scanner readouts, as well as in the code that populates the current sector when the ship arrives. 
+The galaxy map is a 2-dimensional array of three-digit numbers encoding the number of enemies, starbases, and stars in each sector.
 
-The current sector map is a string of 192 characters. The string is treated as a grid of 8 rows with 8 columns. Each cell composed of 3 characters - so 8 x 8 x 3 = 192. Entities in the sector map are ASCII-art representations - e.g. `+K+` for an enemy, `>!<` for a starbase.  
+These numbers are printed directly in long-range scanner readouts. Then, as your ship moves between sectors, the number is split into decimal places and used in the code that populates space with objects - the locations of things are random within the sector, but their amounts are consistent on repeat visits (unless destroyed, of course).
+
+There's also a "CUMULATIVE GALACTIC RECORD" readout in the computer menu that keeps track of every sector you've discovered. The nice thing about this is that it's just a copy of the hidden galaxy map that gets filled in over time.
+
+The current sector map is a string of 192 characters. The string is treated as a grid of 8 rows with 8 columns. Each cell composed of 3 characters - so 8 x 8 x 3 = 192. Entities in the sector map are ASCII-art representations - i.e. ` * ` for a star, `+K+` for an enemy, `>!<` for a starbase, and `<*>` for your ship.
+
+To build the short-range scan readout, this string is split up into lines of 24 characters and printed along with vital ship details.
+
+But, when it comes to collision detection for weapons and ship movement, string comparison is used. As a torpedo travels along, each grid cell along the path is checked for an ASCII-art occupant in the string. A hit on an enemy causes them damage, a collision with a star is a wasted torpedo.
+
+Making these chunks of data all work double duty really seemed like neat tricks, back when I first started wrapping my 8-year-old head around the code. 
 
 !! Modernization
 
