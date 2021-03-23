@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210323055805313
+modified: 20210323060603747
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -78,7 +78,7 @@ Making these chunks of data all work double duty really seemed like neat tricks,
 !! Modernization
 
 * Renamed all the single-letter variables to more descriptive things
-* Converted most arrays from 1-based index to 0-based.
+* Converted most arrays from 1-based index to 0-based - or objects with constant-based property names.
 * Gathered up all the global variables involved in tracking game state into a single global `gameState` object
 * Squashed all the other global variables down to local function scope
 * Tried to extract all the magic number constants into a global `gameOptions` object
