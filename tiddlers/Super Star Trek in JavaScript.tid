@@ -1,5 +1,5 @@
 created: 20210321184508368
-modified: 20210323044946368
+modified: 20210323051258747
 title: Super Star Trek in JavaScript
 type: text/vnd.tiddlywiki
 
@@ -48,6 +48,12 @@ I picked JavaScript to start with because it's my current daily-driver language 
 The process took me a couple weeks longer than I'd planned, but [[I got there in time for MAR10 day|https://github.com/coding-horror/basic-computer-games/commit/e0be651d46e7511351e6b39794ca10288d1c4afa]].
 
 !! Transliteration
+
+One way I could have handled porting Super Star Trek from BASIC to JavaScript was to have started with a blank slate. Just kind of read through and stare at the BASIC and then write JavaScript roughly inspired by the original. That probably would have been fine.
+
+But, thanks to that aforementioned nostalgia - and remembering how much time I'd spent with the BASIC code as a kid - I wanted to pay another visit to the old neighborhood. So, I started with [[transliteration|https://en.wikipedia.org/wiki/Transliteration]] - essentially straight manual conversion from BASIC to JavaScript syntax with only minimal changes to structure. [[I even kept all the upper-case, single-letter global variables.|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/javascript/superstartrek.js#L128-L168]]
+
+I even spent a few hours trying to untangle [[a bit of spaghetti|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/superstartrek.bas#L357-L372]] for calculating distance & direction into an attempt at [[not entirely garbage JavaScript|https://github.com/lmorchard/basic-computer-games/blob/dc60df6f09dee8bd151c9c3ad2b3d763ddc55c0d/84%20Super%20Star%20Trek/javascript/superstartrek.js#L1107-L1179]] - only to punt and fall back to [[a simple `Math.atan2()` call|https://github.com/lmorchard/basic-computer-games/blob/84-js-super-star-trek/84%20Super%20Star%20Trek/javascript/superstartrek.mjs#L1313-L1325]] when I couldn't quite debug it.
 
 !! Clever bits
 
