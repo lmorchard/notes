@@ -1,7 +1,7 @@
 created: 20210321184508368
 draft.of: Super Star Trek in JavaScript
 draft.title: Super Star Trek in JavaScript
-modified: 20210323044000388
+modified: 20210323050001799
 title: Draft of 'Super Star Trek in JavaScript'
 type: text/vnd.tiddlywiki
 
@@ -41,9 +41,17 @@ I've previously mentioned David Ahl's BASIC Computer Games books and how they oc
 
 [img[https://blog.lmorchard.com/2018/03/01/sio2pi/image_0.jpg]]
 
-Well, last month, I saw a Tweet from J
+Well, back in February, I saw [[a Tweet from Jeff Atwood|https://twitter.com/codinghorror/status/1361504493028839425]] asking "What if.. we re-built these two books, with the programs rewritten and rearchitected into well written examples of Ruby, Python, JavaScript, and http://VB.NET versions of each game?"
+
+Looking at [[the repo on GitHub|https://github.com/coding-horror/basic-computer-games]], I saw the [[directory for Super Star Trek|https://github.com/coding-horror/basic-computer-games/tree/main/84%20Super%20Star%20Trek]] and had a big spike of nostalgia. I [[tweeted a reply|https://twitter.com/lmorchard/status/1361525794309201922]], "I am very tempted to bang my head on multiple versions of Super Star Trek here".
+
+I picked JavaScript to start with because it's my current daily-driver language and also for the irony - after all, [[Atwood's Law states|https://blog.codinghorror.com/the-principle-of-least-power/]]: "any application that can be written in JavaScript, will eventually be written in JavaScript."
+
+The process took me a couple weeks longer than I'd planned, but [[I got there in time for MAR10 day|https://github.com/coding-horror/basic-computer-games/commit/e0be651d46e7511351e6b39794ca10288d1c4afa]].
 
 !! Transliteration
+
+One way I could have handled porting Super Star Trek from BASIC to JavaScript was to have started with a blank slate. Just kind of read through and stare at the BASIC and then write JavaScript roughly inspired by the original. That probalby would have been fine.
 
 !! Clever bits
 
