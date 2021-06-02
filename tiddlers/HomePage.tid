@@ -1,5 +1,5 @@
 created: 20200429074019706
-modified: 20200620011038773
+modified: 20210602182316024
 tags: 
 title: HomePage
 type: text/vnd.tiddlywiki
@@ -23,7 +23,7 @@ Random things change around here as I unload my brain to more durable storage.
 
 !! Recent journals
 
-Trying to open a note every day and spew brain things into it.
+Trying to open a note every day and spew brain things into it. It doesn't happen every day.
 
 <ul>
 <$list filter="[tag[Journal]reverse[]first[7]]">
