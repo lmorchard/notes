@@ -1,13 +1,17 @@
 created: 20211111190316247
-modified: 20211111213924130
+draft.of: Blockchain
+draft.title: Blockchain
+modified: 20211111214001516
 tags: 
-title: Blockchain
+title: Draft of 'Blockchain'
 type: text/vnd.tiddlywiki
 
 I'd like to understand blockchain stuff. Maybe I should start collecting some questions and notes here?
 
 ! Questions
 
+* What is a blockchain and how does it w? 
+  * I know this one, but it might be worth writing down in my own words
 * What does this do that cannot be done with other systems?
 * Does what it can do make it worth the cost vs other systems?
 
