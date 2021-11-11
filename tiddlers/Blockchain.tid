@@ -1,5 +1,5 @@
 created: 20211111190316247
-modified: 20211111213924130
+modified: 20211111214443238
 tags: 
 title: Blockchain
 type: text/vnd.tiddlywiki
@@ -8,6 +8,14 @@ I'd like to understand blockchain stuff. Maybe I should start collecting some qu
 
 ! Questions
 
+* What is a blockchain and how does it work? 
+** I know this one, but it's worth writing down in my own words
 * What does this do that cannot be done with other systems?
 * Does what it can do make it worth the cost vs other systems?
-
+* Why would anyone spend money on an NFT?
+* How can distributed identity work without permanently disclosing personal info on an immutable chain?
+** Look into Zero-Knowledge Proofs and [[Yao's Millionaires' problem|https://en.wikipedia.org/wiki/Yao%27s_Millionaires%27_problem]]
+** Also reading:
+*** [[Blockchain Identity Management: The Definitive Guide (2021 Update)|https://tykn.tech/identity-management-blockchain/]]
+*** [[Self-Sovereign Identity: The Ultimate Beginners Guide!|https://tykn.tech/self-sovereign-identity/]]
+* Compare & contrast smart contracts with serverless lambda functions
