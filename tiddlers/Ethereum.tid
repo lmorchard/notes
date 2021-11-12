@@ -1,0 +1,8 @@
+created: 20211112012213215
+modified: 20211112012632649
+title: Ethereum
+type: text/vnd.tiddlywiki
+
+!! Mining notes
+
+* Tried getting one of my old PCs mining for the heck of it. It has a GPU with only 2GB VRAM. Turns out that's insufficient these days, because [[the DAG exceeds 4GB and must fit within VRAM|https://www.nicehash.com/blog/post/dag-size-limit-problem-for-4gb-gpus]].
