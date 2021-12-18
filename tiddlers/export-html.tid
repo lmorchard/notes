@@ -1,0 +1,7 @@
+created: 20200528045950357
+modified: 20200528050524151
+tags: templates
+title: export-html
+
+\define tv-wikilink-template() $uri_doubleencoded$
+<$view field="text" format="htmlwikified" />
